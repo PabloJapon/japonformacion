@@ -41,19 +41,19 @@ excerpt: "Clases presenciales y en horario de mañanas"
   </video>
 </div>
 
-<div class="plan-container">
-  <div class="plan" style="border-left: 0px;">
+<div class="plan-container1">
+  <div class="plan1" style="border-left: 0px;">
     <video width="900" height="544" style="border-radius: 40px; width: 100%; height: auto; padding: 1em;" autoplay loop muted>
       <source src="/assets/videos/your-video.mp4" type="video/mp4">
     </video>
-    <div class="plan" style="display: flex; flex-direction: column;">
+    <div class="plan1" style="display: flex; flex-direction: column;">
       <h2>Actualiza tu menú automáticamente y en cualquier momento</h2>
       <p>Personalízalo usando las imágenes, colores e iconos que más te representen. Y si un día no puedes servir un plato, no te preocupes, desactívalo para que no aparezca en el menú!</p>
     </div>
   </div>
 
-  <div class="plan">
-    <div class="plan" style="display: flex; flex-direction: column;">
+  <div class="plan1">
+    <div class="plan1" style="display: flex; flex-direction: column;">
       <h2>Máxima sincronización, ¡no pierdas más tiempo!</h2>
       <p>Cuando un cliente realice un pedido, este irá directamente a las pantallas de la cocina, donde los cocineros tan solo haciendo un click, harán saber al camarero cuando puede ir a recogerlo.</p>
     </div>
@@ -62,18 +62,18 @@ excerpt: "Clases presenciales y en horario de mañanas"
     </video>
   </div>
 
-  <div class="plan" style="border-left: 0px;">
+  <div class="plan1" style="border-left: 0px;">
     <video width="900" height="544" style="border-radius: 40px; width: 100%; height: auto; padding: 1em;" autoplay loop muted>
       <source src="/assets/videos/your-video.mp4" type="video/mp4">
     </video>
-    <div class="plan" style="display: flex; flex-direction: column;">
+    <div class="plan1" style="display: flex; flex-direction: column;">
       <h2>Saca el mayor provecho a tus datos</h2>
       <p>Consulta estadísticas de todo tipo: a qué horas generas más dinero, cuál fue el plato más pedido la semana pasada, ¿tienen tus postres el precio óptimo?</p>
     </div>
   </div>
 
-  <div class="plan">
-    <div class="plan" style="display: flex; flex-direction: column;">
+  <div class="plan1">
+    <div class="plan1" style="display: flex; flex-direction: column;">
       <h2>¡Sin líos!</h2>
       <p>¿Tienes varios menús? No te preocupes, añádelos todos y tú decides cuándo se muestra cada uno.</p>
     </div>
@@ -120,14 +120,14 @@ excerpt: "Clases presenciales y en horario de mañanas"
 </div>
 
 <style>
-.plan-container {
+.plan-container1 {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
   align-content: center;
 }
 
-.plan {
+.plan1 {
   padding: 20px;
   display: grid;
   grid-template-columns: 1fr 1fr;

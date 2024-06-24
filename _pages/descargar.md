@@ -22,8 +22,8 @@ layout: splash
 img {
   float: right;
   margin-left: 10px;
-  margin-bottom: 10px;
-  margin-top: 10px;
+  margin-bottom: 5px;
+  margin-top: 5px;
 }
   
 .plan-container {
