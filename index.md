@@ -1,13 +1,13 @@
 ---
-title: "El software que comunica clientes, camareros y cocina"
+title: "Ciclos formativos de grado medio y superior"
 layout: splash
 header:
-  overlay_image: /assets/images/page-header-teaser.png
+  overlay_image: /assets/images/page-header-teaser..jfif
   #overlay_filter: rgba(102,153,255,0.5)
 ---
 
 <div style="text-align:center;">
-  Descubre la herramienta digital personalizable que unifica TODAS las funciones que necesita tu establecimiento: carta digital, pedidos automáticos, pagos, comandas y análisis de datos
+  Clases presenciales y en horario de mañanas
 </div>
 
 <div style="text-align:center;">
