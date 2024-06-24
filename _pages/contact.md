@@ -1,6 +1,7 @@
 ---
 title: Contacto
 permalink: /contacto/
+layout: splash
 ---
 
 <!-- markdownlint-disable MD033 -->

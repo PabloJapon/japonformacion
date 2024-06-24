@@ -4,6 +4,10 @@ layout: splash
 header:
   overlay_image: /assets/images/page-header-teaser.png
   #overlay_filter: rgba(102,153,255,0.5)
+  actions:
+    - label: "Solicita información"
+      url: "https://japonformacion.netlify.app/contacto/"
+excerpt: "Clases presenciales y en horario de mañanas"
 ---
 
 <div style="text-align:center;">
