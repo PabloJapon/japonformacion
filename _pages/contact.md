@@ -35,7 +35,7 @@ img {
     border-radius: 4px;
   }
   button {
-    background-color: #6699ff;
+    background-color: #e31c24;
     color: white;
     border: none;
     padding: 15px 100px;

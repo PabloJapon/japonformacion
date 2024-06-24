@@ -44,7 +44,7 @@ permalink: /payment_form/
     }
 
     button {
-      background-color: #6699ff;
+      background-color: #e31c24;
       color: #fff;
       border: none;
       border-radius: 5px;
@@ -281,7 +281,7 @@ permalink: /payment_form/
         var paymentMethodId = result.paymentMethod.id;
         
         // Hacer solicitud AJAX al punto final de la Función de Netlify
-        fetch('https://gastrali.netlify.app/.netlify/functions/server', {
+        fetch('https://japonformacion.netlify.app/.netlify/functions/server', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json'

@@ -22,7 +22,7 @@ exports.handler = async (event, context) => {
         email,
         business_profile: {
           name: business_name,
-          url: 'https://gastrali.com',  // replace with your website
+          url: 'https://japonformacion.com',  // replace with your website
         }
       });
 

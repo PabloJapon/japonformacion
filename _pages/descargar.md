@@ -4,7 +4,7 @@ permalink: /descargar/
 layout: splash
 ---
 
-<h2 style="text-align: center; margin-top: 4em;">Descarga los softwares de Gastrali para 
+<h2 style="text-align: center; margin-top: 4em;">Descarga los softwares de japonformacion para 
   <div class="dropdown" style="display: inline-block;">
     <button class="dropbtn" id="dropdownButton">
       <span id="osText">Windows</span>
@@ -45,7 +45,7 @@ img {
 }
 
 .plan-button2 {
-  background-color: #6699ff; /* Cambio de color */
+  background-color: #e31c24; /* Cambio de color */
   color: white;
   border: none;
   padding: 10px 50px;
@@ -62,7 +62,7 @@ img {
 }
 
 .plan-button {
-  background-color: #6699ff; /* Cambio de color */
+  background-color: #e31c24; /* Cambio de color */
   color: white;
   border: none;
   padding: 15px 80px;
@@ -145,7 +145,7 @@ img {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #6699ff;
+  background-color: #e31c24;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -172,7 +172,7 @@ img {
 }
 
 .dropbtn {
-  background-color: #6699ff;
+  background-color: #e31c24;
   color: white;
   padding: 10px 30px 10px 50px; /* Increased padding to accommodate the image */
   margin-left: 0.2em;

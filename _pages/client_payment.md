@@ -44,7 +44,7 @@ permalink: /client_payment/
     }
 
     button {
-      background-color: #6699ff;
+      background-color: #e31c24;
       color: #fff;
       border: none;
       border-radius: 5px;
