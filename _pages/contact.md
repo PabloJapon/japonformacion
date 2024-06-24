@@ -14,7 +14,7 @@ img {
 }
   form {
     max-width: 600px;
-    margin: 0 auto;
+    margin: 5em auto;
     padding: 1em;
     background: #f9f9f9;
     border-radius: 5px;
@@ -40,7 +40,6 @@ img {
     color: white;
     border: none;
     padding: 15px 100px;
-    margin: 40px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -52,6 +51,10 @@ img {
     background-color: #0056b3;
   }
 </style>
+
+<div style="text-align:center;">
+  ¿Dudas? No te las guardes, pregúntanos.
+</div>
 
 <form name="contact" action="/_pages/success.html" method="POST" data-netlify="true">
   <input type="hidden" name="form-name" value="contact" />
