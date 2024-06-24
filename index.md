@@ -2,7 +2,7 @@
 title: "Ciclos formativos de grado medio y superior"
 layout: splash
 header:
-  overlay_image: /assets/images/page-header-teaser..jfif
+  overlay_image: /assets/images/page-header-teaser.png
   #overlay_filter: rgba(102,153,255,0.5)
 ---
 
