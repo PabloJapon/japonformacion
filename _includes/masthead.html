@@ -6,16 +6,26 @@
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
-        {% capture logo_path %}{{ site.logo }}{% endcapture %}
         {% unless logo_path == empty %}
           <a class="site-logo" href="{{ '/' | relative_url }}"><img src="{{ logo_path | relative_url }}" alt="{{ site.masthead_title | default: site.title }}"></a>
         {% endunless %}
         
         <ul class="visible-links">
           {%- for link in site.data.navigation.main -%}
-            <li class="masthead__menu-item">
-              <a href="{{ link.url | relative_url }}"{% if link.description %} title="{{ link.description }}"{% endif %}>{{ link.title }}</a>
-            </li>
+            {% if link.dropdown %}
+              <li class="masthead__menu-item dropdown">
+                <a href="{{ link.url | relative_url }}">{{ link.title }}</a>
+                <ul class="dropdown-menu">
+                  {% for sublink in link.dropdown %}
+                    <li><a href="{{ sublink.url | relative_url }}">{{ sublink.title }}</a></li>
+                  {% endfor %}
+                </ul>
+              </li>
+            {% else %}
+              <li class="masthead__menu-item">
+                <a href="{{ link.url | relative_url }}"{% if link.description %} title="{{ link.description }}"{% endif %}>{{ link.title }}</a>
+              </li>
+            {% endif %}
           {%- endfor -%}
         </ul>
         
@@ -96,10 +106,36 @@
   }
 
   .greedy-nav .visible-links li {
-      margin: 0 0;
+      margin: 0 10px; /* Adjust margin if needed */
+      position: relative;
   }
 
-  .greedy-nav .site-logo {
-      margin-right: auto; /* Pushes the logo to the left */
+  .greedy-nav .visible-links li.dropdown:hover .dropdown-menu {
+      display: block; /* Show dropdown menu on hover */
+  }
+
+  .dropdown-menu {
+      display: none; /* Hide dropdown menu by default */
+      position: absolute;
+      top: 100%;
+      left: 0;
+      background-color: #f9f9f9;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+  }
+
+  .dropdown-menu li {
+      display: block;
+  }
+
+  .dropdown-menu li a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+  }
+
+  .dropdown-menu li a:hover {
+      background-color: #f1f1f1;
   }
 </style>
