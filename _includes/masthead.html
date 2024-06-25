@@ -1,10 +1,9 @@
 {% capture logo_path %}{{ site.logo }}{% endcapture %}
 
 <div class="masthead">
+  <!-- Include the small navbar -->
+  {% include small-navbar.html %}
   <div class="masthead__inner-wrap">
-    <!-- Include the small navbar -->
-    {% include small-navbar.html %}
-    
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
         {% unless logo_path == empty %}
@@ -25,35 +24,6 @@
         <!-- Botón Solicita Información -->
         <button class="btn btn--secondary" onclick="window.location.href='/contacto/'" style="margin-left: 1em;">Solicita Información</button>
 
-        <!-- Botón Mi Cuenta -->
-        <div class="account-menu">
-          <button class="btn btn--secondary" id="account-button" onclick="toggleAccountMenu()" style="color: rgb(57, 62, 70);background-color: rgb(255, 255, 255);outline: none;">
-            <div class="account-button-content" style="display: flex;align-items: center;flex-direction: row;">
-              <div class="account-button-image-wrapper" style="margin-right: 10px;">
-                <img src="/assets/images/CirculoAmarillo.svg" alt="User Initial" class="account-button-image">
-                <span class="account-button-letter" id="account-button-letter">L</span>
-              </div>
-              <div style="display: flex;flex-direction: column;align-items: flex-start;">
-                <span id="account-username-button" style="font-size: 14px;text-transform: uppercase;">Mi Cuenta</span>
-                <span id="account-plan" class="account-subtitle" style="font-style: italic;font-size: 14px;font-weight: normal;">Plan actual</span>
-              </div>
-              <div class="account-button-image-wrapper">
-                <img src="/assets/images/angulo-hacia-abajo.png" alt="User Initial" class="account-button-image" style="width: 13px; margin-top: 10px; margin-right: 10px;">
-              </div>
-            </div>
-          </button>
-          <div id="account-menu-dropdown" class="account-dropdown" style="display: none; width: 15em;">
-            <div class="account-menu-image-wrapper">
-              <img src="{{ '/assets/images/CirculoAmarillo.svg' | relative_url }}" alt="User Initial" class="account-menu-image">
-              <span class="account-menu-letter" id="account-menu-letter">L</span>
-            </div>
-            <p style="display: flex; justify-content: center; margin: 1em 0em 1.5em">¡Hola,<span id="account-username" style="margin-left: 0.2em;">User</span>!</p>
-            <a href="/miCuenta/">Perfil</a>
-            <a href="/miCuenta/settings">Configuración</a>
-            <a href="#" onclick="logout()">Cerrar Sesión</a>
-          </div>
-        </div>
-
         {% if site.search == true %}
         <button class="btn btn--primary search__toggle" type="button">
           <span class="visually-hidden">{{ site.data.ui-text[site.locale].search_label | default: "Toggle search" }}</span>
@@ -70,222 +40,53 @@
   </div>
 </div>
 
-<script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-
-<script>
-  function openNetlifyIdentity() {
-    console.log("Clic en iniciar sesión");
-    if (window.netlifyIdentity) {
-      window.netlifyIdentity.open();
-    } else {
-      console.error("Netlify Identity no está disponible");
-    }
-  }
-
-  function toggleAccountMenu() {
-    const accountMenu = document.getElementById('account-menu-dropdown');
-    if (accountMenu) {
-      const isDisplayed = accountMenu.style.display === 'block';
-      accountMenu.style.display = isDisplayed ? 'none' : 'block';
-    }
-  }
-
-  // Cerrar el menú al hacer clic fuera de él
-  window.addEventListener('click', function(event) {
-    const accountMenu = document.getElementById('account-menu-dropdown');
-    if (accountMenu && !document.getElementById('account-button').contains(event.target) && !accountMenu.contains(event.target)) {
-      accountMenu.style.display = 'none';
-    }
-  });
-
-  // Netlify Identity script y manejo de eventos
-  netlifyIdentity.on('login', user => {
-    console.log('Usuario inició sesión', user);
-    handleAuthenticationChange();
-    // Display welcome message and username
-    const usernameButtonSpan = document.getElementById('account-username-button');
-    const usernameMenuSpan = document.getElementById('account-username');
-    const planUser = document.getElementById('account-plan');
-    if (usernameButtonSpan && usernameMenuSpan) {
-      const username = user.user_metadata.full_name || user.email;
-      const subscriptionPlan = user.user_metadata.subscription_plan;
-      usernameButtonSpan.innerText = username;
-      usernameMenuSpan.innerText = username;
-      if (subscriptionPlan) {
-        planUser.innerText = "Plan " + subscriptionPlan;
-      } else {
-        planUser.innerText = "Sin plan";
-      }
-    }
-
-    // Set the initial letter
-    const initialLetter = (user.user_metadata.full_name || user.email)[0].toUpperCase();
-    document.getElementById('account-button-letter').innerText = initialLetter;
-    document.getElementById('account-menu-letter').innerText = initialLetter;
-  });
-
-  netlifyIdentity.on('logout', () => {
-    console.log('Usuario cerró sesión');
-    handleAuthenticationChange();
-    // Redirigir a la página principal después de cerrar sesión
-    location.href = '/';
-  });
-
-  function logout() {
-    netlifyIdentity.logout();
-  }
-
-  function handleAuthenticationChange() {
-    const isLoggedIn = netlifyIdentity.currentUser() !== null;
-
-    // Ocultar o mostrar el botón de iniciar sesión según si el usuario ha iniciado sesión
-    const loginButton = document.getElementById('login-link');
-    if (loginButton) {
-      loginButton.style.display = isLoggedIn ? 'none' : 'block';
-    }
-
-    // Ocultar o mostrar el botón "Mi Cuenta" y el menú desplegable según si el usuario ha iniciado sesión
-    const accountButton = document.getElementById('account-button');
-    const accountMenu = document.getElementById('account-menu-dropdown');
-    if (accountButton) {
-      accountButton.style.display = isLoggedIn ? 'block' : 'none';
-    }
-    if (accountMenu) {
-      accountMenu.style.display = 'none'; // Asegurarse de que el menú esté oculto al cambiar el estado de autenticación
-    }
-  }
-
-  // Llamada inicial para configurar la visibilidad del botón al cargar la página
-  handleAuthenticationChange();
-</script>
-
 <style>
-  .account-menu {
-    position: relative;
-    display: inline-block;
-  }
-  .account-dropdown {
-    display: none;
-    position: absolute;
-    background-color: white;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-    z-index: 1;
-    right: 0; /* Alinea el menú desplegable a la derecha */
-    border-radius: 20px;
-    padding: 1em;
-  }
-  .account-dropdown a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-  }
-  .account-dropdown a:hover {
-    background-color: #f1f1f1;
-  }
-  .account-button-content {
-    display: flex;
-    flex-direction: column; /* Cambia a columna para colocar "Plan actual" debajo de "Mi Cuenta" */
-    align-items: center;
-  }
-  .account-subtitle {
-    font-size: 0.8em; /* Ajusta el tamaño de la fuente del subtítulo según tus necesidades */
-    color: #393e46; /* Ajusta el color del subtítulo */
-  }
-  .account-button-image-wrapper {
-    position: relative;
-    width: 38px;
-    height: 38px;
-    margin-right: 8px;
-  }
-  .account-button-image {
-    width: 100%;
-    height: auto;
-    margin-top: 0em;
-  }
-  .account-button-letter {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 14px;
-    font-weight: bold;
-    color: white;
-  }
-  .account-menu-image-wrapper {
-    position: relative;
-    text-align: center;
-  }
-  .account-menu-image {
-    width: 140px;
-    height: 140px;
-    margin: 1em 2em 0em;
-    float: none;
-  }
-  .account-menu-letter {
-    margin-top: 0.15em;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 50px;
-    font-weight: bold;
-    color: white;
-  }
-
   /* Styles for the small navbar */
   .small-navbar {
       background-color: #f8f9fa;
-      padding: 10px 0;
+      padding: 5px 0; /* Reduced height */
       border-bottom: 1px solid #e1e1e1;
+      width: 100%; /* Ensure it takes the full width */
   }
-  
+
   .small-navbar ul {
       list-style-type: none;
       margin: 0;
       padding: 0;
       text-align: center;
   }
-  
+
   .small-navbar ul li {
       display: inline;
-      margin: 0 15px;
+      margin: 0 10px; /* Adjust margin if needed */
   }
-  
+
   .small-navbar ul li a {
       text-decoration: none;
       color: #007bff;
-      font-size: 14px;
+      font-size: 14px; /* Adjust font size if needed */
   }
-  
+
   .small-navbar ul li a:hover {
       text-decoration: underline;
   }
-  
-  .main-navbar {
-      background-color: #343a40;
-      padding: 15px 0;
+
+  /* Main navbar adjustments */
+  .masthead__menu {
+      padding-top: 10px; /* Adjust spacing if needed */
   }
-  
-  .main-navbar ul {
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-      text-align: center;
+
+  .greedy-nav .visible-links {
+      display: flex;
+      justify-content: center;
+      align-items: center;
   }
-  
-  .main-navbar ul li {
-      display: inline;
-      margin: 0 20px;
+
+  .greedy-nav .visible-links li {
+      margin: 0 15px;
   }
-  
-  .main-navbar ul li a {
-      text-decoration: none;
-      color: #ffffff;
-      font-size: 16px;
-  }
-  
-  .main-navbar ul li a:hover {
-      text-decoration: underline;
+
+  .greedy-nav .site-logo {
+      margin-right: auto; /* Push the logo to the left */
   }
 </style>
