@@ -44,6 +44,13 @@
       padding: 3px 0; /* Reduced height */
       border-bottom: 1px solid #e1e1e1;
       width: 100%; /* Ensure it takes the full width */
+      max-width: 1380px; /* Constrain max width */
+      margin: 0 auto; /* Center the navbar horizontally */
+  }
+
+  .small-navbar-inner {
+      display: flex;
+      justify-content: space-between; /* Separate left and right containers */
   }
 
   .small-navbar ul {
@@ -56,14 +63,6 @@
   .small-navbar-right {
       display: flex;
       align-items: center;
-  }
-
-  .small-navbar-left {
-      margin-right: auto; /* Pushes the left container to the left */
-  }
-
-  .small-navbar-right {
-      margin-left: auto; /* Pushes the right container to the right */
   }
 
   .small-navbar ul li {
