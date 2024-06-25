@@ -4,7 +4,6 @@ permalink: /contacto/
 layout: splash
 ---
 
-<!-- markdownlint-disable MD033 -->
 <style>
 img {
   float: right;
@@ -48,22 +47,22 @@ img {
     cursor: pointer;
   }
   button:hover {
-    background-color: #0056b3;
+    background-color: #9b1b20;
   }
 </style>
 
-<div style="text-align:center;">
+<div style="text-align:center; margin-top:7em">
   ¿Dudas? No te las guardes, pregúntanos.
 </div>
 
 <form name="contact" action="/_pages/success.html" method="POST" data-netlify="true">
   <input type="hidden" name="form-name" value="contact" />
   <p>
-    <label for="name">Tu Nombre:</label><br />
+    <label for="name">Nombre:</label><br />
     <input type="text" id="name" name="name" required />
   </p>
   <p>
-    <label for="email">Tu Correo Electrónico:</label><br />
+    <label for="email">Correo Electrónico:</label><br />
     <input type="email" id="email" name="email" required />
   </p>
   <p>

@@ -3,19 +3,49 @@ title: "Política de Privacidad"
 permalink: /PoliticaDePrivacidad/
 ---
 
-2. Política de Privacidad
+Política de Privacidad
 
-Tu privacidad es importante para nosotros. Esta política de privacidad explica cómo recopilamos, usamos y protegemos tu información personal cuando utilizas nuestra Aplicación.
+INFORMACIÓN DE PROTECCIÓN DE DATOS SOBRE TRATAMIENTOS RELACIONADOS CON FORMULARIO DE CONTACTO DE LA PÁGINA WEB
 
-Información que Recopilamos:
+A Grupo Japón le preocupa su privacidad. Por ello, hemos tomado medidas técnicas y organizativas adecuadas para evitar la alteración, pérdida, tratamiento o acceso no autorizado a los datos personales que Vd. nos ha facilitado a través del formulario de contacto de nuestra web.
 
-No recopilamos información personal identificable de los usuarios de la Aplicación.
-Uso de la Información:
+En cumplimiento del deber de transparencia e información recogido en la normativa en materia de protección de datos de carácter personal, le informamos de aspectos relevantes sobre los tratamientos de datos que hacemos con los datos de carácter personal que Vd. nos ha facilitado:
 
-No utilizamos ninguna información personal identificable proporcionada por los usuarios de la Aplicación.
-Divulgación de la Información:
+¿Quién es el responsable del tratamiento de sus datos?:
+Identidad: José Japón Camacho (Grupo Japón).
+CIF: 29789790Y
+Dir. Postal: C/Santiago Apóstol, 37 (Local)
+Teléfono: 959 73 63 88
+Email: administracion@grupojapon.es
+ 
 
-No divulgamos ninguna información personal identificable a terceros.
-Cambios en la Política de Privacidad:
+¿Para qué usamos sus datos?:
+Gestión de las comunicaciones electrónicas de Grupo Japón – Dar respuesta a su solicitud de información.
+ 
 
-Nos reservamos el derecho de actualizar o modificar nuestra política de privacidad en cualquier momento. Te recomendamos que revises periódicamente esta página para estar al tanto de cualquier cambio.
+¿Durante cuánto tiempo conservamos sus datos?:
+Le informamos que sus datos serán conservados hasta dos años después de finalizada nuestra última comunicación
+ 
+
+¿En qué basamos la legitimidad para tratar sus datos?:
+Interés legítimo de nuestra empresa basado en su solicitud de información.
+ 
+
+¿Quién podrá acceder a sus datos?:
+La información facilitada y/o el resultado de su tratamiento tiene como destinatarios
+Los profesionales de Grupo Japón encargados de llevar a cabo las funciones para las cuales fueron recabados los datos.
+Entidades directamente relacionadas con Grupo Japón con el único objetivo de poder hacer efectiva la prestación del servicio:
+Proveedores de correo electrónico
+En caso de realizar transferencias internacionales de datos, éstas se realizarán en el marco de la Unión Europea o al amparo del acuerdo EU-US Privacy Shield.
+ 
+
+¿Qué derechos tiene respecto a sus datos?:
+Le informamos que, de acuerdo con la normativa en materia de protección de datos, puede Vd. solicitar ante Grupo Japón sus derechos respecto de sus datos personales de:
+Acceso.
+Rectificación o supresión.
+Limitación de su tratamiento.
+Oposición.
+Portabilidad.
+Retirar el consentimiento prestado para el tratamiento de sus datos
+Para ejercer los derechos mencionados, puede dirigir una solicitud por escrito, adjuntando copia de su DNI, a la dirección postal indicada más arriba.
+Asimismo, si considera que sus datos han sido tratados de forma inadecuada, podrá dirigirse a la Autoridad de Control competente para presentar la reclamación que considere oportuna: Agencia Española de Protección de Datos (C/ Jorge Juan, 6. 28001 – Madrid www.agpd.es).

@@ -47,7 +47,7 @@ img {
 }
 
 .plan-button2:hover {
-  background-color: #4c80d9; /* Cambio de color en el hover */
+  background-color: #9b1b20; /* Cambio de color en el hover */
 }
 
 .plan-button {
@@ -65,7 +65,7 @@ img {
 }
 
 .plan-button:hover {
-  background-color: #4c80d9; /* Cambio de color en el hover */
+  background-color: #9b1b20; /* Cambio de color en el hover */
 }
   
   .table-container {
