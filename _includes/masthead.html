@@ -2,6 +2,9 @@
 
 <div class="masthead">
   <div class="masthead__inner-wrap">
+    <!-- Include the small navbar -->
+    {% include small-navbar.html %}
+    
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
         {% unless logo_path == empty %}
@@ -228,5 +231,61 @@
     font-size: 50px;
     font-weight: bold;
     color: white;
+  }
+
+  /* Styles for the small navbar */
+  .small-navbar {
+      background-color: #f8f9fa;
+      padding: 10px 0;
+      border-bottom: 1px solid #e1e1e1;
+  }
+  
+  .small-navbar ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+  }
+  
+  .small-navbar ul li {
+      display: inline;
+      margin: 0 15px;
+  }
+  
+  .small-navbar ul li a {
+      text-decoration: none;
+      color: #007bff;
+      font-size: 14px;
+  }
+  
+  .small-navbar ul li a:hover {
+      text-decoration: underline;
+  }
+  
+  .main-navbar {
+      background-color: #343a40;
+      padding: 15px 0;
+  }
+  
+  .main-navbar ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+  }
+  
+  .main-navbar ul li {
+      display: inline;
+      margin: 0 20px;
+  }
+  
+  .main-navbar ul li a {
+      text-decoration: none;
+      color: #ffffff;
+      font-size: 16px;
+  }
+  
+  .main-navbar ul li a:hover {
+      text-decoration: underline;
   }
 </style>
