@@ -13,7 +13,7 @@ img {
 }
   form {
     max-width: 600px;
-    margin: 5em auto;
+    margin: 2em auto;
     padding: 1em;
     background: #f9f9f9;
     border-radius: 5px;

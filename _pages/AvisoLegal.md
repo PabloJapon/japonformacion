@@ -1,6 +1,7 @@
 ---
 title: "Aviso Legal"
 permalink: /AvisoLegal/
+layout: splash
 ---
 
 AVISO LEGAL

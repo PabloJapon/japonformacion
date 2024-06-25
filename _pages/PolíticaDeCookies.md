@@ -1,6 +1,7 @@
 ---
 title: "Política de Cookies"
 permalink: /PoliticaDeCookies/
+layout: splash
 ---
 
 

@@ -1,6 +1,7 @@
 ---
 title: "Política de Privacidad"
 permalink: /PoliticaDePrivacidad/
+layout: splash
 ---
 
 Política de Privacidad
