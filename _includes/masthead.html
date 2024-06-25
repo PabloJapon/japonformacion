@@ -15,7 +15,7 @@
           {%- for link in site.data.navigation.main -%}
             {% if link.dropdown %}
               <li class="masthead__menu-item dropdown">
-                <button class="SiteHeaderNavItem__link" aria-haspopup="true" aria-expanded="false">{{ link.title }}</button>
+                <button class="SiteHeaderNavItem__link dropdown-toggle" aria-haspopup="true" aria-expanded="false">{{ link.title }}</button>
                 <ul class="dropdown-menu">
                   {% for sublink in link.dropdown %}
                     <li><a href="{{ sublink.url | relative_url }}">{{ sublink.title }}</a></li>
@@ -114,11 +114,12 @@
   .dropdown-menu {
       display: none; /* Hide dropdown menu by default */
       position: absolute;
-      top: 100%;
+      top: calc(100% + 10px);
       left: 0;
       background-color: #f9f9f9;
       box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-      z-index: 1;
+      z-index: 100; /* Increase z-index to ensure it appears above other content */
+      min-width: 160px;
   }
 
   .dropdown-menu li {
@@ -136,32 +137,12 @@
       background-color: #f1f1f1;
   }
 
-  .dropdown-menu.active {
-      display: block; /* Show dropdown menu */
+  .dropdown:hover .dropdown-menu {
+      display: block; /* Show dropdown menu on hover */
   }
-  
+
   .masthead__menu-item.dropdown .SiteHeaderNavItem__link {
       cursor: pointer; /* Change cursor to pointer for button */
       padding: 10px 20px; /* Add padding for clickable area */
   }
-  
-  .masthead__menu-item.dropdown.active .dropdown-menu {
-      display: block; /* Show dropdown menu when active */
-  }
 </style>
-
-<script>
-  // Toggle dropdown visibility on button click
-  document.addEventListener('DOMContentLoaded', function() {
-    var dropdownButtons = document.querySelectorAll('.masthead__menu-item.dropdown .SiteHeaderNavItem__link');
-    
-    dropdownButtons.forEach(function(button) {
-      button.addEventListener('click', function() {
-        var parentItem = this.parentNode;
-        parentItem.classList.toggle('active');
-        var dropdownMenu = parentItem.querySelector('.dropdown-menu');
-        dropdownMenu.classList.toggle('active');
-      });
-    });
-  });
-</script>
