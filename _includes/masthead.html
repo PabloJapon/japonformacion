@@ -13,7 +13,7 @@
           {{ site.masthead_title | default: site.title }}
           {% if site.subtitle %}<span class="site-subtitle">{{ site.subtitle }}</span>{% endif %}
         </a>-->
-        <ul class="visible-links">
+        <ul class="visible-links" style="justify-content: flex-end;">
           {%- for link in site.data.navigation.main -%}
             <li class="masthead__menu-item">
               <a href="{{ link.url | relative_url }}"{% if link.description %} title="{{ link.description }}"{% endif %}>{{ link.title }}</a>
@@ -40,6 +40,7 @@
   </div>
 </div>
 
+
 <style>
   /* Styles for the small navbar */
   .small-navbar {
@@ -47,6 +48,8 @@
       padding: 3px 0; /* Reduced height */
       border-bottom: 1px solid #e1e1e1;
       width: 100%; /* Ensure it takes the full width */
+      display: flex;
+      justify-content: space-between; /* Aligns items to the left and right */
   }
 
   .small-navbar ul {
@@ -54,11 +57,17 @@
       margin: 0;
       padding: 0;
       text-align: center;
+      display: flex;
+      align-items: center;
   }
 
   .small-navbar ul li {
       display: inline;
       margin: 0 10px; /* Adjust margin if needed */
+  }
+
+  .small-navbar ul li:first-child {
+      margin-right: auto; /* Pushes the first two links to the left */
   }
 
   .small-navbar ul li a {
@@ -69,7 +78,7 @@
   }
 
   .small-navbar ul li a:hover {
-      color: #ffc107; /* Change color on hover */
+      color: #ededed; /* Change color on hover */
   }
 
   /* Main navbar adjustments */
@@ -79,7 +88,7 @@
 
   .greedy-nav .visible-links {
       display: flex;
-      justify-content: center;
+      justify-content: flex-end; /* Aligns main navigation items to the right */
       align-items: center;
   }
 
@@ -88,7 +97,8 @@
   }
 
   .greedy-nav .site-logo {
-      margin-right: auto; /* Push the logo to the left */
+      margin-right: auto; /* Pushes the logo to the left */
   }
+
 </style>
 
