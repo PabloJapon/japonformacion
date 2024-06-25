@@ -15,7 +15,7 @@
           {%- for link in site.data.navigation.main -%}
             {% if link.dropdown %}
               <li class="masthead__menu-item dropdown">
-                <a href="{{ link.url | relative_url }}">{{ link.title }}</a>
+                <button class="SiteHeaderNavItem__link" aria-haspopup="true" aria-expanded="false">{{ link.title }}</button>
                 <ul class="dropdown-menu">
                   {% for sublink in link.dropdown %}
                     <li><a href="{{ sublink.url | relative_url }}">{{ sublink.title }}</a></li>
@@ -47,13 +47,6 @@
       </nav>
     </div>
   </div>
-</div>
-
-<!-- Debugging Information -->
-<div class="debug-info">
-  <h3>Debugging Information</h3>
-  <p>Hover over the "Servicios" item in the menu to see if the dropdown appears.</p>
-  <p>Check browser console for any JavaScript errors and inspect elements for CSS styles.</p>
 </div>
 
 <style>
@@ -118,10 +111,6 @@
       position: relative;
   }
 
-  .greedy-nav .visible-links li.dropdown:hover .dropdown-menu {
-      display: block; /* Show dropdown menu on hover */
-  }
-
   .dropdown-menu {
       display: none; /* Hide dropdown menu by default */
       position: absolute;
@@ -147,16 +136,11 @@
       background-color: #f1f1f1;
   }
 
-  /* Debugging information box */
-  .debug-info {
-      position: fixed;
-      top: 20px;
-      right: 20px;
-      padding: 10px;
-      background-color: #fff;
-      border: 1px solid #ccc;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-      z-index: 1000;
-      font-size: 14px;
+  .dropdown-menu.active {
+      display: block; /* Show dropdown menu */
+  }
+  
+  .masthead__menu-item.dropdown:hover .dropdown-menu {
+      display: block; /* Show dropdown menu on hover */
   }
 </style>
