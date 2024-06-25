@@ -140,7 +140,28 @@
       display: block; /* Show dropdown menu */
   }
   
-  .masthead__menu-item.dropdown:hover .dropdown-menu {
-      display: block; /* Show dropdown menu on hover */
+  .masthead__menu-item.dropdown .SiteHeaderNavItem__link {
+      cursor: pointer; /* Change cursor to pointer for button */
+      padding: 10px 20px; /* Add padding for clickable area */
+  }
+  
+  .masthead__menu-item.dropdown.active .dropdown-menu {
+      display: block; /* Show dropdown menu when active */
   }
 </style>
+
+<script>
+  // Toggle dropdown visibility on button click
+  document.addEventListener('DOMContentLoaded', function() {
+    var dropdownButtons = document.querySelectorAll('.masthead__menu-item.dropdown .SiteHeaderNavItem__link');
+    
+    dropdownButtons.forEach(function(button) {
+      button.addEventListener('click', function() {
+        var parentItem = this.parentNode;
+        parentItem.classList.toggle('active');
+        var dropdownMenu = parentItem.querySelector('.dropdown-menu');
+        dropdownMenu.classList.toggle('active');
+      });
+    });
+  });
+</script>
