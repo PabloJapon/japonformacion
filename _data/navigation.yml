@@ -1,12 +1,13 @@
-# main links
 main:
   - title: "FP Grado Superior"
-    url: /descargar/
+    url: "/descargar/"
   - title: "FP Grado Medio"
-    url: /descargar/
-  - title: "Judo"
-    url: /precios/
-  - title: "Aula de Espera"
-    url: /precios/
+    url: "/descargar/"
+  - title: "Servicios"
+    dropdown:
+      - title: "Item 1 del desplegable"
+        url: "/aula_espera/"
+      - title: "Item 2 del desplegable"
+        url: "#"
   - title: "Conócenos"
-    url: /precios/
+    url: "/precios/"

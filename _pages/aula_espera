@@ -1,0 +1,15 @@
+---
+title: Aula de Espera
+permalink: /aula_espera/
+layout: splash
+---
+
+## Información de Centros
+
+| Centro         | Edad    | Horario           | Cuota     |
+|----------------|---------|-------------------|-----------|
+| Centro A       | 5-10    | Lunes-Viernes     | $100/mes  |
+| Centro B       | 3-7     | Martes-Jueves     | $80/mes   |
+| Centro C       | 2-6     | Lunes-Miércoles   | $90/mes   |
+| Centro D       | 4-8     | Miércoles-Viernes | $95/mes   |
+
