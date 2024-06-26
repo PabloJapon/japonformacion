@@ -37,7 +37,7 @@ layout: default
         <td style="width: 200px;text-align: center;">De lunes a viernes de 14:00 a 15:00 h</td>
         <td style="width: 300px;text-align: center;">
             <ul style="list-style-type: disc; padding-left: 40px; margin: 0; text-align: left;">
-                <li>30 €/mes - mes completo (<i>Bonificación del 10% para el/la segundo/a hermano/a</i>)</li>
+                <li>30 €/mes - mes completo (<i style="font-size: smaller;">Bonificación del 10% para el/la segundo/a hermano/a</i>)</li>
                 <li>3 € - días sueltos</li>
             </ul>
         </td>
@@ -55,7 +55,7 @@ layout: default
         <td style="width: 200px;text-align: center;">De lunes a viernes de 14:00 a 15:00 h</td>
         <td style="width: 300px;text-align: center;">
             <ul style="list-style-type: disc; padding-left: 40px; margin: 0; text-align: left;">
-                <li>25 €/mes - mes completo (<i>Bonificación del 10% para el/la segundo/a hermano/a</i>)</li>
+                <li>25 €/mes - mes completo (<i style="font-size: smaller;">Bonificación del 10% para el/la segundo/a hermano/a</i>)</li>
                 <li>3 € - días sueltos</li>
             </ul>
         </td>
@@ -73,7 +73,7 @@ layout: default
         <td style="width: 200px;text-align: center;">De lunes a viernes de 14:00 a 15:00 h</td>
         <td style="width: 300px;text-align: center;">
             <ul style="list-style-type: disc; padding-left: 40px; margin: 0; text-align: left;">
-                <li>30 €/mes - mes completo (<i>Bonificación del 10% para el/la segundo/a hermano/a</i>)</li>
+                <li>30 €/mes - mes completo (<i style="font-size: smaller;">Bonificación del 10% para el/la segundo/a hermano/a</i>)</li>
                 <li>3 € - días sueltos</li>
             </ul>
         </td>
