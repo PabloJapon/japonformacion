@@ -1,11 +1,58 @@
 ---
-title: Aula de Espera
 permalink: /aula_espera/
 layout: default
 ---
 
 
 <h3 style="text-align: center;"> Aula de Espera </h3>
+
+
+<div class="table-container">
+  <table>
+    <thead>
+      <tr>
+        <th style="width: 200px;text-align: center;">
+          <h2>Centro</h2>
+        <th style="width: 200px;text-align: center;">
+          <h2>Edad</h2>
+        </th>
+        <th style="width: 200px;text-align: center;">
+          <h2>Horario</h2> 
+        </th>
+        <th style="width: 200px;text-align: center;">
+          <h2>Cuota</h2>
+        </th>
+        <th style="width: 200px;text-align: center;">
+          <h2>Fecha de inicio</h2>
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="width: 400px;">CEIP El Puntal</td>
+        <td style="width: 200px;text-align: center;">Infantil y Primaria</td>
+        <td style="width: 200px;text-align: center;">De lunes a viernes de 14:00 a 15:00 h</td>
+        <td style="width: 200px;text-align: center;">30 €/mes - mes completo (Bonificación del 10% para el/la segundo/a hermano/a) 3 € - días sueltos</td>
+        <td style="width: 200px;text-align: center;">Lunes 11 de septiembre 2023</td>
+      </tr>
+      <tr>
+        <td style="width: 400px;">CEIP Tierno Galván</td>
+        <td style="width: 200px;text-align: center;">Infantil y Primaria</td>
+        <td style="width: 200px;text-align: center;">De lunes a viernes de 14:00 a 15:00 h</td>
+        <td style="width: 200px;text-align: center;">25 €/mes - mes completo (Bonificación del 10% para el/la segundo/a hermano/a) 3 € - días sueltos</td>
+        <td style="width: 200px;text-align: center;">Lunes 11 de septiembre 2023</td>
+      </tr>
+      <tr>
+        <td style="width: 400px;">CEIP Prácticas</td>
+        <td style="width: 200px;text-align: center;">Infantil y Primaria</td>
+        <td style="width: 200px;text-align: center;">De lunes a viernes de 14:00 a 15:00 h</td>
+        <td style="width: 200px;text-align: center;">30 €/mes - mes completo (Bonificación del 10% para el/la segundo/a hermano/a) 3 € - días sueltos</td>
+        <td style="width: 200px;text-align: center;">Lunes 11 de septiembre 2023</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
 
 
 <div class="table-container">
