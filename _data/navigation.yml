@@ -4,10 +4,6 @@ main:
   - title: "FP Grado Medio"
     url: "/descargar/"
   - title: "Servicios"
-    dropdown:
-      - title: "Item 1 del desplegable"
-        url: "/aula_espera/"
-      - title: "Item 2 del desplegable"
-        url: "#"
+    url: "/aula_espera/"
   - title: "Conócenos"
     url: "/precios/"
