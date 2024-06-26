@@ -4,7 +4,23 @@ layout: default
 ---
 
 
-<h3 style="text-align: center;"> Aula de Espera </h3>
+<h2 style="text-align: center;margin-top: 8em"> Aula de Espera </h2>
+
+JAPONEDUCA es una empresa del GRUPO JAPÓN que se dedica al desarrollo de servicios educativos, ocio y tiempo libre.
+
+El programa educativo de JAPONEDUCA tiene como objetivo satisfacer y atender a las nuevas demandas sociales, adaptarse a los nuevos horarios familiares y a otras iniciativas de apoyo a la familia para poder servir de puente entre el horario laboral y escolar. Este servicio (puesto en marcha conforme al Plan de Apertura de Centros), también responde a un nuevo modelo organizativo de los centros en el que se refuerza su autonomía.
+
+ 
+
+Organizamos y desarrollamos actividades complementarias y/o extraescolares para centros docentes, atendiendo los programas educativos de la Junta de Andalucía, como son el Plan de Apoyo a las familias Andaluzas (servicios de aula matinal , comedor y actividades extraescolares), el Deporte en la Escuela, Apoyo Lingüístico, los Proyectos Lectores y Bibliotecas, PROA, etc.
+
+Para ello contamos con un amplio equipo de profesionales dedicados a la planificación y puesta en marcha de una extensa oferta de actividades. Además, nuestra larga experiencia en el sector educativo nos permite adecuar nuestros programas según las necesidades de las alumnas/os y de los centros donde se ponen en práctica.
+
+
+<div style="text-align:center;">
+  <button class="plan-button" onclick="location.href='/payment_form/?plan=Gratis'">Inscríbete</button>
+</div>
+
 
 
 <div class="table-container">
@@ -88,11 +104,6 @@ layout: default
     </tbody>
   </table>
 </div>
-
-<div style="text-align:center;">
-  <button class="plan-button" onclick="location.href='/payment_form/?plan=Gratis'">Inscríbete</button>
-</div>
-
 
 <style>
   img {
