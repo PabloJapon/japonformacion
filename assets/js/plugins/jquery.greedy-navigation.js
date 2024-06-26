@@ -76,7 +76,7 @@ $(function() {
     requiredSpace = breakWidths[numOfVisibleItems - 1];
 
     // There is not enought space
-    if (requiredSpace > 0) {
+    if (requiredSpace <= 0) {
       $vlinks.children().last().prependTo($hlinks);
       numOfVisibleItems -= 1;
       check();
