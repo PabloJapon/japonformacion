@@ -19,35 +19,41 @@ layout: default
         <th style="width: 200px;text-align: center;">
           <h2>Horario</h2> 
         </th>
-        <th style="width: 200px;text-align: center;">
+        <th style="width: 300px;text-align: center;">
           <h2>Cuota</h2>
         </th>
         <th style="width: 200px;text-align: center;">
           <h2>Fecha de inicio</h2>
         </th>
+        <th style="width: 200px;text-align: center;">
+          <h2>Más Información</h2>
+        </th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td style="width: 400px;">CEIP El Puntal</td>
+        <td style="width: 200px;">CEIP El Puntal</td>
         <td style="width: 200px;text-align: center;">Infantil y Primaria</td>
         <td style="width: 200px;text-align: center;">De lunes a viernes de 14:00 a 15:00 h</td>
-        <td style="width: 200px;text-align: center;">30 €/mes - mes completo (Bonificación del 10% para el/la segundo/a hermano/a) 3 € - días sueltos</td>
+        <td style="width: 300px;text-align: center;">30 €/mes - mes completo (Bonificación del 10% para el/la segundo/a hermano/a) 3 € - días sueltos</td>
         <td style="width: 200px;text-align: center;">Lunes 11 de septiembre 2023</td>
+        <td style="width: 200px;text-align: center;"> <button class="plan-button2" onclick="location.href='/payment_form/?plan=Gratis'">Empieza</button> </td>
       </tr>
       <tr>
-        <td style="width: 400px;">CEIP Tierno Galván</td>
+        <td style="width: 200px;">CEIP Tierno Galván</td>
         <td style="width: 200px;text-align: center;">Infantil y Primaria</td>
         <td style="width: 200px;text-align: center;">De lunes a viernes de 14:00 a 15:00 h</td>
-        <td style="width: 200px;text-align: center;">25 €/mes - mes completo (Bonificación del 10% para el/la segundo/a hermano/a) 3 € - días sueltos</td>
+        <td style="width: 300px;text-align: center;">25 €/mes - mes completo (Bonificación del 10% para el/la segundo/a hermano/a) 3 € - días sueltos</td>
         <td style="width: 200px;text-align: center;">Lunes 11 de septiembre 2023</td>
+        <td style="width: 200px;text-align: center;"> <button class="plan-button2" onclick="location.href='/payment_form/?plan=Gratis'">Empieza</button> </td>
       </tr>
       <tr>
-        <td style="width: 400px;">CEIP Prácticas</td>
+        <td style="width: 200px;">CEIP Prácticas</td>
         <td style="width: 200px;text-align: center;">Infantil y Primaria</td>
         <td style="width: 200px;text-align: center;">De lunes a viernes de 14:00 a 15:00 h</td>
-        <td style="width: 200px;text-align: center;">30 €/mes - mes completo (Bonificación del 10% para el/la segundo/a hermano/a) 3 € - días sueltos</td>
+        <td style="width: 300px;text-align: center;">30 €/mes - mes completo (Bonificación del 10% para el/la segundo/a hermano/a) 3 € - días sueltos</td>
         <td style="width: 200px;text-align: center;">Lunes 11 de septiembre 2023</td>
+        <td style="width: 200px;text-align: center;"> <button class="plan-button2" onclick="location.href='/payment_form/?plan=Gratis'">Empieza</button> </td>
       </tr>
     </tbody>
   </table>

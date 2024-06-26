@@ -15,9 +15,9 @@
             <li class="masthead__menu-item">
               <a href="{{ link.url | relative_url }}"{% if link.description %} title="{{ link.description }}"{% endif %}>{{ link.title }}</a>
             </li>
-            <!-- Botón Solicita Información -->
-            <button class="btn btn--secondary" onclick="window.location.href='/contacto/'" style="margin-left: 1em;">Solicita Información</button>
           {%- endfor -%}
+          <!-- Botón Solicita Información -->
+          <button class="btn btn--secondary" onclick="window.location.href='/contacto/'" style="margin-left: 1em;">Solicita Información</button>
         </ul>
 
         {% if site.search == true %}
