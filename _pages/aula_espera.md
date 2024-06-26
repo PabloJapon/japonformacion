@@ -4,7 +4,7 @@ permalink: /aula_espera/
 layout: splash
 ---
 
-<h3 style="text-align: center;margin-top: 4em;margin-botton: 2em"> Aula de Espera </h3>
+<h3 style="text-align: center;margin-top: 6em;margin-botton: 2em"> Aula de Espera </h3>
 
 
 <div style="font-size: 17px;">
