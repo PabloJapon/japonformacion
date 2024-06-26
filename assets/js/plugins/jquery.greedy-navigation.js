@@ -16,6 +16,7 @@ $(function() {
   var $search = $('nav.greedy-nav button.search__toggle');
 
   var numOfItems, totalSpace, closingTime, breakWidths;
+  var bufferWidth = 20; // Adjust this buffer width to hide items sooner
 
   // This function measures both hidden and visible links and sets the navbar breakpoints
   // This is called the first time the script runs and everytime the "check()" function detects a change of window width that reached a different CSS width breakpoint, which affects the size of navbar Items
@@ -28,7 +29,7 @@ $(function() {
 
     // Adds the width of a navItem in order to create breakpoints for the navbar
     function addWidth(i, w) {
-      totalSpace += w;
+      totalSpace += w + bufferWidth; // Add buffer width to hide items sooner
       numOfItems += 1;
       breakWidths.push(totalSpace);
     }
@@ -69,8 +70,8 @@ $(function() {
     // Decrease the width of visible elements from the nav innerWidth to find out the available space for navItems
     availableSpace = /* nav */ $nav.innerWidth()
                    - /* logo */ ($logo.length !== 0 ? $logo.outerWidth(true) : 0)
-                   //- /* title */ $title.outerWidth(true)
-                   //- /* search */ ($search.length !== 0 ? $search.outerWidth(true) : 0)
+                   - /* title */ $title.outerWidth(true)
+                   - /* search */ ($search.length !== 0 ? $search.outerWidth(true) : 0)
                    - /* toggle */ (numOfVisibleItems !== breakWidths.length ? $btn.outerWidth(true) : 0);
     requiredSpace = breakWidths[numOfVisibleItems - 1];
 
