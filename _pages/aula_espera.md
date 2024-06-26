@@ -1,12 +1,13 @@
 ---
+title: "Aula de Espera"
 permalink: /aula_espera/
-layout: default
+layout: splash
 ---
 
 <h3 style="text-align: center;margin-top: 8em"> Aula de Espera </h3>
 
 
-<div style="font-size: 15px; margin: 0 2em;">
+<div style="font-size: 17px;">
   <p>JAPONEDUCA es una empresa del GRUPO JAPÓN que se dedica al desarrollo de servicios educativos, ocio y tiempo libre.</p>
   
   <p>El programa educativo de JAPONEDUCA tiene como objetivo satisfacer y atender a las nuevas demandas sociales, adaptarse a los nuevos horarios familiares y a otras iniciativas de apoyo a la familia para poder servir de puente entre el horario laboral y escolar. Este servicio (puesto en marcha conforme al Plan de Apertura de Centros), también responde a un nuevo modelo organizativo de los centros en el que se refuerza su autonomía.</p>
