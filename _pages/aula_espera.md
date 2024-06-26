@@ -36,43 +36,62 @@ layout: default
         <td style="width: 200px;text-align: center;">Infantil y Primaria</td>
         <td style="width: 200px;text-align: center;">De lunes a viernes de 14:00 a 15:00 h</td>
         <td style="width: 300px;text-align: center;">
-            <ul style="list-style-type: disc; padding-left: 20px; margin: 0;">
+            <ul style="list-style-type: disc; padding-left: 40px; margin: 0; text-align: left;">
                 <li>30 €/mes - mes completo (<i>Bonificación del 10% para el/la segundo/a hermano/a</i>)</li>
                 <li>3 € - días sueltos</li>
             </ul>
         </td>
         <td style="width: 200px;text-align: center;">Lunes 11 de septiembre 2023</td>
-        <td style="width: 200px;text-align: center;"> <button class="plan-button2" onclick="location.href='/payment_form/?plan=Gratis'">Empieza</button> </td>
+        <td style="width: 200px;text-align: center;">
+            <ul style="list-style-type: disc; padding-left: 40px; margin: 0; text-align: left;">
+                <li><a href="https://japonformacion.netlify.app/contacto/">Más información</a></li>
+                <li><a href="https://japonformacion.netlify.app/contacto/">Inscríbete</a></li>
+            </ul>
+        </td>
       </tr>
       <tr>
         <td style="width: 200px;text-align: center;">CEIP Tierno Galván</td>
         <td style="width: 200px;text-align: center;">Infantil y Primaria</td>
         <td style="width: 200px;text-align: center;">De lunes a viernes de 14:00 a 15:00 h</td>
-            <ul style="list-style-type: disc; padding-left: 20px; margin: 0;">
+        <td style="width: 300px;text-align: center;">
+            <ul style="list-style-type: disc; padding-left: 40px; margin: 0; text-align: left;">
                 <li>25 €/mes - mes completo (<i>Bonificación del 10% para el/la segundo/a hermano/a</i>)</li>
                 <li>3 € - días sueltos</li>
             </ul>
         </td>
         <td style="width: 200px;text-align: center;">Lunes 11 de septiembre 2023</td>
-        <td style="width: 200px;text-align: center;"> <button class="plan-button2" onclick="location.href='/payment_form/?plan=Gratis'">Empieza</button> </td>
+        <td style="width: 200px;text-align: center;">
+            <ul style="list-style-type: disc; padding-left: 40px; margin: 0; text-align: left;">
+                <li><a href="https://japonformacion.netlify.app/contacto/">Más información</a></li>
+                <li><a href="https://japonformacion.netlify.app/contacto/">Inscríbete</a></li>
+            </ul>
+        </td>
       </tr>
       <tr>
         <td style="width: 200px;text-align: center;">CEIP Prácticas</td>
         <td style="width: 200px;text-align: center;">Infantil y Primaria</td>
         <td style="width: 200px;text-align: center;">De lunes a viernes de 14:00 a 15:00 h</td>
-            <ul style="list-style-type: disc; padding-left: 20px; margin: 0;">
+        <td style="width: 300px;text-align: center;">
+            <ul style="list-style-type: disc; padding-left: 40px; margin: 0; text-align: left;">
                 <li>30 €/mes - mes completo (<i>Bonificación del 10% para el/la segundo/a hermano/a</i>)</li>
                 <li>3 € - días sueltos</li>
             </ul>
         </td>
         <td style="width: 200px;text-align: center;">Lunes 11 de septiembre 2023</td>
-        <td style="width: 200px;text-align: center;"> <button class="plan-button2" onclick="location.href='/payment_form/?plan=Gratis'">Empieza</button> </td>
+        <td style="width: 200px;text-align: center;">
+            <ul style="list-style-type: disc; padding-left: 40px; margin: 0; text-align: left;">
+                <li><a href="https://japonformacion.netlify.app/contacto/">Más información</a></li>
+                <li><a href="https://japonformacion.netlify.app/contacto/">Inscríbete</a></li>
+            </ul>
+        </td>
       </tr>
     </tbody>
   </table>
 </div>
 
-
+<div style="text-align:center;">
+  <button class="plan-button" onclick="location.href='/payment_form/?plan=Gratis'">Inscríbete</button>
+</div>
 
 
 <style>
