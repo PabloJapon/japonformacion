@@ -3,8 +3,9 @@ permalink: /aula_espera/
 layout: default
 ---
 
+<h3 style="text-align: center;margin-top: 8em"> Aula de Espera </h3>
 
-<h2 style="text-align: center;margin-top: 8em"> Aula de Espera </h2>
+
 
 JAPONEDUCA es una empresa del GRUPO JAPÓN que se dedica al desarrollo de servicios educativos, ocio y tiempo libre.
 
@@ -18,32 +19,20 @@ Para ello contamos con un amplio equipo de profesionales dedicados a la planific
 
 
 <div style="text-align:center;">
-  <button class="plan-button" onclick="location.href='/payment_form/?plan=Gratis'">Inscríbete</button>
+  <button class="plan-button" onclick="location.href='https://app.grupojapon.es/index.php/registro'">Inscríbete</button>
 </div>
-
 
 
 <div class="table-container">
   <table>
     <thead>
       <tr>
-        <th style="width: 200px;text-align: center;">
-          <h2>Centro</h2>
-        <th style="width: 200px;text-align: center;">
-          <h2>Edad</h2>
-        </th>
-        <th style="width: 200px;text-align: center;">
-          <h2>Horario</h2> 
-        </th>
-        <th style="width: 300px;text-align: center;">
-          <h2>Cuota</h2>
-        </th>
-        <th style="width: 200px;text-align: center;">
-          <h2>Fecha de inicio</h2>
-        </th>
-        <th style="width: 200px;text-align: center;">
-          <h2>Enlaces</h2>
-        </th>
+        <th style="width: 200px;text-align: center;"><h2>Centro</h2></th>
+        <th style="width: 200px;text-align: center;"><h2>Edad</h2></th>
+        <th style="width: 200px;text-align: center;"><h2>Horario</h2></th>
+        <th style="width: 300px;text-align: center;"><h2>Cuota</h2></th>
+        <th style="width: 200px;text-align: center;"><h2>Fecha de inicio</h2></th>
+        <th style="width: 200px;text-align: center;"><h2>Enlaces</h2></th>
       </tr>
     </thead>
     <tbody>
@@ -52,17 +41,17 @@ Para ello contamos con un amplio equipo de profesionales dedicados a la planific
         <td style="width: 200px;text-align: center;">Infantil y Primaria</td>
         <td style="width: 200px;text-align: center;">De lunes a viernes de 14:00 a 15:00 h</td>
         <td style="width: 300px;text-align: center;">
-            <ul style="list-style-type: disc; padding-left: 40px; margin: 0; text-align: left;">
-                <li>30 €/mes - mes completo (<i style="font-size: smaller;">Bonificación del 10% para el/la segundo/a hermano/a</i>)</li>
-                <li>3 € - días sueltos</li>
-            </ul>
+          <ul style="list-style-type: disc; padding-left: 40px; margin: 0; text-align: left;">
+            <li>30 €/mes - mes completo (<i style="font-size: smaller;">Bonificación del 10% para el/la segundo/a hermano/a</i>)</li>
+            <li>3 € - días sueltos</li>
+          </ul>
         </td>
         <td style="width: 200px;text-align: center;">Lunes 11 de septiembre 2023</td>
         <td style="width: 200px;text-align: center;">
-            <ul style="list-style-type: disc; padding-left: 40px; margin: 0; text-align: left;">
-                <li><a href="https://japonformacion.netlify.app/contacto/">Más información</a></li>
-                <li><a href="https://japonformacion.netlify.app/contacto/">Inscríbete</a></li>
-            </ul>
+          <ul style="list-style-type: disc; padding-left: 40px; margin: 0; text-align: left;">
+            <li><a href="https://japonformacion.netlify.app/contacto/">Más información</a></li>
+            <li><a href="https://japonformacion.netlify.app/contacto/">Inscríbete</a></li>
+          </ul>
         </td>
       </tr>
       <tr>
@@ -70,17 +59,17 @@ Para ello contamos con un amplio equipo de profesionales dedicados a la planific
         <td style="width: 200px;text-align: center;">Infantil y Primaria</td>
         <td style="width: 200px;text-align: center;">De lunes a viernes de 14:00 a 15:00 h</td>
         <td style="width: 300px;text-align: center;">
-            <ul style="list-style-type: disc; padding-left: 40px; margin: 0; text-align: left;">
-                <li>25 €/mes - mes completo (<i style="font-size: smaller;">Bonificación del 10% para el/la segundo/a hermano/a</i>)</li>
-                <li>3 € - días sueltos</li>
-            </ul>
+          <ul style="list-style-type: disc; padding-left: 40px; margin: 0; text-align: left;">
+            <li>25 €/mes - mes completo (<i style="font-size: smaller;">Bonificación del 10% para el/la segundo/a hermano/a</i>)</li>
+            <li>3 € - días sueltos</li>
+          </ul>
         </td>
         <td style="width: 200px;text-align: center;">Lunes 11 de septiembre 2023</td>
         <td style="width: 200px;text-align: center;">
-            <ul style="list-style-type: disc; padding-left: 40px; margin: 0; text-align: left;">
-                <li><a href="https://japonformacion.netlify.app/contacto/">Más información</a></li>
-                <li><a href="https://japonformacion.netlify.app/contacto/">Inscríbete</a></li>
-            </ul>
+          <ul style="list-style-type: disc; padding-left: 40px; margin: 0; text-align: left;">
+            <li><a href="https://japonformacion.netlify.app/contacto/">Más información</a></li>
+            <li><a href="https://japonformacion.netlify.app/contacto/">Inscríbete</a></li>
+          </ul>
         </td>
       </tr>
       <tr>
@@ -88,22 +77,23 @@ Para ello contamos con un amplio equipo de profesionales dedicados a la planific
         <td style="width: 200px;text-align: center;">Infantil y Primaria</td>
         <td style="width: 200px;text-align: center;">De lunes a viernes de 14:00 a 15:00 h</td>
         <td style="width: 300px;text-align: center;">
-            <ul style="list-style-type: disc; padding-left: 40px; margin: 0; text-align: left;">
-                <li>30 €/mes - mes completo (<i style="font-size: smaller;">Bonificación del 10% para el/la segundo/a hermano/a</i>)</li>
-                <li>3 € - días sueltos</li>
-            </ul>
+          <ul style="list-style-type: disc; padding-left: 40px; margin: 0; text-align: left;">
+            <li>30 €/mes - mes completo (<i style="font-size: smaller;">Bonificación del 10% para el/la segundo/a hermano/a</i>)</li>
+            <li>3 € - días sueltos</li>
+          </ul>
         </td>
         <td style="width: 200px;text-align: center;">Lunes 11 de septiembre 2023</td>
         <td style="width: 200px;text-align: center;">
-            <ul style="list-style-type: disc; padding-left: 40px; margin: 0; text-align: left;">
-                <li><a href="https://japonformacion.netlify.app/contacto/">Más información</a></li>
-                <li><a href="https://japonformacion.netlify.app/contacto/">Inscríbete</a></li>
-            </ul>
+          <ul style="list-style-type: disc; padding-left: 40px; margin: 0; text-align: left;">
+            <li><a href="https://japonformacion.netlify.app/contacto/">Más información</a></li>
+            <li><a href="https://japonformacion.netlify.app/contacto/">Inscríbete</a></li>
+          </ul>
         </td>
       </tr>
     </tbody>
   </table>
 </div>
+
 
 <style>
   img {
@@ -167,7 +157,7 @@ Para ello contamos con un amplio equipo de profesionales dedicados a la planific
     background-color: #9b1b20; /* Cambio de color en el hover */
   }
     
-    .table-container {
+  .table-container {
     margin-top: 60px; /* Ajusta el margen superior según sea necesario */
   }
 
@@ -185,7 +175,7 @@ Para ello contamos con un amplio equipo de profesionales dedicados a la planific
     text-align: left;
   }
 
-    .table-container th {
+  .table-container th {
     padding: 8px;
     background-color: transparent !important; /* Fondo transparente */
     border: none; /* Sin bordes */
@@ -194,9 +184,8 @@ Para ello contamos con un amplio equipo de profesionales dedicados a la planific
   .table-container thead th {
     background-color: transparent !important; /* Fondo transparente */
   }
-    
-    
-    .table-container tbody tr:nth-child(even) {
+
+  .table-container tbody tr:nth-child(even) {
     background-color: #e0e0e0; /* Cambia el color de fondo para las filas pares */
   }
 
@@ -211,7 +200,6 @@ Para ello contamos con un amplio equipo de profesionales dedicados a la planific
     border-right: none;
   }
 
-    
   /* Elimina la última línea horizontal */
   .table-container tr:last-child th,
   .table-container tr:last-child td {
@@ -224,7 +212,7 @@ Para ello contamos con un amplio equipo de profesionales dedicados a la planific
     border-top: none;
   }
 
-    /* Elimina la segunda línea horizontal */
+  /* Elimina la segunda línea horizontal */
   .table-container tr:nth-child(2) th,
   .table-container tr:nth-child(2) td {
     border-top: none;
