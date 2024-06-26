@@ -16,7 +16,7 @@ $(function() {
   var $search = $('nav.greedy-nav button.search__toggle');
 
   var numOfItems, totalSpace, closingTime, breakWidths;
-  var bufferWidth = 200; // Adjust this buffer width to hide items sooner
+  var bufferWidth = 0; // Adjust this buffer width to hide items sooner
 
   // This function measures both hidden and visible links and sets the navbar breakpoints
   // This is called the first time the script runs and everytime the "check()" function detects a change of window width that reached a different CSS width breakpoint, which affects the size of navbar Items
