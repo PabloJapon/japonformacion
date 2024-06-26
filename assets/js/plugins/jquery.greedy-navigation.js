@@ -16,7 +16,6 @@ $(function() {
   var $search = $('nav.greedy-nav button.search__toggle');
 
   var numOfItems, totalSpace, closingTime, breakWidths;
-  var bufferWidth = -1000; // Adjust this buffer width to hide items sooner
 
   // This function measures both hidden and visible links and sets the navbar breakpoints
   // This is called the first time the script runs and everytime the "check()" function detects a change of window width that reached a different CSS width breakpoint, which affects the size of navbar Items
@@ -29,7 +28,7 @@ $(function() {
 
     // Adds the width of a navItem in order to create breakpoints for the navbar
     function addWidth(i, w) {
-      totalSpace += w + bufferWidth; // Add buffer width to hide items sooner
+      totalSpace += w;
       numOfItems += 1;
       breakWidths.push(totalSpace);
     }
@@ -73,17 +72,18 @@ $(function() {
                    - /* title */ $title.outerWidth(true)
                    - /* search */ ($search.length !== 0 ? $search.outerWidth(true) : 0)
                    - /* toggle */ (numOfVisibleItems !== breakWidths.length ? $btn.outerWidth(true) : 0);
+                   - 200
     requiredSpace = breakWidths[numOfVisibleItems - 1];
 
     // There is not enought space
     if (requiredSpace > availableSpace) {
       $vlinks.children().last().prependTo($hlinks);
-      numOfVisibleItems -= 1;
+      numOfVisibleItems -= 4;
       check();
       // There is more than enough space. If only one element is hidden, add the toggle width to the available space
     } else if (availableSpace + (numOfVisibleItems === breakWidths.length - 1?$btn.outerWidth(true):0) > breakWidths[numOfVisibleItems]) {
       $hlinks.children().first().appendTo($vlinks);
-      numOfVisibleItems += 1;
+      numOfVisibleItems += 4;
       check();
     }
     // Update the button accordingly
