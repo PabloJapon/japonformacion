@@ -142,18 +142,20 @@
 </style>
 
 <script>
-    // JavaScript to toggle hidden links visibility
-    document.addEventListener('DOMContentLoaded', function() {
-        const toggleButton = document.querySelector('.greedy-nav__toggle');
-        const hiddenLinks = document.querySelector('.hidden-links');
-        
-        // Initially hide the toggle button if visible links are present
-        if (document.querySelector('.visible-links').children.length > 0) {
-            toggleButton.classList.add('hidden');
-        }
-        
-        toggleButton.addEventListener('click', function() {
-            hiddenLinks.classList.toggle('show');
-        });
-    });
+  // JavaScript to toggle hidden links visibility
+  document.addEventListener('DOMContentLoaded', function() {
+      const toggleButton = document.querySelector('.greedy-nav__toggle');
+      const visibleLinks = document.querySelector('.visible-links');
+      
+      // Initially hide the toggle button if visible links are present
+      if (visibleLinks.children.length > 0) {
+          toggleButton.classList.add('hidden');
+      }
+      
+      toggleButton.addEventListener('click', function() {
+          visibleLinks.classList.toggle('show');
+          toggleButton.classList.toggle('hidden');
+      });
+  });
 </script>
+
