@@ -151,11 +151,11 @@
 <script>
   // JavaScript to toggle hidden links visibility
   document.addEventListener('DOMContentLoaded', function() {
-      const toggleButton = document.querySelector('.greedy-nav__toggle');
-      const visibleLinks = document.querySelector('.visible-links');
-      
-      toggleButton.addEventListener('click', function() {
-          visibleLinks.classList.toggle('show');
-      });
-  });
+    const toggleButton = document.querySelector('.greedy-nav__toggle');
+    const hiddenLinks = document.querySelector('.hidden-links');
+    
+    toggleButton.addEventListener('click', function() {
+        hiddenLinks.classList.toggle('show');
+    });
+});
 </script>
