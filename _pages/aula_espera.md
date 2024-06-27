@@ -30,7 +30,7 @@ layout: splash
         <th style="width: 200px;text-align: center;"><h2>Centro</h2></th>
         <th style="width: 200px;text-align: center;"><h2>Edad</h2></th>
         <th style="width: 200px;text-align: center;"><h2>Horario</h2></th>
-        <th style="width: 300px;text-align: center;"><h2>Cuota</h2></th>
+        <th style="width: 200px;text-align: center;"><h2>Cuota</h2></th>
         <th style="width: 200px;text-align: center;"><h2>Fecha de inicio</h2></th>
         <th style="width: 200px;text-align: center;"><h2>Enlaces</h2></th>
       </tr>
@@ -40,7 +40,7 @@ layout: splash
         <td style="width: 200px;text-align: center;">CEIP El Puntal</td>
         <td style="width: 200px;text-align: center;">Infantil y Primaria</td>
         <td style="width: 200px;text-align: center;">De lunes a viernes de 14:00 a 15:30 h</td>
-        <td style="width: 300px;text-align: center;">
+        <td style="width: 200px;text-align: center;">
           <ul style="list-style-type: disc; padding-left: 40px; margin: 0; text-align: left;">
             <li>30 €/mes*</li>
             <li>3 € - días sueltos</li>
@@ -58,7 +58,7 @@ layout: splash
         <td style="width: 200px;text-align: center;">CEIP Tierno Galván</td>
         <td style="width: 200px;text-align: center;">Infantil y Primaria</td>
         <td style="width: 200px;text-align: center;">De lunes a viernes de 14:00 a 15:00 h</td>
-        <td style="width: 300px;text-align: center;">
+        <td style="width: 200px;text-align: center;">
           <ul style="list-style-type: disc; padding-left: 40px; margin: 0; text-align: left;">
             <li>25 €/mes*</li>
             <li>3 € - días sueltos</li>
@@ -76,7 +76,7 @@ layout: splash
         <td style="width: 200px;text-align: center;">CEIP Prácticas</td>
         <td style="width: 200px;text-align: center;">Infantil y Primaria</td>
         <td style="width: 200px;text-align: center;">De lunes a viernes de 14:00 a 15:30 h</td>
-        <td style="width: 300px;text-align: center;">
+        <td style="width: 200px;text-align: center;">
           <ul style="list-style-type: disc; padding-left: 40px; margin: 0; text-align: left;">
             <li>30 €/mes*</li>
             <li>3 € - días sueltos</li>
@@ -95,7 +95,7 @@ layout: splash
 </div>
 
 <div style="font-size: 17px;text-align: center;font-style: italic;">
-  <p>*Bonificación del 10% para el/la segundo/a hermano/</p>
+  <p>*Bonificación del 10% para el/la segundo/a hermano/a</p>
 </div>
 
 
