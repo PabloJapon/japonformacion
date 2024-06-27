@@ -39,14 +39,14 @@ layout: splash
       <tr>
         <td style="width: 200px;text-align: center;">CEIP El Puntal</td>
         <td style="width: 200px;text-align: center;">Infantil y Primaria</td>
-        <td style="width: 200px;text-align: center;">De lunes a viernes de 14:00 a 15:00 h</td>
+        <td style="width: 200px;text-align: center;">De lunes a viernes de 14:00 a 15:30 h</td>
         <td style="width: 300px;text-align: center;">
           <ul style="list-style-type: disc; padding-left: 40px; margin: 0; text-align: left;">
-            <li>30 €/mes - mes completo (<i style="font-size: smaller;">Bonificación del 10% para el/la segundo/a hermano/a</i>)</li>
+            <li>30 €/mes*</li>
             <li>3 € - días sueltos</li>
           </ul>
         </td>
-        <td style="width: 200px;text-align: center;">Lunes 11 de septiembre 2023</td>
+        <td style="width: 200px;text-align: center;">11/09/2024</td>
         <td style="width: 200px;text-align: center;">
           <ul style="list-style-type: disc; padding-left: 40px; margin: 0; text-align: left;">
             <li><a href="https://japonformacion.netlify.app/contacto/">Más información</a></li>
@@ -60,11 +60,11 @@ layout: splash
         <td style="width: 200px;text-align: center;">De lunes a viernes de 14:00 a 15:00 h</td>
         <td style="width: 300px;text-align: center;">
           <ul style="list-style-type: disc; padding-left: 40px; margin: 0; text-align: left;">
-            <li>25 €/mes - mes completo (<i style="font-size: smaller;">Bonificación del 10% para el/la segundo/a hermano/a</i>)</li>
+            <li>25 €/mes*</li>
             <li>3 € - días sueltos</li>
           </ul>
         </td>
-        <td style="width: 200px;text-align: center;">Lunes 11 de septiembre 2023</td>
+        <td style="width: 200px;text-align: center;">11/09/2024</td>
         <td style="width: 200px;text-align: center;">
           <ul style="list-style-type: disc; padding-left: 40px; margin: 0; text-align: left;">
             <li><a href="https://japonformacion.netlify.app/contacto/">Más información</a></li>
@@ -75,14 +75,14 @@ layout: splash
       <tr>
         <td style="width: 200px;text-align: center;">CEIP Prácticas</td>
         <td style="width: 200px;text-align: center;">Infantil y Primaria</td>
-        <td style="width: 200px;text-align: center;">De lunes a viernes de 14:00 a 15:00 h</td>
+        <td style="width: 200px;text-align: center;">De lunes a viernes de 14:00 a 15:30 h</td>
         <td style="width: 300px;text-align: center;">
           <ul style="list-style-type: disc; padding-left: 40px; margin: 0; text-align: left;">
-            <li>30 €/mes - mes completo (<i style="font-size: smaller;">Bonificación del 10% para el/la segundo/a hermano/a</i>)</li>
+            <li>30 €/mes*</li>
             <li>3 € - días sueltos</li>
           </ul>
         </td>
-        <td style="width: 200px;text-align: center;">Lunes 11 de septiembre 2023</td>
+        <td style="width: 200px;text-align: center;">11/09/2024</td>
         <td style="width: 200px;text-align: center;">
           <ul style="list-style-type: disc; padding-left: 40px; margin: 0; text-align: left;">
             <li><a href="https://japonformacion.netlify.app/contacto/">Más información</a></li>
@@ -92,6 +92,10 @@ layout: splash
       </tr>
     </tbody>
   </table>
+</div>
+
+<div style="font-size: 17px;text-align: center;font-style: italic;">
+  <p>*Bonificación del 10% para el/la segundo/a hermano/</p>
 </div>
 
 
