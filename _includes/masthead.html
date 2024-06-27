@@ -47,98 +47,105 @@
 </div>
 
 <style>
-    /* Styles for the small navbar */
-    .small-navbar {
-        background-color: #a8a5ac;
-        padding: 3px 0; /* Reduced height */
-        border-bottom: 1px solid #e1e1e1;
-        width: 100%; /* Ensure it takes the full width */
-    }
-    
-    .small-navbar-inner {
-        display: flex;
-        justify-content: space-between; /* Separate left and right containers */
-        max-width: 1380px; /* Constrain max width */
-        margin: 0 auto 2px; /* Center the navbar horizontally */
-    }
-    
-    .small-navbar ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-    }
-    
-    .small-navbar-left,
-    .small-navbar-right {
-        display: flex;
-        align-items: center;
-    }
-    
-    .small-navbar ul li {
-        display: inline;
-        margin: 0 10px; /* Adjust margin if needed */
-    }
-    
-    .small-navbar ul li a {
-        text-decoration: none;
-        color: #ffffff;
-        font-size: 14px; /* Adjust font size if needed */
-        transition: color 0.3s; /* Smooth transition for color change */
-    }
-    
-    .small-navbar ul li a:hover {
-        color: #ededed; /* Change color on hover */
-    }
-    
-    /* Main navbar adjustments */
-    #site-nav {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-    
-    #site-nav .visible-links {
-        display: flex;
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-    }
-    
-    #site-nav .visible-links .masthead__menu-item a {
-        text-decoration: none;
-        color: #333; /* Adjust link color */
-        font-size: 16px; /* Adjust font size */
-        transition: color 0.3s; /* Smooth transition for color change */
-    }
-    
-    #site-nav .visible-links .masthead__menu-item a:hover {
-        color: #666; /* Change color on hover */
-    }
-    
-    /* Hide navigation items and "Solicita Información" button on smaller screens */
-    @media screen and (max-width: 768px) {
-        #site-nav .visible-links {
-            display: none;
-        }
-        
-        #site-nav .btn--secondary {
-            display: none;
-        }
-        
-        .greedy-nav__toggle {
-            display: block;
-        }
-        
-        .hidden-links {
-            display: none;
-            list-style-type: none;
-            padding: 0;
-        }
-        
-        .hidden-links.show {
-            display: block;
-        }
-    }
+  /* Styles for the small navbar */
+  .small-navbar {
+      background-color: #a8a5ac;
+      padding: 3px 0; /* Reduced height */
+      border-bottom: 1px solid #e1e1e1;
+      width: 100%; /* Ensure it takes the full width */
+  }
+  
+  .small-navbar-inner {
+      display: flex;
+      justify-content: space-between; /* Separate left and right containers */
+      max-width: 1380px; /* Constrain max width */
+      margin: 0 auto 2px; /* Center the navbar horizontally */
+  }
+  
+  .small-navbar ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+  }
+  
+  .small-navbar-left,
+  .small-navbar-right {
+      display: flex;
+      align-items: center;
+  }
+  
+  .small-navbar ul li {
+      display: inline;
+      margin: 0 10px; /* Adjust margin if needed */
+  }
+  
+  .small-navbar ul li a {
+      text-decoration: none;
+      color: #ffffff;
+      font-size: 14px; /* Adjust font size if needed */
+      transition: color 0.3s; /* Smooth transition for color change */
+  }
+  
+  .small-navbar ul li a:hover {
+      color: #ededed; /* Change color on hover */
+  }
+  
+  /* Main navbar adjustments */
+  #site-nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+  
+  #site-nav .visible-links {
+      display: flex;
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+  }
+  
+  #site-nav .visible-links .masthead__menu-item a {
+      text-decoration: none;
+      color: #333; /* Adjust link color */
+      font-size: 16px; /* Adjust font size */
+      transition: color 0.3s; /* Smooth transition for color change */
+  }
+  
+  #site-nav .visible-links .masthead__menu-item a:hover {
+      color: #666; /* Change color on hover */
+  }
+  
+  /* Hide navigation items and "Solicita Información" button on smaller screens */
+  @media screen and (max-width: 768px) {
+      #site-nav .visible-links {
+          display: none;
+      }
+      
+      #site-nav .btn--secondary {
+          display: none;
+      }
+      
+      .greedy-nav__toggle {
+          display: block;
+      }
+      
+      .hidden-links {
+          display: none;
+          list-style-type: none;
+          padding: 0;
+      }
+      
+      .hidden-links.show {
+          display: block;
+      }
+  }
+  
+  /* Hide toggle button when items are visible */
+  @media screen and (min-width: 769px) {
+      .greedy-nav__toggle {
+          display: none;
+      }
+  }
 </style>
 
 <script>
@@ -147,15 +154,8 @@
       const toggleButton = document.querySelector('.greedy-nav__toggle');
       const visibleLinks = document.querySelector('.visible-links');
       
-      // Initially hide the toggle button if visible links are present
-      if (visibleLinks.children.length > 0) {
-          toggleButton.classList.add('hidden');
-      }
-      
       toggleButton.addEventListener('click', function() {
           visibleLinks.classList.toggle('show');
-          toggleButton.classList.toggle('hidden');
       });
   });
 </script>
-
