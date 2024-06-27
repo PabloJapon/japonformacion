@@ -12,20 +12,48 @@
                 {% endunless %}
                 <ul class="visible-links">
                     {%- for link in site.data.navigation.main -%}
-                        <li class="masthead__menu-item {% if link.title == 'Servicios' %}dropdown{% endif %}">
-                            {% if link.title == 'Servicios' %}
-                                <button class="dropdown-toggle">{{ link.title }}</button>
+                        <li class="masthead__menu-item {% if link.submenu %}dropdown{% endif %}">
+                            <a href="{{ link.url | relative_url }}"{% if link.description %} title="{{ link.description }}"{% endif %}>{{ link.title }}</a>
+                            {% if link.submenu %}
                                 <ul class="dropdown-menu">
-                                    <li><a href="/servicio1/">Servicio 1</a></li>
-                                    <li><a href="/servicio2/">Servicio 2</a></li>
-                                    <li><a href="/servicio3/">Servicio 3</a></li>
+                                    {%- for sublink in link.submenu -%}
+                                        <li><a href="{{ sublink.url | relative_url }}">{{ sublink.title }}</a></li>
+                                    {%- endfor -%}
                                 </ul>
-                            {% else %}
-                                <a href="{{ link.url | relative_url }}"{% if link.description %} title="{{ link.description }}"{% endif %}>{{ link.title }}</a>
                             {% endif %}
                         </li>
                     {%- endfor -%}
                 </ul>
+
+                
+                <!-- Botón Servicios -->
+                <div class="servicios-menu">
+                    <button class="btn btn--secondary" id="servicios-button" onclick="toggleserviciosMenu()" style="color: rgb(57, 62, 70);background-color: rgb(255, 255, 255);outline: none;">
+                    <div class="servicios-button-content" style="display: flex;align-items: center;flex-direction: row;">
+                        <div class="servicios-button-image-wrapper" style="margin-right: 10px;">
+                        <img src="/assets/images/CirculoAmarillo.svg" alt="User Initial" class="servicios-button-image">
+                        <span class="servicios-button-letter" id="servicios-button-letter">L</span>
+                        </div>
+                        <div style="display: flex;flex-direction: column;align-items: flex-start;">
+                        <span id="servicios-username-button" style="font-size: 14px;text-transform: uppercase;">Mi Cuenta</span>
+                        <span id="servicios-plan" class="servicios-subtitle" style="font-style: italic;font-size: 14px;font-weight: normal;">Plan actual</span>
+                        </div>
+                        <div class="servicios-button-image-wrapper">
+                        <img src="/assets/images/angulo-hacia-abajo.png" alt="User Initial" class="servicios-button-image" style="width: 13px; margin-top: 10px; margin-right: 10px;">
+                        </div>
+                    </div>
+                    </button>
+                    <div id="servicios-menu-dropdown" class="servicios-dropdown" style="display: none; width: 15em;">
+                    <div class="servicios-menu-image-wrapper">
+                        <img src="{{ '/assets/images/CirculoAmarillo.svg' | relative_url }}" alt="User Initial" class="servicios-menu-image">
+                        <span class="servicios-menu-letter" id="servicios-menu-letter">L</span>
+                    </div>
+                    <p style="display: flex; justify-content: center; margin: 1em 0em 1.5em">¡Hola,<span id="servicios-username" style="margin-left: 0.2em;">User</span>!</p>
+                    <a href="/miCuenta/">Perfil</a>
+                    <a href="/miCuenta/settings">Configuración</a>
+                    <a href="#" onclick="logout()">Cerrar Sesión</a>
+                    </div>
+                </div>
     
                 <!-- Botón Solicita Información -->
                 <button class="btn btn--secondary" onclick="window.location.href='/contacto/'" style="margin-left: 1em;">Solicita Información</button>
@@ -42,16 +70,14 @@
                 </button>
                 <ul class="hidden-links hidden">
                     {%- for link in site.data.navigation.main -%}
-                        <li class="masthead__menu-item {% if link.title == 'Servicios' %}dropdown{% endif %}">
-                            {% if link.title == 'Servicios' %}
-                                <button class="dropdown-toggle">{{ link.title }}</button>
+                        <li class="masthead__menu-item {% if link.submenu %}dropdown{% endif %}">
+                            <a href="{{ link.url | relative_url }}"{% if link.description %} title="{{ link.description }}"{% endif %}>{{ link.title }}</a>
+                            {% if link.submenu %}
                                 <ul class="dropdown-menu">
-                                    <li><a href="/servicio1/">Servicio 1</a></li>
-                                    <li><a href="/servicio2/">Servicio 2</a></li>
-                                    <li><a href="/servicio3/">Servicio 3</a></li>
+                                    {%- for sublink in link.submenu -%}
+                                        <li><a href="{{ sublink.url | relative_url }}">{{ sublink.title }}</a></li>
+                                    {%- endfor -%}
                                 </ul>
-                            {% else %}
-                                <a href="{{ link.url | relative_url }}"{% if link.description %} title="{{ link.description }}"{% endif %}>{{ link.title }}</a>
                             {% endif %}
                         </li>
                     {%- endfor -%}
@@ -65,6 +91,80 @@
 </div>
 
 <style>
+  /* Services */
+  .servicios-menu {
+    position: relative;
+    display: inline-block;
+  }
+  .servicios-dropdown {
+    display: none;
+    position: absolute;
+    background-color: white;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    right: 0; /* Alinea el menú desplegable a la derecha */
+    border-radius: 20px;
+    padding: 1em;
+  }
+  .servicios-dropdown a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .servicios-dropdown a:hover {
+    background-color: #f1f1f1;
+  }
+  .servicios-button-content {
+    display: flex;
+    flex-direction: column; /* Cambia a columna para colocar "Plan actual" debajo de "Mi Cuenta" */
+    align-items: center;
+  }
+  .servicios-subtitle {
+    font-size: 0.8em; /* Ajusta el tamaño de la fuente del subtítulo según tus necesidades */
+    color: #393e46; /* Ajusta el color del subtítulo */
+  }
+  .servicios-button-image-wrapper {
+    position: relative;
+    width: 38px;
+    height: 38px;
+    margin-right: 8px;
+  }
+  .servicios-button-image {
+    width: 100%;
+    height: auto;
+    margin-top: 0em;
+  }
+  .servicios-button-letter {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+  }
+  .servicios-menu-image-wrapper {
+    position: relative;
+    text-align: center;
+  }
+  .servicios-menu-image {
+    width: 140px;
+    height: 140px;
+    margin: 1em 2em 0em;
+    float: none;
+  }
+  .servicios-menu-letter {
+    margin-top: 0.15em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+  }
+
   /* Styles for the small navbar */
   .small-navbar {
       background-color: #a8a5ac;
@@ -122,19 +222,14 @@
       padding: 0;
   }
   
-  #site-nav .visible-links .masthead__menu-item a,
-  #site-nav .visible-links .masthead__menu-item button {
+  #site-nav .visible-links .masthead__menu-item a {
       text-decoration: none;
       color: #333; /* Adjust link color */
       font-size: 16px; /* Adjust font size */
       transition: color 0.3s; /* Smooth transition for color change */
-      background: none; /* Remove button background */
-      border: none; /* Remove button border */
-      cursor: pointer; /* Pointer cursor for button */
   }
   
-  #site-nav .visible-links .masthead__menu-item a:hover,
-  #site-nav .visible-links .masthead__menu-item button:hover {
+  #site-nav .visible-links .masthead__menu-item a:hover {
       color: #666; /* Change color on hover */
   }
   
@@ -152,9 +247,6 @@
       border: 1px solid #ccc;
       box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
       z-index: 1000;
-      list-style: none;
-      padding: 0;
-      margin: 0;
   }
   
   .masthead__menu-item.dropdown:hover .dropdown-menu {
@@ -211,6 +303,23 @@
 </style>
 
 <script>
+    // Servicios
+    function toggleserviciosMenu() {
+    const serviciosMenu = document.getElementById('servicios-menu-dropdown');
+        if (serviciosMenu) {
+        const isDisplayed = serviciosMenu.style.display === 'block';
+        serviciosMenu.style.display = isDisplayed ? 'none' : 'block';
+        }
+    }
+    // Cerrar el menú al hacer clic fuera de él
+    window.addEventListener('click', function(event) {
+    const serviciosMenu = document.getElementById('servicios-menu-dropdown');
+    if (serviciosMenu && !document.getElementById('servicios-button').contains(event.target) && !serviciosMenu.contains(event.target)) {
+        serviciosMenu.style.display = 'none';
+    }
+    });
+
+
   // JavaScript to toggle hidden links visibility
   document.addEventListener('DOMContentLoaded', function() {
     const toggleButton = document.querySelector('.greedy-nav__toggle');
@@ -221,11 +330,11 @@
     });
 
     // Add event listeners for dropdown menus
-    const dropdownToggles = document.querySelectorAll('.dropdown-toggle');
+    const dropdownItems = document.querySelectorAll('.masthead__menu-item.dropdown');
     
-    dropdownToggles.forEach(toggle => {
-        toggle.addEventListener('click', function(event) {
-            const dropdownMenu = toggle.nextElementSibling;
+    dropdownItems.forEach(item => {
+        item.addEventListener('click', function(event) {
+            const dropdownMenu = item.querySelector('.dropdown-menu');
             if (dropdownMenu) {
                 dropdownMenu.classList.toggle('show');
             }
@@ -235,8 +344,8 @@
 
     // Close dropdowns when clicking outside
     document.addEventListener('click', function(event) {
-        dropdownToggles.forEach(toggle => {
-            const dropdownMenu = toggle.nextElementSibling;
+        dropdownItems.forEach(item => {
+            const dropdownMenu = item.querySelector('.dropdown-menu');
             if (dropdownMenu) {
                 dropdownMenu.classList.remove('show');
             }
