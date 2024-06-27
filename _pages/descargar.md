@@ -4,19 +4,7 @@ permalink: /descargar/
 layout: splash
 ---
 
-<h2 style="text-align: center; margin-top: 4em;">Descarga los softwares de japonformacion para 
-  <div class="dropdown" style="display: inline-block;">
-    <button class="dropbtn" id="dropdownButton">
-      <span id="osText">Windows</span>
-      <img src="/assets/images/angulo-hacia-abajo.png" width="20" height="20" style="vertical-align: middle; margin-left: 20px;">
-    </button>
-    <div class="dropdown-content">
-      <a href="#" onclick="selectOS('Windows')">Windows</a>
-      <a href="#" onclick="selectOS('Linux')">Linux</a>
-      <a href="#" onclick="selectOS('Mac')">Mac</a>
-    </div>
-  </div>
-</h2>
+<h2 style="text-align: center; margin-top: 4em;">Descarga los softwares de japonformacion para</h2>
 
 <style>
 img {
@@ -194,21 +182,21 @@ img {
     <h2>App camareros/clientes</h2>
     <p>Esta App móvil sirve para que los camareros supervisen las comandas, y puedan comunicarse con cocineros y clientes</p>
     <button class="plan-button" onclick="location.href='/payment_form/?plan=Gratis'">Ir a Playstore</button>
-    <img src="/assets/images/unsplash-gallery-image-1.jpg" alt="">
+    <img src="/assets/images/profesorPablo.jpg" alt="">
   </div>
 
   <div class="plan">
     <h2>Software para cocinas</h2>
     <p>Este es el software que debes instalar en una pantalla de la cocina para que tus cocineros vean las comandas</p>
     <button class="plan-button" onclick="location.href='/payment_form/?plan=Pro'">Descargar</button>
-    <img src="/assets/images/unsplash-gallery-image-2.jpg" alt="">
+    <img src="/assets/images/profesorGoyo.jpg" alt="">
   </div>
 
   <div class="plan">
     <h2>Software para responsable</h2>
     <p>Este es el software que instalará el responsable designado, con el que podrá personalizar la app, crear y editar el menú y consultar las estadísticas y datos</p>
     <button class="plan-button" onclick="location.href='/payment_form/?plan=Premium'">Descargar</button>
-    <img src="/assets/images/unsplash-gallery-image-3.jpg" alt="">
+    <img src="/assets/images/profesorPepe.jpg" alt="">
   </div>
 </div>
 
