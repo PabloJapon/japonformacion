@@ -12,14 +12,16 @@
                 {% endunless %}
                 <ul class="visible-links">
                     {%- for link in site.data.navigation.main -%}
-                        <li class="masthead__menu-item {% if link.submenu %}dropdown{% endif %}">
-                            <a href="{{ link.url | relative_url }}"{% if link.description %} title="{{ link.description }}"{% endif %}>{{ link.title }}</a>
-                            {% if link.submenu %}
+                        <li class="masthead__menu-item {% if link.title == 'Servicios' %}dropdown{% endif %}">
+                            {% if link.title == 'Servicios' %}
+                                <button class="dropdown-toggle">{{ link.title }}</button>
                                 <ul class="dropdown-menu">
-                                    {%- for sublink in link.submenu -%}
-                                        <li><a href="{{ sublink.url | relative_url }}">{{ sublink.title }}</a></li>
-                                    {%- endfor -%}
+                                    <li><a href="/servicio1/">Servicio 1</a></li>
+                                    <li><a href="/servicio2/">Servicio 2</a></li>
+                                    <li><a href="/servicio3/">Servicio 3</a></li>
                                 </ul>
+                            {% else %}
+                                <a href="{{ link.url | relative_url }}"{% if link.description %} title="{{ link.description }}"{% endif %}>{{ link.title }}</a>
                             {% endif %}
                         </li>
                     {%- endfor -%}
@@ -40,14 +42,16 @@
                 </button>
                 <ul class="hidden-links hidden">
                     {%- for link in site.data.navigation.main -%}
-                        <li class="masthead__menu-item {% if link.submenu %}dropdown{% endif %}">
-                            <a href="{{ link.url | relative_url }}"{% if link.description %} title="{{ link.description }}"{% endif %}>{{ link.title }}</a>
-                            {% if link.submenu %}
+                        <li class="masthead__menu-item {% if link.title == 'Servicios' %}dropdown{% endif %}">
+                            {% if link.title == 'Servicios' %}
+                                <button class="dropdown-toggle">{{ link.title }}</button>
                                 <ul class="dropdown-menu">
-                                    {%- for sublink in link.submenu -%}
-                                        <li><a href="{{ sublink.url | relative_url }}">{{ sublink.title }}</a></li>
-                                    {%- endfor -%}
+                                    <li><a href="/servicio1/">Servicio 1</a></li>
+                                    <li><a href="/servicio2/">Servicio 2</a></li>
+                                    <li><a href="/servicio3/">Servicio 3</a></li>
                                 </ul>
+                            {% else %}
+                                <a href="{{ link.url | relative_url }}"{% if link.description %} title="{{ link.description }}"{% endif %}>{{ link.title }}</a>
                             {% endif %}
                         </li>
                     {%- endfor -%}
@@ -118,14 +122,19 @@
       padding: 0;
   }
   
-  #site-nav .visible-links .masthead__menu-item a {
+  #site-nav .visible-links .masthead__menu-item a,
+  #site-nav .visible-links .masthead__menu-item button {
       text-decoration: none;
       color: #333; /* Adjust link color */
       font-size: 16px; /* Adjust font size */
       transition: color 0.3s; /* Smooth transition for color change */
+      background: none; /* Remove button background */
+      border: none; /* Remove button border */
+      cursor: pointer; /* Pointer cursor for button */
   }
   
-  #site-nav .visible-links .masthead__menu-item a:hover {
+  #site-nav .visible-links .masthead__menu-item a:hover,
+  #site-nav .visible-links .masthead__menu-item button:hover {
       color: #666; /* Change color on hover */
   }
   
@@ -143,6 +152,9 @@
       border: 1px solid #ccc;
       box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
       z-index: 1000;
+      list-style: none;
+      padding: 0;
+      margin: 0;
   }
   
   .masthead__menu-item.dropdown:hover .dropdown-menu {
@@ -209,11 +221,11 @@
     });
 
     // Add event listeners for dropdown menus
-    const dropdownItems = document.querySelectorAll('.masthead__menu-item.dropdown');
+    const dropdownToggles = document.querySelectorAll('.dropdown-toggle');
     
-    dropdownItems.forEach(item => {
-        item.addEventListener('click', function(event) {
-            const dropdownMenu = item.querySelector('.dropdown-menu');
+    dropdownToggles.forEach(toggle => {
+        toggle.addEventListener('click', function(event) {
+            const dropdownMenu = toggle.nextElementSibling;
             if (dropdownMenu) {
                 dropdownMenu.classList.toggle('show');
             }
@@ -223,8 +235,8 @@
 
     // Close dropdowns when clicking outside
     document.addEventListener('click', function(event) {
-        dropdownItems.forEach(item => {
-            const dropdownMenu = item.querySelector('.dropdown-menu');
+        dropdownToggles.forEach(toggle => {
+            const dropdownMenu = toggle.nextElementSibling;
             if (dropdownMenu) {
                 dropdownMenu.classList.remove('show');
             }
