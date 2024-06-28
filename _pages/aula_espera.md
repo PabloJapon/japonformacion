@@ -50,6 +50,7 @@ layout: splash
         <td style="width: 200px;text-align: center;">
           <ul style="list-style-type: disc; padding-left: 40px; margin: 0; text-align: left;">
             <li><a href="https://japonformacion.netlify.app/contacto/">Más información</a></li>
+            <a href="/assets/documents/Nota_informativa_Aula_de_Espera_Ceip_El_Puntal_2023-24.pdf">Más información</a>
             <li><a href="https://app.grupojapon.es/index.php/registro">Inscríbete</a></li>
           </ul>
         </td>
@@ -74,6 +75,60 @@ layout: splash
       </tr>
       <tr>
         <td style="width: 200px;text-align: center;">CEIP Prácticas</td>
+        <td style="width: 200px;text-align: center;">Infantil y Primaria</td>
+        <td style="width: 200px;text-align: center;">De lunes a viernes de 14:00 a 15:30 h</td>
+        <td style="width: 200px;text-align: center;">
+          <ul style="list-style-type: disc; padding-left: 40px; margin: 0; text-align: left;">
+            <li>30 €/mes*</li>
+            <li>3 € - días sueltos</li>
+          </ul>
+        </td>
+        <td style="width: 200px;text-align: center;">11/09/2024</td>
+        <td style="width: 200px;text-align: center;">
+          <ul style="list-style-type: disc; padding-left: 40px; margin: 0; text-align: left;">
+            <li><a href="https://japonformacion.netlify.app/contacto/">Más información</a></li>
+            <li><a href="https://app.grupojapon.es/index.php/registro">Inscríbete</a></li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <td style="width: 200px;text-align: center;">CEIP Pura Domínguez</td>
+        <td style="width: 200px;text-align: center;">Infantil y Primaria</td>
+        <td style="width: 200px;text-align: center;">De lunes a viernes de 14:00 a 15:30 h</td>
+        <td style="width: 200px;text-align: center;">
+          <ul style="list-style-type: disc; padding-left: 40px; margin: 0; text-align: left;">
+            <li>30 €/mes*</li>
+            <li>3 € - días sueltos</li>
+          </ul>
+        </td>
+        <td style="width: 200px;text-align: center;">11/09/2024</td>
+        <td style="width: 200px;text-align: center;">
+          <ul style="list-style-type: disc; padding-left: 40px; margin: 0; text-align: left;">
+            <li><a href="https://japonformacion.netlify.app/contacto/">Más información</a></li>
+            <li><a href="https://app.grupojapon.es/index.php/registro">Inscríbete</a></li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <td style="width: 200px;text-align: center;">CEIP Antonio Guerrero</td>
+        <td style="width: 200px;text-align: center;">Infantil y Primaria</td>
+        <td style="width: 200px;text-align: center;">De lunes a viernes de 14:00 a 15:30 h</td>
+        <td style="width: 200px;text-align: center;">
+          <ul style="list-style-type: disc; padding-left: 40px; margin: 0; text-align: left;">
+            <li>30 €/mes*</li>
+            <li>3 € - días sueltos</li>
+          </ul>
+        </td>
+        <td style="width: 200px;text-align: center;">11/09/2024</td>
+        <td style="width: 200px;text-align: center;">
+          <ul style="list-style-type: disc; padding-left: 40px; margin: 0; text-align: left;">
+            <li><a href="https://japonformacion.netlify.app/contacto/">Más información</a></li>
+            <li><a href="https://app.grupojapon.es/index.php/registro">Inscríbete</a></li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <td style="width: 200px;text-align: center;">CEIP Doce de Octubre</td>
         <td style="width: 200px;text-align: center;">Infantil y Primaria</td>
         <td style="width: 200px;text-align: center;">De lunes a viernes de 14:00 a 15:30 h</td>
         <td style="width: 200px;text-align: center;">
