@@ -69,7 +69,7 @@ img {
     <label for="message">Mensaje:</label><br />
     <textarea id="message" name="message" rows="5" required></textarea>
   </p>
-  <p>
-    <button style="text-align: center" type="submit">Enviar</button>
+  <p style="text-align: center;">
+    <button type="submit">Enviar</button>
   </p>
 </form>
