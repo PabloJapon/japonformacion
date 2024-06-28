@@ -70,6 +70,6 @@ img {
     <textarea id="message" name="message" rows="5" required></textarea>
   </p>
   <p>
-    <button type="submit">Enviar</button>
+    <button style="text-align: center" type="submit">Enviar</button>
   </p>
 </form>
