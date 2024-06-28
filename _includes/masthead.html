@@ -25,7 +25,6 @@
                     {%- endfor -%}
                 </ul>
 
-                
                 <!-- Botón Servicios -->
                 <div class="servicios-menu">
                     <button class="btn btn--secondary" id="servicios-button" onclick="toggleserviciosMenu()" style="color: rgb(57, 62, 70);background-color: rgb(255, 255, 255);outline: none;">
@@ -307,14 +306,15 @@
     }
     });
 
-
   // JavaScript to toggle hidden links visibility
   document.addEventListener('DOMContentLoaded', function() {
     const toggleButton = document.querySelector('.greedy-nav__toggle');
     const hiddenLinks = document.querySelector('.hidden-links');
+    const serviciosButton = document.querySelector('.servicios-menu');
     
     toggleButton.addEventListener('click', function() {
         hiddenLinks.classList.toggle('show');
+        serviciosButton.classList.toggle('show'); // Toggle Servicios button visibility
     });
 
     // Add event listeners for dropdown menus
