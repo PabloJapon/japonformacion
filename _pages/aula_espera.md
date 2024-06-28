@@ -8,14 +8,15 @@ layout: splash
 
 
 <div style="font-size: 17px;">
-  <p>JAPONEDUCA es una empresa del GRUPO JAPÓN que se dedica al desarrollo de servicios educativos, ocio y tiempo libre.</p>
+  <p>JAPONEDUCA forma parte del GRUPO JAPÓN y se dedica a ofrecer servicios educativos, ocio y tiempo libre.</p>
   
-  <p>El programa educativo de JAPONEDUCA tiene como objetivo satisfacer y atender a las nuevas demandas sociales, adaptarse a los nuevos horarios familiares y a otras iniciativas de apoyo a la familia para poder servir de puente entre el horario laboral y escolar. Este servicio (puesto en marcha conforme al Plan de Apertura de Centros), también responde a un nuevo modelo organizativo de los centros en el que se refuerza su autonomía.</p>
+  <p>Nuestro programa educativo se adapta a los horarios familiares y fortalece la autonomía de los centros escolares bajo el Plan de Apertura de Centros.</p>
   
-  <p>Organizamos y desarrollamos actividades complementarias y/o extraescolares para centros docentes, atendiendo los programas educativos de la Junta de Andalucía, como son el Plan de Apoyo a las familias Andaluzas (servicios de aula matinal, comedor y actividades extraescolares), el Deporte en la Escuela, Apoyo Lingüístico, los Proyectos Lectores y Bibliotecas, PROA, etc.</p>
+  <p>Organizamos actividades como aula matinal, comedor, deporte escolar, apoyo lingüístico y proyectos lectores, siguiendo los programas educativos de la Junta de Andalucía.</p>
   
-  <p>Para ello contamos con un amplio equipo de profesionales dedicados a la planificación y puesta en marcha de una extensa oferta de actividades. Además, nuestra larga experiencia en el sector educativo nos permite adecuar nuestros programas según las necesidades de las alumnas/os y de los centros donde se ponen en práctica.</p>
+  <p>Contamos con un equipo profesional dedicado a diseñar y llevar a cabo actividades adaptadas a las necesidades de alumnos y centros educativos.</p>
 </div>
+
 
 
 <div style="text-align:center;">
@@ -49,8 +50,7 @@ layout: splash
         <td style="width: 200px;text-align: center;">11/09/2024</td>
         <td style="width: 200px;text-align: center;">
           <ul style="list-style-type: disc; padding-left: 40px; margin: 0; text-align: left;">
-            <li><a href="https://japonformacion.netlify.app/contacto/">Más información</a></li>
-            <a href="/assets/documents/Nota_informativa_Aula_de_Espera_Ceip_El_Puntal_2023-24.pdf">Más información</a>
+            <li><a href="/assets/documents/Nota_informativa_Aula_de_Espera_Ceip_El_Puntal_2023-24.pdf">Más información</a></li>
             <li><a href="https://app.grupojapon.es/index.php/registro">Inscríbete</a></li>
           </ul>
         </td>
@@ -68,7 +68,7 @@ layout: splash
         <td style="width: 200px;text-align: center;">11/09/2024</td>
         <td style="width: 200px;text-align: center;">
           <ul style="list-style-type: disc; padding-left: 40px; margin: 0; text-align: left;">
-            <li><a href="https://japonformacion.netlify.app/contacto/">Más información</a></li>
+            <li><a href="/assets/documents/Nota_informativa_Aula_de_Espera_Ceip_El_Puntal_2023-24.pdf">Más información</a></li>
             <li><a href="https://app.grupojapon.es/index.php/registro">Inscríbete</a></li>
           </ul>
         </td>
@@ -86,7 +86,7 @@ layout: splash
         <td style="width: 200px;text-align: center;">11/09/2024</td>
         <td style="width: 200px;text-align: center;">
           <ul style="list-style-type: disc; padding-left: 40px; margin: 0; text-align: left;">
-            <li><a href="https://japonformacion.netlify.app/contacto/">Más información</a></li>
+            <li><a href="/assets/documents/Nota_informativa_Aula_de_Espera_Ceip_El_Puntal_2023-24.pdf">Más información</a></li>
             <li><a href="https://app.grupojapon.es/index.php/registro">Inscríbete</a></li>
           </ul>
         </td>
@@ -104,7 +104,7 @@ layout: splash
         <td style="width: 200px;text-align: center;">11/09/2024</td>
         <td style="width: 200px;text-align: center;">
           <ul style="list-style-type: disc; padding-left: 40px; margin: 0; text-align: left;">
-            <li><a href="https://japonformacion.netlify.app/contacto/">Más información</a></li>
+            <li><a href="/assets/documents/Nota_informativa_Aula_de_Espera_Ceip_El_Puntal_2023-24.pdf">Más información</a></li>
             <li><a href="https://app.grupojapon.es/index.php/registro">Inscríbete</a></li>
           </ul>
         </td>
@@ -122,7 +122,7 @@ layout: splash
         <td style="width: 200px;text-align: center;">11/09/2024</td>
         <td style="width: 200px;text-align: center;">
           <ul style="list-style-type: disc; padding-left: 40px; margin: 0; text-align: left;">
-            <li><a href="https://japonformacion.netlify.app/contacto/">Más información</a></li>
+            <li><a href="/assets/documents/Nota_informativa_Aula_de_Espera_Ceip_El_Puntal_2023-24.pdf">Más información</a></li>
             <li><a href="https://app.grupojapon.es/index.php/registro">Inscríbete</a></li>
           </ul>
         </td>
@@ -140,7 +140,7 @@ layout: splash
         <td style="width: 200px;text-align: center;">11/09/2024</td>
         <td style="width: 200px;text-align: center;">
           <ul style="list-style-type: disc; padding-left: 40px; margin: 0; text-align: left;">
-            <li><a href="https://japonformacion.netlify.app/contacto/">Más información</a></li>
+            <li><a href="/assets/documents/Nota_informativa_Aula_de_Espera_Ceip_El_Puntal_2023-24.pdf">Más información</a></li>
             <li><a href="https://app.grupojapon.es/index.php/registro">Inscríbete</a></li>
           </ul>
         </td>

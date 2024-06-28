@@ -8,12 +8,13 @@ layout: splash
 
 
 <div style="font-size: 17px;">
-  <p>JAPONSPORT, C.D., primera empresa de GRUPO JAPÓN, se crea en el año 1994, dando cobertura a las diferentes necesidades de los centros escolares para la puesta en marcha de las actividades extraescolares. El crecimiento del volumen de trabajo de la empresa hizo que recientemente JAPONSPORT, C.D. se ocupara en exclusiva de la creación de escuelas deportivas, promoción de actividades y ampliación de sus servicios deportivos en Huelva capital y provincia.</p>
+  <p>JAPONSPORT, C.D., se estableció en 1994 como parte de GRUPO JAPÓN para atender las necesidades de actividades extraescolares en los centros escolares. Con el tiempo, se ha especializado en la creación de escuelas deportivas, la promoción de actividades y la expansión de servicios deportivos en Huelva y su provincia.</p>
   
-  <p>Nos preocupamos de la obtención de hábitos saludables, mediante una gran variedad de actividades deportivas para el disfrute del ocio y del tiempo libre, que conducen a una mejora en la calidad de vida. Para todo ello disponemos de personal con perfil específico y la más alta cualificación, consiguiendo que dichas actividades y los beneficios que supone su práctica, sean los acompañantes habituales en la vida cotidiana de nuestros alumnos.</p>
+  <p>Nuestro objetivo es fomentar hábitos saludables a través de una variedad de actividades deportivas que promuevan el ocio y el tiempo libre, mejorando así la calidad de vida. Contamos con personal altamente cualificado para integrar estas actividades y sus beneficios en la vida diaria de nuestros alumnos.</p>
   
-  <p>El actual Japonsport , es el sucesor de la primera escuela de judo en Huelva el Club "Juji-Japón" del maestro José González Japón 6º Dan (Cinturón Rojo-Blanco de Judo). Tenemos tres niveles de judo, según edad y cinturón. Bienvenidos a esta familia!!!!</p>
+  <p>Japonsport es la evolución del Club "Juji-Japón", la primera escuela de judo en Huelva fundada por el maestro José González Japón, 6º Dan de Judo. Ofrecemos tres niveles de judo adaptados según la edad y el nivel de cinturón. ¡Bienvenidos a nuestra familia!</p>
 </div>
+
 
 
 <div style="text-align:center;">
@@ -42,7 +43,7 @@ layout: splash
         <td style="width: 200px;text-align: center;"> 25 €/mes* </td>
         <td style="width: 200px;text-align: center;">
           <ul style="list-style-type: disc; padding-left: 40px; margin: 0; text-align: left;">
-            <li><a href="https://japonformacion.netlify.app/contacto/">Forma de pago</a></li>
+            <li><a href="/assets/documents/Nota_informativa_Aula_de_Espera_Ceip_El_Puntal_2023-24.pdf">Forma de pago</a></li>
             <li><a href="https://app.grupojapon.es/index.php/registro">Inscríbete</a></li>
           </ul>
         </td>
@@ -55,7 +56,7 @@ layout: splash
         <td style="width: 200px;text-align: center;"> 30 €/mes* </td>
         <td style="width: 200px;text-align: center;">
           <ul style="list-style-type: disc; padding-left: 40px; margin: 0; text-align: left;">
-            <li><a href="https://japonformacion.netlify.app/contacto/">Forma de pago</a></li>
+            <li><a href="/assets/documents/Nota_informativa_Aula_de_Espera_Ceip_El_Puntal_2023-24.pdf">Forma de pago</a></li>
             <li><a href="https://app.grupojapon.es/index.php/registro">Inscríbete</a></li>
           </ul>
         </td>
@@ -68,7 +69,7 @@ layout: splash
         <td style="width: 200px;text-align: center;"> 25 €/mes* </td>
         <td style="width: 200px;text-align: center;">
           <ul style="list-style-type: disc; padding-left: 40px; margin: 0; text-align: left;">
-            <li><a href="https://japonformacion.netlify.app/contacto/">Forma de pago</a></li>
+            <li><a href="/assets/documents/Nota_informativa_Aula_de_Espera_Ceip_El_Puntal_2023-24.pdf">Forma de pago</a></li>
             <li><a href="https://app.grupojapon.es/index.php/registro">Inscríbete</a></li>
           </ul>
         </td>
@@ -81,7 +82,7 @@ layout: splash
         <td style="width: 200px;text-align: center;"> 30 €/mes* </td>
         <td style="width: 200px;text-align: center;">
           <ul style="list-style-type: disc; padding-left: 40px; margin: 0; text-align: left;">
-            <li><a href="https://japonformacion.netlify.app/contacto/">Forma de pago</a></li>
+            <li><a href="/assets/documents/Nota_informativa_Aula_de_Espera_Ceip_El_Puntal_2023-24.pdf">Forma de pago</a></li>
             <li><a href="https://app.grupojapon.es/index.php/registro">Inscríbete</a></li>
           </ul>
         </td>

@@ -28,15 +28,15 @@
                 <!-- Botón Servicios -->
                 <div class="servicios-menu">
                     <button class="btn btn--secondary" id="servicios-button" onclick="toggleserviciosMenu()" style="color: rgb(57, 62, 70);background-color: rgb(255, 255, 255);outline: none;">
-                    <div class="servicios-button-content" style="display: flex;align-items: center;flex-direction: row;">
-                        <div style="display: flex;flex-direction: column;align-items: flex-start;">
-                        <span id="servicios-username-button" style="font-size: 16px;font-weight: normal;">Servicios</span>
+                        <div class="servicios-button-content" style="display: flex;align-items: center;flex-direction: row;">
+                            <div style="display: flex;flex-direction: column;align-items: flex-start;">
+                                <span id="servicios-username-button" style="font-size: 16px;font-weight: normal;">Servicios</span>
+                            </div>
                         </div>
-                    </div>
                     </button>
                     <div id="servicios-menu-dropdown" class="servicios-dropdown" style="display: none; width: 15em;">
-                    <a href="/aula_espera/">Aula de Espera</a>
-                    <a href="/judo/">Judo</a>
+                        <a href="/aula_espera/">Aula de Espera</a>
+                        <a href="/judo/">Judo</a>
                     </div>
                 </div>
     
@@ -292,52 +292,57 @@
 <script>
     // Servicios
     function toggleserviciosMenu() {
-    const serviciosMenu = document.getElementById('servicios-menu-dropdown');
+        const serviciosMenu = document.getElementById('servicios-menu-dropdown');
+        console.log('Toggling serviciosMenu...');
         if (serviciosMenu) {
-        const isDisplayed = serviciosMenu.style.display === 'block';
-        serviciosMenu.style.display = isDisplayed ? 'none' : 'block';
+            const isDisplayed = serviciosMenu.style.display === 'block';
+            console.log('Current display state:', isDisplayed ? 'block' : 'none');
+            serviciosMenu.style.display = isDisplayed ? 'none' : 'block';
         }
     }
+
     // Cerrar el menú al hacer clic fuera de él
     window.addEventListener('click', function(event) {
-    const serviciosMenu = document.getElementById('servicios-menu-dropdown');
-    if (serviciosMenu && !document.getElementById('servicios-button').contains(event.target) && !serviciosMenu.contains(event.target)) {
-        serviciosMenu.style.display = 'none';
-    }
+        console.log('Window clicked...');
+        const serviciosMenu = document.getElementById('servicios-menu-dropdown');
+        if (serviciosMenu && !document.getElementById('servicios-button').contains(event.target) && !serviciosMenu.contains(event.target)) {
+            console.log('Closing serviciosMenu...');
+            serviciosMenu.style.display = 'none';
+        }
     });
 
-  // JavaScript to toggle hidden links visibility
-  document.addEventListener('DOMContentLoaded', function() {
-    const toggleButton = document.querySelector('.greedy-nav__toggle');
-    const hiddenLinks = document.querySelector('.hidden-links');
-    const serviciosButton = document.querySelector('.servicios-menu');
-    
-    toggleButton.addEventListener('click', function() {
-        hiddenLinks.classList.toggle('show');
-        serviciosButton.classList.toggle('show'); // Toggle Servicios button visibility
-    });
-
-    // Add event listeners for dropdown menus
-    const dropdownItems = document.querySelectorAll('.masthead__menu-item.dropdown');
-    
-    dropdownItems.forEach(item => {
-        item.addEventListener('click', function(event) {
-            const dropdownMenu = item.querySelector('.dropdown-menu');
-            if (dropdownMenu) {
-                dropdownMenu.classList.toggle('show');
-            }
-            event.stopPropagation();
+    // JavaScript to toggle hidden links visibility
+    document.addEventListener('DOMContentLoaded', function() {
+        const toggleButton = document.querySelector('.greedy-nav__toggle');
+        const hiddenLinks = document.querySelector('.hidden-links');
+        const serviciosButton = document.querySelector('.servicios-menu');
+        
+        toggleButton.addEventListener('click', function() {
+            hiddenLinks.classList.toggle('show');
+            serviciosButton.classList.toggle('show'); // Toggle Servicios button visibility
         });
-    });
 
-    // Close dropdowns when clicking outside
-    document.addEventListener('click', function(event) {
+        // Add event listeners for dropdown menus
+        const dropdownItems = document.querySelectorAll('.masthead__menu-item.dropdown');
+        
         dropdownItems.forEach(item => {
-            const dropdownMenu = item.querySelector('.dropdown-menu');
-            if (dropdownMenu) {
-                dropdownMenu.classList.remove('show');
-            }
+            item.addEventListener('click', function(event) {
+                const dropdownMenu = item.querySelector('.dropdown-menu');
+                if (dropdownMenu) {
+                    dropdownMenu.classList.toggle('show');
+                }
+                event.stopPropagation();
+            });
+        });
+
+        // Close dropdowns when clicking outside
+        document.addEventListener('click', function(event) {
+            dropdownItems.forEach(item => {
+                const dropdownMenu = item.querySelector('.dropdown-menu');
+                if (dropdownMenu) {
+                    dropdownMenu.classList.remove('show');
+                }
+            });
         });
     });
-  });
 </script>

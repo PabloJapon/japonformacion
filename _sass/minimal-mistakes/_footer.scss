@@ -2,7 +2,6 @@
 
 .page__footer {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
   padding: 2em 0;
   color: $muted-text-color;
@@ -25,6 +24,9 @@
       font-family: $global-font-family;
       font-size: $type-size-7;
       margin-top: 1em;
+    }
+    .page__footer-copyright {
+      border-left: 1px solid;
     }
 
     .footer-heading {
@@ -98,6 +100,7 @@
     .footer-section {
       &.page__footer-social {
         order: -1; /* Move social icons to the top */
+        border-left: none;
       }
 
       &.page__footer-copyright {
@@ -109,6 +112,7 @@
   @media (max-width: 576px) {
     .page__footer {
       padding: 1em;
+      flex-direction: column;
     }
 
     .footer-section {
