@@ -33,6 +33,7 @@ layout: default
     grid-row: 1 / 2; /* First row */
     grid-column: 2 / 3; /* Second column */
     font-size: 48px;
+    font-weight: 500;
     color: white;
     z-index: 10; /* Ensure above background image */
   }
@@ -52,7 +53,7 @@ layout: default
     align-self: start; /* Align to the start */
     color: white;
     z-index: 10; /* Ensure above background image */
-    max-width: 520px;
+    max-width: 504px;
   }
 
   .bottom-right p {
