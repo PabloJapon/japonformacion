@@ -32,9 +32,7 @@ layout: default
   .top-right {
     grid-row: 1 / 2; /* First row */
     grid-column: 2 / 3; /* Second column */
-    align-self: start; /* Align to the top */
-    justify-self: start; /* Align to the start */
-    font-size: 1.5em;
+    font-size: 48px;
     color: white;
     z-index: 10; /* Ensure above background image */
   }
