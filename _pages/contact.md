@@ -4,58 +4,11 @@ permalink: /contacto/
 layout: splash
 ---
 
-<style>
-img {
-  float: right;
-  margin-left: 10px;
-  margin-bottom: 10px;
-  margin-top: 10px;
-}
-form {
-  max-width: 600px;
-  margin: 2em auto;
-  padding: 1em;
-  background: #f9f9f9;
-  border-radius: 5px;
-}
-form p {
-  margin-bottom: 1em;
-}
-label {
-  margin-bottom: .5em;
-  color: #333333;
-  display: block;
-}
-input, textarea {
-  border: 1px solid #CCCCCC;
-  padding: .5em;
-  font-size: 1em;
-  width: 100%;
-  box-sizing: border-box;
-  border-radius: 4px;
-}
-button {
-  background-color: #e31c24;
-  color: white;
-  border: none;
-  padding: 15px 100px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 20px;
-  border-radius: 5px;
-  cursor: pointer;
-}
-button:hover {
-  background-color: #9b1b20;
-}
-</style>
-
 <div style="text-align:center; margin-top:7em">
   ¿Dudas? No te las guardes, pregúntanos.
 </div>
 
-<form name="contact" action="/_pages/success.html" method="POST" data-netlify="true">
+<form name="contact" action="/_pages/success.html" method="POST" data-netlify="true" class="contact-form">
   <input type="hidden" name="subject" id="subject" value="Mensaje de (nombre)" />
   
   <p>
@@ -82,7 +35,6 @@ button:hover {
     <button type="submit">Enviar</button>
   </p>
 </form>
-
 
 <script>
   document.querySelector('form').addEventListener('submit', function(event) {
