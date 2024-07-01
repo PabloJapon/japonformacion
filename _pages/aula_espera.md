@@ -79,8 +79,6 @@ layout: default
 
 
 
-
-
 <div style="text-align:center;">
   <button class="plan-button" onclick="location.href='https://app.grupojapon.es/index.php/registro'">Inscríbete</button>
 </div>
