@@ -223,6 +223,8 @@ excerpt: "Clases presenciales y en horario de mañanas"
   line-height: 40px;
   outline: none;
   border-top: 1px solid #ccc;
+  background-color: transparent;
+  color: black;
 }
 
 .butImagen {
