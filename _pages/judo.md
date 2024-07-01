@@ -23,7 +23,7 @@ layout: splash
 
 
 <div class="table-container">
-  <table>
+<table>
   <thead>
     <tr>
       <th style="width: 200px;text-align: center;"><h2>Colegio</h2></th>
@@ -36,7 +36,7 @@ layout: splash
   </thead>
   <tbody>
     <tr>
-      <td style="width: 200px;text-align: center;">CEIP El Puntal</td>
+      <td style="width: 200px;text-align: center; vertical-align: middle;" rowspan="2">CEIP El Puntal</td>
       <td style="width: 200px;text-align: center;">Judo 1</td>
       <td style="width: 200px;text-align: center;">De 4 a 8 años</td>
       <td style="width: 200px;text-align: center;">Martes y jueves de 18:00 a 19:00 h</td>
@@ -49,7 +49,6 @@ layout: splash
       </td>
     </tr>
     <tr>
-      <td style="width: 200px;text-align: center;">CEIP El Puntal</td>
       <td style="width: 200px;text-align: center;">Judo 2</td>
       <td style="width: 200px;text-align: center;">De 11 a 15 años</td>
       <td style="width: 200px;text-align: center;">Martes y jueves de 19:00 a 20:00 h</td>
@@ -62,7 +61,7 @@ layout: splash
       </td>
     </tr>
     <tr>
-      <td style="width: 200px;text-align: center;">CEIP José Oliva</td>
+      <td style="width: 200px;text-align: center; vertical-align: middle;" rowspan="2">CEIP José Oliva</td>
       <td style="width: 200px;text-align: center;">Judo 1</td>
       <td style="width: 200px;text-align: center;">De 4 a 8 años</td>
       <td style="width: 200px;text-align: center;">Lunes y miércoles de 18:00 a 19:00 h</td>
@@ -75,7 +74,6 @@ layout: splash
       </td>
     </tr>
     <tr>
-      <td style="width: 200px;text-align: center;">CEIP José Oliva</td>
       <td style="width: 200px;text-align: center;">Judo 2</td>
       <td style="width: 200px;text-align: center;">De 9 a 15 años</td>
       <td style="width: 200px;text-align: center;">Lunes y miércoles de 19:00 a 20:00 h</td>
@@ -89,6 +87,7 @@ layout: splash
     </tr>
   </tbody>
 </table>
+
 
 </div>
 

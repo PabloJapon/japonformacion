@@ -8,8 +8,11 @@ layout: splash
   .splash-container {
     position: relative;
     text-align: center;
-    max-width: 100%;
+    width: 100%; /* Ensure full width */
+    max-width: none; /* Remove max-width limit */
     overflow: hidden;
+    margin: 0; /* Remove any default margins */
+    padding: 0; /* Remove any default padding */
   }
 
   .splash-image {
@@ -64,6 +67,7 @@ layout: splash
     </div>
   </div>
 </div>
+
 
 
 
