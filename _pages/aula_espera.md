@@ -18,6 +18,7 @@ layout: default
     grid-template-rows: auto auto; /* 2 rows: auto for title, auto for text */
     grid-column-gap: 20px; /* Adjust spacing between columns */
     grid-row-gap: 20px; /* Adjust spacing between rows */
+    align-items: end;
   }
 
   .splash-image {
@@ -33,16 +34,14 @@ layout: default
     align-self: start; /* Align to the top */
     justify-self: start; /* Align to the start */
     font-size: 1.5em;
-    background-color: rgba(255, 255, 255, 0.8);
-    padding: 5px 10px;
-    border-radius: 5px;
+    color: white;
     z-index: 10; /* Ensure above background image */
   }
 
   .left-image {
     grid-row: 1 / 3; /* Both rows */
     grid-column: 1 / 2; /* First column */
-    width: 100%;
+    width: 35%;
     z-index: 10; /* Ensure above background image */
   }
 
