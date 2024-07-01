@@ -31,6 +31,7 @@ layout: splash
       <th style="width: 200px;text-align: center;"><h2>Edad</h2></th>
       <th style="width: 200px;text-align: center;"><h2>Horario</h2></th>
       <th style="width: 200px;text-align: center;"><h2>Cuota</h2></th>
+      <th style="width: 200px;text-align: center;"><h2>Fecha de inicio</h2></th>
       <th style="width: 200px;text-align: center;"><h2>Enlaces</h2></th>
     </tr>
   </thead>
@@ -41,6 +42,7 @@ layout: splash
       <td style="width: 200px;text-align: center;">De 4 a 8 años</td>
       <td style="width: 200px;text-align: center;">Martes y jueves de 18:00 a 19:00 h</td>
       <td style="width: 200px;text-align: center;"> 25 €/mes* </td>
+        <td style="width: 200px;text-align: center;">11/09/2024</td>
       <td style="width: 200px;text-align: center;">
         <ul style="list-style-type: disc; padding-left: 40px; margin: 0; text-align: left;">
           <li><a href="/assets/documents/Nota_informativa_Aula_de_Espera_Ceip_El_Puntal_2023-24.pdf">Forma de pago</a></li>
@@ -53,6 +55,7 @@ layout: splash
       <td style="width: 200px;text-align: center;">De 11 a 15 años</td>
       <td style="width: 200px;text-align: center;">Martes y jueves de 19:00 a 20:00 h</td>
       <td style="width: 200px;text-align: center;"> 30 €/mes* </td>
+        <td style="width: 200px;text-align: center;">11/09/2024</td>
       <td style="width: 200px;text-align: center;">
         <ul style="list-style-type: disc; padding-left: 40px; margin: 0; text-align: left;">
           <li><a href="/assets/documents/Nota_informativa_Aula_de_Espera_Ceip_El_Puntal_2023-24.pdf">Forma de pago</a></li>
@@ -66,6 +69,7 @@ layout: splash
       <td style="width: 200px;text-align: center;">De 4 a 8 años</td>
       <td style="width: 200px;text-align: center;">Lunes y miércoles de 18:00 a 19:00 h</td>
       <td style="width: 200px;text-align: center;"> 25 €/mes* </td>
+        <td style="width: 200px;text-align: center;">11/09/2024</td>
       <td style="width: 200px;text-align: center;">
         <ul style="list-style-type: disc; padding-left: 40px; margin: 0; text-align: left;">
           <li><a href="/assets/documents/Nota_informativa_Aula_de_Espera_Ceip_El_Puntal_2023-24.pdf">Forma de pago</a></li>
@@ -78,6 +82,7 @@ layout: splash
       <td style="width: 200px;text-align: center;">De 9 a 15 años</td>
       <td style="width: 200px;text-align: center;">Lunes y miércoles de 19:00 a 20:00 h</td>
       <td style="width: 200px;text-align: center;"> 30 €/mes* </td>
+        <td style="width: 200px;text-align: center;">11/09/2024</td>
       <td style="width: 200px;text-align: center;">
         <ul style="list-style-type: disc; padding-left: 40px; margin: 0; text-align: left;">
           <li><a href="/assets/documents/Nota_informativa_Aula_de_Espera_Ceip_El_Puntal_2023-24.pdf">Forma de pago</a></li>
