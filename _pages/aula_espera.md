@@ -14,9 +14,9 @@ layout: default
     padding: 0;
     margin-top: 5em;
     display: grid;
-    grid-template-columns: auto 1fr; /* 2 columns: auto for image width, 1fr for rest */
+    grid-template-columns: repeat(2,1fr); /* 2 columns: auto for image width, 1fr for rest */
     grid-template-rows: auto auto; /* 2 rows: auto for title, auto for text */
-    grid-column-gap: 20px; /* Adjust spacing between columns */
+    grid-column-gap: 120px; /* Adjust spacing between columns */
     grid-row-gap: 20px; /* Adjust spacing between rows */
     align-items: end;
   }
@@ -26,6 +26,7 @@ layout: default
     display: block;
     position: absolute;
     z-index: -1; /* Send the background image to the back */
+    margin: 0 0;
   }
 
   .top-right {
@@ -43,16 +44,17 @@ layout: default
     grid-column: 1 / 2; /* First column */
     width: 35%;
     z-index: 10; /* Ensure above background image */
+    margin-left: auto;
+    margin-bottom: 0;
   }
 
   .bottom-right {
     grid-row: 2 / 3; /* Second row */
     grid-column: 2 / 3; /* Second column */
     align-self: start; /* Align to the start */
-    justify-self: start; /* Align to the start */
-    max-width: 100%; /* Ensure text width does not exceed container */
     color: white;
     z-index: 10; /* Ensure above background image */
+    max-width: 520px;
   }
 
   .bottom-right p {
