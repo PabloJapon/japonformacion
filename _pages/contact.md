@@ -69,6 +69,11 @@ button:hover {
   </p>
   
   <p>
+    <label for="phone">Teléfono:</label><br />
+    <input type="tel" id="phone" name="phone" required />
+  </p>
+  
+  <p>
     <label for="message">Mensaje:</label><br />
     <textarea id="message" name="message" rows="5" required></textarea>
   </p>
@@ -78,10 +83,12 @@ button:hover {
   </p>
 </form>
 
+
 <script>
   document.querySelector('form').addEventListener('submit', function(event) {
     var name = document.getElementById('name').value;
+    var phone = document.getElementById('phone').value;
     var subjectField = document.getElementById('subject');
-    subjectField.value = `Mensaje de ${name}`;
+    subjectField.value = `Mensaje de ${name} - Teléfono: ${phone}`;
   });
 </script>

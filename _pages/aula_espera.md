@@ -4,18 +4,67 @@ permalink: /aula_espera/
 layout: splash
 ---
 
-<h3 style="text-align: center;margin-top: 6em;margin-botton: 2em"> Aula de Espera </h3>
+<style>
+  .splash-container {
+    position: relative;
+    text-align: center;
+    max-width: 100%;
+    overflow: hidden;
+  }
 
+  .splash-image {
+    width: 100%;
+    display: block;
+    margin-bottom: 1em;
+  }
 
-<div style="font-size: 17px;">
-  <p>JAPONEDUCA forma parte del GRUPO JAPÓN y se dedica a ofrecer servicios educativos, ocio y tiempo libre.</p>
-  
-  <p>Nuestro programa educativo se adapta a los horarios familiares y fortalece la autonomía de los centros escolares bajo el Plan de Apertura de Centros.</p>
-  
-  <p>Organizamos actividades como aula matinal, comedor, deporte escolar, apoyo lingüístico y proyectos lectores, siguiendo los programas educativos de la Junta de Andalucía.</p>
-  
-  <p>Contamos con un equipo profesional dedicado a diseñar y llevar a cabo actividades adaptadas a las necesidades de alumnos y centros educativos.</p>
+  .top-right {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 1.5em;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+
+  .left-image {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    max-width: 40%;
+  }
+
+  .bottom-right {
+    float: right;
+    max-width: 55%;
+  }
+</style>
+
+<div class="splash-container">
+  <!-- Full-width image at the top -->
+  <img src="/assets/images/unsplash-image-1.jpg" alt="Full Width Image" class="splash-image">
+
+  <!-- Text title at top right -->
+  <div class="top-right">Aula de Espera</div>
+
+  <!-- Left image upfront -->
+  <img src="/assets/images/profesorPepe.jpg" alt="Left Image" class="left-image">
+
+  <!-- Text content at bottom right -->
+  <div class="bottom-right">
+    <div style="font-size: 17px;">
+      <p>JAPONEDUCA forma parte del GRUPO JAPÓN y se dedica a ofrecer servicios educativos, ocio y tiempo libre.</p>
+      
+      <p>Nuestro programa educativo se adapta a los horarios familiares y fortalece la autonomía de los centros escolares bajo el Plan de Apertura de Centros.</p>
+      
+      <p>Organizamos actividades como aula matinal, comedor, deporte escolar, apoyo lingüístico y proyectos lectores, siguiendo los programas educativos de la Junta de Andalucía.</p>
+      
+      <p>Contamos con un equipo profesional dedicado a diseñar y llevar a cabo actividades adaptadas a las necesidades de alumnos y centros educativos.</p>
+    </div>
+  </div>
 </div>
+
 
 
 
@@ -29,7 +78,6 @@ layout: splash
     <thead>
       <tr>
         <th style="width: 200px;text-align: center;"><h2>Centro</h2></th>
-        <th style="width: 200px;text-align: center;"><h2>Edad</h2></th>
         <th style="width: 200px;text-align: center;"><h2>Horario</h2></th>
         <th style="width: 200px;text-align: center;"><h2>Cuota</h2></th>
         <th style="width: 200px;text-align: center;"><h2>Fecha de inicio</h2></th>
@@ -39,7 +87,6 @@ layout: splash
     <tbody>
       <tr>
         <td style="width: 200px;text-align: center;">CEIP El Puntal</td>
-        <td style="width: 200px;text-align: center;">Infantil y Primaria</td>
         <td style="width: 200px;text-align: center;">De lunes a viernes de 14:00 a 15:30 h</td>
         <td style="width: 200px;text-align: center;">
           <ul style="list-style-type: disc; padding-left: 40px; margin: 0; text-align: left;">
@@ -57,7 +104,6 @@ layout: splash
       </tr>
       <tr>
         <td style="width: 200px;text-align: center;">CEIP Tierno Galván</td>
-        <td style="width: 200px;text-align: center;">Infantil y Primaria</td>
         <td style="width: 200px;text-align: center;">De lunes a viernes de 14:00 a 15:00 h</td>
         <td style="width: 200px;text-align: center;">
           <ul style="list-style-type: disc; padding-left: 40px; margin: 0; text-align: left;">
@@ -75,7 +121,6 @@ layout: splash
       </tr>
       <tr>
         <td style="width: 200px;text-align: center;">CEIP Prácticas</td>
-        <td style="width: 200px;text-align: center;">Infantil y Primaria</td>
         <td style="width: 200px;text-align: center;">De lunes a viernes de 14:00 a 15:30 h</td>
         <td style="width: 200px;text-align: center;">
           <ul style="list-style-type: disc; padding-left: 40px; margin: 0; text-align: left;">
@@ -93,7 +138,6 @@ layout: splash
       </tr>
       <tr>
         <td style="width: 200px;text-align: center;">CEIP Pura Domínguez</td>
-        <td style="width: 200px;text-align: center;">Infantil y Primaria</td>
         <td style="width: 200px;text-align: center;">De lunes a viernes de 14:00 a 15:30 h</td>
         <td style="width: 200px;text-align: center;">
           <ul style="list-style-type: disc; padding-left: 40px; margin: 0; text-align: left;">
@@ -111,7 +155,6 @@ layout: splash
       </tr>
       <tr>
         <td style="width: 200px;text-align: center;">CEIP Antonio Guerrero</td>
-        <td style="width: 200px;text-align: center;">Infantil y Primaria</td>
         <td style="width: 200px;text-align: center;">De lunes a viernes de 14:00 a 15:30 h</td>
         <td style="width: 200px;text-align: center;">
           <ul style="list-style-type: disc; padding-left: 40px; margin: 0; text-align: left;">
@@ -129,7 +172,6 @@ layout: splash
       </tr>
       <tr>
         <td style="width: 200px;text-align: center;">CEIP Doce de Octubre</td>
-        <td style="width: 200px;text-align: center;">Infantil y Primaria</td>
         <td style="width: 200px;text-align: center;">De lunes a viernes de 14:00 a 15:30 h</td>
         <td style="width: 200px;text-align: center;">
           <ul style="list-style-type: disc; padding-left: 40px; margin: 0; text-align: left;">
