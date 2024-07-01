@@ -55,8 +55,8 @@ button:hover {
   ¿Dudas? No te las guardes, pregúntanos.
 </div>
 
-<form name="contact" action="/_pages/success.html" method="POST" data-netlify="true">
-  <input type="hidden" name="subject" id="subject" value="Mensaje de (nombre)" />
+<form name="contact" action="/_pages/success.html" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
+  <input type="hidden" id="subject" value="Mensaje de (nombre)" />
   
   <p>
     <label for="name">Nombre:</label><br />
