@@ -56,8 +56,6 @@ img {
 </div>
 
 <form name="contact" action="/_pages/success.html" method="POST" data-netlify="true">
-  <input type="hidden" name="subject" 
-  value="Mensaje de %{formName} (%{submissionId})" />
   <p>
     <label for="name">Nombre:</label><br />
     <input type="text" id="name" name="name" required />
