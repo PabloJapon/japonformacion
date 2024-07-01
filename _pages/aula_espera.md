@@ -18,7 +18,6 @@ layout: default
   .splash-image {
     width: 100%;
     display: block;
-    margin-bottom: 1em;
   }
 
   .top-right {
@@ -32,20 +31,31 @@ layout: default
   }
 
   .left-image {
-    float: left;
-    margin-right: 10px;
-    margin-bottom: 10px;
+    position: absolute;
+    top: 50%; /* Adjust as needed */
+    left: 50px; /* Adjust as needed */
+    transform: translateY(-50%);
     max-width: 40%;
+    z-index: 10; /* Ensure this is above the background image */
   }
 
   .bottom-right {
-    float: right;
+    position: absolute;
+    top: 50%; /* Adjust as needed */
+    right: 20px;
+    transform: translateY(-50%);
     max-width: 55%;
+    text-align: left; /* Adjust text alignment */
+    z-index: 10; /* Ensure this is above the background image */
+  }
+
+  .bottom-right p {
+    font-size: 17px;
   }
 </style>
 
 <div class="splash-container">
-  <!-- Full-width image at the top -->
+  <!-- Full-width background image -->
   <img src="/assets/images/unsplash-image-1.jpg" alt="Full Width Image" class="splash-image">
 
   <!-- Text title at top right -->
@@ -56,15 +66,13 @@ layout: default
 
   <!-- Text content at bottom right -->
   <div class="bottom-right">
-    <div style="font-size: 17px;">
-      <p>JAPONEDUCA forma parte del GRUPO JAPÓN y se dedica a ofrecer servicios educativos, ocio y tiempo libre.</p>
-      
-      <p>Nuestro programa educativo se adapta a los horarios familiares y fortalece la autonomía de los centros escolares bajo el Plan de Apertura de Centros.</p>
-      
-      <p>Organizamos actividades como aula matinal, comedor, deporte escolar, apoyo lingüístico y proyectos lectores, siguiendo los programas educativos de la Junta de Andalucía.</p>
-      
-      <p>Contamos con un equipo profesional dedicado a diseñar y llevar a cabo actividades adaptadas a las necesidades de alumnos y centros educativos.</p>
-    </div>
+    <p>JAPONEDUCA forma parte del GRUPO JAPÓN y se dedica a ofrecer servicios educativos, ocio y tiempo libre.</p>
+    
+    <p>Nuestro programa educativo se adapta a los horarios familiares y fortalece la autonomía de los centros escolares bajo el Plan de Apertura de Centros.</p>
+    
+    <p>Organizamos actividades como aula matinal, comedor, deporte escolar, apoyo lingüístico y proyectos lectores, siguiendo los programas educativos de la Junta de Andalucía.</p>
+    
+    <p>Contamos con un equipo profesional dedicado a diseñar y llevar a cabo actividades adaptadas a las necesidades de alumnos y centros educativos.</p>
   </div>
 </div>
 
