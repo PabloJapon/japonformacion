@@ -56,8 +56,8 @@ img {
 </div>
 
 <form name="contact" action="/_pages/success.html" method="POST" data-netlify="true">
-  <input type="hidden" name="form-name" value="contact" />
-  <input type="hidden" name="subject" data-remove-prefix value="Mensaje de %{name}" />
+  <input type="hidden" name="subject" 
+  value="Mensaje de %{formName} (%{submissionId})" />
   <p>
     <label for="name">Nombre:</label><br />
     <input type="text" id="name" name="name" required />
@@ -74,4 +74,3 @@ img {
     <button type="submit">Enviar</button>
   </p>
 </form>
-
