@@ -57,7 +57,7 @@ layout: default
 
 <div class="splash-container">
   <!-- Full-width background image -->
-  <img src="/assets/images/unsplash-image-1.jpg" alt="Full Width Image" class="splash-image" style="margin-bottom: 0;">
+  <img src="/assets/images/CABECERA.png" alt="Full Width Image" class="splash-image" style="margin-bottom: 0; margin-top: 5em;">
 
   <!-- Text title at top right -->
   <div class="top-right">Aula de Espera</div>
