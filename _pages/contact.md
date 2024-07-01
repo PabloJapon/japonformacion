@@ -56,24 +56,20 @@ img {
 </div>
 
 <form name="contact" action="/_pages/success.html" method="POST" data-netlify="true">
-  <!-- Hidden input for the email subject line, using formName and submissionId variables -->
-  <input type="hidden" name="subject" value="Mensaje de %{formName} (%{submissionId})" />
-
+  <input type="hidden" name="subject" 
+  value="Mensaje de %{formName} (%{submissionId})" />
   <p>
     <label for="name">Nombre:</label><br />
     <input type="text" id="name" name="name" required />
   </p>
-
   <p>
     <label for="email">Correo Electrónico:</label><br />
     <input type="email" id="email" name="email" required />
   </p>
-
   <p>
     <label for="message">Mensaje:</label><br />
     <textarea id="message" name="message" rows="5" required></textarea>
   </p>
-
   <p style="text-align: center;">
     <button type="submit">Enviar</button>
   </p>
