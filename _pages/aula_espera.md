@@ -72,13 +72,7 @@ layout: default
 
   <!-- Text content at bottom right -->
   <div class="bottom-right">
-    <p>JAPONEDUCA forma parte del GRUPO JAPÓN y se dedica a ofrecer servicios educativos, ocio y tiempo libre.</p>
-    
-    <p>Nuestro programa educativo se adapta a los horarios familiares y fortalece la autonomía de los centros escolares bajo el Plan de Apertura de Centros.</p>
-    
-    <p>Organizamos actividades como aula matinal, comedor, deporte escolar, apoyo lingüístico y proyectos lectores, siguiendo los programas educativos de la Junta de Andalucía.</p>
-    
-    <p>Contamos con un equipo profesional dedicado a diseñar y llevar a cabo actividades adaptadas a las necesidades de alumnos y centros educativos.</p>
+    <p>JAPONEDUCA, parte del GRUPO JAPÓN, ofrece servicios educativos, ocio y tiempo libre. Nuestro programa incluye aula matinal adaptada a horarios familiares, fortaleciendo la autonomía escolar bajo el Plan de Apertura de Centros en Andalucía.</p>
   </div>
 </div>
 
