@@ -47,6 +47,7 @@ layout: default
     max-width: 55%;
     text-align: left; /* Adjust text alignment */
     z-index: 10; /* Ensure this is above the background image */
+    color: white;
   }
 
   .bottom-right p {
@@ -56,13 +57,13 @@ layout: default
 
 <div class="splash-container">
   <!-- Full-width background image -->
-  <img src="/assets/images/unsplash-image-1.jpg" alt="Full Width Image" class="splash-image">
+  <img src="/assets/images/unsplash-image-1.jpg" alt="Full Width Image" class="splash-image" style="margin-bottom: 0;">
 
   <!-- Text title at top right -->
   <div class="top-right">Aula de Espera</div>
 
   <!-- Left image upfront -->
-  <img src="/assets/images/profesorPepe.jpg" alt="Left Image" class="left-image">
+  <img src="/assets/images/profesorPablo2.png" alt="Left Image" class="left-image">
 
   <!-- Text content at bottom right -->
   <div class="bottom-right">
