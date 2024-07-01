@@ -6,9 +6,6 @@ layout: default
 
 <style>
   .splash-container {
-    display: grid;
-    grid-template-columns: 1fr; /* Single column layout */
-    grid-template-rows: auto auto; /* Two rows: title and content */
     position: relative;
     width: 100%;
     max-width: none;
@@ -16,47 +13,47 @@ layout: default
     margin: 0;
     padding: 0;
     margin-top: 5em;
+    display: grid;
+    grid-template-columns: auto 1fr; /* 2 columns: auto for image width, 1fr for rest */
+    grid-template-rows: auto auto; /* 2 rows: auto for title, auto for text */
+    grid-column-gap: 20px; /* Adjust spacing between columns */
+    grid-row-gap: 20px; /* Adjust spacing between rows */
   }
 
   .splash-image {
     width: 100%;
     display: block;
-    grid-column: 1 / -1; /* Span across all columns */
+    position: absolute;
+    z-index: -1; /* Send the background image to the back */
   }
 
   .top-right {
-    grid-row: 1; /* First row */
-    grid-column: 1; /* First column */
-    justify-self: end; /* Align to the end of the column */
-    align-self: start; /* Align to the start of the row */
+    grid-row: 1 / 2; /* First row */
+    grid-column: 2 / 3; /* Second column */
+    align-self: start; /* Align to the top */
+    justify-self: start; /* Align to the start */
     font-size: 1.5em;
     background-color: rgba(255, 255, 255, 0.8);
     padding: 5px 10px;
     border-radius: 5px;
-    z-index: 10;
-    position: relative; /* Ensure stacking context */
+    z-index: 10; /* Ensure above background image */
   }
 
   .left-image {
-    grid-row: 2; /* Second row */
-    grid-column: 1; /* First column */
-    justify-self: start; /* Align to the start of the column */
-    align-self: center; /* Align to the center of the row */
-    max-width: 40%;
-    z-index: 10;
-    position: relative; /* Ensure stacking context */
+    grid-row: 1 / 3; /* Both rows */
+    grid-column: 1 / 2; /* First column */
+    width: 100%;
+    z-index: 10; /* Ensure above background image */
   }
 
   .bottom-right {
-    grid-row: 2; /* Second row */
-    grid-column: 1; /* First column */
-    justify-self: end; /* Align to the end of the column */
-    align-self: center; /* Align to the center of the row */
-    max-width: 55%;
-    text-align: left;
-    z-index: 10;
-    position: relative; /* Ensure stacking context */
+    grid-row: 2 / 3; /* Second row */
+    grid-column: 2 / 3; /* Second column */
+    align-self: start; /* Align to the start */
+    justify-self: start; /* Align to the start */
+    max-width: 100%; /* Ensure text width does not exceed container */
     color: white;
+    z-index: 10; /* Ensure above background image */
   }
 
   .bottom-right p {
@@ -66,7 +63,7 @@ layout: default
 
 <div class="splash-container">
   <!-- Full-width background image -->
-  <img src="/assets/images/CABECERA.png" alt="Full Width Image" class="splash-image" style="margin-bottom: 0;">
+  <img src="/assets/images/CABECERA.png" alt="Full Width Image" class="splash-image">
 
   <!-- Text title at top right -->
   <div class="top-right">Aula de Espera</div>
