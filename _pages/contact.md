@@ -55,24 +55,24 @@ button:hover {
   ¿Dudas? No te las guardes, pregúntanos.
 </div>
 
-<form name="contact" action="/_pages/success.html" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
-  <input type="hidden" id="subject" value="Mensaje de (nombre)" />
-  
+<form name="contact" action="/_pages/success.html" method="POST" data-netlify="true">
+  <input type="hidden" id="hidden-subject" value="Mensaje de (nombre)" />
+
   <p>
     <label for="name">Nombre:</label><br />
     <input type="text" id="name" name="name" required />
   </p>
-  
+
   <p>
     <label for="email">Correo Electrónico:</label><br />
     <input type="email" id="email" name="email" required />
   </p>
-  
+
   <p>
     <label for="message">Mensaje:</label><br />
     <textarea id="message" name="message" rows="5" required></textarea>
   </p>
-  
+
   <p style="text-align: center;">
     <button type="submit">Enviar</button>
   </p>
@@ -81,7 +81,7 @@ button:hover {
 <script>
   document.querySelector('form').addEventListener('submit', function(event) {
     var name = document.getElementById('name').value;
-    var subjectField = document.getElementById('subject');
+    var subjectField = document.getElementById('hidden-subject');
     subjectField.value = `Mensaje de ${name}`;
   });
 </script>

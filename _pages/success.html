@@ -1,10 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mensaje enviado correctamente</title>
   <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+
     /* Style for the overlay */
     .overlay {
       position: fixed;
@@ -25,6 +32,32 @@
       padding: 20px;
       border-radius: 10px;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+      max-width: 600px;
+      text-align: center;
+    }
+
+    .success-container h1 {
+      color: #333;
+      margin-bottom: 1em;
+    }
+
+    .success-container p {
+      color: #666;
+      margin-bottom: 1.5em;
+    }
+
+    /* Button style */
+    .success-container a {
+      background-color: #e31c24;
+      color: white;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+      display: inline-block;
+    }
+
+    .success-container a:hover {
+      background-color: #9b1b20;
     }
   </style>
 </head>
