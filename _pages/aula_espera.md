@@ -6,47 +6,56 @@ layout: default
 
 <style>
   .splash-container {
+    display: grid;
+    grid-template-columns: 1fr; /* Single column layout */
+    grid-template-rows: auto auto; /* Two rows: title and content */
     position: relative;
-    text-align: center;
-    width: 100%; /* Ensure full width */
-    max-width: none; /* Remove max-width limit */
+    width: 100%;
+    max-width: none;
     overflow: hidden;
-    margin: 0; /* Remove any default margins */
-    padding: 0; /* Remove any default padding */
+    margin: 0;
+    padding: 0;
+    margin-top: 5em;
   }
 
   .splash-image {
     width: 100%;
     display: block;
+    grid-column: 1 / -1; /* Span across all columns */
   }
 
   .top-right {
-    position: absolute;
-    top: 20px;
-    right: 20px;
+    grid-row: 1; /* First row */
+    grid-column: 1; /* First column */
+    justify-self: end; /* Align to the end of the column */
+    align-self: start; /* Align to the start of the row */
     font-size: 1.5em;
     background-color: rgba(255, 255, 255, 0.8);
     padding: 5px 10px;
     border-radius: 5px;
+    z-index: 10;
+    position: relative; /* Ensure stacking context */
   }
 
   .left-image {
-    position: absolute;
-    top: 50%; /* Adjust as needed */
-    left: 50px; /* Adjust as needed */
-    transform: translateY(-50%);
+    grid-row: 2; /* Second row */
+    grid-column: 1; /* First column */
+    justify-self: start; /* Align to the start of the column */
+    align-self: center; /* Align to the center of the row */
     max-width: 40%;
-    z-index: 10; /* Ensure this is above the background image */
+    z-index: 10;
+    position: relative; /* Ensure stacking context */
   }
 
   .bottom-right {
-    position: absolute;
-    top: 50%; /* Adjust as needed */
-    right: 20px;
-    transform: translateY(-50%);
+    grid-row: 2; /* Second row */
+    grid-column: 1; /* First column */
+    justify-self: end; /* Align to the end of the column */
+    align-self: center; /* Align to the center of the row */
     max-width: 55%;
-    text-align: left; /* Adjust text alignment */
-    z-index: 10; /* Ensure this is above the background image */
+    text-align: left;
+    z-index: 10;
+    position: relative; /* Ensure stacking context */
     color: white;
   }
 
@@ -57,7 +66,7 @@ layout: default
 
 <div class="splash-container">
   <!-- Full-width background image -->
-  <img src="/assets/images/CABECERA.png" alt="Full Width Image" class="splash-image" style="margin-bottom: 0; margin-top: 5em;">
+  <img src="/assets/images/CABECERA.png" alt="Full Width Image" class="splash-image" style="margin-bottom: 0;">
 
   <!-- Text title at top right -->
   <div class="top-right">Aula de Espera</div>
@@ -76,6 +85,7 @@ layout: default
     <p>Contamos con un equipo profesional dedicado a diseñar y llevar a cabo actividades adaptadas a las necesidades de alumnos y centros educativos.</p>
   </div>
 </div>
+
 
 
 
