@@ -59,6 +59,20 @@
     .success-container a:hover {
       background-color: #9b1b20;
     }
+
+    /* Style for the iframe */
+    .content {
+      position: relative;
+      z-index: 1; /* Ensure it's below the overlay */
+      width: 100%;
+      height: calc(100vh - 40px); /* Adjust as needed to fit below the overlay */
+    }
+
+    .content iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
   </style>
 </head>
 <body>
@@ -72,8 +86,10 @@
       <a href="https://japonformacion.netlify.app/">Cerrar</a>
     </div>
   </div>
-  <!-- The rest of your website content goes here -->
-  <!-- This content will be below the overlay and potentially dimmed -->
-  <iframe src="index.md" frameborder="0" style="width: 100%; height: 100vh;"></iframe>
+  
+  <!-- Content below the overlay -->
+  <div class="content">
+    <iframe src="/index.md" frameborder="0"></iframe>
+  </div>
 </body>
 </html>
