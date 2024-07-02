@@ -13,33 +13,42 @@
       }
     }
   
+    .container {
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    }
+  
     .bottom-bar-button {
-      display: inline-block;
-      padding: 10px 20px;
-      border-radius: 5px;
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 15px;
       text-align: center;
-      transition: background-color 0.3s ease, color 0.3s ease;
+      background-color: #e31c24; /* Red background for "Llamar" */
+      color: #fff;
       text-decoration: none;
+      transition: background-color 0.3s ease, color 0.3s ease;
+    }
+  
+    .button-informamos {
+      background-color: #fff; /* White background for "Te informamos" */
+      color: #e31c24 !important; /* Red text color */
+    }
+  
+    .button-informamos:hover {
+      background-color: #d1d1d1; /* Light gray on hover */
     }
   
     .button-llamar {
-      background-color: #e31c24;
+      background-color: #e31c24; /* Red background for "Llamar" */
       color: #fff;
     }
   
     .button-llamar:hover {
-      background-color: #9b1b20;
-      color: #fff;
-    }
-  
-    .button-informamos {
-      background-color: #fff;
-      color: #e31c24;
-    }
-  
-    .button-informamos:hover {
-      background-color: #d1d1d1;
-      color: #e31c24;
+      background-color: #9b1b20; /* Darker red on hover */
     }
   
     .bottom-bar-button i {

@@ -286,7 +286,7 @@ layout: default
     color: #e31c24;
     border: none;
     padding: 15px 100px;
-    margin: 40px;
+    margin: 20px 0;
     text-align: center;
     text-decoration: none;
     display: inline-block;
