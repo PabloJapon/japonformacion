@@ -1,8 +1,8 @@
 <!-- _includes/mobile-bottom-bar.html -->
 <div class="mobile-bottom-bar" style="display: none; position: fixed; bottom: 0; left: 0; width: 100%; background-color: #333; color: #fff; padding: 10px; box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.2); z-index: 1000;">
-    <div class="container" style="max-width: 1200px; margin: 0 auto; text-align: center;">
-      <p>This is the mobile-only bottom bar.</p>
-      <!-- Customize your content here -->
+    <div class="container" style="max-width: 100%; display: flex; justify-content: space-around; align-items: center;">
+      <a href="https://japonformacion.netlify.app/contacto/" class="bottom-bar-button button-informamos">Te informamos</a>
+      <a href="tel:+123456789" class="bottom-bar-button button-llamar"><i class="fas fa-phone" aria-hidden="true"></i> Llamar</a>
     </div>
   </div>
   
@@ -11,6 +11,39 @@
       .mobile-bottom-bar {
         display: block !important; /* Ensure it overrides inline style */
       }
+    }
+  
+    .bottom-bar-button {
+      display: inline-block;
+      padding: 10px 20px;
+      border-radius: 5px;
+      text-align: center;
+      transition: background-color 0.3s ease, color 0.3s ease;
+      text-decoration: none;
+    }
+  
+    .button-llamar {
+      background-color: #e31c24;
+      color: #fff;
+    }
+  
+    .button-llamar:hover {
+      background-color: #9b1b20;
+      color: #fff;
+    }
+  
+    .button-informamos {
+      background-color: #fff;
+      color: #e31c24;
+    }
+  
+    .button-informamos:hover {
+      background-color: #d1d1d1;
+      color: #e31c24;
+    }
+  
+    .bottom-bar-button i {
+      margin-right: 5px;
     }
   </style>
   

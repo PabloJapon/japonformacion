@@ -45,7 +45,7 @@ layout: default
     z-index: 10; /* Ensure above background image */
     margin-left: auto;
     margin-bottom: 0;
-    mrgin-top: 1em;
+    margin-top: 1em;
   }
 
   .bottom-right {
@@ -285,17 +285,18 @@ layout: default
     background-color: white; /* Cambio de color */
     color: #e31c24;
     border: none;
-    padding: 10px 50px;
+    padding: 15px 100px;
+    margin: 40px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 20px;
     border-radius: 5px;
     cursor: pointer;
   }
 
   .plan-button2:hover {
-    background-color: #9b1b20; /* Cambio de color en el hover */
+    background-color: #d1d1d1; /* Cambio de color en el hover */
   }
 
   .plan-button {
