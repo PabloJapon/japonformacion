@@ -15,7 +15,7 @@ layout: default
     margin-top: 5em;
     display: grid;
     grid-template-columns: repeat(2,1fr); /* 2 columns: auto for image width, 1fr for rest */
-    grid-template-rows: auto auto; /* 2 rows: auto for title, auto for text */
+    grid-template-rows: 142px 1fr; /* 2 rows: auto for title, auto for text */
     grid-column-gap: 120px; /* Adjust spacing between columns */
     grid-row-gap: 20px; /* Adjust spacing between rows */
     align-items: end;
@@ -41,10 +41,11 @@ layout: default
   .left-image {
     grid-row: 1 / 3; /* Both rows */
     grid-column: 1 / 2; /* First column */
-    width: 35%;
+    width: 370px;
     z-index: 10; /* Ensure above background image */
     margin-left: auto;
     margin-bottom: 0;
+    mrgin-top: 1em;
   }
 
   .bottom-right {
@@ -74,6 +75,7 @@ layout: default
   <!-- Text content at bottom right -->
   <div class="bottom-right">
     <p>JAPONEDUCA, parte del GRUPO JAPÓN, ofrece servicios educativos, ocio y tiempo libre. Nuestro programa incluye aula matinal adaptada a horarios familiares, fortaleciendo la autonomía escolar bajo el Plan de Apertura de Centros en Andalucía.</p>
+    <button class="plan-button2" onclick="location.href='https://app.grupojapon.es/index.php/registro'">Inscríbete</button>
   </div>
 </div>
 
@@ -280,8 +282,8 @@ layout: default
   }
 
   .plan-button2 {
-    background-color: #e31c24; /* Cambio de color */
-    color: white;
+    background-color: white; /* Cambio de color */
+    color: #e31c24;
     border: none;
     padding: 10px 50px;
     text-align: center;
