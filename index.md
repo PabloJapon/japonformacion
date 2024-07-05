@@ -122,6 +122,9 @@ excerpt: "Clases presenciales y en horario de mañanas"
   });
 </script>
 
+
+
+
 <div style="text-align:center; margin: 2em;">
   Preguntas frecuentes
 </div>
@@ -213,26 +216,42 @@ excerpt: "Clases presenciales y en horario de mañanas"
   text-align: left;
   border: none;
   cursor: pointer;
+  text-decoration: none;
+  line-height: 40px;
   outline: none;
-  transition: 0.4s;
-  background-color: white;
-  font-size: 1.5rem;
-  font-weight: 500;
+  border-top: 1px solid #ccc;
+  background-color: transparent;
+  color: black;
+}
+
+.butImagen {
+  transition: transform 0.3s ease;
+}
+
+.butImagen.rotated {
+  transform: rotate(180deg);
+}
+
+img {
+  float: right;
+  margin-left: 10px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.accordion:focus, .accordion:active {
+  outline: none;
 }
 
 .panel {
   padding: 0 18px;
-  background-color: white;
-  display: none;
+  height: 0;
   overflow: hidden;
+  transition: height 0.3s ease;
 }
 
-.butImagen {
-  transition: 0.4s;
-}
-
-.rotate-image {
-  transform: rotate(180deg);
+.panel.open {
+  height: auto;
 }
 
 .plan-container {
@@ -241,44 +260,153 @@ excerpt: "Clases presenciales y en horario de mañanas"
   flex-wrap: wrap;
 }
 
-a.plan {
-  width: 400px;
+.plan {
+  width: 400px; /* Desired width of each plan */
   padding: 20px;
   border: 1px solid #ccc;
   border-radius: 8px;
   background: white;
   text-align: center;
   margin: 60px 12px;
-  text-decoration: none;
-  color: inherit;
-  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  text-decoration: none; /* Remove underline from links */
+  color: inherit; /* Inherit text color */
+  transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Add a smooth transition effect */
+
+  &:hover {
+    background-color: #f0f0f0; /* Change the background color on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a shadow effect on hover */
+    text-decoration: none; /* Ensure no underline on hover */
+  }
 }
 
-a.plan:hover {
-  background-color: #f0f0f0;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  text-decoration: none;
-}
-
-a.plan h2, a.plan p {
+.plan h2, .plan p {
   margin: 0;
-  color: inherit;
+  color: inherit; /* Ensure the text color is inherited */
 }
 
-a.plan:hover h2, a.plan:hover p {
-  color: inherit;
+a.plan {
+  text-decoration: none; /* Ensure no underline for the link itself */
+  color: inherit; /* Ensure the text color remains the same */
+
+  &:hover {
+    text-decoration: none; /* Ensure no underline on hover */
+    color: inherit; /* Ensure the text color remains the same on hover */
+  }
+}
+
+.plan-button2 {
+  background-color: #e31c24; /* Cambio de color */
+  color: white;
+  border: none;
+  padding: 10px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.plan-button2:hover {
+  background-color: #9b1b20; /* Cambio de color en el hover */
+}
+
+.plan-button {
+  background-color: #e31c24; /* Cambio de color */
+  color: white;
+  border: none;
+  padding: 15px 100px;
+  margin: 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.plan-button:hover {
+  background-color: #9b1b20; /* Cambio de color en el hover */
+}
+  
+  .table-container {
+  margin-top: 60px; /* Ajusta el margen superior según sea necesario */
+}
+
+.table-container table {
+  border-collapse: collapse;
+   border: none; /* elimina los bordes de la tabla */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+ .table-container td {
+  padding: 8px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+  .table-container th {
+  padding: 8px;
+  background-color: transparent !important; /* Fondo transparente */
+  border: none; /* Sin bordes */
+}
+
+.table-container thead th {
+  background-color: transparent !important; /* Fondo transparente */
+}
+  
+  
+  .table-container tbody tr:nth-child(even) {
+  background-color: #e0e0e0; /* Cambia el color de fondo para las filas pares */
+}
+
+/* Elimina los bordes de las celdas exteriores */
+.table-container th:first-child,
+.table-container td:first-child {
+  border-left: none;
+}
+
+.table-container th:last-child,
+.table-container td:last-child {
+  border-right: none;
+}
+
+  
+/* Elimina la última línea horizontal */
+.table-container tr:last-child th,
+.table-container tr:last-child td {
+  border-bottom: none;
+}
+
+/* Elimina la primera línea horizontal */
+.table-container tr:first-child th,
+.table-container tr:first-child td {
+  border-top: none;
+}
+
+  /* Elimina la segunda línea horizontal */
+.table-container tr:nth-child(2) th,
+.table-container tr:nth-child(2) td {
+  border-top: none;
 }
 </style>
 
 <script>
-  var acc = document.getElementsByClassName("accordion");
-  var i;
+  var acc = document.querySelectorAll(".accordion");
 
-  for (i = 0; i < acc.length; i++) {
-    acc[i].onclick = function () {
+  acc.forEach(function(item) {
+    item.addEventListener("click", function() {
       this.classList.toggle("active");
-      this.nextElementSibling.classList.toggle("show");
-      this.querySelector("img.butImagen").classList.toggle("rotate-image");
-    };
-  }
+      this.querySelector("img").classList.toggle("rotated");
+
+      var panel = this.nextElementSibling;
+      if (panel.style.height) {
+        panel.style.height = null;
+      } else {
+        panel.style.height = panel.scrollHeight + "px";
+      }
+    });
+  });
 </script>
