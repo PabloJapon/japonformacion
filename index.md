@@ -31,6 +31,7 @@ excerpt: "Clases presenciales y en horario de mañanas"
   </a>
 </div>
 
+
 <div style="margin: 0 auto; text-align:center;">
   <video style="border-radius: 20px; width: 100%; height: auto;" autoplay loop muted>
     <source src="/assets/videos/your-video.mp4" type="video/mp4">
@@ -260,7 +261,7 @@ img {
 }
 
 .plan {
-  width: 400px; /* Ancho deseado de cada plan */
+  width: 400px; /* Desired width of each plan */
   padding: 20px;
   border: 1px solid #ccc;
   border-radius: 8px;
@@ -269,11 +270,17 @@ img {
   margin: 60px 12px;
   text-decoration: none; /* Remove underline from links */
   color: inherit; /* Inherit text color */
-  transition: box-shadow 0.3s ease; /* Add a smooth transition effect */
+  transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Add a smooth transition effect */
 }
 
 .plan:hover {
+  background-color: #f0f0f0; /* Change the background color on hover */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a shadow effect on hover */
+}
+
+.plan h2, .plan p {
+  margin: 0;
+  color: inherit; /* Ensure the text color is inherited */
 }
 
 .plan-button2 {
