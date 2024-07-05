@@ -80,13 +80,6 @@ layout: default
 </div>
 
 
-
-
-<div style="text-align:center;">
-  <button class="plan-button" onclick="location.href='https://app.grupojapon.es/index.php/registro'">Inscríbete</button>
-</div>
-
-
 <div class="table-container">
   <table>
     <thead>

@@ -271,16 +271,27 @@ img {
   text-decoration: none; /* Remove underline from links */
   color: inherit; /* Inherit text color */
   transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Add a smooth transition effect */
-}
 
-.plan:hover {
-  background-color: #f0f0f0; /* Change the background color on hover */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a shadow effect on hover */
+  &:hover {
+    background-color: #f0f0f0; /* Change the background color on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a shadow effect on hover */
+    text-decoration: none; /* Ensure no underline on hover */
+  }
 }
 
 .plan h2, .plan p {
   margin: 0;
   color: inherit; /* Ensure the text color is inherited */
+}
+
+a.plan {
+  text-decoration: none; /* Ensure no underline for the link itself */
+  color: inherit; /* Ensure the text color remains the same */
+
+  &:hover {
+    text-decoration: none; /* Ensure no underline on hover */
+    color: inherit; /* Ensure the text color remains the same on hover */
+  }
 }
 
 .plan-button2 {
