@@ -15,24 +15,20 @@ excerpt: "Clases presenciales y en horario de mañanas"
 </div>
 
 <div class="plan-container">
-  <div class="plan">
+  <a href="/payment_form/?plan=Gratis" class="plan">
     <h2>Grados Medios</h2>
-    <button class="plan-button" onclick="location.href='/payment_form/?plan=Gratis'">Empieza</button>
     <p>Accede con el título de ESO, Bachillerato o mediante una prueba de acceso.</p>
-  </div>
+  </a>
 
-  <div class="plan">
+  <a href="/payment_form/?plan=Pro" class="plan">
     <h2>Grados Superiores</h2>
-    <button class="plan-button" onclick="location.href='/payment_form/?plan=Pro'">Empieza</button>
     <p>Accede con el título de Bachillerato, una FP de Grado Medio o Superior o mediante prueba de acceso.</p>
-  </div>
+  </a>
 
-  <div class="plan">
-    <h2>Cursos tiempo libre</h2>
-    <h3>50€</h3>
-    <button class="plan-button" onclick="location.href='/payment_form/?plan=Premium'">Empieza</button>
+  <a href="/payment_form/?plan=Premium" class="plan">
+    <h2>Servicios educativos</h2>
     <p>Lo que sea</p>
-  </div>
+  </a>
 </div>
 
 <div style="margin: 0 auto; text-align:center;">
@@ -270,10 +266,14 @@ img {
   border-radius: 8px;
   background: white;
   text-align: center;
-  margin-bottom: 60px; /* Espacio inferior entre cada plan */
-  margin-top: 60px;
-  margin-left: 12px;
-  margin-right: 12px;
+  margin: 60px 12px;
+  text-decoration: none; /* Remove underline from links */
+  color: inherit; /* Inherit text color */
+  transition: box-shadow 0.3s ease; /* Add a smooth transition effect */
+}
+
+.plan:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a shadow effect on hover */
 }
 
 .plan-button2 {
