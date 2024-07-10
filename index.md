@@ -107,7 +107,7 @@ excerpt: "Clases presenciales y en horario de mañanas"
   </p>
   
   <p style="text-align: center;">
-    <button type="submit">Enviar</button>
+    <button type="submit" class="submit-button">Enviar</button>
   </p>
 </form>
 
@@ -200,7 +200,6 @@ excerpt: "Clases presenciales y en horario de mañanas"
 
 .feature {
   display: flex;
-  flex-direction: column;
   align-items: center;
   padding: 20px;
   margin-bottom: 40px;
@@ -215,7 +214,7 @@ excerpt: "Clases presenciales y en horario de mañanas"
 
 .feature-video {
   border-radius: 40px;
-  width: 100%;
+  width: 50%;
   height: auto;
   padding: 1em;
 }
@@ -281,6 +280,22 @@ excerpt: "Clases presenciales y en horario de mañanas"
 }
 
 .plan-button:hover {
+  background-color: #9b1b20;
+}
+
+.submit-button {
+  background-color: #e31c24;
+  color: white;
+  border: none;
+  padding: 15px 100px;
+  margin: 40px;
+  text-align: center;
+  font-size: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
   background-color: #9b1b20;
 }
 </style>
