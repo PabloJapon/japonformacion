@@ -1,7 +1,7 @@
 ---
 title: "FP Grado Medio"
 permalink: /FPMedio/
-layout: splash
+layout: default
 ---
 <style>
   .splash-container {

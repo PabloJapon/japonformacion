@@ -1,7 +1,7 @@
 ---
 title: "Judo"
 permalink: /judo/
-layout: splash
+layout: default
 ---
 
 <style>

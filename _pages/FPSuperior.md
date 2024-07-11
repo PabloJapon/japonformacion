@@ -1,7 +1,7 @@
 ---
 title: "FP Grado Superior"
 permalink: /FPSuperior/
-layout: splash
+layout: default
 ---
 <style>
   .splash-container {
