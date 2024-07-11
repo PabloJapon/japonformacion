@@ -1,6 +1,6 @@
 ---
-title: "FP Grado Superior"
-permalink: /FPSuperior/
+title: "FP Grado Medio"
+permalink: /FPMedio/
 layout: splash
 ---
 <style>
@@ -66,14 +66,14 @@ layout: splash
   <img src="/assets/images/CABECERA.png" alt="Full Width Image" class="splash-image">
 
   <!-- Text title at top right -->
-  <div class="top-right">Grado Superior FP</div>
+  <div class="top-right">Grado Medio FP</div>
 
   <!-- Left image upfront -->
   <img src="/assets/images/profesorPablo2.png" alt="Left Image" class="left-image">
 
   <!-- Text content at bottom right -->
   <div class="bottom-right">
-    <p>Con los Grados Superiores ofrecidos por GRUPO JAPÓN, podrás obtener la titulación oficial de Técnico Superior reconocida por la Junta de Andalucía. Estos programas de formación te preparan para acceder al mercado laboral en solo dos años o continuar con estudios universitarios y másteres. Nuestra metodología práctica te proporciona experiencia directa y relevante, sumergiéndote en el rol de técnico desde el inicio.</p>
+    <p>Optar por un Grado Medio de FP en GRUPO JAPÓN es elegir una titulación oficial de Formación Profesional, certificada por la Junta de Andalucía, que te permitirá ingresar al mercado laboral en menos de dos años. Estos Ciclos Formativos de Grado Medio te preparan para trabajar en tu área de interés con una metodología práctica, brindándote experiencia desde el primer día. Además, todos los contenidos están alineados con las necesidades actuales del mercado laboral.</p>
     <button class="plan-button2" onclick="location.href='https://japonformacion.netlify.app/contacto/'">Más Información</button>
   </div>
 </div>

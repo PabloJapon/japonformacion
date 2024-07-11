@@ -10,7 +10,7 @@ layout: default
     width: 100%;
     max-width: none;
     overflow: hidden;
-    margin: 0;
+    margin-bottom: 3em;
     padding: 0;
     margin-top: 5em;
     display: grid;

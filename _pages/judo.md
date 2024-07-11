@@ -4,22 +4,83 @@ permalink: /judo/
 layout: splash
 ---
 
-<h3 style="text-align: center;margin-top: 6em;margin-botton: 2em"> Judo </h3>
+<style>
+  .splash-container {
+    position: relative;
+    width: 100%;
+    max-width: none;
+    overflow: hidden;
+    margin-bottom: 3em;
+    padding: 0;
+    margin-top: 5em;
+    display: grid;
+    grid-template-columns: repeat(2,1fr); /* 2 columns: auto for image width, 1fr for rest */
+    grid-template-rows: 142px 1fr; /* 2 rows: auto for title, auto for text */
+    grid-column-gap: 120px; /* Adjust spacing between columns */
+    grid-row-gap: 20px; /* Adjust spacing between rows */
+    align-items: end;
+  }
 
+  .splash-image {
+    width: 100%;
+    display: block;
+    position: absolute;
+    z-index: -1; /* Send the background image to the back */
+    margin: 0 0;
+  }
 
-<div style="font-size: 17px;">
-  <p>JAPONSPORT, C.D., se estableció en 1994 como parte de GRUPO JAPÓN para atender las necesidades de actividades extraescolares en los centros escolares. Con el tiempo, se ha especializado en la creación de escuelas deportivas, la promoción de actividades y la expansión de servicios deportivos en Huelva y su provincia.</p>
-  
-  <p>Nuestro objetivo es fomentar hábitos saludables a través de una variedad de actividades deportivas que promuevan el ocio y el tiempo libre, mejorando así la calidad de vida. Contamos con personal altamente cualificado para integrar estas actividades y sus beneficios en la vida diaria de nuestros alumnos.</p>
-  
-  <p>Japonsport es la evolución del Club "Juji-Japón", la primera escuela de judo en Huelva fundada por el maestro José González Japón, 6º Dan de Judo. Ofrecemos tres niveles de judo adaptados según la edad y el nivel de cinturón. ¡Bienvenidos a nuestra familia!</p>
+  .top-right {
+    grid-row: 1 / 2; /* First row */
+    grid-column: 2 / 3; /* Second column */
+    font-size: 48px;
+    font-weight: 500;
+    color: white;
+    z-index: 10; /* Ensure above background image */
+  }
+
+  .left-image {
+    grid-row: 1 / 3; /* Both rows */
+    grid-column: 1 / 2; /* First column */
+    width: 370px;
+    z-index: 10; /* Ensure above background image */
+    margin-left: auto;
+    margin-bottom: 0;
+    margin-top: 1em;
+  }
+
+  .bottom-right {
+    grid-row: 2 / 3; /* Second row */
+    grid-column: 2 / 3; /* Second column */
+    align-self: start; /* Align to the start */
+    color: white;
+    z-index: 10; /* Ensure above background image */
+    max-width: 504px;
+  }
+
+  .bottom-right p {
+    font-size: 17px;
+  }
+</style>
+
+<div class="splash-container">
+  <!-- Full-width background image -->
+  <img src="/assets/images/CABECERA.png" alt="Full Width Image" class="splash-image">
+
+  <!-- Text title at top right -->
+  <div class="top-right">Judo</div>
+
+  <!-- Left image upfront -->
+  <img src="/assets/images/profesorPablo2.png" alt="Left Image" class="left-image">
+
+  <!-- Text content at bottom right -->
+  <div class="bottom-right">
+    <p>JAPONSPORT, C.D., fundada en 1994 como parte del GRUPO JAPÓN, ofrece actividades extraescolares en Huelva y su provincia. Se enfoca en crear escuelas deportivas y promover hábitos saludables con personal cualificado. Evolucionó del Club "Juji-Japón", la primera escuela de judo en Huelva, fundada por el maestro José González Japón, y ofrece dos niveles de judo según la edad y el nivel de cinturón.</p>
+    <button class="plan-button2" onclick="location.href='https://app.grupojapon.es/index.php/registro'">Inscríbete</button>
+  </div>
 </div>
 
 
 
-<div style="text-align:center;">
-  <button class="plan-button" onclick="location.href='https://app.grupojapon.es/index.php/registro'">Inscríbete</button>
-</div>
 
 
 <div class="table-container">
