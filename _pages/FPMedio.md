@@ -66,7 +66,7 @@ layout: splash
   <img src="/assets/images/CABECERA.png" alt="Full Width Image" class="splash-image">
 
   <!-- Text title at top right -->
-  <div class="top-right">Grado Medio FP</div>
+  <div class="top-right">Grado Mdeio FP</div>
 
   <!-- Left image upfront -->
   <img src="/assets/images/profesorPablo2.png" alt="Left Image" class="left-image">
@@ -273,9 +273,3 @@ img {
     <img src="/assets/images/unsplash-gallery-image-3.jpg" alt="">
   </div>
 </div>
-
-<script>
-function selectOS(os) {
-  document.getElementById('osText').textContent = os;
-}
-</script>

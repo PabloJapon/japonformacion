@@ -273,9 +273,3 @@ img {
     <img src="/assets/images/unsplash-gallery-image-3.jpg" alt="">
   </div>
 </div>
-
-<script>
-function selectOS(os) {
-  document.getElementById('osText').textContent = os;
-}
-</script>
