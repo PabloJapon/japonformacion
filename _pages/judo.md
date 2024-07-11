@@ -190,20 +190,21 @@ layout: default
   }
 
   .plan-button2 {
-    background-color: #e31c24; /* Cambio de color */
-    color: white;
+    background-color: white; /* Cambio de color */
+    color: #e31c24;
     border: none;
-    padding: 10px 50px;
+    padding: 15px 100px;
+    margin: 20px 0;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 20px;
     border-radius: 5px;
     cursor: pointer;
   }
 
   .plan-button2:hover {
-    background-color: #9b1b20; /* Cambio de color en el hover */
+    background-color: #d1d1d1; /* Cambio de color en el hover */
   }
 
   .plan-button {

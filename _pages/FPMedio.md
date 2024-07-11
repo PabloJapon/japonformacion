@@ -66,7 +66,7 @@ layout: default
   <img src="/assets/images/CABECERA.png" alt="Full Width Image" class="splash-image">
 
   <!-- Text title at top right -->
-  <div class="top-right">Grado Mdeio FP</div>
+  <div class="top-right">Grado Medio FP</div>
 
   <!-- Left image upfront -->
   <img src="/assets/images/profesorPablo2.png" alt="Left Image" class="left-image">
@@ -107,20 +107,21 @@ img {
 }
 
 .plan-button2 {
-  background-color: #e31c24; /* Cambio de color */
-  color: white;
+  background-color: white; /* Cambio de color */
+  color: #e31c24;
   border: none;
-  padding: 10px 50px;
+  padding: 15px 100px;
+  margin: 20px 0;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 20px;
   border-radius: 5px;
   cursor: pointer;
 }
 
 .plan-button2:hover {
-  background-color: #9b1b20; /* Cambio de color en el hover */
+  background-color: #d1d1d1; /* Cambio de color en el hover */
 }
 
 .plan-button {
