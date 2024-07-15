@@ -68,6 +68,13 @@
                             {% endif %}
                         </li>
                     {%- endfor -%}
+                    <!-- Always include Judo and Aula de Espera -->
+                    <li class="masthead__menu-item">
+                        <a href="/judo/">Judo</a>
+                    </li>
+                    <li class="masthead__menu-item">
+                        <a href="/aula_espera/">Aula de Espera</a>
+                    </li>
                     <li class="masthead__menu-item">
                         <button class="btn btn--secondary" onclick="window.location.href='/contacto/'">Solicita Información</button>
                     </li>
@@ -229,12 +236,8 @@
   .masthead__menu-item.dropdown .dropdown-menu {
       display: none;
       position: absolute;
-      top: 100%;
-      left: 0;
-      background-color: #fff;
-      border: 1px solid #ccc;
-      padding: 8px 0;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      background-color: white;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
       z-index: 1000;
   }
   
