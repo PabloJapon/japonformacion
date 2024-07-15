@@ -1,5 +1,3 @@
-{% capture logo_path %}{{ site.logo }}{% endcapture %}
-
 <div class="masthead">
     <!-- Small navbar -->
     <div class="small-navbar">
@@ -12,6 +10,11 @@
                 {% unless logo_path == empty %}
                     <a class="site-logo" href="{{ '/' | relative_url }}"><img src="{{ logo_path | relative_url }}" alt="{{ site.masthead_title | default: site.title }}"></a>
                 {% endunless %}
+                <a href="https://formacion.grupojapon.es/" class="aula-virtual-mobile"><i class="fas fa-user" aria-hidden="true"></i></a>
+                <button class="btn btn--primary greedy-nav__toggle hidden" type="button">
+                    <span class="visually-hidden">{{ site.data.ui-text[site.locale].menu_label | default: "Toggle menu" }}</span>
+                    <div class="navicon"></div>
+                </button>
                 <ul class="visible-links">
                     {%- for link in site.data.navigation.main -%}
                         <li class="masthead__menu-item {% if link.submenu %}dropdown{% endif %}">
@@ -295,6 +298,21 @@
   @media screen and (min-width: 769px) {
       .greedy-nav__toggle {
           display: none;
+      }
+  }
+  
+  /* Only display the Aula Virtual icon on mobile */
+  .aula-virtual-mobile {
+      display: none;
+      text-decoration: none;
+      color: #333; /* Adjust icon color */
+      font-size: 20px; /* Adjust icon size */
+      margin-right: 1em; /* Adjust spacing as needed */
+  }
+  
+  @media screen and (max-width: 768px) {
+      .aula-virtual-mobile {
+          display: inline;
       }
   }
 </style>
