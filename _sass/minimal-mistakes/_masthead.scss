@@ -1,24 +1,11 @@
-/* ==========================================================================
-   MASTHEAD
-   ========================================================================== */
-
 .masthead {
-  //position: relative;
-  //border-bottom: 0px; //1px solid $border-color;
-  //-webkit-animation: $intro-transition;
-  //animation: $intro-transition;
-  //-webkit-animation-delay: 0.15s;
-  //animation-delay: 0.15s;
-  //z-index: 20;
-  //background-color: #ffffff !important;
-
-  position: fixed; /* Agrega esta línea para hacer que el masthead se mantenga fijo */
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   z-index: 1000;
-  background-color: #ffffff !important;
-  border-bottom: 0; //1px solid $border-color;
+  background-color: transparent !important; /* Make the masthead transparent */
+  border-bottom: 0; 
   -webkit-animation: $intro-transition;
   animation: $intro-transition;
   -webkit-animation-delay: 0.15s;
@@ -52,10 +39,6 @@
   }
 }
 
-.site-logo img {
-  max-height: 3rem;
-}
-
 .site-title {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -63,13 +46,7 @@
   -ms-flex-item-align: center;
   align-self: center;
   font-weight: bold;
-  background-color: #ffffff !important;
-  // z-index: 20;
-}
-
-.site-subtitle {
-  display: block;
-  font-size: $type-size-8;
+  background-color: transparent !important; /* Ensure site title background is transparent */
 }
 
 .masthead__menu {
@@ -78,7 +55,7 @@
   margin-right: 0;
   width: 100%;
   clear: both;
-  background-color: #ffffff !important;
+  background-color: transparent !important; /* Make the menu background transparent */
 
   .site-nav {
     margin-left: 0;
@@ -98,11 +75,10 @@
 
 .masthead__menu-item {
   font-size: 16px; /* Set your desired font size here */
-  //font-weight: bold;
   display: block;
   list-style-type: none;
   white-space: nowrap;
-  background-color: #ffffff !important;
+  background-color: transparent !important; /* Make menu items background transparent */
 
   &--lg {
     padding-right: 2em;
