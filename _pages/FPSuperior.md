@@ -11,7 +11,7 @@ layout: default
     overflow: hidden;
     margin-bottom: 3em;
     padding: 0;
-    margin-top: 5em;
+    margin-top: 2em;
     display: grid;
     grid-template-columns: repeat(2,1fr); /* 2 columns: auto for image width, 1fr for rest */
     grid-template-rows: 142px 1fr; /* 2 rows: auto for title, auto for text */
