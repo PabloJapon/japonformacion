@@ -1,5 +1,5 @@
 ---
-title: "Ciclos formativos de grado medio y superior"
+title: "Ciclos de FP oficiales en grupos reducidos y servicios educativos"
 layout: splash
 header:
   overlay_image: /assets/images/page-header-teaser.png
@@ -7,7 +7,7 @@ header:
   actions:
     - label: "Solicita información"
       url: "https://japonformacion.netlify.app/contacto/"
-excerpt: "Clases presenciales y en horario de mañanas"
+excerpt: "Clases presenciales y en horario de mañana"
 ---
 
 <div style="text-align:center;">
@@ -233,6 +233,8 @@ excerpt: "Clases presenciales y en horario de mañanas"
 }
 
 .accordion {
+  background-color: transparent !important;
+  outline: 0 !important;
   width: 100%;
   padding: 20px;
   text-align: left;
