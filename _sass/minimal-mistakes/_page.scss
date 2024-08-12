@@ -86,7 +86,7 @@ body {
 
 .page__lead {
   font-family: $global-font-family;
-  font-size: $type-size-4;
+  //font-size: $type-size-4;
 }
 
 .page__content {
@@ -235,7 +235,7 @@ body {
 
     .page__title {
       color: #ffffff;
-      font-size: $type-size-2;
+      //font-size: $type-size-2;
       max-width: 800px;
 
       @include breakpoint($small) {
