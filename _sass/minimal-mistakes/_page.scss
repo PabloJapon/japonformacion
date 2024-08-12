@@ -239,7 +239,7 @@ body {
       max-width: 800px;
 
       @include breakpoint($small) {
-        font-size: $type-size-1;
+        //font-size: $type-size-1;
       }
     }
   }
