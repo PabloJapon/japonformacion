@@ -1,7 +1,7 @@
 main:
-  - title: "FP Grado Superior"
+  - title: "FP SUPERIOR"
     url: "/FPSuperior/"
-  - title: "FP Grado Medio"
+  - title: "FP MEDIO"
     url: "/FPMedio/"
-  - title: "Conócenos"
+  - title: "CONÓCENOS"
     url: "/descargar/"
