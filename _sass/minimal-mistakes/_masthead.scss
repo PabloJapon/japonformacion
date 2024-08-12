@@ -5,12 +5,18 @@
   width: 100%;
   z-index: 1000;
   background-color: transparent !important; /* Make the masthead transparent */
-  border-bottom: 0; 
+  border-bottom: 0;
   -webkit-animation: $intro-transition;
   animation: $intro-transition;
   -webkit-animation-delay: 0.15s;
   animation-delay: 0.15s;
   border-bottom: 0.2px solid #fff;
+  transition: background-color 0.3s ease; /* Smooth transition effect */
+
+  &.scrolled {
+    background-color: red !important; /* Change background to red on scroll */
+    border-bottom: 0.2px solid #000; /* Optional: change border color on scroll */
+  }
 
   &__inner-wrap {
     @include clearfix;

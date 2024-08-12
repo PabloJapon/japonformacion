@@ -370,4 +370,15 @@
             });
         });
     });
+
+// JavaScript to handle masthead background color change on scroll
+document.addEventListener('scroll', function() {
+    const masthead = document.querySelector('.masthead');
+
+    if (window.scrollY > 0) {
+        masthead.classList.add('scrolled');
+    } else {
+        masthead.classList.remove('scrolled');
+    }
+});
 </script>
