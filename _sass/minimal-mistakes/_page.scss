@@ -236,10 +236,12 @@ body {
     .page__title {
       color: #ffffff;
       //font-size: $type-size-2;
+      font-size: 42px;
       max-width: 800px;
 
       @include breakpoint($small) {
         //font-size: $type-size-1;
+        font-size: 42px;
       }
     }
   }
