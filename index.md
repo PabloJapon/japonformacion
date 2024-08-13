@@ -15,12 +15,12 @@ excerpt: "Clases presenciales y en horario de mañana"
 </div>
 
 <div class="plans-container">
-  <a href="/payment_form/?plan=Gratis" class="plan">
+  <a href="/FPMedio" class="plan">
     <h2>Grados Medios</h2>
     <p>Accede con el título de ESO, Bachillerato o mediante una prueba de acceso.</p>
   </a>
 
-  <a href="/payment_form/?plan=Pro" class="plan">
+  <a href="/FPSuperior" class="plan">
     <h2>Grados Superiores</h2>
     <p>Accede con el título de Bachillerato, una FP de Grado Medio o Superior o mediante prueba de acceso.</p>
   </a>
