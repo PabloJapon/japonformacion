@@ -7,7 +7,7 @@ layout: default
 
 <div class="splash-container">
   <!-- Full-width background image -->
-  <img src="/assets/images/CABECERA.jpg" alt="Full Width Image" class="splash-image">
+  <img src="/assets/images/CABECERA.png" alt="Full Width Image" class="splash-image">
 
   <!-- Text title at top right -->
   <div class="top-right">Grado Superior FP</div>
@@ -31,6 +31,7 @@ layout: default
     overflow: hidden;
     margin-bottom: 3em;
     padding: 0;
+    padding-top: 3.5em;
     margin-top: 2em;
     display: grid;
     grid-template-columns: repeat(2,1fr); /* 2 columns: auto for image width, 1fr for rest */
