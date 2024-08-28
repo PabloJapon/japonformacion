@@ -103,54 +103,6 @@ layout: default
   </a>
 </div>
 
-<div class="video-container">
-  <video autoplay loop muted style="border-radius: 20px; width: 100%; height: auto;">
-    <source src="/assets/videos/your-video.mp4" type="video/mp4">
-  </video>
-</div>
-
-<div class="features-container">
-  <div class="feature">
-    <video autoplay loop muted class="feature-video">
-      <source src="/assets/videos/your-video.mp4" type="video/mp4">
-    </video>
-    <div class="feature-content">
-      <h2>Actualiza tu menú automáticamente y en cualquier momento</h2>
-      <p>Personalízalo usando las imágenes, colores e iconos que más te representen. Y si un día no puedes servir un plato, no te preocupes, desactívalo para que no aparezca en el menú!</p>
-    </div>
-  </div>
-
-  <div class="feature">
-    <div class="feature-content">
-      <h2>Máxima sincronización, ¡no pierdas más tiempo!</h2>
-      <p>Cuando un cliente realice un pedido, este irá directamente a las pantallas de la cocina, donde los cocineros tan solo haciendo un click, harán saber al camarero cuando puede ir a recogerlo.</p>
-    </div>
-    <video autoplay loop muted class="feature-video">
-      <source src="/assets/videos/your-video.mp4" type="video/mp4">
-    </video>
-  </div>
-
-  <div class="feature">
-    <video autoplay loop muted class="feature-video">
-      <source src="/assets/videos/your-video.mp4" type="video/mp4">
-    </video>
-    <div class="feature-content">
-      <h2>Saca el mayor provecho a tus datos</h2>
-      <p>Consulta estadísticas de todo tipo: a qué horas generas más dinero, cuál fue el plato más pedido la semana pasada, ¿tienen tus postres el precio óptimo?</p>
-    </div>
-  </div>
-
-  <div class="feature">
-    <div class="feature-content">
-      <h2>¡Sin líos!</h2>
-      <p>¿Tienes varios menús? No te preocupes, añádelos todos y tú decides cuándo se muestra cada uno.</p>
-    </div>
-    <video autoplay loop muted class="feature-video">
-      <source src="/assets/videos/your-video.mp4" type="video/mp4">
-    </video>
-  </div>
-</div>
-
 <div style="text-align:center; margin-top:7em">
   ¿Dudas? No te las guardes, pregúntanos.
 </div>
