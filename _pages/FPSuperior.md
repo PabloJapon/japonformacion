@@ -36,7 +36,7 @@ layout: default
     display: grid;
     grid-template-columns: repeat(2,1fr); /* 2 columns: auto for image width, 1fr for rest */
     grid-template-rows: 142px 1fr; /* 2 rows: auto for title, auto for text */
-    grid-column-gap: 120px; /* Adjust spacing between columns */
+    grid-column-gap: 280px; /* Adjust spacing between columns */
     grid-row-gap: 20px; /* Adjust spacing between rows */
     align-items: end;
   }
@@ -83,6 +83,7 @@ layout: default
 
   .bottom-left p {
     font-size: 17px;
+    margin-bottom: 2.5em;
   }
 </style>
 
