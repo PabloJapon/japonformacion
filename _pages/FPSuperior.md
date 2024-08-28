@@ -10,13 +10,13 @@ layout: default
   <img src="/assets/images/CABECERA.png" alt="Full Width Image" class="splash-image">
 
   <!-- Text title at top right -->
-  <div class="top-right">Grado Superior FP</div>
+  <div class="top-left">Grado Superior FP</div>
 
-  <!-- Left image upfront -->
-  <img src="/assets/images/profesorPablo2.png" alt="Left Image" class="left-image">
+  <!-- Right image upfront -->
+  <img src="/assets/images/profesorPablo2.png" alt="Right Image" class="right-image">
 
-  <!-- Text content at bottom right -->
-  <div class="bottom-right">
+  <!-- Text content at bottom left -->
+  <div class="bottom-left">
     <p>Con los Grados Superiores ofrecidos por GRUPO JAPÓN, podrás obtener la titulación oficial de Técnico Superior reconocida por la Junta de Andalucía. Estos programas de formación te preparan para acceder al mercado laboral en solo dos años o continuar con estudios universitarios y másteres. Nuestra metodología práctica te proporciona experiencia directa y relevante, sumergiéndote en el rol de técnico desde el inicio.</p>
     <button class="plan-button2" onclick="location.href='https://japonformacion.netlify.app/contacto/'">Más Información</button>
   </div>
@@ -49,16 +49,17 @@ layout: default
     margin: 0 0;
   }
 
-  .top-right {
+  .top-left {
     grid-row: 1 / 2; /* First row */
-    grid-column: 2 / 3; /* Second column */
-    font-size: 48px;
-    font-weight: 500;
+    grid-column: 1 / 2; /* Now in the first column */
+    font-size: 42px;
+    font-weight: 700;
     color: white;
     z-index: 10; /* Ensure above background image */
+    margin-left: auto;
   }
 
-  .left-image {
+  .right-image {
     grid-row: 1 / 3; /* Both rows */
     grid-column: 2 / 3; /* Now in the second column */
     width: 370px;
@@ -68,7 +69,7 @@ layout: default
     margin-top: 1em;
   }
 
-  .bottom-right {
+  .bottom-left {
     grid-row: 2 / 3; /* Second row */
     grid-column: 1 / 2; /* Now in the first column */
     align-self: start; /* Align to the start */
@@ -76,9 +77,10 @@ layout: default
     z-index: 10; /* Ensure above background image */
     max-width: 504px;
     text-align: left; /* Optional: Ensure left alignment for text */
+    margin-left: auto;
   }
 
-  .bottom-right p {
+  .bottom-left p {
     font-size: 17px;
   }
 </style>
