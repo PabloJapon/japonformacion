@@ -56,6 +56,8 @@ layout: default
     font-weight: 700;
     color: white;
     z-index: 10; /* Ensure above background image */
+    text-align: left;
+    margin-right: 2.9em;
     margin-left: auto;
   }
 
@@ -64,7 +66,6 @@ layout: default
     grid-column: 2 / 3; /* Now in the second column */
     width: 370px;
     z-index: 10; /* Ensure above background image */
-    margin-left: auto;
     margin-bottom: 0;
     margin-top: 1em;
   }
