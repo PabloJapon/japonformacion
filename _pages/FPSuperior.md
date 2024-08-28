@@ -7,7 +7,7 @@ layout: default
 
 <div class="splash-container">
   <!-- Full-width background image -->
-  <img src="/assets/images/CABECERA.png" alt="Full Width Image" class="splash-image">
+  <img src="/assets/images/CABECERA.jpg" alt="Full Width Image" class="splash-image">
 
   <!-- Text title at top right -->
   <div class="top-right">Grado Superior FP</div>
@@ -211,38 +211,6 @@ layout: default
   color: inherit;
 }
 
-.video-container {
-  margin: 0 auto;
-  text-align: center;
-}
-
-.features-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.feature {
-  display: flex;
-  align-items: center;
-  padding: 20px;
-  margin-bottom: 40px;
-}
-
-.feature-content {
-  display: flex;
-  flex-direction: column;
-  padding: 20px;
-  text-align: center;
-}
-
-.feature-video {
-  border-radius: 40px;
-  width: 50%;
-  height: auto;
-  padding: 1em;
-}
-
 .contact-form {
   max-width: 600px;
   margin: 0 auto;
@@ -291,18 +259,6 @@ layout: default
 
 .panel.open {
   height: auto;
-}
-
-.plan-button {
-  background-color: #e31c24;
-  color: white;
-  border: none;
-  padding: 15px 100px;
-  margin: 40px;
-  text-align: center;
-  font-size: 20px;
-  border-radius: 5px;
-  cursor: pointer;
 }
 
 .plan-button:hover {
