@@ -60,7 +60,7 @@ layout: default
 
   .left-image {
     grid-row: 1 / 3; /* Both rows */
-    grid-column: 1 / 2; /* First column */
+    grid-column: 2 / 3; /* Now in the second column */
     width: 370px;
     z-index: 10; /* Ensure above background image */
     margin-left: auto;
@@ -70,11 +70,12 @@ layout: default
 
   .bottom-right {
     grid-row: 2 / 3; /* Second row */
-    grid-column: 2 / 3; /* Second column */
+    grid-column: 1 / 2; /* Now in the first column */
     align-self: start; /* Align to the start */
     color: white;
     z-index: 10; /* Ensure above background image */
     max-width: 504px;
+    text-align: left; /* Optional: Ensure left alignment for text */
   }
 
   .bottom-right p {
