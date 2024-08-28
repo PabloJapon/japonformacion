@@ -250,6 +250,82 @@ img {
   margin-left: 20px;
   vertical-align: middle;
 }
+
+.faq-container {
+  width: 100%;
+  max-width: 41rem;
+  margin: 4em auto;
+  text-align: left;
+}
+
+.accordion {
+  background-color: transparent !important;
+  outline: 0 !important;
+  width: 100%;
+  padding: 20px;
+  text-align: left;
+  border: none;
+  cursor: pointer;
+  line-height: 40px;
+  background-color: transparent;
+  color: black;
+  outline: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #ccc;
+}
+
+.accordion-icon {
+  transition: transform 0.3s ease;
+}
+
+.accordion-icon.rotated {
+  transform: rotate(180deg);
+}
+
+.panel {
+  padding: 0 18px;
+  height: 0;
+  overflow: hidden;
+  transition: height 0.3s ease;
+}
+
+.panel.open {
+  height: auto;
+}
+
+.plan-button {
+  background-color: #e31c24;
+  color: white;
+  border: none;
+  padding: 15px 100px;
+  margin: 40px;
+  text-align: center;
+  font-size: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.plan-button:hover {
+  background-color: #9b1b20;
+}
+
+.submit-button {
+  background-color: #e31c24;
+  color: white;
+  border: none;
+  padding: 15px 100px;
+  margin: 40px;
+  text-align: center;
+  font-size: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #9b1b20;
+}
 </style>
 
 <div class="plan-container">
@@ -272,5 +348,42 @@ img {
     <p>Este es el software que instalará el responsable designado, con el que podrá personalizar la app, crear y editar el menú y consultar las estadísticas y datos</p>
     <button class="plan-button" onclick="location.href='/payment_form/?plan=Premium'">Descargar</button>
     <img src="/assets/images/unsplash-gallery-image-3.jpg" alt="">
+  </div>
+</div>
+
+
+<div style="text-align:center; margin: 2em;">
+  Preguntas frecuentes
+</div>
+
+<div class="faq-container">
+  <div id="faq" class="faq">
+    <button class="accordion">¿Pregunta 1?
+      <img src="/assets/images/angulo-hacia-abajo.png" width="20" height="20" class="accordion-icon">
+    </button>
+    <div class="panel">
+      <p>Respuesta a la pregunta 1.</p>
+    </div>
+
+    <button class="accordion">¿Pregunta 2?
+      <img src="/assets/images/angulo-hacia-abajo.png" width="20" height="20" class="accordion-icon">
+    </button>
+    <div class="panel">
+      <p>Respuesta a la pregunta 2.</p>
+    </div>
+
+    <button class="accordion">¿Pregunta 3?
+      <img src="/assets/images/angulo-hacia-abajo.png" width="20" height="20" class="accordion-icon">
+    </button>
+    <div class="panel">
+      <p>Respuesta a la pregunta 3.</p>
+    </div>
+
+    <button class="accordion">¿Pregunta 4?
+      <img src="/assets/images/angulo-hacia-abajo.png" width="20" height="20" class="accordion-icon">
+    </button>
+    <div class="panel">
+      <p>Respuesta a la pregunta 4.</p>
+    </div>
   </div>
 </div>
