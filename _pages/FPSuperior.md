@@ -42,11 +42,13 @@ layout: default
   }
 
   .splash-image {
-    width: 100%;
-    display: block;
-    position: absolute;
-    z-index: -1; /* Send the background image to the back */
-    margin: 0 0;
+    width: 100vw; /* Ensure the image covers the full viewport width */
+    height: 100vh; /* Ensure the image covers the full viewport height */
+    position: fixed; /* Keep the image fixed in place */
+    top: 0; 
+    left: 0;
+    object-fit: cover; /* Makes sure the image scales to cover without changing its aspect ratio */
+    z-index: -1; /* Keep it behind other content */
   }
 
   .top-left {
@@ -71,6 +73,10 @@ layout: default
   }
 
   .bottom-left {
+    background-color: rgba(128, 128, 128, 0.7); /* Grey color with transparency */
+    padding: 20px; /* Add padding to make space between text and the edges */
+    border-radius: 8px; /* Optional: to make the background look smooth */
+
     grid-row: 2 / 3; /* Second row */
     grid-column: 1 / 2; /* Now in the first column */
     align-self: start; /* Align to the start */
