@@ -39,7 +39,7 @@ layout: default
     display: grid;
     grid-template-columns: repeat(2,1fr); /* 2 columns: auto for image width, 1fr for rest */
     grid-template-rows: 142px 1fr; /* 2 rows: auto for title, auto for text */
-    grid-column-gap: 280px; /* Adjust spacing between columns */
+    grid-column-gap: 20px; /* Adjust spacing between columns */
     grid-row-gap: 20px; /* Adjust spacing between rows */
     align-items: end;
   }
@@ -63,7 +63,7 @@ layout: default
     color: white;
     z-index: 10; /* Ensure above background image */
     text-align: left;
-    margin-right: 2.9em;
+    margin-right: 6.25em;
     margin-left: auto;
   }
 
@@ -72,32 +72,35 @@ layout: default
     grid-column: 2 / 3; /* Now in the second column */
     width: 370px;
     z-index: 10; /* Ensure above background image */
-    margin-bottom: 0;
-    margin-top: 1em;
+    margin: 0 auto;
   }
 
   .grey-background {
-    background-color: #7f7f7f; /* Semi-transparent grey */
+    background-color: rgba(127, 127, 127, 0.7); /* Semi-transparent grey */
     position: absolute; /* Ensures it stays within the container */
     top: 0;
     left: 0;
     width: 50%; /* Occupy the left half of the splash container */
     height: 100%; /* Full height of the splash container */
     z-index: 5; /* Below the text but above the background image */
+    margin-top: 3.5em; */
+    transform: translateX(-80px);
   }
 
   .bottom-left {
-    z-index: 10; /* Make sure the text is on top */
-    max-width: 504px;
+    z-index: 10;
+    max-width: 600px;
     text-align: left;
     margin-left: auto;
+    margin-right: 3em;
     color: white;
-    padding: 20px; /* Optional padding */
+    padding: 20px;
+    align-self: start;
   }
 
   .bottom-left p {
     font-size: 17px;
-    margin-bottom: 2.5em;
+    margin-bottom: 3em;
   }
 </style>
 
