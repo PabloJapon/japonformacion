@@ -9,6 +9,9 @@ layout: default
   <!-- Full-width background image -->
   <img src="/assets/images/CABECERA.png" alt="Full Width Image" class="splash-image">
 
+  <!-- Grey transparent background image -->
+  <div class="grey-background"></div>
+
   <!-- Text title at top right -->
   <div class="top-left">Grado Superior FP</div>
 
@@ -18,7 +21,7 @@ layout: default
   <!-- Text content at bottom left -->
   <div class="bottom-left">
     <p>Con los Grados Superiores ofrecidos por GRUPO JAPÓN, podrás obtener la titulación oficial de Técnico Superior reconocida por la Junta de Andalucía. Estos programas de formación te preparan para acceder al mercado laboral en solo dos años o continuar con estudios universitarios y másteres. Nuestra metodología práctica te proporciona experiencia directa y relevante, sumergiéndote en el rol de técnico desde el inicio.</p>
-    <button class="plan-button2" onclick="location.href='https://japonformacion.netlify.app/contacto/'">Más Información</button>
+    <button class="plan-button2" onclick="location.href='https://japonformacion.netlify.app/contacto/'" style="font-weight: 700;">MÁS INFORMACIÓN</button>
   </div>
 </div>
 
@@ -42,13 +45,14 @@ layout: default
   }
 
   .splash-image {
-    width: 100vw; /* Ensure the image covers the full viewport width */
-    height: 100vh; /* Ensure the image covers the full viewport height */
-    position: fixed; /* Keep the image fixed in place */
-    top: 0; 
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
     left: 0;
-    object-fit: cover; /* Makes sure the image scales to cover without changing its aspect ratio */
-    z-index: -1; /* Keep it behind other content */
+    object-fit: cover;
+    z-index: -1;
+    margin: 0;
   }
 
   .top-left {
@@ -72,19 +76,23 @@ layout: default
     margin-top: 1em;
   }
 
-  .bottom-left {
-    background-color: rgba(128, 128, 128, 0.7); /* Grey color with transparency */
-    padding: 20px; /* Add padding to make space between text and the edges */
-    border-radius: 8px; /* Optional: to make the background look smooth */
+  .grey-background {
+    background-color: #7f7f7f; /* Semi-transparent grey */
+    position: absolute; /* Ensures it stays within the container */
+    top: 0;
+    left: 0;
+    width: 50%; /* Occupy the left half of the splash container */
+    height: 100%; /* Full height of the splash container */
+    z-index: 5; /* Below the text but above the background image */
+  }
 
-    grid-row: 2 / 3; /* Second row */
-    grid-column: 1 / 2; /* Now in the first column */
-    align-self: start; /* Align to the start */
-    color: white;
-    z-index: 10; /* Ensure above background image */
+  .bottom-left {
+    z-index: 10; /* Make sure the text is on top */
     max-width: 504px;
-    text-align: left; /* Optional: Ensure left alignment for text */
+    text-align: left;
     margin-left: auto;
+    color: white;
+    padding: 20px; /* Optional padding */
   }
 
   .bottom-left p {
