@@ -73,6 +73,7 @@ layout: default
     width: 370px;
     z-index: 10; /* Ensure above background image */
     margin: 0 auto;
+    transform: translateX(calc(-50% + 80px));
   }
 
   .grey-background {
