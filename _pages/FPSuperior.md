@@ -77,6 +77,19 @@ layout: default
     align-self: start;
   }
 
+  .top-left {
+    grid-row: 1 / 2; /* First row */
+    grid-column: 1 / 2; /* Now in the first column */
+    font-size: 42px;
+    font-weight: 700;
+    color: white;
+    z-index: 10; /* Ensure above background image */
+    text-align: left;
+    margin-right: 6.25em;
+    margin-left: auto;
+    padding-left: 20px;
+  }
+
   /* Breakpoint for smaller screens: 1 column, 3 rows */
   @media (max-width: 967px) {
     .splash-container {
@@ -111,6 +124,17 @@ layout: default
       grid-column: 1 / 1;
       grid-row: 3 / 3;
     }
+
+    .top-left {
+      grid-row: 1 / 2; /* First row */
+      grid-column: 1 / 2; /* Now in the first column */
+      font-size: 34px;
+      font-weight: 700;
+      color: white;
+      z-index: 10; /* Ensure above background image */
+      text-align: left;
+      padding-left: 20px;
+    }
   }
 
   .splash-image {
@@ -122,19 +146,6 @@ layout: default
     object-fit: cover;
     z-index: -1;
     margin: 0;
-  }
-
-  .top-left {
-    grid-row: 1 / 2; /* First row */
-    grid-column: 1 / 2; /* Now in the first column */
-    font-size: 42px;
-    font-weight: 700;
-    color: white;
-    z-index: 10; /* Ensure above background image */
-    text-align: left;
-    margin-right: 6.25em;
-    margin-left: auto;
-    padding-left: 20px;
   }
 
   .bottom-left p {
