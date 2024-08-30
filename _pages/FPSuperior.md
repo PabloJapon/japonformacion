@@ -37,13 +37,22 @@ layout: default
     padding-top: 3.5em;
     margin-top: 2em;
     display: grid;
-    grid-template-columns: repeat(2,1fr); /* 2 columns: auto for image width, 1fr for rest */
-    grid-template-rows: 142px 1fr; /* 2 rows: auto for title, auto for text */
+    grid-template-columns: repeat(2, 1fr); /* Default: 2 columns */
+    grid-template-rows: 142px 1fr; /* Default: 2 rows */
     grid-column-gap: 20px; /* Adjust spacing between columns */
     grid-row-gap: 20px; /* Adjust spacing between rows */
     align-items: end;
   }
 
+  /* Styling for the right image */
+  .right-image {
+    grid-row: 1 / 3; /* Both rows */
+    grid-column: 2 / 3; /* Default: second column */
+    width: 370px;
+    z-index: 10; /* Ensure above background image */
+    margin: 0 auto;
+    transform: translateX(calc(-50% + 80px));
+  }
 
   /* Breakpoint for smaller screens: 1 column, 3 rows */
   @media (max-width: 767px) {
@@ -83,15 +92,6 @@ layout: default
     text-align: left;
     margin-right: 6.25em;
     margin-left: auto;
-  }
-
-  .right-image {
-    grid-row: 1 / 3; /* Both rows */
-    grid-column: 2 / 3; /* Now in the second column */
-    width: 370px;
-    z-index: 10; /* Ensure above background image */
-    margin: 0 auto;
-    transform: translateX(calc(-50% + 80px));
   }
 
   .grey-background {
@@ -152,28 +152,32 @@ layout: default
 
 <div class="faq-container">
   <div id="faq" class="faq">
-    <button class="accordion">¿Pregunta 1?
+    <button class="accordion">
+      <p>¿Pregunta 1?</p>
       <img src="/assets/images/angulo-hacia-abajo.png" width="20" height="20" class="accordion-icon">
     </button>
     <div class="panel">
       <p>Respuesta a la pregunta 1.</p>
     </div>
 
-    <button class="accordion">¿Pregunta 2?
+    <button class="accordion">
+      <p>¿Pregunta 2?</p>
       <img src="/assets/images/angulo-hacia-abajo.png" width="20" height="20" class="accordion-icon">
     </button>
     <div class="panel">
       <p>Respuesta a la pregunta 2.</p>
     </div>
 
-    <button class="accordion">¿Pregunta 3?
+    <button class="accordion">
+      <p>¿Pregunta 3?</p>
       <img src="/assets/images/angulo-hacia-abajo.png" width="20" height="20" class="accordion-icon">
     </button>
     <div class="panel">
       <p>Respuesta a la pregunta 3.</p>
     </div>
 
-    <button class="accordion">¿Pregunta 4?
+    <button class="accordion">
+      <p>¿Pregunta 4?</p>
       <img src="/assets/images/angulo-hacia-abajo.png" width="20" height="20" class="accordion-icon">
     </button>
     <div class="panel">
@@ -181,6 +185,7 @@ layout: default
     </div>
   </div>
 </div>
+
 
 
 
@@ -285,9 +290,6 @@ layout: default
   justify-content: space-between;
   align-items: center;
   border-top: 1px solid #ccc;
-  font-family: inherit; /* Inherit the same font as the rest of the text */
-  font-size: 17px; /* Set the same size as the answer text */
-  font-weight: normal; /* Ensure consistent font weight */
 }
 
 .accordion-icon {
