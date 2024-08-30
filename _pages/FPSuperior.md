@@ -66,7 +66,7 @@ layout: default
     .right-image {
       grid-row: 2 / 3; /* Place the image in the second row */
       grid-column: 1 / 2; /* Place it in the first column */
-      width: 100%; /* Make it responsive */
+      width: 250px; /* Make it responsive */
       transform: none; /* Remove the horizontal transform */
     }
   }
@@ -92,6 +92,7 @@ layout: default
     text-align: left;
     margin-right: 6.25em;
     margin-left: auto;
+    padding-left: 20px;
   }
 
   .grey-background {
@@ -152,32 +153,28 @@ layout: default
 
 <div class="faq-container">
   <div id="faq" class="faq">
-    <button class="accordion">
-      <p>¿Pregunta 1?</p>
+    <button class="accordion">¿Pregunta 1?
       <img src="/assets/images/angulo-hacia-abajo.png" width="20" height="20" class="accordion-icon">
     </button>
     <div class="panel">
       <p>Respuesta a la pregunta 1.</p>
     </div>
 
-    <button class="accordion">
-      <p>¿Pregunta 2?</p>
+    <button class="accordion">¿Pregunta 2?
       <img src="/assets/images/angulo-hacia-abajo.png" width="20" height="20" class="accordion-icon">
     </button>
     <div class="panel">
       <p>Respuesta a la pregunta 2.</p>
     </div>
 
-    <button class="accordion">
-      <p>¿Pregunta 3?</p>
+    <button class="accordion">¿Pregunta 3?
       <img src="/assets/images/angulo-hacia-abajo.png" width="20" height="20" class="accordion-icon">
     </button>
     <div class="panel">
       <p>Respuesta a la pregunta 3.</p>
     </div>
 
-    <button class="accordion">
-      <p>¿Pregunta 4?</p>
+    <button class="accordion">¿Pregunta 4?
       <img src="/assets/images/angulo-hacia-abajo.png" width="20" height="20" class="accordion-icon">
     </button>
     <div class="panel">
@@ -185,8 +182,6 @@ layout: default
     </div>
   </div>
 </div>
-
-
 
 
 <div style="text-align:center; margin-top:7em">
@@ -290,6 +285,9 @@ layout: default
   justify-content: space-between;
   align-items: center;
   border-top: 1px solid #ccc;
+  font-family: inherit; /* Inherit the same font as the rest of the text */
+  font-size: 17px; /* Set the same size as the answer text */
+  font-weight: normal; /* Ensure consistent font weight */
 }
 
 .accordion-icon {
