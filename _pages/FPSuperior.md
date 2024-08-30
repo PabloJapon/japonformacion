@@ -52,6 +52,14 @@ layout: default
       grid-template-rows: repeat(3, auto); /* 3 rows */
       grid-row-gap: 20px; /* Adjust row spacing */
     }
+
+    /* Adjust the right image to fit in the first column (stacked layout) */
+    .right-image {
+      grid-row: 2 / 3; /* Place the image in the second row */
+      grid-column: 1 / 2; /* Place it in the first column */
+      width: 100%; /* Make it responsive */
+      transform: none; /* Remove the horizontal transform */
+    }
   }
 
   .splash-image {
@@ -271,12 +279,15 @@ layout: default
   cursor: pointer;
   line-height: 40px;
   background-color: transparent;
-  color: black;
+  color: black; /* Ensure it's the same color as the rest of the text */
   outline: none;
   display: flex;
   justify-content: space-between;
   align-items: center;
   border-top: 1px solid #ccc;
+  font-family: inherit; /* Inherit the same font as the rest of the text */
+  font-size: 17px; /* Set the same size as the answer text */
+  font-weight: normal; /* Ensure consistent font weight */
 }
 
 .accordion-icon {
