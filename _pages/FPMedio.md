@@ -20,7 +20,7 @@ layout: default
 
   <!-- Text content at bottom left -->
   <div class="bottom-left">
-    <p>Optar por un Grado Medio de FP en GRUPO JAPÓN es elegir una titulación oficial de Formación Profesional, certificada por la Junta de Andalucía, que te permitirá ingresar al mercado laboral en menos de dos años. Estos Ciclos Formativos de Grado Medio te preparan para trabajar en tu área de interés con una metodología práctica, brindándote experiencia desde el primer día. Además, todos los contenidos están alineados con las necesidades actuales del mercado laboral.</p>
+    <p>Optar por un Grado Medio de FP en GRUPO JAPÓN es elegir una titulación oficial de Formación Profesional, certificada por la Junta de Andalucía, que te permitirá ingresar al mercado laboral en menos de dos años. Estos Ciclos Formativos de Grado Medio te preparan para trabajar en tu área de interés con una metodología práctica, brindándote experiencia desde el primer día. Además, todos los contenidos están alineados con las necesidad es actuales del mercado laboral.</p>
     <button class="plan-button2" onclick="location.href='https://japonformacion.netlify.app/contacto/'" style="font-weight: 700;">MÁS INFORMACIÓN</button>
   </div>
 </div>
@@ -48,7 +48,7 @@ layout: default
   .right-image {
     grid-row: 1 / 3; /* Both rows */
     grid-column: 2 / 3; /* Default: second column */
-    width: 370px;
+    width: 530px;
     z-index: 10; /* Ensure above background image */
     margin: 0 auto;
     transform: translateX(calc(-50% + 80px));
