@@ -28,82 +28,119 @@ layout: default
 
 <style>
   .splash-container {
-    position: relative;
-    width: 100%;
-    max-width: none;
-    overflow: hidden;
-    margin-bottom: 3em;
-    padding: 0;
-    padding-top: 3.5em;
-    margin-top: 2em;
-    display: grid;
-    grid-template-columns: repeat(2,1fr); /* 2 columns: auto for image width, 1fr for rest */
-    grid-template-rows: 142px 1fr; /* 2 rows: auto for title, auto for text */
-    grid-column-gap: 20px; /* Adjust spacing between columns */
-    grid-row-gap: 20px; /* Adjust spacing between rows */
-    align-items: end;
-  }
+  position: relative;
+  width: 100%;
+  max-width: none;
+  overflow: hidden;
+  margin-bottom: 3em;
+  padding: 0;
+  padding-top: 3.5em;
+  margin-top: 2em;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 columns: auto for image width, 1fr for rest */
+  grid-template-rows: 142px 1fr; /* 2 rows: auto for title, auto for text */
+  grid-column-gap: 20px; /* Adjust spacing between columns */
+  grid-row-gap: 20px; /* Adjust spacing between rows */
+  align-items: end;
+}
 
-  .splash-image {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    object-fit: cover;
-    z-index: -1;
-    margin: 0;
+.splash-image {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  z-index: -1;
+  margin: 0;
+}
+
+.top-left {
+  grid-row: 1 / 2; /* First row */
+  grid-column: 1 / 2; /* Now in the first column */
+  font-size: 42px;
+  font-weight: 700;
+  color: white;
+  z-index: 10; /* Ensure above background image */
+  text-align: left;
+  margin-right: 6.25em;
+  margin-left: auto;
+}
+
+.right-image {
+  grid-row: 1 / 3; /* Both rows */
+  grid-column: 2 / 3; /* Now in the second column */
+  width: 370px;
+  z-index: 10; /* Ensure above background image */
+  margin: 0 auto;
+  transform: translateX(calc(-50% + 80px));
+}
+
+.grey-background {
+  background-color: rgba(127, 127, 127, 0.7); /* Semi-transparent grey */
+  position: absolute; /* Ensures it stays within the container */
+  top: 0;
+  left: 0;
+  width: 50%; /* Occupy the left half of the splash container */
+  height: 100%; /* Full height of the splash container */
+  z-index: 5; /* Below the text but above the background image */
+  margin-top: 3.5em;
+  transform: translateX(-80px);
+}
+
+.bottom-left {
+  z-index: 10;
+  max-width: 600px;
+  text-align: left;
+  margin-left: auto;
+  margin-right: 3em;
+  color: white;
+  padding: 20px;
+  align-self: start;
+}
+
+.bottom-left p {
+  font-size: 17px;
+  margin-bottom: 3em;
+}
+
+/* Breakpoint for 3x1 Grid Layout */
+@media (min-width: 1024px) {
+  .splash-container {
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    grid-template-rows: 1fr; /* 1 row */
+    grid-column-gap: 20px;
+    grid-row-gap: 0; /* No row gaps since it's a single row */
   }
 
   .top-left {
-    grid-row: 1 / 2; /* First row */
-    grid-column: 1 / 2; /* Now in the first column */
-    font-size: 42px;
-    font-weight: 700;
-    color: white;
-    z-index: 10; /* Ensure above background image */
-    text-align: left;
-    margin-right: 6.25em;
-    margin-left: auto;
+    grid-column: 1 / 2; /* Position the title in the first column */
+    grid-row: 1 / 2; /* Single row */
   }
 
   .right-image {
-    grid-row: 1 / 3; /* Both rows */
-    grid-column: 2 / 3; /* Now in the second column */
+    grid-column: 3 / 4; /* Move the image to the third column */
+    grid-row: 1 / 2; /* Same row */
     width: 370px;
-    z-index: 10; /* Ensure above background image */
+    z-index: 10;
     margin: 0 auto;
-    transform: translateX(calc(-50% + 80px));
-  }
-
-  .grey-background {
-    background-color: rgba(127, 127, 127, 0.7); /* Semi-transparent grey */
-    position: absolute; /* Ensures it stays within the container */
-    top: 0;
-    left: 0;
-    width: 50%; /* Occupy the left half of the splash container */
-    height: 100%; /* Full height of the splash container */
-    z-index: 5; /* Below the text but above the background image */
-    margin-top: 3.5em; */
-    transform: translateX(-80px);
+    transform: translateX(0); /* Adjust alignment */
   }
 
   .bottom-left {
-    z-index: 10;
-    max-width: 600px;
-    text-align: left;
-    margin-left: auto;
-    margin-right: 3em;
-    color: white;
-    padding: 20px;
-    align-self: start;
+    grid-column: 2 / 3; /* Place the text in the second column */
+    grid-row: 1 / 2;
+    margin-left: 0;
+    margin-right: 0;
   }
 
-  .bottom-left p {
-    font-size: 17px;
-    margin-bottom: 3em;
+  .grey-background {
+    width: 100%; /* Make sure it covers all columns */
+    height: 100%;
+    transform: translateX(0); /* Adjust translation */
   }
-</style>
+}
+
 
 
 <div style="text-align:center;">
@@ -126,6 +163,45 @@ layout: default
     <p>Lo que sea</p>
   </a>
 </div>
+
+
+<div style="text-align:center; margin: 2em;">
+  Preguntas frecuentes
+</div>
+
+<div class="faq-container">
+  <div id="faq" class="faq">
+    <button class="accordion">¿Pregunta 1?
+      <img src="/assets/images/angulo-hacia-abajo.png" width="20" height="20" class="accordion-icon">
+    </button>
+    <div class="panel">
+      <p>Respuesta a la pregunta 1.</p>
+    </div>
+
+    <button class="accordion">¿Pregunta 2?
+      <img src="/assets/images/angulo-hacia-abajo.png" width="20" height="20" class="accordion-icon">
+    </button>
+    <div class="panel">
+      <p>Respuesta a la pregunta 2.</p>
+    </div>
+
+    <button class="accordion">¿Pregunta 3?
+      <img src="/assets/images/angulo-hacia-abajo.png" width="20" height="20" class="accordion-icon">
+    </button>
+    <div class="panel">
+      <p>Respuesta a la pregunta 3.</p>
+    </div>
+
+    <button class="accordion">¿Pregunta 4?
+      <img src="/assets/images/angulo-hacia-abajo.png" width="20" height="20" class="accordion-icon">
+    </button>
+    <div class="panel">
+      <p>Respuesta a la pregunta 4.</p>
+    </div>
+  </div>
+</div>
+
+
 
 <div style="text-align:center; margin-top:7em">
   ¿Dudas? No te las guardes, pregúntanos.
@@ -168,41 +244,6 @@ layout: default
   });
 </script>
 
-<div style="text-align:center; margin: 2em;">
-  Preguntas frecuentes
-</div>
-
-<div class="faq-container">
-  <div id="faq" class="faq">
-    <button class="accordion">¿Pregunta 1?
-      <img src="/assets/images/angulo-hacia-abajo.png" width="20" height="20" class="accordion-icon">
-    </button>
-    <div class="panel">
-      <p>Respuesta a la pregunta 1.</p>
-    </div>
-
-    <button class="accordion">¿Pregunta 2?
-      <img src="/assets/images/angulo-hacia-abajo.png" width="20" height="20" class="accordion-icon">
-    </button>
-    <div class="panel">
-      <p>Respuesta a la pregunta 2.</p>
-    </div>
-
-    <button class="accordion">¿Pregunta 3?
-      <img src="/assets/images/angulo-hacia-abajo.png" width="20" height="20" class="accordion-icon">
-    </button>
-    <div class="panel">
-      <p>Respuesta a la pregunta 3.</p>
-    </div>
-
-    <button class="accordion">¿Pregunta 4?
-      <img src="/assets/images/angulo-hacia-abajo.png" width="20" height="20" class="accordion-icon">
-    </button>
-    <div class="panel">
-      <p>Respuesta a la pregunta 4.</p>
-    </div>
-  </div>
-</div>
 
 <style>
 .plans-container {
