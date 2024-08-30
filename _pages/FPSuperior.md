@@ -170,7 +170,7 @@ layout: default
   </a>
 
   <a href="/FPSuperior" class="plan">
-    <h2>Turismo - Huelva/h2>
+    <h2>Turismo - Huelva</h2>
     <p>Técnico Superior en Guía, Información y Asistencias Turísticas</p>
   </a>
 

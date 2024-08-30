@@ -14,7 +14,7 @@ layout: default
   <div class="grey-background"></div>
 
   <!-- Text title at top right -->
-  <div class="top-left">Grado Medio FP</div>
+  <div class="top-left">Judo</div>
 
   <!-- Right image upfront -->
   <img src="/assets/images/profesorPablo2.png" alt="Right Image" class="right-image">
@@ -237,7 +237,7 @@ layout: default
 </div>
 
 <div style="font-size: 17px;text-align: center;font-style: italic;">
-  <p>*Bonificación del 10% para el segundo o tercer hermano inscrito</p>
+  <p style="margin-bottom: 6em;">*Bonificación del 10% para el segundo o tercer hermano inscrito</p>
 </div>
 
 
