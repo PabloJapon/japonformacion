@@ -8,7 +8,7 @@ layout: default
 
 <div class="splash-container">
   <!-- Full-width background image -->
-  <img src="/assets/images/tatami.jpg" alt="Full Width Image" class="splash-image">
+  <img src="/assets/images/tatami.png" alt="Full Width Image" class="splash-image">
 
   <!-- Grey transparent background image -->
   <div class="grey-background"></div>
