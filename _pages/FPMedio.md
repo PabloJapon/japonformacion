@@ -7,7 +7,7 @@ layout: default
 
 <div class="splash-container">
   <!-- Full-width background image -->
-  <img src="/assets/images/CABECERA.png" alt="Full Width Image" class="splash-image">
+  <img src="/assets/images/CABECERA3.png" alt="Full Width Image" class="splash-image">
 
   <!-- Grey transparent background image -->
   <div class="grey-background"></div>
@@ -16,7 +16,7 @@ layout: default
   <div class="top-left">Grado Medio FP</div>
 
   <!-- Right image upfront -->
-  <img src="/assets/images/profesorPablo2.png" alt="Right Image" class="right-image">
+  <img src="/assets/images/profesorGregorio2.png" alt="Right Image" class="right-image">
 
   <!-- Text content at bottom left -->
   <div class="bottom-left">

@@ -8,7 +8,7 @@ layout: default
 
 <div class="splash-container">
   <!-- Full-width background image -->
-  <img src="/assets/images/CABECERA.png" alt="Full Width Image" class="splash-image">
+  <img src="/assets/images/aulamatinal.png" alt="Full Width Image" class="splash-image">
 
   <!-- Grey transparent background image -->
   <div class="grey-background"></div>
@@ -17,7 +17,7 @@ layout: default
   <div class="top-left">Aula matinal</div>
 
   <!-- Right image upfront -->
-  <img src="/assets/images/profesorPablo2.png" alt="Right Image" class="right-image">
+  <img src="/assets/images/niñacomiendo.png" alt="Right Image" class="right-image">
 
   <!-- Text content at bottom left -->
   <div class="bottom-left">
@@ -160,6 +160,10 @@ layout: default
 </style>
 
 
+<div style="font-size: 17px;text-align: center;">
+  <p>*Fecha de inicio: 10 de septiembre de 2024</p>
+</div>
+
 
 <div class="table-container">
   <table>
@@ -168,7 +172,6 @@ layout: default
         <th style="width: 200px;text-align: center;"><h2>Centro</h2></th>
         <th style="width: 200px;text-align: center;"><h2>Horario</h2></th>
         <th style="width: 200px;text-align: center;"><h2>Cuota</h2></th>
-        <th style="width: 200px;text-align: center;"><h2>Fecha de inicio</h2></th>
         <th style="width: 200px;text-align: center;"><h2>Enlaces</h2></th>
       </tr>
     </thead>
@@ -182,7 +185,6 @@ layout: default
             <li>3 € - días sueltos</li>
           </ul>
         </td>
-        <td style="width: 200px;text-align: center;">11/09/2024</td>
         <td style="width: 200px;text-align: center;">
           <ul style="list-style-type: disc; padding-left: 40px; margin: 0; text-align: left;">
             <li><a href="/assets/documents/Nota_informativa_Aula_de_matinal_Ceip_El_Puntal_2023-24.pdf">Más información</a></li>
@@ -199,7 +201,6 @@ layout: default
             <li>3 € - días sueltos</li>
           </ul>
         </td>
-        <td style="width: 200px;text-align: center;">11/09/2024</td>
         <td style="width: 200px;text-align: center;">
           <ul style="list-style-type: disc; padding-left: 40px; margin: 0; text-align: left;">
             <li><a href="/assets/documents/Nota_informativa_Aula_de_matinal_Ceip_El_Puntal_2023-24.pdf">Más información</a></li>
@@ -216,7 +217,6 @@ layout: default
             <li>3 € - días sueltos</li>
           </ul>
         </td>
-        <td style="width: 200px;text-align: center;">11/09/2024</td>
         <td style="width: 200px;text-align: center;">
           <ul style="list-style-type: disc; padding-left: 40px; margin: 0; text-align: left;">
             <li><a href="/assets/documents/Nota_informativa_Aula_de_matinal_Ceip_El_Puntal_2023-24.pdf">Más información</a></li>
@@ -233,7 +233,6 @@ layout: default
             <li>3 € - días sueltos</li>
           </ul>
         </td>
-        <td style="width: 200px;text-align: center;">11/09/2024</td>
         <td style="width: 200px;text-align: center;">
           <ul style="list-style-type: disc; padding-left: 40px; margin: 0; text-align: left;">
             <li><a href="/assets/documents/Nota_informativa_Aula_de_matinal_Ceip_El_Puntal_2023-24.pdf">Más información</a></li>
@@ -250,7 +249,6 @@ layout: default
             <li>3 € - días sueltos</li>
           </ul>
         </td>
-        <td style="width: 200px;text-align: center;">11/09/2024</td>
         <td style="width: 200px;text-align: center;">
           <ul style="list-style-type: disc; padding-left: 40px; margin: 0; text-align: left;">
             <li><a href="/assets/documents/Nota_informativa_Aula_de_matinal_Ceip_El_Puntal_2023-24.pdf">Más información</a></li>
@@ -267,7 +265,6 @@ layout: default
             <li>3 € - días sueltos</li>
           </ul>
         </td>
-        <td style="width: 200px;text-align: center;">11/09/2024</td>
         <td style="width: 200px;text-align: center;">
           <ul style="list-style-type: disc; padding-left: 40px; margin: 0; text-align: left;">
             <li><a href="/assets/documents/Nota_informativa_Aula_de_matinal_Ceip_El_Puntal_2023-24.pdf">Más información</a></li>
