@@ -96,6 +96,7 @@ layout: default
       grid-template-columns: 1fr; /* 1 column */
       grid-template-rows: repeat(3, auto); /* 3 rows */
       grid-row-gap: 0px; /* Adjust row spacing */
+      margin-top: 0;
     }
 
     /* Adjust the right image to fit in the first column (stacked layout) */
@@ -164,18 +165,18 @@ layout: default
 
 <div class="plans-container">
   <a href="/FPMedio" class="plan">
-    <h2>Grados Medios</h2>
-    <p>Accede con el título de ESO, Bachillerato o mediante una prueba de acceso.</p>
+    <h2>TSEAS - Huelva</h2>
+    <p>Técnico Superior en Enseñanza y Animación Sociodeportiva</p>
   </a>
 
   <a href="/FPSuperior" class="plan">
-    <h2>Grados Superiores</h2>
-    <p>Accede con el título de Bachillerato, una FP de Grado Medio o Superior o mediante prueba de acceso.</p>
+    <h2>Turismo - Huelva/h2>
+    <p>Técnico Superior en Guía, Información y Asistencias Turísticas</p>
   </a>
 
   <a href="/payment_form/?plan=Premium" class="plan">
-    <h2>Servicios educativos</h2>
-    <p>Lo que sea</p>
+    <h2>Turismo - Valverde del Camino</h2>
+    <p>Técnico Superior en Guía, Información y Asistencias Turísticas</p>
   </a>
 </div>
 
