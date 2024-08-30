@@ -45,12 +45,12 @@ layout: default
   }
 
 
-  /* Breakpoint for 1-row, 3-column layout */
-  @media (min-width: 1024px) {
+  /* Breakpoint for smaller screens: 1 column, 3 rows */
+  @media (max-width: 767px) {
     .splash-container {
-      grid-template-columns: repeat(3, 1fr); /* 3 columns */
-      grid-template-rows: 1fr; /* 1 row */
-      grid-row-gap: 0; /* Remove row gaps since it's now 1 row */
+      grid-template-columns: 1fr; /* 1 column */
+      grid-template-rows: repeat(3, auto); /* 3 rows */
+      grid-row-gap: 20px; /* Adjust row spacing */
     }
   }
 
@@ -245,7 +245,6 @@ layout: default
 }
 
 .plan h2, .plan p {
-  margin: 0;
   color: inherit;
 }
 
