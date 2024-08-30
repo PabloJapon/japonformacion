@@ -98,7 +98,7 @@ layout: default
       grid-row: 3 / 3; /* Place it in the last row */
       grid-column: 1 / 2; /* Full width of the single column */
       width: 100%; /* Full width of the column */
-      height: auto; /* Adjust height automatically */
+      height: 100%; /* Adjust height automatically */
       transform: none; /* Remove the horizontal transform */
     }
 
@@ -172,32 +172,60 @@ layout: default
 
 <div class="faq-container">
   <div id="faq" class="faq">
-    <button class="accordion">¿Pregunta 1?
+    <button class="accordion">¿Es un título oficial?
       <img src="/assets/images/angulo-hacia-abajo.png" width="20" height="20" class="accordion-icon">
     </button>
     <div class="panel">
-      <p>Respuesta a la pregunta 1.</p>
+      <p>Sí. Somos Centro Docente Privado Grupo Japón con código de Centro 21007304.</p>
     </div>
 
-    <button class="accordion">¿Pregunta 2?
+    <button class="accordion">¿Puedo solicitar Becas del Ministerio de Educación?
       <img src="/assets/images/angulo-hacia-abajo.png" width="20" height="20" class="accordion-icon">
     </button>
     <div class="panel">
-      <p>Respuesta a la pregunta 2.</p>
+      <p>Al tratarse de una titulación oficial, tendrás la posibilidad de optar a una de las ayudas formativas que ofrecen las comunidades autónomas, así como a las becas para FP del Ministerio de Educación y Formación Profesional.</p>
     </div>
 
-    <button class="accordion">¿Pregunta 3?
+    <button class="accordion">¿Necesito comprar algún material para el curso?
       <img src="/assets/images/angulo-hacia-abajo.png" width="20" height="20" class="accordion-icon">
     </button>
     <div class="panel">
-      <p>Respuesta a la pregunta 3.</p>
+      <p>No. Todo el material que necesitaremos está incluido en la matrícula. Sí necesitarás una Tablet o portátil para tus trabajos en clase y casa.</p>
     </div>
 
-    <button class="accordion">¿Pregunta 4?
+    <button class="accordion">¿Qué instalaciones ofrece el Centro?
       <img src="/assets/images/angulo-hacia-abajo.png" width="20" height="20" class="accordion-icon">
     </button>
     <div class="panel">
-      <p>Respuesta a la pregunta 4.</p>
+      <p>Las clases teóricas se impartirán en nuestro Centro y las clases prácticas en: Instalaciones Polideportivas Ayuntamiento, Real Club Recreativo de Tenis y Club Asirio de Tiro con Arco de Huelva.</p>
+    </div>
+
+    <button class="accordion">¿Después del Ciclo, puedo acceder a la Universidad?
+      <img src="/assets/images/angulo-hacia-abajo.png" width="20" height="20" class="accordion-icon">
+    </button>
+    <div class="panel">
+      <p>Si tienes un título de técnico superior de FP podrás acceder directamente a la universidad, y para ello no será necesario superar ninguna prueba de acceso a la universidad como la selectividad (EvAU o EBAU).</p>
+    </div>
+
+    <button class="accordion">¿Cómo se calcula la nota de acceso a la universidad con Grado Superior?
+      <img src="/assets/images/angulo-hacia-abajo.png" width="20" height="20" class="accordion-icon">
+    </button>
+    <div class="panel">
+      <p>Para calcular tu nota de acceso de FP para entrar a un grado universitario se tiene en cuenta la calificación media obtenida a lo largo del ciclo formativo, es decir, la nota media obtenida en los módulos cursados durante los dos años que dura el Grado Superior. Ésta será como máximo de 10 puntos.</p>
+    </div>
+
+    <button class="accordion">¿Qué métodos de pago se aceptan?
+      <img src="/assets/images/angulo-hacia-abajo.png" width="20" height="20" class="accordion-icon">
+    </button>
+    <div class="panel">
+      <p>Tienes dos opciones para que sea mas cómoda tu forma de pago: En un único pago o mediante cuotas mensuales durante la realización de los ciclos.</p>
+    </div>
+
+    <button class="accordion">¿El centro ofrece prácticas profesionales?
+      <img src="/assets/images/angulo-hacia-abajo.png" width="20" height="20" class="accordion-icon">
+    </button>
+    <div class="panel">
+      <p>Sí.Te garantizamos la realización de prácticas en tus estudios de grado superior en TSEAS y el alta en seguridad como exige la nueva normativa de FP.</p>
     </div>
   </div>
 </div>
