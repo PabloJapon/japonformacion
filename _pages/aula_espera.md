@@ -86,7 +86,7 @@ layout: default
     color: white;
     z-index: 10; /* Ensure above background image */
     text-align: left;
-    margin-right: 7.6em;
+    margin-right: 7.9em;
     margin-left: auto;
     padding-left: 20px;
   }
