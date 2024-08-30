@@ -8,7 +8,7 @@ layout: default
 
 <div class="splash-container">
   <!-- Full-width background image -->
-  <img src="/assets/images/CABECERA.png" alt="Full Width Image" class="splash-image">
+  <img src="/assets/images/tatami.jpg" alt="Full Width Image" class="splash-image">
 
   <!-- Grey transparent background image -->
   <div class="grey-background"></div>
@@ -17,7 +17,7 @@ layout: default
   <div class="top-left">Judo</div>
 
   <!-- Right image upfront -->
-  <img src="/assets/images/profesorPablo2.png" alt="Right Image" class="right-image">
+  <img src="/assets/images/judoka.png" alt="Right Image" class="right-image">
 
   <!-- Text content at bottom left -->
   <div class="bottom-left">
