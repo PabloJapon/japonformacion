@@ -54,8 +54,20 @@ layout: default
     transform: translateX(calc(-50% + 80px));
   }
 
+  .grey-background {
+    background-color: rgba(127, 127, 127, 0.7); /* Semi-transparent grey */
+    position: absolute; /* Ensures it stays within the container */
+    top: 0;
+    left: 0;
+    width: 55%; /* Occupy the left half of the splash container */
+    height: 100%; /* Full height of the splash container */
+    z-index: 5; /* Below the text but above the background image */
+    margin-top: 3.5em;
+    transform: translateX(-80px);
+  }
+
   /* Breakpoint for smaller screens: 1 column, 3 rows */
-  @media (max-width: 767px) {
+  @media (max-width: 967px) {
     .splash-container {
       grid-template-columns: 1fr; /* 1 column */
       grid-template-rows: repeat(3, auto); /* 3 rows */
@@ -67,6 +79,16 @@ layout: default
       grid-row: 2 / 3; /* Place the image in the second row */
       grid-column: 1 / 2; /* Place it in the first column */
       width: 250px; /* Make it responsive */
+      transform: none; /* Remove the horizontal transform */
+    }
+
+    /* Adjust the grey background to occupy the last row */
+    .grey-background {
+      position: static; /* Remove absolute positioning */
+      grid-row: 3 / 4; /* Place it in the last row */
+      grid-column: 1 / 2; /* Full width of the single column */
+      width: 100%; /* Full width of the column */
+      height: auto; /* Adjust height automatically */
       transform: none; /* Remove the horizontal transform */
     }
   }
@@ -95,24 +117,12 @@ layout: default
     padding-left: 20px;
   }
 
-  .grey-background {
-    background-color: rgba(127, 127, 127, 0.7); /* Semi-transparent grey */
-    position: absolute; /* Ensures it stays within the container */
-    top: 0;
-    left: 0;
-    width: 50%; /* Occupy the left half of the splash container */
-    height: 100%; /* Full height of the splash container */
-    z-index: 5; /* Below the text but above the background image */
-    margin-top: 3.5em;
-    transform: translateX(-80px);
-  }
-
   .bottom-left {
     z-index: 10;
-    max-width: 600px;
+    max-width: 650px;
     text-align: left;
     margin-left: auto;
-    margin-right: 3em;
+    margin-right: 1em;
     color: white;
     padding: 20px;
     align-self: start;
