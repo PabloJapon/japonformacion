@@ -120,41 +120,7 @@ excerpt: "Clases presenciales y en horario de mañana"
   });
 </script>
 
-<div style="text-align:center; margin: 2em;">
-  Preguntas frecuentes
-</div>
 
-<div class="faq-container">
-  <div id="faq" class="faq">
-    <button class="accordion">¿Pregunta 1?
-      <img src="/assets/images/angulo-hacia-abajo.png" width="20" height="20" class="accordion-icon">
-    </button>
-    <div class="panel">
-      <p>Respuesta a la pregunta 1.</p>
-    </div>
-
-    <button class="accordion">¿Pregunta 2?
-      <img src="/assets/images/angulo-hacia-abajo.png" width="20" height="20" class="accordion-icon">
-    </button>
-    <div class="panel">
-      <p>Respuesta a la pregunta 2.</p>
-    </div>
-
-    <button class="accordion">¿Pregunta 3?
-      <img src="/assets/images/angulo-hacia-abajo.png" width="20" height="20" class="accordion-icon">
-    </button>
-    <div class="panel">
-      <p>Respuesta a la pregunta 3.</p>
-    </div>
-
-    <button class="accordion">¿Pregunta 4?
-      <img src="/assets/images/angulo-hacia-abajo.png" width="20" height="20" class="accordion-icon">
-    </button>
-    <div class="panel">
-      <p>Respuesta a la pregunta 4.</p>
-    </div>
-  </div>
-</div>
 
 <style>
 .plans-container {
