@@ -66,12 +66,23 @@ layout: default
     transform: translateX(-80px);
   }
 
+  .bottom-left {
+    z-index: 10;
+    max-width: 650px;
+    text-align: left;
+    margin-left: auto;
+    margin-right: 1em;
+    color: white;
+    padding: 20px;
+    align-self: start;
+  }
+
   /* Breakpoint for smaller screens: 1 column, 3 rows */
   @media (max-width: 967px) {
     .splash-container {
       grid-template-columns: 1fr; /* 1 column */
       grid-template-rows: repeat(3, auto); /* 3 rows */
-      grid-row-gap: 20px; /* Adjust row spacing */
+      grid-row-gap: 0px; /* Adjust row spacing */
     }
 
     /* Adjust the right image to fit in the first column (stacked layout) */
@@ -79,17 +90,26 @@ layout: default
       grid-row: 2 / 3; /* Place the image in the second row */
       grid-column: 1 / 2; /* Place it in the first column */
       width: 250px; /* Make it responsive */
-      transform: none; /* Remove the horizontal transform */
     }
 
     /* Adjust the grey background to occupy the last row */
     .grey-background {
       position: static; /* Remove absolute positioning */
-      grid-row: 3 / 4; /* Place it in the last row */
+      grid-row: 3 / 3; /* Place it in the last row */
       grid-column: 1 / 2; /* Full width of the single column */
       width: 100%; /* Full width of the column */
       height: auto; /* Adjust height automatically */
       transform: none; /* Remove the horizontal transform */
+    }
+
+    .bottom-left {
+      z-index: 10;
+      text-align: left;
+      color: white;
+      padding: 20px;
+      align-self: start;
+      grid-column: 1 / 1;
+      grid-row: 3 / 3;
     }
   }
 
@@ -115,17 +135,6 @@ layout: default
     margin-right: 6.25em;
     margin-left: auto;
     padding-left: 20px;
-  }
-
-  .bottom-left {
-    z-index: 10;
-    max-width: 650px;
-    text-align: left;
-    margin-left: auto;
-    margin-right: 1em;
-    color: white;
-    padding: 20px;
-    align-self: start;
   }
 
   .bottom-left p {
