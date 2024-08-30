@@ -85,7 +85,7 @@ layout: default
     color: white;
     z-index: 10; /* Ensure above background image */
     text-align: left;
-    margin-right: 6.25em;
+    margin-right: 6.4em;
     margin-left: auto;
     padding-left: 20px;
   }
@@ -103,6 +103,7 @@ layout: default
       grid-row: 2 / 3; /* Place the image in the second row */
       grid-column: 1 / 2; /* Place it in the first column */
       width: 250px; /* Make it responsive */
+      transform: none;
     }
 
     /* Adjust the grey background to occupy the last row */
@@ -133,6 +134,8 @@ layout: default
       color: white;
       z-index: 10; /* Ensure above background image */
       text-align: left;
+      margin-right: 0;
+      margin-left: 0;
       padding-left: 20px;
     }
   }
