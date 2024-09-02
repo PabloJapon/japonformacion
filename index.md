@@ -43,7 +43,7 @@ excerpt: "Dedicados al desarrollo de servicios educativos, ocio y tiempo libre"
 
 <div class="features-container">
   <div class="feature">
-    <img src="/assets/images/aulamatinal.png" class="feature-video">
+    <img src="/assets/images/aulamatinal_peq.png" class="feature-video">
     <div class="feature-content">
       <h2>Aula Matinal</h2>
       <p>JAPONEDUCA ofrece aula matinal en colegios, brindando a los alumnos un espacio seguro y enriquecedor para comenzar el día, facilitando además la organización de las familias.</p>
@@ -57,11 +57,11 @@ excerpt: "Dedicados al desarrollo de servicios educativos, ocio y tiempo libre"
       <p>JAPONEDUCA ofrece un servicio de aulas de espera en colegios, proporcionando un espacio seguro y supervisado para los alumnos, adaptándose a las necesidades familiares y escolares.</p>
       <p style="text-align: center;"><button class="submit-button" onclick="location.href='https://japonformacion.netlify.app/aula_espera/'">Saber más</button></p>
     </div>
-    <img src="/assets/images/aulaespera.png" class="feature-video">
+    <img src="/assets/images/aulaespera_peq.png" class="feature-video">
   </div>
 
   <div class="feature">
-    <img src="/assets/images/tatami.png" class="feature-video">
+    <img src="/assets/images/tatami_peq.png" class="feature-video">
     <div class="feature-content">
       <h2>Judo</h2>
       <p>Desde 1994, JAPONSPORT promueve el judo en Huelva para fomentar hábitos saludables y mejorar la calidad de vida.</p>
@@ -75,11 +75,11 @@ excerpt: "Dedicados al desarrollo de servicios educativos, ocio y tiempo libre"
       <p>Accede con el título de Bachillerato, una FP de Grado Medio o Superior o mediante prueba de acceso.</p>
       <p style="text-align: center;"><button class="submit-button" onclick="location.href='https://japonformacion.netlify.app/FPSuperior/'">Saber más</button></p>
     </div>
-    <img src="/assets/images/CABECERA.png" class="feature-video">
+    <img src="/assets/images/CABECERA_peq.png" class="feature-video">
   </div>
 
   <div class="feature">
-    <img src="/assets/images/CABECERA3.png" class="feature-video">
+    <img src="/assets/images/CABECERA3_peq.png" class="feature-video">
     <div class="feature-content">
       <h2>FP Medio</h2>
       <p>Accede con el título de ESO, Bachillerato o mediante una prueba de acceso.</p>
