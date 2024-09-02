@@ -351,6 +351,7 @@ layout: default
 }
 
 .panel {
+  font-size: 17px;
   padding: 0 18px;
   height: 0;
   overflow: hidden;

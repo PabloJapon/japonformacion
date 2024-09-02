@@ -161,7 +161,7 @@ layout: default
 
 
 <div style="font-size: 17px;text-align: center;">
-  <p>*Fecha de inicio: 1 de octubre de 2024</p>
+  <p>Fecha de inicio: 1 de octubre de 2024</p>
 </div>
 
 
@@ -169,7 +169,7 @@ layout: default
 <table>
   <thead>
     <tr>
-      <th style="width: 200px;text-align: center;"><h2>Colegio</h2></th>
+      <th style="width: 200px;text-align: center;"><h2>Escuela</h2></th>
       <th style="width: 200px;text-align: center;"><h2>Actividad</h2></th>
       <th style="width: 200px;text-align: center;"><h2>Edad</h2></th>
       <th style="width: 200px;text-align: center;"><h2>Horario</h2></th>
@@ -186,7 +186,8 @@ layout: default
       <td style="width: 200px;text-align: center;"> 25 €/mes* </td>
       <td style="width: 200px;text-align: center;">
         <ul style="list-style-type: disc; padding-left: 40px; margin: 0; text-align: left;">
-          <li><a href="/assets/documents/Nota_informativa_Aula_de_Espera_Ceip_El_Puntal_2023-24.pdf">Forma de pago</a></li>
+          <li><a href="/assets/documents/CUOTAS_Y_FORMAS_DE_PAGO_JAPONSPORT_BELLAVISTA_2024-25.pdf">Forma de pago</a></li>
+          <li><a href="/assets/documents/HORARIO_CEIP_EL_PUNTAL_JUDO_JAPONSPORT_2024-25_RcKb3CC.pdf">Horario</a></li>
           <li><a href="https://app.grupojapon.es/index.php/registro">Inscríbete</a></li>
         </ul>
       </td>
@@ -198,20 +199,22 @@ layout: default
       <td style="width: 200px;text-align: center;"> 30 €/mes* </td>
       <td style="width: 200px;text-align: center;">
         <ul style="list-style-type: disc; padding-left: 40px; margin: 0; text-align: left;">
-          <li><a href="/assets/documents/Nota_informativa_Aula_de_Espera_Ceip_El_Puntal_2023-24.pdf">Forma de pago</a></li>
+          <li><a href="/assets/documents/CUOTAS_Y_FORMAS_DE_PAGO_JAPONSPORT_BELLAVISTA_2024-25.pdf">Forma de pago</a></li>
+          <li><a href="/assets/documents/HORARIO_CEIP_EL_PUNTAL_JUDO_JAPONSPORT_2024-25_RcKb3CC.pdf">Horario</a></li>
           <li><a href="https://app.grupojapon.es/index.php/registro">Inscríbete</a></li>
         </ul>
       </td>
     </tr>
     <tr>
-      <td style="width: 200px;text-align: center; vertical-align: middle;" rowspan="2">CEIP José Oliva</td>
+      <td style="width: 200px;text-align: center; vertical-align: middle;" rowspan="2">Grupo Japón</td>
       <td style="width: 200px;text-align: center;">Judo 1</td>
       <td style="width: 200px;text-align: center;">De 4 a 8 años</td>
       <td style="width: 200px;text-align: center;">Lunes y miércoles de 18:00 a 19:00 h</td>
       <td style="width: 200px;text-align: center;"> 25 €/mes* </td>
       <td style="width: 200px;text-align: center;">
         <ul style="list-style-type: disc; padding-left: 40px; margin: 0; text-align: left;">
-          <li><a href="/assets/documents/Nota_informativa_Aula_de_Espera_Ceip_El_Puntal_2023-24.pdf">Forma de pago</a></li>
+          <li><a href="/assets/documents/CUOTAS_Y_FORMAS_DE_PAGO_JAPONSPORT_HUELVA_2024-25.pdf">Forma de pago</a></li>
+          <li><a href="/assets/documents/HORARIO_GRUPO_JAPON_JUDO_JAPONSPORT_2024-25_XaUUYYm.pdf">Horario</a></li>
           <li><a href="https://app.grupojapon.es/index.php/registro">Inscríbete</a></li>
         </ul>
       </td>
@@ -223,7 +226,8 @@ layout: default
       <td style="width: 200px;text-align: center;"> 30 €/mes* </td>
       <td style="width: 200px;text-align: center;">
         <ul style="list-style-type: disc; padding-left: 40px; margin: 0; text-align: left;">
-          <li><a href="/assets/documents/Nota_informativa_Aula_de_Espera_Ceip_El_Puntal_2023-24.pdf">Forma de pago</a></li>
+          <li><a href="/assets/documents/CUOTAS_Y_FORMAS_DE_PAGO_JAPONSPORT_HUELVA_2024-25.pdf">Forma de pago</a></li>
+          <li><a href="/assets/documents/HORARIO_GRUPO_JAPON_JUDO_JAPONSPORT_2024-25_XaUUYYm.pdf">Horario</a></li>
           <li><a href="https://app.grupojapon.es/index.php/registro">Inscríbete</a></li>
         </ul>
       </td>
@@ -420,6 +424,7 @@ layout: default
 }
 
 .panel {
+  font-size: 17px;
   padding: 0 18px;
   height: 0;
   overflow: hidden;

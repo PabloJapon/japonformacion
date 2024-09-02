@@ -161,7 +161,7 @@ layout: default
 
 
 <div style="font-size: 17px;text-align: center;">
-  <p>*Fecha de inicio: 10 de septiembre de 2024</p>
+  <p>Fecha de inicio: 10 de septiembre de 2024</p>
 </div>
 
 
@@ -177,97 +177,17 @@ layout: default
     </thead>
     <tbody>
       <tr>
-        <td style="width: 200px;text-align: center;">CEIP El Puntal</td>
-        <td style="width: 200px;text-align: center;">De lunes a viernes de 14:00 a 15:30 h</td>
+        <td style="width: 200px;text-align: center;">Colegio San Vicente de Paul</td>
+        <td style="width: 200px;text-align: center;">De lunes a viernes de 7:30 a 9:00 h</td>
         <td style="width: 200px;text-align: center;">
           <ul style="list-style-type: disc; padding-left: 40px; margin: 0; text-align: left;">
-            <li>30 €/mes*</li>
-            <li>3 € - días sueltos</li>
+            <li>40 €/mes*</li>
+            <li>3 € - días sueltos (bono de 30 €)</li>
           </ul>
         </td>
         <td style="width: 200px;text-align: center;">
           <ul style="list-style-type: disc; padding-left: 40px; margin: 0; text-align: left;">
-            <li><a href="/assets/documents/Nota_informativa_Aula_de_matinal_Ceip_El_Puntal_2023-24.pdf">Más información</a></li>
-            <li><a href="https://app.grupojapon.es/index.php/registro">Inscríbete</a></li>
-          </ul>
-        </td>
-      </tr>
-      <tr>
-        <td style="width: 200px;text-align: center;">CEIP Tierno Galván</td>
-        <td style="width: 200px;text-align: center;">De lunes a viernes de 14:00 a 15:00 h</td>
-        <td style="width: 200px;text-align: center;">
-          <ul style="list-style-type: disc; padding-left: 40px; margin: 0; text-align: left;">
-            <li>25 €/mes*</li>
-            <li>3 € - días sueltos</li>
-          </ul>
-        </td>
-        <td style="width: 200px;text-align: center;">
-          <ul style="list-style-type: disc; padding-left: 40px; margin: 0; text-align: left;">
-            <li><a href="/assets/documents/Nota_informativa_Aula_de_matinal_Ceip_El_Puntal_2023-24.pdf">Más información</a></li>
-            <li><a href="https://app.grupojapon.es/index.php/registro">Inscríbete</a></li>
-          </ul>
-        </td>
-      </tr>
-      <tr>
-        <td style="width: 200px;text-align: center;">CEIP Prácticas</td>
-        <td style="width: 200px;text-align: center;">De lunes a viernes de 14:00 a 15:30 h</td>
-        <td style="width: 200px;text-align: center;">
-          <ul style="list-style-type: disc; padding-left: 40px; margin: 0; text-align: left;">
-            <li>30 €/mes*</li>
-            <li>3 € - días sueltos</li>
-          </ul>
-        </td>
-        <td style="width: 200px;text-align: center;">
-          <ul style="list-style-type: disc; padding-left: 40px; margin: 0; text-align: left;">
-            <li><a href="/assets/documents/Nota_informativa_Aula_de_matinal_Ceip_El_Puntal_2023-24.pdf">Más información</a></li>
-            <li><a href="https://app.grupojapon.es/index.php/registro">Inscríbete</a></li>
-          </ul>
-        </td>
-      </tr>
-      <tr>
-        <td style="width: 200px;text-align: center;">CEIP Pura Domínguez</td>
-        <td style="width: 200px;text-align: center;">De lunes a viernes de 14:00 a 15:30 h</td>
-        <td style="width: 200px;text-align: center;">
-          <ul style="list-style-type: disc; padding-left: 40px; margin: 0; text-align: left;">
-            <li>30 €/mes*</li>
-            <li>3 € - días sueltos</li>
-          </ul>
-        </td>
-        <td style="width: 200px;text-align: center;">
-          <ul style="list-style-type: disc; padding-left: 40px; margin: 0; text-align: left;">
-            <li><a href="/assets/documents/Nota_informativa_Aula_de_matinal_Ceip_El_Puntal_2023-24.pdf">Más información</a></li>
-            <li><a href="https://app.grupojapon.es/index.php/registro">Inscríbete</a></li>
-          </ul>
-        </td>
-      </tr>
-      <tr>
-        <td style="width: 200px;text-align: center;">CEIP Antonio Guerrero</td>
-        <td style="width: 200px;text-align: center;">De lunes a viernes de 14:00 a 15:30 h</td>
-        <td style="width: 200px;text-align: center;">
-          <ul style="list-style-type: disc; padding-left: 40px; margin: 0; text-align: left;">
-            <li>30 €/mes*</li>
-            <li>3 € - días sueltos</li>
-          </ul>
-        </td>
-        <td style="width: 200px;text-align: center;">
-          <ul style="list-style-type: disc; padding-left: 40px; margin: 0; text-align: left;">
-            <li><a href="/assets/documents/Nota_informativa_Aula_de_matinal_Ceip_El_Puntal_2023-24.pdf">Más información</a></li>
-            <li><a href="https://app.grupojapon.es/index.php/registro">Inscríbete</a></li>
-          </ul>
-        </td>
-      </tr>
-      <tr>
-        <td style="width: 200px;text-align: center;">CEIP Doce de Octubre</td>
-        <td style="width: 200px;text-align: center;">De lunes a viernes de 14:00 a 15:30 h</td>
-        <td style="width: 200px;text-align: center;">
-          <ul style="list-style-type: disc; padding-left: 40px; margin: 0; text-align: left;">
-            <li>30 €/mes*</li>
-            <li>3 € - días sueltos</li>
-          </ul>
-        </td>
-        <td style="width: 200px;text-align: center;">
-          <ul style="list-style-type: disc; padding-left: 40px; margin: 0; text-align: left;">
-            <li><a href="/assets/documents/Nota_informativa_Aula_de_matinal_Ceip_El_Puntal_2023-24.pdf">Más información</a></li>
+            <li><a href="/assets/documents/Nota_informativa_Aula_Matinal_San_Vicente_de_Paul_2024-25.pdf">Más información</a></li>
             <li><a href="https://app.grupojapon.es/index.php/registro">Inscríbete</a></li>
           </ul>
         </td>
@@ -277,7 +197,7 @@ layout: default
 </div>
 
 <div style="font-size: 17px;text-align: center;font-style: italic;">
-  <p>*Bonificación del 10% para el/la segundo/a hermano/a</p>
+  <p>*Bonificación del 20% para el tercer hermano/a inscrito/a</p>
 </div>
 
 
@@ -459,6 +379,7 @@ layout: default
 }
 
 .panel {
+  font-size: 17px;
   padding: 0 18px;
   height: 0;
   overflow: hidden;
