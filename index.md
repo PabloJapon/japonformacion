@@ -43,10 +43,10 @@ excerpt: "Dedicados al desarrollo de servicios educativos, ocio y tiempo libre"
 
 <div class="features-container">
   <div class="feature">
-    <img src="/assets/images/aulamatinal.png">
+    <img src="/assets/images/aulamatinal.png" class="feature-video">
     <div class="feature-content">
-      <h2>Actualiza tu menú automáticamente y en cualquier momento</h2>
-      <p>Personalízalo usando las imágenes, colores e iconos que más te representen. Y si un día no puedes servir un plato, no te preocupes, desactívalo para que no aparezca en el menú!</p>
+      <h2>Aula Matinal</h2>
+      <p>JAPONEDUCA ofrece aula matinal en colegios, brindando a los alumnos un espacio seguro y enriquecedor para comenzar el día, facilitando además la organización de las familias</p>
     </div>
   </div>
 
