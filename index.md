@@ -47,21 +47,21 @@ excerpt: "Dedicados al desarrollo de servicios educativos, ocio y tiempo libre"
     <div class="feature-content">
       <h2>Aula Matinal</h2>
       <p>JAPONEDUCA ofrece aula matinal en colegios, brindando a los alumnos un espacio seguro y enriquecedor para comenzar el día, facilitando además la organización de las familias.</p>
+      <p style="text-align: center;"><button type="submit" class="submit-button">Saber más</button></p>
     </div>
-    <p style="text-align: center;"><button type="submit" class="submit-button">Saber más</button></p>
   </div>
 
   <div class="feature">
     <div class="feature-content">
       <h2>Aula de Espera</h2>
       <p>JAPONEDUCA ofrece un servicio de aulas de espera en colegios, proporcionando un espacio seguro y supervisado para los alumnos, adaptándose a las necesidades familiares y escolares.</p>
+      <p style="text-align: center;"><button type="submit" class="submit-button">Saber más</button></p>
     </div>
     <img src="/assets/images/aulaespera.png" class="feature-video">
-    <p style="text-align: center;"><button type="submit" class="submit-button">Saber más</button></p>
   </div>
 
   <div class="feature">
-    <img src="/assets/images/judo.png" class="feature-video">
+    <img src="/assets/images/tatami.png" class="feature-video">
     <div class="feature-content">
       <h2>Judo</h2>
       <p>Desde 1994, JAPONSPORT promueve el judo en Huelva para fomentar hábitos saludables y mejorar la calidad de vida.</p>
@@ -73,17 +73,17 @@ excerpt: "Dedicados al desarrollo de servicios educativos, ocio y tiempo libre"
     <div class="feature-content">
       <h2>FP Superior</h2>
       <p>Accede con el título de Bachillerato, una FP de Grado Medio o Superior o mediante prueba de acceso.</p>
+      <p style="text-align: center;"><button type="submit" class="submit-button">Saber más</button></p>
     </div>
     <img src="/assets/images/CABECERA.png" class="feature-video">
-    <p style="text-align: center;"><button type="submit" class="submit-button">Saber más</button></p>
   </div>
 
   <div class="feature">
     <img src="/assets/images/CABECERA3.png" class="feature-video">
-    <p style="text-align: center;"><button type="submit" class="submit-button">Saber más</button></p>
     <div class="feature-content">
       <h2>FP Medio</h2>
       <p>Accede con el título de ESO, Bachillerato o mediante una prueba de acceso.</p>
+      <p style="text-align: center;"><button type="submit" class="submit-button">Saber más</button></p>
     </div>
   </div>
 </div>
