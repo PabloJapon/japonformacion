@@ -32,14 +32,13 @@
                     <button class="btn btn--secondary" id="servicios-button" onclick="toggleserviciosMenu()" style="color: rgb(255, 255, 255);background-color: transparent;outline: none;">
                         <div class="servicios-button-content" style="display: flex;align-items: center;flex-direction: row;">
                             <div style="display: flex;flex-direction: column;align-items: flex-start;">
-                                <span id="servicios-username-button" style="font-size: 16px;font-weight: bold;">SERVICIOS</span>
+                                <span id="servicios-username-button" style="font-size: 16px;font-weight: bold;">CICLOS FP</span>
                             </div>
                         </div>
                     </button>
                     <div id="servicios-menu-dropdown" class="servicios-dropdown" style="display: none; width: 12em;">
-                        <a href="/aula_espera/">AULA DE ESPERA</a>
-                        <a href="/aula_matinal/">AULA MATINAL</a>
-                        <a href="/judo/">JUDO</a>
+                        <a href="/FPSuperior/">FP SUPERIOR</a>
+                        <a href="/FPMedio/">FP MEDIO</a>
                     </div>
                 </div>
     
@@ -70,15 +69,11 @@
                             {% endif %}
                         </li>
                     {%- endfor -%}
-                    <!-- Always include Judo and Aula de Espera -->
                     <li class="masthead__menu-item">
-                        <a href="/aula_espera/">AULA DE ESPERA</a>
+                        <a href="/FPSuperior/">FP SUPERIOR</a>
                     </li>
                     <li class="masthead__menu-item">
-                        <a href="/aula_matinal/">AULA MATINAL</a>
-                    </li>
-                    <li class="masthead__menu-item">
-                        <a href="/judo/">JUDO</a>
+                        <a href="/FPMedio/">FP MEDIO</a>
                     </li>
                 </ul>
             </nav>

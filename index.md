@@ -1,5 +1,6 @@
 ---
-title: "Ciclos de FP oficiales en grupos reducidos y servicios educativos"
+#title: "Ciclos de FP oficiales en grupos reducidos y servicios educativos"
+title: "Servicios educativos y ciclos de FP oficiales en grupos reducidos"
 layout: splash
 header:
   overlay_image: /assets/images/page-header-teaser.png
@@ -7,14 +8,27 @@ header:
   actions:
     - label: "Solicita información"
       url: "https://japonformacion.netlify.app/contacto/"
-excerpt: "Clases presenciales y en horario de mañana"
+#excerpt: "Clases presenciales y en horario de mañana"
+excerpt: "Dedicados al desarrollo de servicios educativos, ocio y tiempo libre"
 ---
 
-<div style="text-align:center;">
-  Encuentra tu título FP oficial
-</div>
 
 <div class="plans-container">
+  <a href="/aula_matinal" class="plan">
+    <h2>Aula Matinal</h2>
+    <p>JAPONEDUCA ofrece aula matinal en colegios, brindando a los alumnos un espacio seguro y enriquecedor para comenzar el día, facilitando además la organización de las familias</p>
+  </a>
+
+  <a href="/aula_espera" class="plan">
+    <h2>Aula de Espera</h2>
+    <p>JAPONEDUCA ofrece un servicio de aulas de espera en colegios, proporcionando un espacio seguro y supervisado para los alumnos, adaptándose a las necesidades familiares y escolares</p>
+  </a>
+
+  <a href="/judo" class="plan">
+    <h2>Judo</h2>
+    <p>Desde 1994, JAPONSPORT promueve el judo en Huelva para fomentar hábitos saludables y mejorar la calidad de vida</p>
+  </a>
+
   <a href="/FPMedio" class="plan">
     <h2>Grados Medios</h2>
     <p>Accede con el título de ESO, Bachillerato o mediante una prueba de acceso.</p>
@@ -24,24 +38,12 @@ excerpt: "Clases presenciales y en horario de mañana"
     <h2>Grados Superiores</h2>
     <p>Accede con el título de Bachillerato, una FP de Grado Medio o Superior o mediante prueba de acceso.</p>
   </a>
-
-  <a href="/payment_form/?plan=Premium" class="plan">
-    <h2>Servicios educativos</h2>
-    <p>Lo que sea</p>
-  </a>
 </div>
 
-<div class="video-container">
-  <video autoplay loop muted style="border-radius: 20px; width: 100%; height: auto;">
-    <source src="/assets/videos/your-video.mp4" type="video/mp4">
-  </video>
-</div>
 
 <div class="features-container">
   <div class="feature">
-    <video autoplay loop muted class="feature-video">
-      <source src="/assets/videos/your-video.mp4" type="video/mp4">
-    </video>
+    <img src="/assets/images/aulamatinal.png">
     <div class="feature-content">
       <h2>Actualiza tu menú automáticamente y en cualquier momento</h2>
       <p>Personalízalo usando las imágenes, colores e iconos que más te representen. Y si un día no puedes servir un plato, no te preocupes, desactívalo para que no aparezca en el menú!</p>
