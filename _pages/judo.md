@@ -49,7 +49,7 @@ layout: default
   .right-image {
     grid-row: 1 / 3; /* Both rows */
     grid-column: 2 / 3; /* Default: second column */
-    width: 490px;
+    width: 360px;
     z-index: 10; /* Ensure above background image */
     margin: 0 auto;
     transform: translateX(calc(-50% + 80px));
