@@ -46,7 +46,7 @@
                 <button class="btn btn--secondary" onclick="window.location.href='/contacto/'" style="margin-left: 1em;background-color: #212121;">Solicita Información</button>
                 
                 {% if site.search == true %}
-                <button class="btn btn--primary search__toggle" type="button">
+                <button class="btn btn--primary search__toggle" type="button" style="background-color: transparent;">
                     <span class="visually-hidden">{{ site.data.ui-text[site.locale].search_label | default: "Toggle search" }}</span>
                     <i class="fas fa-search"></i>
                 </button>

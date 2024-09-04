@@ -174,11 +174,33 @@ excerpt: "Dedicados al desarrollo de servicios educativos, ocio y tiempo libre"
   align-items: center;
 }
 
+/* Default styling for larger screens */
 .feature {
   display: flex;
   align-items: center;
   padding: 20px;
   margin-bottom: 40px;
+}
+
+.feature img {
+  order: 0;
+}
+
+.feature:nth-child(even) img {
+  order: 1;
+}
+
+/* Media query for smaller screens (e.g., below 768px) */
+@media (max-width: 768px) {
+  .feature {
+    flex-direction: column;
+  }
+  
+  /* Ensure images are always at the top on small screens */
+  .feature img {
+    order: -1;
+    width: 100%; /* Make images take full width on smaller screens if needed */
+  }
 }
 
 .feature-content {
