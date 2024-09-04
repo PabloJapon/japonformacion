@@ -198,7 +198,7 @@ excerpt: "Dedicados al desarrollo de servicios educativos, ocio y tiempo libre"
   
   /* Ensure images are always at the top on small screens */
   .feature img {
-    order: -1;
+    order: -1 !important;
     width: 100%; /* Make images take full width on smaller screens if needed */
   }
 }
