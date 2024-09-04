@@ -4,27 +4,6 @@ permalink: /contacto/
 layout: splash
 ---
 
-
-<div>
-  <!-- Full-width background image -->
-  <img src="/assets/images/CABECERA2.png" alt="Full Width Image" class="splash-image">
-</div>
-
-
-<style>
-  .splash-image {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    object-fit: cover;
-    z-index: -1;
-    margin: 0;
-  }
-</style>
-
-
 <div style="text-align:center; margin-top:7em">
   ¿Dudas? No te las guardes, pregúntanos.
 </div>
