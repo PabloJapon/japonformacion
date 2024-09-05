@@ -179,33 +179,6 @@ layout: default
   </thead>
   <tbody>
     <tr>
-      <td style="width: 200px;text-align: center; vertical-align: middle;" rowspan="2">CEIP El Puntal</td>
-      <td style="width: 200px;text-align: center;">Judo 1</td>
-      <td style="width: 200px;text-align: center;">De 4 a 8 años</td>
-      <td style="width: 200px;text-align: center;">Martes y jueves de 18:00 a 19:00 h</td>
-      <td style="width: 200px;text-align: center;"> 25 €/mes* </td>
-      <td style="width: 200px;text-align: center;">
-        <ul style="list-style-type: disc; padding-left: 40px; margin: 0; text-align: left;">
-          <li><a href="/assets/documents/CUOTAS_Y_FORMAS_DE_PAGO_JAPONSPORT_BELLAVISTA_2024-25.pdf">Forma de pago</a></li>
-          <li><a href="/assets/documents/HORARIO_CEIP_EL_PUNTAL_JUDO_JAPONSPORT_2024-25_RcKb3CC.pdf">Horario</a></li>
-          <li><a href="https://app.grupojapon.es/index.php/registro">Inscríbete</a></li>
-        </ul>
-      </td>
-    </tr>
-    <tr>
-      <td style="width: 200px;text-align: center;">Judo 2</td>
-      <td style="width: 200px;text-align: center;">De 11 a 15 años</td>
-      <td style="width: 200px;text-align: center;">Martes y jueves de 19:00 a 20:00 h</td>
-      <td style="width: 200px;text-align: center;"> 30 €/mes* </td>
-      <td style="width: 200px;text-align: center;">
-        <ul style="list-style-type: disc; padding-left: 40px; margin: 0; text-align: left;">
-          <li><a href="/assets/documents/CUOTAS_Y_FORMAS_DE_PAGO_JAPONSPORT_BELLAVISTA_2024-25.pdf">Forma de pago</a></li>
-          <li><a href="/assets/documents/HORARIO_CEIP_EL_PUNTAL_JUDO_JAPONSPORT_2024-25_RcKb3CC.pdf">Horario</a></li>
-          <li><a href="https://app.grupojapon.es/index.php/registro">Inscríbete</a></li>
-        </ul>
-      </td>
-    </tr>
-    <tr>
       <td style="width: 200px;text-align: center; vertical-align: middle;" rowspan="2">Grupo Japón</td>
       <td style="width: 200px;text-align: center;">Judo 1</td>
       <td style="width: 200px;text-align: center;">De 4 a 8 años</td>
@@ -228,6 +201,33 @@ layout: default
         <ul style="list-style-type: disc; padding-left: 40px; margin: 0; text-align: left;">
           <li><a href="/assets/documents/CUOTAS_Y_FORMAS_DE_PAGO_JAPONSPORT_HUELVA_2024-25.pdf">Forma de pago</a></li>
           <li><a href="/assets/documents/HORARIO_GRUPO_JAPON_JUDO_JAPONSPORT_2024-25_XaUUYYm.pdf">Horario</a></li>
+          <li><a href="https://app.grupojapon.es/index.php/registro">Inscríbete</a></li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td style="width: 200px;text-align: center; vertical-align: middle;" rowspan="2">CEIP El Puntal</td>
+      <td style="width: 200px;text-align: center;">Judo 1</td>
+      <td style="width: 200px;text-align: center;">De 4 a 8 años</td>
+      <td style="width: 200px;text-align: center;">Martes y jueves de 18:00 a 19:00 h</td>
+      <td style="width: 200px;text-align: center;"> 25 €/mes* </td>
+      <td style="width: 200px;text-align: center;">
+        <ul style="list-style-type: disc; padding-left: 40px; margin: 0; text-align: left;">
+          <li><a href="/assets/documents/CUOTAS_Y_FORMAS_DE_PAGO_JAPONSPORT_BELLAVISTA_2024-25.pdf">Forma de pago</a></li>
+          <li><a href="/assets/documents/HORARIO_CEIP_EL_PUNTAL_JUDO_JAPONSPORT_2024-25_RcKb3CC.pdf">Horario</a></li>
+          <li><a href="https://app.grupojapon.es/index.php/registro">Inscríbete</a></li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td style="width: 200px;text-align: center;">Judo 2</td>
+      <td style="width: 200px;text-align: center;">De 11 a 15 años</td>
+      <td style="width: 200px;text-align: center;">Martes y jueves de 19:00 a 20:00 h</td>
+      <td style="width: 200px;text-align: center;"> 30 €/mes* </td>
+      <td style="width: 200px;text-align: center;">
+        <ul style="list-style-type: disc; padding-left: 40px; margin: 0; text-align: left;">
+          <li><a href="/assets/documents/CUOTAS_Y_FORMAS_DE_PAGO_JAPONSPORT_BELLAVISTA_2024-25.pdf">Forma de pago</a></li>
+          <li><a href="/assets/documents/HORARIO_CEIP_EL_PUNTAL_JUDO_JAPONSPORT_2024-25_RcKb3CC.pdf">Horario</a></li>
           <li><a href="https://app.grupojapon.es/index.php/registro">Inscríbete</a></li>
         </ul>
       </td>

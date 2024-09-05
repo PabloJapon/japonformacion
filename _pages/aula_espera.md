@@ -176,23 +176,6 @@ layout: default
     </thead>
     <tbody>
       <tr>
-        <td style="width: 200px;text-align: center;">CEIP El Puntal</td>
-        <td style="width: 200px;text-align: center;">De lunes a viernes de 14:00 a 15:30 h</td>
-        <td style="width: 200px;text-align: center;">
-          <ul style="list-style-type: disc; padding-left: 40px; margin: 0; text-align: left;">
-            <li>30 €/mes*</li>
-            <li>3 € - días sueltos</li>
-          </ul>
-        </td>
-        <td style="width: 200px;text-align: center;">
-          <ul style="list-style-type: disc; padding-left: 40px; margin: 0; text-align: left;">
-            <li><a href="/assets/documents/Asi_Funciona_el_Aula_de_Espera_Ceip_El_Puntal_2024-25.pdf">Así funciona el Aula de Espera</a></li>
-            <li><a href="/assets/documents/Informacion_modalidad_y_cobros_Aula_de_Espera_Ceip_El_Puntal_2024-25.pdf">Información Modalidad y Cobros</a></li>
-            <li><a href="https://app.grupojapon.es/index.php/registro">Inscríbete</a></li>
-          </ul>
-        </td>
-      </tr>
-      <tr>
         <td style="width: 200px;text-align: center;">CEIP Tierno Galván</td>
         <td style="width: 200px;text-align: center;">De lunes a viernes de 14:00 a 15:00 h</td>
         <td style="width: 200px;text-align: center;">
@@ -205,6 +188,23 @@ layout: default
           <ul style="list-style-type: disc; padding-left: 40px; margin: 0; text-align: left;">
             <li><a href="/assets/documents/Asi_Funciona_el_Aula_de_Espera_Ceip_Tierno_Galvan_2024-25.pdf">Así funciona el Aula de Espera</a></li>
             <li><a href="/assets/documents/Informacion_modalidad_y_cobros_Aula_de_Espera_Ceip_Tierno_Galvan_2024-25.pdf">Información Modalidad y Cobros</a></li>
+            <li><a href="https://app.grupojapon.es/index.php/registro">Inscríbete</a></li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <td style="width: 200px;text-align: center;">CEIP El Puntal</td>
+        <td style="width: 200px;text-align: center;">De lunes a viernes de 14:00 a 15:30 h</td>
+        <td style="width: 200px;text-align: center;">
+          <ul style="list-style-type: disc; padding-left: 40px; margin: 0; text-align: left;">
+            <li>30 €/mes*</li>
+            <li>3 € - días sueltos</li>
+          </ul>
+        </td>
+        <td style="width: 200px;text-align: center;">
+          <ul style="list-style-type: disc; padding-left: 40px; margin: 0; text-align: left;">
+            <li><a href="/assets/documents/Asi_Funciona_el_Aula_de_Espera_Ceip_El_Puntal_2024-25.pdf">Así funciona el Aula de Espera</a></li>
+            <li><a href="/assets/documents/Informacion_modalidad_y_cobros_Aula_de_Espera_Ceip_El_Puntal_2024-25.pdf">Información Modalidad y Cobros</a></li>
             <li><a href="https://app.grupojapon.es/index.php/registro">Inscríbete</a></li>
           </ul>
         </td>
