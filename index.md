@@ -201,6 +201,10 @@ excerpt: "Dedicados al desarrollo de servicios educativos, ocio y tiempo libre"
     order: -1 !important;
     width: 100%; /* Make images take full width on smaller screens if needed */
   }
+  .feature video {
+    order: -1 !important;
+    width: 100%; /* Make images take full width on smaller screens if needed */
+  }
 }
 
 .feature-content {
