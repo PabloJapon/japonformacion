@@ -21,12 +21,12 @@ layout: splash
     margin: 2em auto;
     max-width: 600px;
     padding: 20px;
-    background-color: rgba(255, 255, 255, 0.85); /* Slightly transparent white background */
+    background-color: rgba(255, 255, 255, 0.85) !important; /* Slightly transparent white background */
     border-radius: 10px;
   }
 </style>
 
-<div style="text-align:center; margin-top:7em">
+<div style="text-align:center; margin-top:7em; color: white;">
   ¿Dudas? No te las guardes, pregúntanos.
 </div>
 
