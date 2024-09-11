@@ -4,7 +4,29 @@ permalink: /contacto/
 layout: splash
 ---
 
-<div class="contact-background" style="text-align:center; margin-top:7em">
+<style>
+  /* CSS to set the background image for the entire page */
+  body {
+    background-image: url('/assets/images/CABECERA.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Makes sure it stays fixed when scrolling */
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Optional: Make sure form background is readable */
+  .contact-form {
+    margin: 2em auto;
+    max-width: 600px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.85); /* Slightly transparent white background */
+    border-radius: 10px;
+  }
+</style>
+
+<div style="text-align:center; margin-top:7em">
   ¿Dudas? No te las guardes, pregúntanos.
 </div>
 
@@ -44,23 +66,3 @@ layout: splash
     subjectField.value = `Mensaje de ${name} - Teléfono: ${phone}`;
   });
 </script>
-
-<style>
-  /* CSS to set the background image */
-  .contact-background {
-    background-image: url('/assets/images/CABECERA.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 300px; /* Adjust the height based on your layout */
-  }
-
-  /* Optional: Additional styling for the form */
-  .contact-form {
-    margin: 2em auto;
-    max-width: 600px;
-    padding: 20px;
-    background-color: rgba(255, 255, 255, 0.8); /* White background with transparency */
-    border-radius: 10px;
-  }
-</style>
