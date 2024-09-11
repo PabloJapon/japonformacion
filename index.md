@@ -57,8 +57,8 @@ excerpt: "Dedicados al desarrollo de servicios educativos, ocio y tiempo libre"
       <p>JAPONEDUCA ofrece un servicio de aulas de espera en colegios, proporcionando un espacio seguro y supervisado para los alumnos, adaptándose a las necesidades familiares y escolares.</p>
       <p style="text-align: center;"><button class="submit-button" onclick="location.href='https://japonformacion.netlify.app/aula_espera/'">Saber más</button></p>
     </div>
-    <video width="900" height="544" style="border-radius: 40px; width: 100%; height: auto; padding: 1em;" autoplay loop muted>
-      <source src="/assets/videos/Aula_de_Espera_2024-25.mp4" type="video/mp4">
+    <video autoplay loop muted>
+      <source src="/assets/videos/Aula_de_Espera_2024-25.mp4"  class="feature-video" type="video/mp4">
     </video>
   </div>
 
