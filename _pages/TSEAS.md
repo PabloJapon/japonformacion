@@ -1,6 +1,6 @@
 ---
-title: "FP Grado Superior"
-permalink: /FPSuperior/
+title: "TSEAS"
+permalink: /TSEAS/
 layout: default
 ---
 
@@ -13,14 +13,14 @@ layout: default
   <div class="grey-background"></div>
 
   <!-- Text title at top right -->
-  <div class="top-left">Grado Superior FP</div>
+  <div class="top-left">Técnico Superior en Enseñanza y Animación Sociodeportiva (TSEAS)</div>
 
   <!-- Right image upfront -->
   <img src="/assets/images/profesorPablo2.png" alt="Right Image" class="right-image">
 
   <!-- Text content at bottom left -->
   <div class="bottom-left">
-    <p>Con los Grados Superiores ofrecidos por GRUPO JAPÓN, podrás obtener la titulación oficial de Técnico Superior reconocida por la Junta de Andalucía. Estos programas de formación te preparan para acceder al mercado laboral en solo dos años o continuar con estudios universitarios y másteres. Nuestra metodología práctica te proporciona experiencia directa y relevante, sumergiéndote en el rol de técnico desde el inicio.</p>
+    <p>El Técnico Superior en Enseñanza y Animación Sociodeportiva es un título oficial del Ministerio de Educación y Formación Profesional. Nuestro centro con código 21007304 está autorizado por la Consejería de Educación y Deporte de la Junta de Andalucía para impartirlo.</p>
     <button class="plan-button2" onclick="location.href='https://japonformacion.netlify.app/contacto/'" style="font-weight: 700;">MÁS INFORMACIÓN</button>
   </div>
 </div>
@@ -158,26 +158,8 @@ layout: default
   }
 </style>
 
-
-<div style="text-align:center;">
-  Encuentra tu título FP oficial
-</div>
-
-<div class="plans-container">
-  <a href="/TSEAS" class="plan">
-    <h2>TSEAS - Huelva</h2>
-    <p>Técnico Superior en Enseñanza y Animación Sociodeportiva</p>
-  </a>
-
-  <a href="/FPSuperior" class="plan">
-    <h2>Turismo - Huelva</h2>
-    <p>Técnico Superior en Guía, Información y Asistencias Turísticas</p>
-  </a>
-
-  <a href="/payment_form/?plan=Premium" class="plan">
-    <h2>Turismo - Valverde del Camino</h2>
-    <p>Técnico Superior en Guía, Información y Asistencias Turísticas</p>
-  </a>
+<div class="info-container">
+  ¿Dudas? No te las guardes, pregúntanos.
 </div>
 
 
@@ -289,35 +271,6 @@ layout: default
 
 
 <style>
-.plans-container {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.plan {
-  width: 400px;
-  padding: 20px;
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  background: white;
-  text-align: center;
-  margin: 60px 12px;
-  text-decoration: none;
-  color: inherit;
-  transition: background-color 0.3s ease, box-shadow 0.3s ease;
-}
-
-.plan:hover {
-  background-color: #f0f0f0;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  text-decoration: none;
-}
-
-.plan h2, .plan p {
-  color: inherit;
-}
-
 .contact-form {
   max-width: 600px;
   margin: 0 auto;
@@ -358,6 +311,15 @@ layout: default
 
 .accordion-icon.rotated {
   transform: rotate(180deg);
+}
+
+.info-container {
+  background-color: white;
+  width: 100%;
+  max-width: 0;
+  margin: 4em auto;
+  text-align: left;
+  padding: 0 6em;
 }
 
 .panel {
