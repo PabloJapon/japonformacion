@@ -164,7 +164,8 @@ layout: default
     Preguntas frecuentes
   </div>
   <div class="info-item">
-    ¿Dudas? No te las guardes, pregúntanos.
+    <h2>Duración</h2>
+    <p>2 años / 120 ECTS</p>
   </div>
   <div class="info-item">
     Duración
