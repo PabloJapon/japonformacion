@@ -166,6 +166,12 @@ layout: default
   <div class="info-item">
     ¿Dudas? No te las guardes, pregúntanos.
   </div>
+  <div class="info-item">
+    Duración
+  </div>
+  <div class="info-item">
+    Precio
+  </div>
 </div>
 
 
@@ -320,12 +326,12 @@ layout: default
 }
 
 .info-container {
+  display: flex;
   background-color: white;
   width: 100%;
-  max-width: 0;
   margin: -3em auto 4em;
   text-align: left;
-  padding: 2em 6em;
+  padding: 0em 9em;
 }
 
 .panel {
@@ -357,10 +363,6 @@ layout: default
 }
 
 .info-item {
-  background-color: #e31c24;
-  color: white;
-  border: none;
-  padding: 15px 100px;
   margin: 40px;
   text-align: center;
   font-size: 20px;
