@@ -80,13 +80,14 @@ layout: default
   .top-left {
     grid-row: 1 / 2; /* First row */
     grid-column: 1 / 2; /* Now in the first column */
-    font-size: 42px;
+    font-size: 30px;
     font-weight: 700;
     color: white;
-    z-index: 10; /* Ensure above background image */
+    z-index: 10;
     text-align: left;
-    margin-right: 6.4em;
+    margin-right: 0em;
     margin-left: auto;
+    max-width: 22.5em;
     padding-left: 20px;
   }
 
@@ -159,7 +160,12 @@ layout: default
 </style>
 
 <div class="info-container">
-  ¿Dudas? No te las guardes, pregúntanos.
+  <div class="info-item">
+    Preguntas frecuentes
+  </div>
+  <div class="info-item">
+    ¿Dudas? No te las guardes, pregúntanos.
+  </div>
 </div>
 
 
@@ -317,9 +323,9 @@ layout: default
   background-color: white;
   width: 100%;
   max-width: 0;
-  margin: 4em auto;
+  margin: -3em auto 4em;
   text-align: left;
-  padding: 0 6em;
+  padding: 2em 6em;
 }
 
 .panel {
@@ -332,10 +338,6 @@ layout: default
 
 .panel.open {
   height: auto;
-}
-
-.plan-button:hover {
-  background-color: #9b1b20;
 }
 
 .submit-button {
@@ -352,6 +354,16 @@ layout: default
 
 .submit-button:hover {
   background-color: #9b1b20;
+}
+
+.info-item {
+  background-color: #e31c24;
+  color: white;
+  border: none;
+  padding: 15px 100px;
+  margin: 40px;
+  text-align: center;
+  font-size: 20px;
 }
 </style>
 
