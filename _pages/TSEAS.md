@@ -167,13 +167,15 @@ layout: default
     </div>
     <div class="info-item">
       <p>Duración</p>
-      <h2>2 años / 120 ECTS</h2>
+      <h3>2 años / 120 ECTS</h3>
     </div>
     <div class="info-item">
-      Duración
+      <p>Precio</p>
+      <h3>2 años / 120 ECTS</h3>
     </div>
     <div class="info-item">
-      Precio
+      <p>Duración</p>
+      <h3>2 años / 120 ECTS</h3>
     </div>
   </div>
 </div>
@@ -181,12 +183,12 @@ layout: default
 
 <div class="prof-container">
     <div class="prof-item">
+      <img src="/assets/images/profesorPablo2.png" style="width: 11em;">
       <p>Pablo Benítez</p>
-      <img src="/assets/images/profesorPablo2.png">
     </div>
     <div class="prof-item">
-      <h2>Gregorio Morales</h2>
-      <img src="/assets/images/profesorGregorio2.png">
+      <img src="/assets/images/profesorGregorio2.png" style="width: 15.8em;">
+      <p>Gregorio Morales</p>
     </div>
     <div class="prof-item">
       Duración
@@ -399,13 +401,10 @@ layout: default
 }
 
 .prof-item {
-    width: 380px;
-    padding: 60px 20px;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    background: white;
-    text-align: center;
-    margin: 60px 14px;
+    margin: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 </style>
 
