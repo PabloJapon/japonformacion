@@ -179,6 +179,24 @@ layout: default
 </div>
 
 
+<div class="prof-container">
+    <div class="prof-item">
+      <p>Pablo Benítez</p>
+      <img src="/assets/images/profesorPablo2.png">
+    </div>
+    <div class="prof-item">
+      <h2>Gregorio Morales</h2>
+      <img src="/assets/images/profesorGregorio2.png">
+    </div>
+    <div class="prof-item">
+      Duración
+    </div>
+    <div class="prof-item">
+      Precio
+    </div>
+  </div>
+
+
 <div style="text-align:center; margin: 2em;">
   Preguntas frecuentes
 </div>
@@ -357,21 +375,37 @@ layout: default
   background-color: #9b1b20;
 }
 
-/* Full-width background */
 .full-width-background {
     background-color: white;
 }
 
-/* Content container with max-width */
 .info-container {
     display: flex;
     width: 100%;
-    max-width: 64em;
+    max-width: 62em;
     margin: -3em auto 4em;
+    padding-left: 20px;
 }
 
 .info-item {
-  margin: 30px;
+  margin-right: 30px;
+  font-size: 17px;
+}
+
+.prof-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.prof-item {
+    width: 380px;
+    padding: 60px 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background: white;
+    text-align: center;
+    margin: 60px 14px;
 }
 </style>
 
