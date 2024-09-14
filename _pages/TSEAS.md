@@ -159,19 +159,22 @@ layout: default
   }
 </style>
 
-<div class="info-container">
-  <div class="info-item">
-    Preguntas frecuentes
-  </div>
-  <div class="info-item">
-    <h2>Duración</h2>
-    <p>2 años / 120 ECTS</p>
-  </div>
-  <div class="info-item">
-    Duración
-  </div>
-  <div class="info-item">
-    Precio
+<div class="full-width-background">
+  <div class="info-container">
+    <div class="info-item">
+      <p>Inicio</p>
+      <h3>2 años / 120 ECTS</h3>
+    </div>
+    <div class="info-item">
+      <p>Duración</p>
+      <h2>2 años / 120 ECTS</h2>
+    </div>
+    <div class="info-item">
+      Duración
+    </div>
+    <div class="info-item">
+      Precio
+    </div>
   </div>
 </div>
 
@@ -326,15 +329,6 @@ layout: default
   transform: rotate(180deg);
 }
 
-.info-container {
-  display: flex;
-  background-color: white;
-  width: 100%;
-  margin: -3em auto 4em;
-  text-align: left;
-  padding: 0em 9em;
-}
-
 .panel {
   font-size: 17px;
   padding: 0 18px;
@@ -363,10 +357,21 @@ layout: default
   background-color: #9b1b20;
 }
 
+/* Full-width background */
+.full-width-background {
+    background-color: white;
+}
+
+/* Content container with max-width */
+.info-container {
+    display: flex;
+    width: 100%;
+    max-width: 64em;
+    margin: -3em auto 4em;
+}
+
 .info-item {
-  margin: 40px;
-  text-align: center;
-  font-size: 20px;
+  margin: 30px;
 }
 </style>
 
