@@ -183,19 +183,19 @@ layout: default
 
 <div class="prof-container">
     <div class="prof-item">
-      <img src="/assets/images/profesorPablo2.png" style="width: 11em;">
+      <img src="/assets/images/profesorPablo2.png" style="width: 9em;">
       <p>Pablo Benítez Núñez</p>
     </div>
     <div class="prof-item">
-      <img src="/assets/images/profesorGregorio2.png" style="width: 15.8em;">
+      <img src="/assets/images/profesorGregorio2.png" style="width: 13em;">
       <p>Gregorio Morales Delgado</p>
     </div>
     <div class="prof-item">
-      <img src="/assets/images/profesorGregorio2.png" style="width: 15.8em;">
+      <img src="/assets/images/profesorGregorio2.png" style="width: 13em;">
       <p>Gregorio Morales</p>
     </div>
     <div class="prof-item">
-      <img src="/assets/images/profesorGregorio2.png" style="width: 15.8em;">
+      <img src="/assets/images/profesorGregorio2.png" style="width: 13em;">
       <p>Pepe Japón Camacho</p>
     </div>
   </div>
@@ -392,7 +392,7 @@ layout: default
 }
 
 .info-item {
-  margin-right: 30px;
+  margin-right: 3em;
   font-size: 17px;
 }
 
