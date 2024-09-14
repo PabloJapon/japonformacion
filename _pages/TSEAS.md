@@ -184,17 +184,19 @@ layout: default
 <div class="prof-container">
     <div class="prof-item">
       <img src="/assets/images/profesorPablo2.png" style="width: 11em;">
-      <p>Pablo Benítez</p>
+      <p>Pablo Benítez Núñez</p>
+    </div>
+    <div class="prof-item">
+      <img src="/assets/images/profesorGregorio2.png" style="width: 15.8em;">
+      <p>Gregorio Morales Delgado</p>
     </div>
     <div class="prof-item">
       <img src="/assets/images/profesorGregorio2.png" style="width: 15.8em;">
       <p>Gregorio Morales</p>
     </div>
     <div class="prof-item">
-      Duración
-    </div>
-    <div class="prof-item">
-      Precio
+      <img src="/assets/images/profesorGregorio2.png" style="width: 15.8em;">
+      <p>Pepe Japón Camacho</p>
     </div>
   </div>
 
@@ -386,7 +388,7 @@ layout: default
     width: 100%;
     max-width: 62em;
     margin: -3em auto 4em;
-    padding-left: 20px;
+    padding: 0.8em 20px;
 }
 
 .info-item {
@@ -398,6 +400,7 @@ layout: default
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    align-items: flex-end;
 }
 
 .prof-item {
