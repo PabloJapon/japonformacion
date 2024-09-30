@@ -243,6 +243,13 @@ layout: default
 </div>
 
 
+<div style="text-align:center; margin: 2em;">
+  Preguntas frecuentes
+</div>
+<a href="/assets/documents/NOTA INFORMATIVA LICENCIA Y C GRADO JUDO 24-25.pdf" rel="nofollow noopener noreferrer">Cómo tramitar licencias</a>
+<a href="/assets/documents/Categorias y pesos Fanjyda 2024-25.png" rel="nofollow noopener noreferrer">Categorias y pesos Fanjyda 2024-25</a>
+
+
 
 <div style="text-align:center; margin: 2em;">
   Preguntas frecuentes
