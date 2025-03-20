@@ -1,6 +1,6 @@
 ---
 title: "FP Dual Valverde"
-permalink: /FPDualValverde/
+permalink: /fpdualvalverde/
 layout: default
 ---
 
@@ -163,12 +163,43 @@ layout: default
   Encuentra tu título FP oficial
 </div>
 
-<div style="text-align:center; margin: 2em;">
-  <video controls style="max-width: 100%; width: 600px;" >
+<div style="text-align:center; margin: 2em; position: relative; display: inline-block;">
+  <video id="videoFP" controls style="max-width: 100%; width: 1000px; border-radius: 15px; display: block;">
     <source src="/assets/videos/Nueva_FP_Dual_en_Valverde.mp4" type="video/mp4">
     Tu navegador no soporta la reproducción de videos.
   </video>
+
+  <!-- Botón de reproducción -->
+  <button id="playButton" 
+    style="position: absolute; 
+           top: 50%; 
+           left: 50%; 
+           transform: translate(-50%, -50%); 
+           background-color: rgba(0, 0, 0, 0.7); 
+           color: white; 
+           font-size: 24px; 
+           border: none; 
+           padding: 20px 40px; 
+           border-radius: 10px; 
+           cursor: pointer;">
+    ▶ Reproducir Video
+  </button>
 </div>
+
+<script>
+  var video = document.getElementById("videoFP");
+  var playButton = document.getElementById("playButton");
+
+  playButton.addEventListener("click", function() {
+    video.play();
+    playButton.style.display = "none"; // Oculta el botón al comenzar el video
+  });
+
+  video.addEventListener("play", function() {
+    playButton.style.display = "none"; // Asegura que el botón desaparece si el usuario hace clic en el video
+  });
+</script>
+
 
 <div style="text-align:center; margin: 2em;">
   Preguntas frecuentes
