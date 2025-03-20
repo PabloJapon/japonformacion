@@ -135,12 +135,16 @@ layout: default
     font-size: 17px;
     margin-bottom: 3em;
   }
+
+    .navbar {
+        background-color: red !important;
+    }
 </style>
 
 
 <div style="display: flex; justify-content: center; align-items: center; margin-top: 8em; margin-bottom: 3.5em;">
   <video 
-    style="max-width: 100%; width: 1000px; border-radius: 15px; display: block;" 
+    style="max-width: 100%; width: 1250px; border-radius: 15px; display: block;" 
     autoplay muted loop>
     <source src="/assets/videos/Nueva_FP_Dual_en_Valverde.mp4" type="video/mp4">
     Tu navegador no soporta la reproducción de videos.
@@ -158,7 +162,7 @@ layout: default
       <img src="/assets/images/angulo-hacia-abajo.png" width="20" height="20" class="accordion-icon">
     </button>
     <div class="panel">
-      <p>Sí. Somos Centro Docente Privado Grupo Japón con código de Centro 21007304.</p>
+      <p>Sí. El Título “Guía en el Medio Natural y de Tiempo Libre” es un Título oficial expedido por la Junta de Andalucía.</p>
     </div>
 
     <button class="accordion">¿Puedo solicitar Becas del Ministerio de Educación?
@@ -172,21 +176,21 @@ layout: default
       <img src="/assets/images/angulo-hacia-abajo.png" width="20" height="20" class="accordion-icon">
     </button>
     <div class="panel">
-      <p>No. Todo el material que necesitaremos está incluido en la matrícula. Sí necesitarás una Tablet o portátil para tus trabajos en clase y casa.</p>
+      <p>No. Todo el material que necesitaremos está incluido en la matrícula. Sí necesitarás una Tablet o portátil para tus trabajos en clase y casa y disponer de una bicicleta para la asignatura de “Guía de Bicicleta”.</p>
     </div>
 
     <button class="accordion">¿Qué instalaciones ofrece el Centro?
       <img src="/assets/images/angulo-hacia-abajo.png" width="20" height="20" class="accordion-icon">
     </button>
     <div class="panel">
-      <p>Las clases teóricas se impartirán en nuestro Centro y las clases prácticas en: Instalaciones Polideportivas Ayuntamiento, Real Club Recreativo de Tenis y Club Asirio de Tiro con Arco de Huelva.</p>
+      <p>Las clases teóricas se impartirán en el Colegio María Auxiliadora de Valverde del Camino y las clases prácticas en: las instalaciones polideportivas del Ayuntamiento de Valverde del Camino y la asignatura de Hípica en el “Centro Hípico Mariano Orta” de Niebla.</p>
     </div>
 
     <button class="accordion">¿Después del Ciclo, puedo acceder a la Universidad?
       <img src="/assets/images/angulo-hacia-abajo.png" width="20" height="20" class="accordion-icon">
     </button>
     <div class="panel">
-      <p>Si tienes un título de técnico Medio de FP podrás acceder directamente a la universidad, y para ello no será necesario superar ninguna prueba de acceso a la universidad como la selectividad (EvAU o EBAU).</p>
+      <p>Después de cursar el Grado medio, deberás cursar el Grado Superior y podrás acceder directamente a la universidad, y para ello no será necesario superar ninguna prueba de acceso a la universidad como la selectividad (EvAU).</p>
     </div>
 
     <button class="accordion">¿Cómo se calcula la nota de acceso a la universidad con Grado Medio?
@@ -208,6 +212,13 @@ layout: default
     </button>
     <div class="panel">
       <p>Sí.Te garantizamos la realización de prácticas en tus estudios de grado Medio en TSEAS y el alta en seguridad como exige la nueva normativa de FP.</p>
+    </div>
+
+    <button class="accordion">¿Puedo elegir mi horario de prácticas en empresa?
+      <img src="/assets/images/angulo-hacia-abajo.png" width="20" height="20" class="accordion-icon">
+    </button>
+    <div class="panel">
+      <p>La modificación de la FP a Dual, te dará la flexibilidad de poder elegir tus horarios de las prácticas en empresa. Horario de mañana de 9:00 a 12:00 horas. Horario de tarde de 18:00 a 21:00 horas</p>
     </div>
   </div>
 </div>
