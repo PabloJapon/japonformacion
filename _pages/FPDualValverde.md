@@ -136,9 +136,6 @@ layout: default
     margin-bottom: 3em;
   }
 
-    .navbar {
-        background-color: red !important;
-    }
 </style>
 
 
