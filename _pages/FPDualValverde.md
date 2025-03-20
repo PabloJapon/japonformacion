@@ -139,7 +139,7 @@ layout: default
 </style>
 
 
-<div style="display: flex; justify-content: center; align-items: center; margin-top: 8em; margin-bottom: 3.5em;">
+<div style="display: flex; justify-content: center; align-items: center; padding-top: 8em; margin-bottom: 3.5em; padding-bottom: 3.5em; background-color: #2d85a5;">
   <video 
     style="max-width: 100%; width: 1250px; border-radius: 15px; display: block;" 
     autoplay muted loop>
