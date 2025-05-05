@@ -1,6 +1,6 @@
 ---
-#title: "Ciclos de FP oficiales en grupos reducidos y servicios educativos"
-title: "Servicios educativos y ciclos de FP oficiales en grupos reducidos"
+title: "Ciclos de FP oficiales en grupos reducidos y servicios educativos"
+#title: "Servicios educativos y ciclos de FP oficiales en grupos reducidos"
 layout: splash
 header:
   overlay_image: /assets/images/page-header-teaser.png
@@ -12,6 +12,17 @@ header:
 excerpt: "Dedicados al desarrollo de servicios educativos, ocio y tiempo libre"
 ---
 
+
+  <a href="/FPSuperior" class="plan">
+    <h2>Grados Superiores</h2>
+    <p>Accede con el título de Bachillerato, una FP de Grado Medio o Superior o mediante prueba de acceso.</p>
+  </a>
+
+  <a href="/FPMedio" class="plan">
+    <h2>Grados Medios</h2>
+    <p>Accede con el título de ESO, Bachillerato o mediante una prueba de acceso.</p>
+  </a>
+</div>
 
 <div class="plans-container">
   <a href="/aula_matinal" class="plan">
@@ -29,16 +40,6 @@ excerpt: "Dedicados al desarrollo de servicios educativos, ocio y tiempo libre"
     <p>Desde 1994, JAPONSPORT promueve el judo en Huelva para fomentar hábitos saludables y mejorar la calidad de vida.</p>
   </a>
 
-  <a href="/FPSuperior" class="plan">
-    <h2>Grados Superiores</h2>
-    <p>Accede con el título de Bachillerato, una FP de Grado Medio o Superior o mediante prueba de acceso.</p>
-  </a>
-
-  <a href="/FPMedio" class="plan">
-    <h2>Grados Medios</h2>
-    <p>Accede con el título de ESO, Bachillerato o mediante una prueba de acceso.</p>
-  </a>
-</div>
 
 
 <div class="features-container">
