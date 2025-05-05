@@ -13,6 +13,8 @@ excerpt: "Dedicados al desarrollo de servicios educativos, ocio y tiempo libre"
 ---
 
 
+<div class="plans-container">
+
   <a href="/FPSuperior" class="plan">
     <h2>Grados Superiores</h2>
     <p>Accede con el título de Bachillerato, una FP de Grado Medio o Superior o mediante prueba de acceso.</p>
@@ -22,9 +24,7 @@ excerpt: "Dedicados al desarrollo de servicios educativos, ocio y tiempo libre"
     <h2>Grados Medios</h2>
     <p>Accede con el título de ESO, Bachillerato o mediante una prueba de acceso.</p>
   </a>
-</div>
 
-<div class="plans-container">
   <a href="/aula_matinal" class="plan">
     <h2>Aula Matinal</h2>
     <p>JAPONEDUCA ofrece aula matinal en colegios, brindando a los alumnos un espacio seguro y enriquecedor para comenzar el día, facilitando además la organización de las familias.</p>
@@ -40,6 +40,7 @@ excerpt: "Dedicados al desarrollo de servicios educativos, ocio y tiempo libre"
     <p>Desde 1994, JAPONSPORT promueve el judo en Huelva para fomentar hábitos saludables y mejorar la calidad de vida.</p>
   </a>
 
+</div>
 
 
 <div class="features-container">
