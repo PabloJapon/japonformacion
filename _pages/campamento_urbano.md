@@ -261,12 +261,12 @@ El campamento está dirigido a niños y niñas de entre <strong>3 y 12 años</st
 <p style="text-align: center;font-size: 17px;margin: 2em auto 0em;max-width: 78em;">
 Este verano viajaremos con nuestra mascota al mundo mágico de: 🎪 <strong>"EL CIRCO"</strong>
 </p>
-<p style="text-align: center;font-size: 17px;margin: 0.5em auto 4em;max-width: 78em;">
+<p style="text-align: center;font-size: 17px;margin: 0.5em auto 2em;max-width: 78em;">
 Donde aprenderemos, jugaremos, bailaremos, cantaremos y nos divertiremos como verdaderos artistas. Entre las actividades destacadas están:
 </p>
 
 <div style="text-align: center;margin-bottom: 3em;">
-  <div style="display: inline-block; text-align: left; font-size: 17px;">
+  <div style="display: inline-block; text-align: left; font-size: 17px;max-width: 60em;">
     <ul style="list-style-type: disc; padding-left: 20px; margin: 0;">
       <li><strong>Construimos nuestro circo</strong>. Diseñaremos y crearemos nuestro propio circo con jaulas, domadores, animales y más, utilizando murales, juegos y talleres.</li>
       <li><strong>Animales salvajes</strong>. Descubriremos el mundo de los animales salvajes: dónde viven, qué comen, cómo cuidarlos, y la importancia de proteger su hábitat.</li>
