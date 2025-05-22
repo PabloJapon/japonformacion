@@ -165,8 +165,8 @@ layout: default
 
 <p style="text-align: center;font-size: 17px;margin: 2em auto 4em;max-width: 78em;">
 Con la llegada del verano, también llegan las vacaciones escolares. Para muchas familias, esto puede representar un reto, ya que los padres y madres deben seguir trabajando y no siempre es fácil encontrar un lugar seguro y enriquecedor donde dejar a sus hijos e hijas durante el día.
-Grupo Japón presenta una excelente solución: un Campamento Urbano que se desarrollará en el propio colegio de los niños y niñas, rodeados de sus compañeros y compañeras, bajo la supervisión de monitores especializados, y con una amplia variedad de actividades lúdicas y educativas. Alternando el tiempo al aire libre con dinámicas en el aula, este campamento garantiza una experiencia divertida, segura y enriquecedora.
-Además, para aquellas familias que necesitan comenzar su jornada laboral antes de las 9:00 h (inicio del campamento), se ofrece también un servicio de Aula Matinal desde las 7:30 h.
+<strong>Grupo Japón</strong> presenta una excelente solución: un <strong>Campamento Urbano</strong> que se desarrollará en el propio colegio de los niños y niñas, rodeados de sus compañeros y compañeras, bajo la supervisión de monitores especializados, y con una amplia variedad de actividades lúdicas y educativas. Alternando el tiempo al aire libre con dinámicas en el aula, este campamento garantiza una experiencia divertida, segura y enriquecedora.
+Además, para aquellas familias que necesitan comenzar su jornada laboral antes de las 9:00 h (inicio del campamento), se ofrece también un servicio de <strong>Aula Matinal</strong> desde las 7:30 h.
 </p>
 
 <div style="text-align:center; margin: 2em;">
@@ -174,7 +174,7 @@ Además, para aquellas familias que necesitan comenzar su jornada laboral antes 
 </div>
 
 <p style="text-align: center;font-size: 17px;margin: 2em auto 4em;max-width: 78em;">
-El campamento se realizará en las instalaciones del CEIP PRÁCTICAS (Huelva).
+El campamento se realizará en las instalaciones del <strong>CEIP PRÁCTICAS (Huelva)</strong>.
 Contaremos con todo el material necesario para las actividades: material escolar, deportivo, audiovisual, de identificación, y de primeros auxilios.
 </p>
 
@@ -193,35 +193,35 @@ Contaremos con todo el material necesario para las actividades: material escolar
     <tbody>
       <tr>
         <td style="width: 200px;text-align: center;">7:30 – 9:00</td>
-        <td style="width: 500px;text-align: center;">Aula Matinal (con desayuno)</td>
+        <td style="width: 500px;text-align: center;"><strong>Aula Matinal</strong> (con desayuno)</td>
       </tr>
       <tr>
         <td style="width: 200px;text-align: center;">9:00 – 9:30</td>
-        <td style="width: 500px;text-align: center;">Buenos días en el patio</td>
+        <td style="width: 500px;text-align: center;"><strong>Buenos días</strong> en el patio</td>
       </tr>
       <tr>
         <td style="width: 200px;text-align: center;">9:30 – 10:30</td>
-        <td style="width: 500px;text-align: center;">Juegos deportivos en el patio</td>
+        <td style="width: 500px;text-align: center;"><strong>Juegos deportivos</strong> en el patio</td>
       </tr>
       <tr>
         <td style="width: 200px;text-align: center;">10:30 – 11:00</td>
-        <td style="width: 500px;text-align: center;">Concursos en clase (Are you ready?)</td>
+        <td style="width: 500px;text-align: center;"><strong>Concursos</strong> en clase (Are you ready?)</td>
       </tr>
       <tr>
         <td style="width: 200px;text-align: center;">11:00 – 12:00</td>
-        <td style="width: 500px;text-align: center;">Talleres creativos: lectura, idiomas, manualidades, juegos</td>
+        <td style="width: 500px;text-align: center;"><strong>Talleres creativos</strong>: lectura, idiomas, manualidades, juegos</td>
       </tr>
       <tr>
         <td style="width: 200px;text-align: center;">12:00 – 12:30</td>
-        <td style="width: 500px;text-align: center;">Descanso y tentempié en el patio</td>
+        <td style="width: 500px;text-align: center;"><strong>Descanso y tentempié</strong> en el patio</td>
       </tr>
       <tr>
         <td style="width: 200px;text-align: center;">12:30 – 14:00</td>
-        <td style="width: 500px;text-align: center;">Taller temático: “Los viajes del caracol”</td>
+        <td style="width: 500px;text-align: center;"><strong>Taller temático</strong>: “Los viajes del caracol”</td>
       </tr>
       <tr>
         <td style="width: 200px;text-align: center;">14:00 – 15:00</td>
-        <td style="width: 500px;text-align: center;">Despedida: juegos, canciones, etc.</td>
+        <td style="width: 500px;text-align: center;"><strong>Despedida</strong>: juegos, canciones, etc.</td>
       </tr>
     </tbody>
   </table>
@@ -237,16 +237,19 @@ Contaremos con todo el material necesario para las actividades: material escolar
 </div>
 
 <p style="text-align: center;font-size: 17px;margin: 2em auto 4em;max-width: 78em;">
-El campamento está dirigido a niños y niñas de entre 3 y 12 años. Se organizarán en grupos por edades para facilitar el trabajo y fomentar la cohesión grupal:
+El campamento está dirigido a niños y niñas de entre <strong>3 y 12 años</strong>. Se organizarán en grupos por edades para facilitar el trabajo y fomentar la cohesión grupal:
 </p>
 
-<td style="width: 200px;text-align: center;">
-  <ul style="list-style-type: disc; padding-left: 40px; margin: 0; text-align: left;">
-    <li>Pequeños (Naranjas): 3, 4 y 5 años</li>
-    <li>Medianos (Verdes): 6, 7 y 8 años</li>
-    <li>Mayores (Azules): 9 a 12 años</li>
-  </ul>
+<td style="width: 100%; text-align: center;">
+  <div style="display: inline-block; text-align: left;font-size: 17px;">
+    <ul style="list-style-type: disc; padding-left: 20px; margin: 0;">
+      <li><strong>Pequeños (Naranjas)</strong>: 3, 4 y 5 años</li>
+      <li><strong>Medianos (Verdes)</strong>: 6, 7 y 8 años</li>
+      <li><strong>Mayores (Azules)</strong>: 9 a 12 años</li>
+    </ul>
+  </div>
 </td>
+
 
 
 
@@ -256,7 +259,7 @@ El campamento está dirigido a niños y niñas de entre 3 y 12 años. Se organiz
 </div>
 
 <p style="text-align: center;font-size: 17px;margin: 2em auto 4em;max-width: 78em;">
-Este verano viajaremos con nuestra mascota al mundo mágico de: 🎪 "EL CIRCO"
+Este verano viajaremos con nuestra mascota al mundo mágico de: 🎪 <strong>"EL CIRCO"</strong>
 </p>
 <p style="text-align: center;font-size: 17px;margin: 2em auto 4em;max-width: 78em;">
 Donde aprenderemos, jugaremos, bailaremos, cantaremos y nos divertiremos como verdaderos artistas. Entre las actividades destacadas están:
@@ -264,10 +267,10 @@ Donde aprenderemos, jugaremos, bailaremos, cantaremos y nos divertiremos como ve
 
 <p style="width: 200px;text-align: center;">
   <ul style="list-style-type: disc; padding-left: 40px; margin: 0; text-align: left;">
-    <li>Construimos nuestro circo. Diseñaremos y crearemos nuestro propio circo con jaulas, domadores, animales y más, utilizando murales, juegos y talleres.</li>
-    <li>Animales salvajes. Descubriremos el mundo de los animales salvajes: dónde viven, qué comen, cómo cuidarlos, y la importancia de proteger su hábitat.</li>
-    <li>Creamos nuestra pista de circo. A través del reciclaje y la imaginación, seremos payasos, magos, malabaristas, domadores y más, aprendiendo que no hacen falta juguetes caros para divertirse.</li>
-    <li>El espectáculo final. Montaremos nuestro propio show de circo. Crearemos bolas de malabares, vestuarios, disfraces, instrumentos musicales, cariocas... ¡y lo daremos todo sobre el escenario!</li>
+    <li><strong>Construimos nuestro circo</strong>. Diseñaremos y crearemos nuestro propio circo con jaulas, domadores, animales y más, utilizando murales, juegos y talleres.</li>
+    <li><strong>Animales salvajes</strong>. Descubriremos el mundo de los animales salvajes: dónde viven, qué comen, cómo cuidarlos, y la importancia de proteger su hábitat.</li>
+    <li><strong>Creamos nuestra pista de circo</strong>. A través del reciclaje y la imaginación, seremos payasos, magos, malabaristas, domadores y más, aprendiendo que no hacen falta juguetes caros para divertirse.</li>
+    <li><strong>El espectáculo final</strong>. Montaremos nuestro propio show de circo. Crearemos bolas de malabares, vestuarios, disfraces, instrumentos musicales, cariocas... ¡y lo daremos todo sobre el escenario!</li>
   </ul>
 </p>
 
@@ -526,7 +529,7 @@ Cada día, los niños y niñas disfrutarán de un sinfín de actividades variada
 
 <style>
   .table-container {
-    margin-top: 30px; /* Ajusta el margen superior según sea necesario */
+    margin-bottom: 4em; /* Ajusta el margen superior según sea necesario */
   }
 
   .table-container table {
