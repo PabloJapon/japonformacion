@@ -163,7 +163,7 @@ layout: default
   ¿EN QUÉ CONSISTE?
 </div>
 
-<p style="text-align: center;">
+<p style="text-align: center;font-size: 17px;margin: 2em auto 4em;max-width: 78em;">
 Con la llegada del verano, también llegan las vacaciones escolares. Para muchas familias, esto puede representar un reto, ya que los padres y madres deben seguir trabajando y no siempre es fácil encontrar un lugar seguro y enriquecedor donde dejar a sus hijos e hijas durante el día.
 Grupo Japón presenta una excelente solución: un Campamento Urbano que se desarrollará en el propio colegio de los niños y niñas, rodeados de sus compañeros y compañeras, bajo la supervisión de monitores especializados, y con una amplia variedad de actividades lúdicas y educativas. Alternando el tiempo al aire libre con dinámicas en el aula, este campamento garantiza una experiencia divertida, segura y enriquecedora.
 Además, para aquellas familias que necesitan comenzar su jornada laboral antes de las 9:00 h (inicio del campamento), se ofrece también un servicio de Aula Matinal desde las 7:30 h.
@@ -173,7 +173,7 @@ Además, para aquellas familias que necesitan comenzar su jornada laboral antes 
   ¿DÓNDE?
 </div>
 
-<p style="text-align: center;">
+<p style="text-align: center;font-size: 17px;margin: 2em auto 4em;max-width: 78em;">
 El campamento se realizará en las instalaciones del CEIP PRÁCTICAS (Huelva).
 Contaremos con todo el material necesario para las actividades: material escolar, deportivo, audiovisual, de identificación, y de primeros auxilios.
 </p>
@@ -187,41 +187,41 @@ Contaremos con todo el material necesario para las actividades: material escolar
     <thead>
       <tr>
         <th style="width: 200px;text-align: center;"><h2>Horario</h2></th>
-        <th style="width: 200px;text-align: center;"><h2>Actividad</h2></th>
+        <th style="width: 500px;text-align: center;"><h2>Actividad</h2></th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td style="width: 200px;text-align: center;">7:30 – 9:00</td>
-        <td style="width: 200px;text-align: center;">Aula Matinal (con desayuno)</td>
+        <td style="width: 500px;text-align: center;">Aula Matinal (con desayuno)</td>
       </tr>
       <tr>
         <td style="width: 200px;text-align: center;">9:00 – 9:30</td>
-        <td style="width: 200px;text-align: center;">Buenos días en el patio</td>
+        <td style="width: 500px;text-align: center;">Buenos días en el patio</td>
       </tr>
       <tr>
         <td style="width: 200px;text-align: center;">9:30 – 10:30</td>
-        <td style="width: 200px;text-align: center;">Juegos deportivos en el patio</td>
+        <td style="width: 500px;text-align: center;">Juegos deportivos en el patio</td>
       </tr>
       <tr>
         <td style="width: 200px;text-align: center;">10:30 – 11:00</td>
-        <td style="width: 200px;text-align: center;">Concursos en clase (Are you ready?)</td>
+        <td style="width: 500px;text-align: center;">Concursos en clase (Are you ready?)</td>
       </tr>
       <tr>
         <td style="width: 200px;text-align: center;">11:00 – 12:00</td>
-        <td style="width: 200px;text-align: center;">Talleres creativos: lectura, idiomas, manualidades, juegos</td>
+        <td style="width: 500px;text-align: center;">Talleres creativos: lectura, idiomas, manualidades, juegos</td>
       </tr>
       <tr>
         <td style="width: 200px;text-align: center;">12:00 – 12:30</td>
-        <td style="width: 200px;text-align: center;">Descanso y tentempié en el patio</td>
+        <td style="width: 500px;text-align: center;">Descanso y tentempié en el patio</td>
       </tr>
       <tr>
         <td style="width: 200px;text-align: center;">12:30 – 14:00</td>
-        <td style="width: 200px;text-align: center;">Taller temático: “Los viajes del caracol”</td>
+        <td style="width: 500px;text-align: center;">Taller temático: “Los viajes del caracol”</td>
       </tr>
       <tr>
         <td style="width: 200px;text-align: center;">14:00 – 15:00</td>
-        <td style="width: 200px;text-align: center;">Despedida: juegos, canciones, etc.</td>
+        <td style="width: 500px;text-align: center;">Despedida: juegos, canciones, etc.</td>
       </tr>
     </tbody>
   </table>
@@ -236,7 +236,7 @@ Contaremos con todo el material necesario para las actividades: material escolar
   PARTICIPANTES
 </div>
 
-<p style="text-align: center;">
+<p style="text-align: center;font-size: 17px;margin: 2em auto 4em;max-width: 78em;">
 El campamento está dirigido a niños y niñas de entre 3 y 12 años. Se organizarán en grupos por edades para facilitar el trabajo y fomentar la cohesión grupal:
 </p>
 
@@ -255,21 +255,21 @@ El campamento está dirigido a niños y niñas de entre 3 y 12 años. Se organiz
   ACTIVIDADES
 </div>
 
-<p style="text-align: center;">
+<p style="text-align: center;font-size: 17px;margin: 2em auto 4em;max-width: 78em;">
 Este verano viajaremos con nuestra mascota al mundo mágico de: 🎪 "EL CIRCO"
 </p>
-<p style="text-align: center;">
+<p style="text-align: center;font-size: 17px;margin: 2em auto 4em;max-width: 78em;">
 Donde aprenderemos, jugaremos, bailaremos, cantaremos y nos divertiremos como verdaderos artistas. Entre las actividades destacadas están:
 </p>
 
-<td style="width: 200px;text-align: center;">
+<p style="width: 200px;text-align: center;">
   <ul style="list-style-type: disc; padding-left: 40px; margin: 0; text-align: left;">
     <li>Construimos nuestro circo. Diseñaremos y crearemos nuestro propio circo con jaulas, domadores, animales y más, utilizando murales, juegos y talleres.</li>
     <li>Animales salvajes. Descubriremos el mundo de los animales salvajes: dónde viven, qué comen, cómo cuidarlos, y la importancia de proteger su hábitat.</li>
     <li>Creamos nuestra pista de circo. A través del reciclaje y la imaginación, seremos payasos, magos, malabaristas, domadores y más, aprendiendo que no hacen falta juguetes caros para divertirse.</li>
     <li>El espectáculo final. Montaremos nuestro propio show de circo. Crearemos bolas de malabares, vestuarios, disfraces, instrumentos musicales, cariocas... ¡y lo daremos todo sobre el escenario!</li>
   </ul>
-</td>
+</p>
 
 
 
@@ -294,7 +294,7 @@ Cada día, los niños y niñas disfrutarán de un sinfín de actividades variada
 
 
 <p style="text-align: center;">
-  <button class="plan-button2" onclick="location.href='https://forms.gle/RddqdtHEoDhM2YPXA'" style="font-weight: 700;">INSCRÍBETE</button>
+  <button class="plan-button2" onclick="location.href='https://forms.gle/RddqdtHEoDhM2YPXA'" style="font-weight: 700;margin-bottom: 4em;">INSCRÍBETE</button>
 </p>
 
 
