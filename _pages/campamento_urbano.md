@@ -236,11 +236,11 @@ Contaremos con todo el material necesario para las actividades: material escolar
   PARTICIPANTES
 </div>
 
-<p style="text-align: center;font-size: 17px;margin: 2em auto 4em;max-width: 78em;">
+<p style="text-align: center;font-size: 17px;margin: 2em auto 2em;max-width: 78em;">
 El campamento está dirigido a niños y niñas de entre <strong>3 y 12 años</strong>. Se organizarán en grupos por edades para facilitar el trabajo y fomentar la cohesión grupal:
 </p>
 
-<div style="text-align: center;">
+<div style="text-align: center;margin-bottom: 3em;">
   <div style="display: inline-block; text-align: left; font-size: 17px;">
     <ul style="list-style-type: disc; padding-left: 20px; margin: 0;">
       <li><strong>Pequeños (Naranjas)</strong>: 3, 4 y 5 años</li>
@@ -258,21 +258,23 @@ El campamento está dirigido a niños y niñas de entre <strong>3 y 12 años</st
   ACTIVIDADES
 </div>
 
-<p style="text-align: center;font-size: 17px;margin: 2em auto 4em;max-width: 78em;">
+<p style="text-align: center;font-size: 17px;margin: 2em auto 0em;max-width: 78em;">
 Este verano viajaremos con nuestra mascota al mundo mágico de: 🎪 <strong>"EL CIRCO"</strong>
 </p>
-<p style="text-align: center;font-size: 17px;margin: 2em auto 4em;max-width: 78em;">
+<p style="text-align: center;font-size: 17px;margin: 0.5em auto 4em;max-width: 78em;">
 Donde aprenderemos, jugaremos, bailaremos, cantaremos y nos divertiremos como verdaderos artistas. Entre las actividades destacadas están:
 </p>
 
-<p style="width: 200px;text-align: center;">
-  <ul style="list-style-type: disc; padding-left: 40px; margin: 0; text-align: left;">
-    <li><strong>Construimos nuestro circo</strong>. Diseñaremos y crearemos nuestro propio circo con jaulas, domadores, animales y más, utilizando murales, juegos y talleres.</li>
-    <li><strong>Animales salvajes</strong>. Descubriremos el mundo de los animales salvajes: dónde viven, qué comen, cómo cuidarlos, y la importancia de proteger su hábitat.</li>
-    <li><strong>Creamos nuestra pista de circo</strong>. A través del reciclaje y la imaginación, seremos payasos, magos, malabaristas, domadores y más, aprendiendo que no hacen falta juguetes caros para divertirse.</li>
-    <li><strong>El espectáculo final</strong>. Montaremos nuestro propio show de circo. Crearemos bolas de malabares, vestuarios, disfraces, instrumentos musicales, cariocas... ¡y lo daremos todo sobre el escenario!</li>
-  </ul>
-</p>
+<div style="text-align: center;margin-bottom: 3em;">
+  <div style="display: inline-block; text-align: left; font-size: 17px;">
+    <ul style="list-style-type: disc; padding-left: 20px; margin: 0;">
+      <li><strong>Construimos nuestro circo</strong>. Diseñaremos y crearemos nuestro propio circo con jaulas, domadores, animales y más, utilizando murales, juegos y talleres.</li>
+      <li><strong>Animales salvajes</strong>. Descubriremos el mundo de los animales salvajes: dónde viven, qué comen, cómo cuidarlos, y la importancia de proteger su hábitat.</li>
+      <li><strong>Creamos nuestra pista de circo</strong>. A través del reciclaje y la imaginación, seremos payasos, magos, malabaristas, domadores y más, aprendiendo que no hacen falta juguetes caros para divertirse.</li>
+      <li><strong>El espectáculo final</strong>. Montaremos nuestro propio show de circo. Crearemos bolas de malabares, vestuarios, disfraces, instrumentos musicales, cariocas... ¡y lo daremos todo sobre el escenario!</li>
+    </ul>
+  </div>
+</div>
 
 
 
@@ -280,24 +282,26 @@ Donde aprenderemos, jugaremos, bailaremos, cantaremos y nos divertiremos como ve
   Y ADEMÁS...
 </div>
 
-<p style="text-align: center;">
+<p style="text-align: center;;font-size: 17px">
 Cada día, los niños y niñas disfrutarán de un sinfín de actividades variadas, como:
 </p>
 
-<td style="width: 200px;text-align: center;">
-  <ul style="list-style-type: disc; padding-left: 40px; margin: 0; text-align: left;">
-    <li>Juegos deportivos y al aire libre</li>
-    <li>Juegos de ingenio y lógica</li>
-    <li>Cuentacuentos</li>
-    <li>Actividades de expresión corporal y artística</li>
-    <li>¡Y muchas sorpresas más!</li>
-  </ul>
-</td>
+<div style="text-align: center;margin-bottom: 3em;">
+  <div style="display: inline-block; text-align: left; font-size: 17px;">
+    <ul style="list-style-type: disc; padding-left: 20px; margin: 0;">
+      <li>Juegos deportivos y al aire libre</li>
+      <li>Juegos de ingenio y lógica</li>
+      <li>Cuentacuentos</li>
+      <li>Actividades de expresión corporal y artística</li>
+      <li>¡Y muchas sorpresas más!</li>
+    </ul>
+  </div>
+</div>
 
 
 
 <p style="text-align: center;">
-  <button class="plan-button2" onclick="location.href='https://forms.gle/RddqdtHEoDhM2YPXA'" style="font-weight: 700;margin-bottom: 4em;">INSCRÍBETE</button>
+  <button class="plan-button2" onclick="location.href='https://forms.gle/RddqdtHEoDhM2YPXA'" style="font-weight: 700;margin: 3em 0 4em;">INSCRÍBETE</button>
 </p>
 
 
