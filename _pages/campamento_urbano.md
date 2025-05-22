@@ -1,6 +1,6 @@
 ---
-title: "Aula Matinal"
-permalink: /aula_matinal/
+title: "Campamento Urbano"
+permalink: /campamento_urbano/
 layout: default
 ---
 
@@ -17,11 +17,11 @@ layout: default
   <div class="top-left">Aula matinal</div>
 
   <!-- Right image upfront -->
-  <img src="/assets/images/niñacomiendo.png" alt="Right Image" class="right-image">
+  <img src="/assets/images/Caracol.png" alt="Right Image" class="right-image">
 
   <!-- Text content at bottom left -->
   <div class="bottom-left">
-    <p>JAPONEDUCA, parte del GRUPO JAPÓN, ofrece servicios educativos, ocio y tiempo libre. Nuestro programa incluye aula matinal adaptada a horarios familiares, fortaleciendo la autonomía escolar bajo el Plan de Apertura de Centros en Andalucía.</p>
+    <p>Grupo Japón organiza en el CEIP Prácticas su campamento urbano “Los viajes del Caracol”, una propuesta que combina actividades al aire libre con dinámicas en el aula, garantizando una experiencia divertida, segura y enriquecedora para todos los participantes.</p>
     <button class="plan-button2" onclick="location.href='https://app.grupojapon.es/index.php/registro'" style="font-weight: 700;">INSCRÍBETE</button>
   </div>
 </div>

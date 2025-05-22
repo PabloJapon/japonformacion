@@ -25,6 +25,11 @@ excerpt: "Dedicados al desarrollo de servicios educativos, ocio y tiempo libre"
     <p>Accede con el título de ESO, Bachillerato o mediante una prueba de acceso.</p>
   </a>
 
+  <a href="/campamento_urbano" class="plan">
+    <h2>Campamento Urbano</h2>
+    <p></p>
+  </a>
+
   <a href="/aula_matinal" class="plan">
     <h2>Aula Matinal</h2>
     <p>JAPONEDUCA ofrece aula matinal en colegios, brindando a los alumnos un espacio seguro y enriquecedor para comenzar el día, facilitando además la organización de las familias.</p>
