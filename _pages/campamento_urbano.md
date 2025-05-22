@@ -22,7 +22,7 @@ layout: default
   <!-- Text content at bottom left -->
   <div class="bottom-left">
     <p>Grupo Japón organiza en el CEIP Prácticas su campamento urbano “Los viajes del Caracol”, una propuesta que combina actividades al aire libre con dinámicas en el aula, garantizando una experiencia divertida, segura y enriquecedora para todos los participantes.</p>
-    <button class="plan-button2" onclick="location.href='https://app.grupojapon.es/index.php/registro'" style="font-weight: 700;">INSCRÍBETE</button>
+    <button class="plan-button2" onclick="location.href='https://forms.gle/RddqdtHEoDhM2YPXA'" style="font-weight: 700;">INSCRÍBETE</button>
   </div>
 </div>
 
@@ -158,6 +158,200 @@ layout: default
     margin-bottom: 3em;
   }
 </style>
+
+<div style="text-align:center; margin: 2em;">
+  ¿EN QUÉ CONSISTE?
+</div>
+
+<p style="text-align: center;">
+Con la llegada del verano, también llegan las vacaciones escolares. Para muchas familias, esto puede representar un reto, ya que los padres y madres deben seguir trabajando y no siempre es fácil encontrar un lugar seguro y enriquecedor donde dejar a sus hijos e hijas durante el día.
+Grupo Japón presenta una excelente solución: un Campamento Urbano que se desarrollará en el propio colegio de los niños y niñas, rodeados de sus compañeros y compañeras, bajo la supervisión de monitores especializados, y con una amplia variedad de actividades lúdicas y educativas. Alternando el tiempo al aire libre con dinámicas en el aula, este campamento garantiza una experiencia divertida, segura y enriquecedora.
+Además, para aquellas familias que necesitan comenzar su jornada laboral antes de las 9:00 h (inicio del campamento), se ofrece también un servicio de Aula Matinal desde las 7:30 h.
+</p>
+
+<div style="text-align:center; margin: 2em;">
+  ¿DÓNDE?
+</div>
+
+<p style="text-align: center;">
+El campamento se realizará en las instalaciones del CEIP PRÁCTICAS (Huelva).
+Contaremos con todo el material necesario para las actividades: material escolar, deportivo, audiovisual, de identificación, y de primeros auxilios.
+</p>
+
+<div style="text-align:center; margin: 2em;">
+  HORARIOS
+</div>
+
+<div class="table-container">
+  <table>
+    <thead>
+      <tr>
+        <th style="width: 200px;text-align: center;"><h2>Horario</h2></th>
+        <th style="width: 200px;text-align: center;"><h2>Actividad</h2></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="width: 200px;text-align: center;">7:30 – 9:00</td>
+        <td style="width: 200px;text-align: center;">Aula Matinal (con desayuno)</td>
+      </tr>
+      <tr>
+        <td style="width: 200px;text-align: center;">9:00 – 9:30</td>
+        <td style="width: 200px;text-align: center;">Buenos días en el patio</td>
+      </tr>
+      <tr>
+        <td style="width: 200px;text-align: center;">9:30 – 10:30</td>
+        <td style="width: 200px;text-align: center;">Juegos deportivos en el patio</td>
+      </tr>
+      <tr>
+        <td style="width: 200px;text-align: center;">10:30 – 11:00</td>
+        <td style="width: 200px;text-align: center;">Concursos en clase (Are you ready?)</td>
+      </tr>
+      <tr>
+        <td style="width: 200px;text-align: center;">11:00 – 12:00</td>
+        <td style="width: 200px;text-align: center;">Talleres creativos: lectura, idiomas, manualidades, juegos</td>
+      </tr>
+      <tr>
+        <td style="width: 200px;text-align: center;">12:00 – 12:30</td>
+        <td style="width: 200px;text-align: center;">Descanso y tentempié en el patio</td>
+      </tr>
+      <tr>
+        <td style="width: 200px;text-align: center;">12:30 – 14:00</td>
+        <td style="width: 200px;text-align: center;">Taller temático: “Los viajes del caracol”</td>
+      </tr>
+      <tr>
+        <td style="width: 200px;text-align: center;">14:00 – 15:00</td>
+        <td style="width: 200px;text-align: center;">Despedida: juegos, canciones, etc.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+
+
+
+
+
+<div style="text-align:center; margin: 2em;">
+  PARTICIPANTES
+</div>
+
+<p style="text-align: center;">
+El campamento está dirigido a niños y niñas de entre 3 y 12 años. Se organizarán en grupos por edades para facilitar el trabajo y fomentar la cohesión grupal:
+</p>
+
+<td style="width: 200px;text-align: center;">
+  <ul style="list-style-type: disc; padding-left: 40px; margin: 0; text-align: left;">
+    <li>Pequeños (Naranjas): 3, 4 y 5 años</li>
+    <li>Medianos (Verdes): 6, 7 y 8 años</li>
+    <li>Mayores (Azules): 9 a 12 años</li>
+  </ul>
+</td>
+
+
+
+
+<div style="text-align:center; margin: 2em;">
+  ACTIVIDADES
+</div>
+
+<p style="text-align: center;">
+Este verano viajaremos con nuestra mascota al mundo mágico de: 🎪 "EL CIRCO"
+</p>
+<p style="text-align: center;">
+Donde aprenderemos, jugaremos, bailaremos, cantaremos y nos divertiremos como verdaderos artistas. Entre las actividades destacadas están:
+</p>
+
+<td style="width: 200px;text-align: center;">
+  <ul style="list-style-type: disc; padding-left: 40px; margin: 0; text-align: left;">
+    <li>Construimos nuestro circo. Diseñaremos y crearemos nuestro propio circo con jaulas, domadores, animales y más, utilizando murales, juegos y talleres.</li>
+    <li>Animales salvajes. Descubriremos el mundo de los animales salvajes: dónde viven, qué comen, cómo cuidarlos, y la importancia de proteger su hábitat.</li>
+    <li>Creamos nuestra pista de circo. A través del reciclaje y la imaginación, seremos payasos, magos, malabaristas, domadores y más, aprendiendo que no hacen falta juguetes caros para divertirse.</li>
+    <li>El espectáculo final. Montaremos nuestro propio show de circo. Crearemos bolas de malabares, vestuarios, disfraces, instrumentos musicales, cariocas... ¡y lo daremos todo sobre el escenario!</li>
+  </ul>
+</td>
+
+
+
+<div style="text-align:center; margin: 2em;">
+  Y ADEMÁS...
+</div>
+
+<p style="text-align: center;">
+Cada día, los niños y niñas disfrutarán de un sinfín de actividades variadas, como:
+</p>
+
+<td style="width: 200px;text-align: center;">
+  <ul style="list-style-type: disc; padding-left: 40px; margin: 0; text-align: left;">
+    <li>Juegos deportivos y al aire libre</li>
+    <li>Juegos de ingenio y lógica</li>
+    <li>Cuentacuentos</li>
+    <li>Actividades de expresión corporal y artística</li>
+    <li>¡Y muchas sorpresas más!</li>
+  </ul>
+</td>
+
+
+
+<p style="text-align: center;">
+  <button class="plan-button2" onclick="location.href='https://forms.gle/RddqdtHEoDhM2YPXA'" style="font-weight: 700;">INSCRÍBETE</button>
+</p>
+
+
+
+
+
+<div style="text-align:center; margin: 2em;">
+    Preguntas frecuentes
+  </div>
+  
+  <div class="faq-container">
+    <div id="faq" class="faq">
+      <button class="accordion">¿Cuándo se abre el periodo de inscripción?
+        <img src="/assets/images/angulo-hacia-abajo.png" width="20" height="20" class="accordion-icon">
+      </button>
+      <div class="panel">
+        <p>A partir del 20 de mayo 2025.</p>
+      </div>
+  
+      <button class="accordion">¿Puedo elegir sólo el servicio de Campamento sin Aula Matinal?
+        <img src="/assets/images/angulo-hacia-abajo.png" width="20" height="20" class="accordion-icon">
+      </button>
+      <div class="panel">
+        <p>Sí. Si optas únicamente por el campamento, el horario será de 9:00 a 15:00 horas.</p>
+      </div>
+  
+      <button class="accordion">¿Puedo elegir días sueltos?
+        <img src="/assets/images/angulo-hacia-abajo.png" width="20" height="20" class="accordion-icon">
+      </button>
+      <div class="panel">
+        <p>Sí. En el formulario de inscripción, encontrarás la opción para seleccionar días específicos según tus necesidades.</p>
+      </div>
+  
+      <button class="accordion">¿Hay descuentos por hermanos?
+        <img src="/assets/images/angulo-hacia-abajo.png" width="20" height="20" class="accordion-icon">
+      </button>
+      <div class="panel">
+        <p>Sí. A partir del segundo hermano/a, se aplicará un descuento en la cuota.</p>
+      </div>
+  
+      <button class="accordion">¿Cuál es la forma de pago?
+        <img src="/assets/images/angulo-hacia-abajo.png" width="20" height="20" class="accordion-icon">
+      </button>
+      <div class="panel">
+        <p>Mediante ingreso o transferencia bancaria. Se realizará por anticipado al realizar la inscripción.</p>
+      </div>
+  
+      <button class="accordion">¿Cómo puedo tener más información?
+        <img src="/assets/images/angulo-hacia-abajo.png" width="20" height="20" class="accordion-icon">
+      </button>
+      <div class="panel">
+        <p>Enviado un email a través de nuestro correo: contacto@grupojapon.es</p>
+      </div>
+    </div>
+  </div>
+
+
 
 
 
