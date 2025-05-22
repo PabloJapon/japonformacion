@@ -187,41 +187,41 @@ Contaremos con todo el material necesario para las actividades: material escolar
     <thead>
       <tr>
         <th style="width: 200px;text-align: center;"><h2>Horario</h2></th>
-        <th style="width: 500px;text-align: center;"><h2>Actividad</h2></th>
+        <th style="width: 570px;text-align: center;"><h2>Actividad</h2></th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td style="width: 200px;text-align: center;">7:30 – 9:00</td>
-        <td style="width: 500px;text-align: center;"><strong>Aula Matinal</strong> (con desayuno)</td>
+        <td style="width: 570px;text-align: center;"><strong>Aula Matinal</strong> (con desayuno)</td>
       </tr>
       <tr>
         <td style="width: 200px;text-align: center;">9:00 – 9:30</td>
-        <td style="width: 500px;text-align: center;"><strong>Buenos días</strong> en el patio</td>
+        <td style="width: 570px;text-align: center;"><strong>Buenos días</strong> en el patio</td>
       </tr>
       <tr>
         <td style="width: 200px;text-align: center;">9:30 – 10:30</td>
-        <td style="width: 500px;text-align: center;"><strong>Juegos deportivos</strong> en el patio</td>
+        <td style="width: 570px;text-align: center;"><strong>Juegos deportivos</strong> en el patio</td>
       </tr>
       <tr>
         <td style="width: 200px;text-align: center;">10:30 – 11:00</td>
-        <td style="width: 500px;text-align: center;"><strong>Concursos</strong> en clase (Are you ready?)</td>
+        <td style="width: 570px;text-align: center;"><strong>Concursos</strong> en clase (Are you ready?)</td>
       </tr>
       <tr>
         <td style="width: 200px;text-align: center;">11:00 – 12:00</td>
-        <td style="width: 500px;text-align: center;"><strong>Talleres creativos</strong>: lectura, idiomas, manualidades, juegos</td>
+        <td style="width: 570px;text-align: center;"><strong>Talleres creativos</strong>: lectura, idiomas, manualidades, juegos</td>
       </tr>
       <tr>
         <td style="width: 200px;text-align: center;">12:00 – 12:30</td>
-        <td style="width: 500px;text-align: center;"><strong>Descanso y tentempié</strong> en el patio</td>
+        <td style="width: 570px;text-align: center;"><strong>Descanso y tentempié</strong> en el patio</td>
       </tr>
       <tr>
         <td style="width: 200px;text-align: center;">12:30 – 14:00</td>
-        <td style="width: 500px;text-align: center;"><strong>Taller temático</strong>: “Los viajes del caracol”</td>
+        <td style="width: 570px;text-align: center;"><strong>Taller temático</strong>: “Los viajes del caracol”</td>
       </tr>
       <tr>
         <td style="width: 200px;text-align: center;">14:00 – 15:00</td>
-        <td style="width: 500px;text-align: center;"><strong>Despedida</strong>: juegos, canciones, etc.</td>
+        <td style="width: 570px;text-align: center;"><strong>Despedida</strong>: juegos, canciones, etc.</td>
       </tr>
     </tbody>
   </table>
@@ -240,15 +240,15 @@ Contaremos con todo el material necesario para las actividades: material escolar
 El campamento está dirigido a niños y niñas de entre <strong>3 y 12 años</strong>. Se organizarán en grupos por edades para facilitar el trabajo y fomentar la cohesión grupal:
 </p>
 
-<td style="width: 100%; text-align: center;">
-  <div style="display: inline-block; text-align: left;font-size: 17px;">
+<div style="text-align: center;">
+  <div style="display: inline-block; text-align: left; font-size: 17px;">
     <ul style="list-style-type: disc; padding-left: 20px; margin: 0;">
       <li><strong>Pequeños (Naranjas)</strong>: 3, 4 y 5 años</li>
       <li><strong>Medianos (Verdes)</strong>: 6, 7 y 8 años</li>
       <li><strong>Mayores (Azules)</strong>: 9 a 12 años</li>
     </ul>
   </div>
-</td>
+</div>
 
 
 
