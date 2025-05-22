@@ -14,7 +14,7 @@ layout: default
   <div class="grey-background"></div>
 
   <!-- Text title at top right -->
-  <div class="top-left">Aula matinal</div>
+  <div class="top-left">Campamento Urbano</div>
 
   <!-- Right image upfront -->
   <img src="/assets/images/Caracol.png" alt="Right Image" class="right-image">
@@ -159,109 +159,6 @@ layout: default
   }
 </style>
 
-
-<div style="font-size: 17px;text-align: center;">
-  <p>Fecha de inicio: 10 de septiembre de 2024</p>
-</div>
-
-
-<div class="table-container">
-  <table>
-    <thead>
-      <tr>
-        <th style="width: 200px;text-align: center;"><h2>Centro</h2></th>
-        <th style="width: 200px;text-align: center;"><h2>Horario</h2></th>
-        <th style="width: 200px;text-align: center;"><h2>Cuota</h2></th>
-        <th style="width: 200px;text-align: center;"><h2>Enlaces</h2></th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td style="width: 200px;text-align: center;">Colegio San Vicente de Paul</td>
-        <td style="width: 200px;text-align: center;">De lunes a viernes de 7:30 a 9:00 h</td>
-        <td style="width: 200px;text-align: center;">
-          <ul style="list-style-type: disc; padding-left: 40px; margin: 0; text-align: left;">
-            <li>40 €/mes*</li>
-            <li>3 € - días sueltos (bono de 30 €)</li>
-          </ul>
-        </td>
-        <td style="width: 200px;text-align: center;">
-          <ul style="list-style-type: disc; padding-left: 40px; margin: 0; text-align: left;">
-            <li><a href="/assets/documents/Nota_informativa_Aula_Matinal_San_Vicente_de_Paul_2024-25.pdf">Más información</a></li>
-            <li><a href="https://app.grupojapon.es/index.php/registro">Inscríbete</a></li>
-          </ul>
-        </td>
-      </tr>
-    </tbody>
-  </table>
-</div>
-
-<div style="font-size: 17px;text-align: center;font-style: italic;">
-  <p>*Bonificación del 20% para el tercer hermano/a inscrito/a</p>
-</div>
-
-
-
-<div style="text-align:center; margin: 2em;">
-    Preguntas frecuentes
-  </div>
-  
-  <div class="faq-container">
-    <div id="faq" class="faq">
-      <button class="accordion">¿Cuándo se abre el periodo de inscripción?
-        <img src="/assets/images/angulo-hacia-abajo.png" width="20" height="20" class="accordion-icon">
-      </button>
-      <div class="panel">
-        <p>A partir del 1 de septiembre de 2024.</p>
-      </div>
-  
-      <button class="accordion">¿Cuándo empieza y termina el Aula Matinal?
-        <img src="/assets/images/angulo-hacia-abajo.png" width="20" height="20" class="accordion-icon">
-      </button>
-      <div class="panel">
-        <p>Comienza el servicio el día siguiente del comienzo del curso escolar y termina el 23 de junio de 2025 en horario de 7:30 a 9:00 horas.</p>
-      </div>
-  
-      <button class="accordion">¿Puedo elegir días sueltos?
-        <img src="/assets/images/angulo-hacia-abajo.png" width="20" height="20" class="accordion-icon">
-      </button>
-      <div class="panel">
-        <p>Sí. Se cobrarán por anticipado del 1 al 5, en bonos de 30 €, a través de Domiciliación
-            Bancaria. De no utilizarse la totalidad del bono a lo largo del curso, en junio se procederá a
-            la devolución por banco.</p>
-      </div>
-  
-      <button class="accordion">¿Hay descuentos en las cuotas?
-        <img src="/assets/images/angulo-hacia-abajo.png" width="20" height="20" class="accordion-icon">
-      </button>
-      <div class="panel">
-        <p>Sí. 20% de descuento a partir del 3º hermano/a.</p>
-      </div>
-  
-      <button class="accordion">¿Cuál es la forma de pago y cuándo pasan los recibos al cobro?
-        <img src="/assets/images/angulo-hacia-abajo.png" width="20" height="20" class="accordion-icon">
-      </button>
-      <div class="panel">
-        <p>Se realizará por anticipado del 1 al 5, trimestralmente, a través de Domiciliación Bancaria
-            (Septiembre, Octubre, Noviembre y Diciembre se cobrarán juntos en Noviembre). Los
-            siguientes trimestres se cobraran en febrero y en mayo.</p>
-      </div>
-  
-      <button class="accordion">¿Cómo me doy de baja?
-        <img src="/assets/images/angulo-hacia-abajo.png" width="20" height="20" class="accordion-icon">
-      </button>
-      <div class="panel">
-        <p>Enviado un email a través de nuestro correo: contacto@grupojapon.es</p>
-      </div>
-  
-      <button class="accordion">Si me doy de baja antes del término del trimestre abonado, ¿me devuelven los meses no asistido?
-        <img src="/assets/images/angulo-hacia-abajo.png" width="20" height="20" class="accordion-icon">
-      </button>
-      <div class="panel">
-        <p>PSí . Se realizara la devolución a través de transferencia de los meses no asistidos.</p>
-      </div>
-    </div>
-  </div>
 
 
 <div style="text-align:center; margin-top:7em">
