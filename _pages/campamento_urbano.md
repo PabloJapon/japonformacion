@@ -299,6 +299,47 @@ Cada día, los niños y niñas disfrutarán de un sinfín de actividades variada
 </div>
 
 
+<div style="text-align:center; margin: 2em;">
+  PRECIOS
+</div>
+
+<div class="table-container">
+  <table>
+    <tbody>
+      <tr>
+        <td style="width: 500px;text-align: center;">Semana de junio con Aula Matinal</td>
+        <td style="width: 200px;text-align: center;">70 €</td>
+      </tr>
+      <tr>
+        <td style="width: 500px;text-align: center;">Mes de Julio</td>
+        <td style="width: 200px;text-align: center;">190 €</td>
+      </tr>
+      <tr>
+        <td style="width: 500px;text-align: center;">Mes de julio del 2º hermano/a</td>
+        <td style="width: 200px;text-align: center;">155 €</td>
+      </tr>
+      <tr>
+        <td style="width: 500px;text-align: center;">Aula matinal al mes</td>
+        <td style="width: 200px;text-align: center;">30 €</td>
+      </tr>
+      <tr>
+        <td style="width: 500px;text-align: center;">Semana de Campamento con Aula Matinal</td>
+        <td style="width: 200px;text-align: center;">70 €</td>
+      </tr>
+      <tr>
+        <td style="width: 500px;text-align: center;">Día suelto de Campamento con Aula Matinal</td>
+        <td style="width: 200px;text-align: center;">30 €</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+
+<p style="text-align: center;;font-size: 17px">
+El precio cubre todas las actividades que se llevarán a cabo , con todos los materiales.
+</p>
+
+
 
 <p style="text-align: center;">
   <button class="plan-button2" onclick="location.href='https://forms.gle/RddqdtHEoDhM2YPXA'" style="font-weight: 700;margin: 0em 0 4em;">INSCRÍBETE</button>
