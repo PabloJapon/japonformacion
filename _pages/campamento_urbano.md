@@ -335,47 +335,35 @@ Cada día, los niños y niñas disfrutarán de un sinfín de actividades variada
 </div>
 
 
-<div style="max-width: 800px; margin: 2em auto; font-size: 17px; line-height: 1.6;">
+<div class="plan-container">
 
-  <!-- Bloque 1: Campamento mensual -->
-  <div style="border: 1px solid #ddd; border-radius: 12px; padding: 1.5em; margin-bottom: 2em; background-color: #f9f9f9;">
-    <h3 style="text-align: center; margin-top: 0;">Campamento mensual<br><small>(incluye Aula Matinal)</small></h3>
-    <table style="width: 100%; margin-top: 1em;">
-      <tr>
-        <td style="text-align: left;">Mes de julio</td>
-        <td style="text-align: right;">190 €</td>
-      </tr>
-      <tr>
-        <td style="text-align: left;">Mes de julio (2º hermano/a)</td>
-        <td style="text-align: right;">155 €</td>
-      </tr>
-    </table>
+  <!-- TARJETA 1: CAMPAMENTO MENSUAL -->
+  <div class="plan plan-highlight">
+    <h2>Campamento mensual</h2>
+    <div class="price">190 €</div>
+    <p class="description">Incluye todo el mes de julio<br>(lunes a viernes)</p>
+    <p class="description">Incluye Aula Matinal</p>
+    <hr style="margin: 1.5em 0;">
+    <p class="description"><strong>2º hermano/a:</strong> 155 €</p>
   </div>
 
-  <!-- Bloque 2: Campamento por semana o día -->
-  <div style="border: 1px solid #ddd; border-radius: 12px; padding: 1.5em; margin-bottom: 2em; background-color: #f9f9f9;">
-    <h3 style="text-align: center; margin-top: 0;">Campamento por semana o día<br><small>(incluye Aula Matinal)</small></h3>
-    <table style="width: 100%; margin-top: 1em;">
-      <tr>
-        <td style="text-align: left;">Semana suelta (junio o julio)</td>
-        <td style="text-align: right;">70 €</td>
-      </tr>
-      <tr>
-        <td style="text-align: left;">Día suelto</td>
-        <td style="text-align: right;">30 €</td>
-      </tr>
-    </table>
+  <!-- TARJETA 2: SEMANAL Y DÍA SUELTO -->
+  <div class="plan">
+    <h2>Campamento semanal o diario</h2>
+    <div class="price">70 € / semana</div>
+    <p class="description">Semana suelta en junio o julio</p>
+    <p class="description">Incluye Aula Matinal</p>
+    <hr style="margin: 1.5em 0;">
+    <div class="price" style="font-size: 24px;">30 € / día</div>
+    <p class="description">Día suelto con Aula Matinal</p>
   </div>
 
-  <!-- Bloque 3: Solo Aula Matinal -->
-  <div style="border: 1px solid #ddd; border-radius: 12px; padding: 1.5em; background-color: #f9f9f9;">
-    <h3 style="text-align: center; margin-top: 0;">Solo Aula Matinal</h3>
-    <table style="width: 100%; margin-top: 1em;">
-      <tr>
-        <td style="text-align: left;">Aula Matinal mensual (sin campamento)</td>
-        <td style="text-align: right;">30 €</td>
-      </tr>
-    </table>
+  <!-- TARJETA 3: SOLO AULA MATINAL -->
+  <div class="plan">
+    <h2>Extras y descuentos</h2>
+    <div class="price">30 €</div>
+    <p class="description">Aula Matinal por todo el mes (solo)</p>
+    <p class="description">Disponible si ya estás inscrito en otro horario</p>
   </div>
 
 </div>
@@ -682,4 +670,55 @@ El precio cubre todas las actividades que se llevarán a cabo , con todos los ma
   .table-container tr:nth-child(2) td {
     border-top: none;
   }
+</style>
+
+
+<style>
+.plan-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 40px;
+  gap: 30px;
+}
+
+.plan {
+  width: 320px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 30px 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  text-align: center;
+}
+
+.plan h2 {
+  font-size: 22px;
+  margin-bottom: 1em;
+  color: #333;
+}
+
+.plan .price {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 1em;
+  color: #1a73e8;
+}
+
+.plan .description {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #555;
+  margin-bottom: 0.5em;
+}
+
+.plan-highlight {
+  border-color: #1a73e8;
+}
+
+@media (max-width: 768px) {
+  .plan {
+    width: 90%;
+  }
+}
 </style>
