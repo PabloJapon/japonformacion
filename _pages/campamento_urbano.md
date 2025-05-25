@@ -339,34 +339,32 @@ Cada día, los niños y niñas disfrutarán de un sinfín de actividades variada
 
   <!-- TARJETA 1: CAMPAMENTO MENSUAL -->
   <div class="plan plan-highlight">
-    <h2>Campamento mensual</h2>
-    <div class="price">190 €</div>
-    <p class="description">Incluye todo el mes de julio<br>(lunes a viernes)</p>
-    <p class="description">Incluye Aula Matinal</p>
-    <hr style="margin: 1.5em 0;">
-    <p class="description"><strong>2º hermano/a:</strong> 155 €</p>
+    <h2>Campamento mensual (con Aula Matinal incluida)</h2>
+    <ul class="price-list">
+      <li><strong>Mes de julio</strong> – 190 €</li>
+      <li><strong>Mes de julio (2º hermano/a)</strong> – 155 €</li>
+    </ul>
   </div>
 
   <!-- TARJETA 2: SEMANAL Y DÍA SUELTO -->
-  <div class="plan">
-    <h2>Campamento semanal o diario</h2>
-    <div class="price">70 € / semana</div>
-    <p class="description">Semana suelta en junio o julio</p>
-    <p class="description">Incluye Aula Matinal</p>
-    <hr style="margin: 1.5em 0;">
-    <div class="price" style="font-size: 24px;">30 € / día</div>
-    <p class="description">Día suelto con Aula Matinal</p>
+  <div class="plan plan-highlight">
+    <h2>Campamento semanal o diario (con Aula Matinal incluida)</h2>
+    <ul class="price-list">
+      <li><strong>Semana suelta (junio o julio)</strong> – 70 €</li>
+      <li><strong>Día suelto</strong> – 30 €</li>
+    </ul>
   </div>
 
   <!-- TARJETA 3: SOLO AULA MATINAL -->
-  <div class="plan">
+  <div class="plan plan-highlight">
     <h2>Extras y descuentos</h2>
-    <div class="price">30 €</div>
-    <p class="description">Aula Matinal por todo el mes (solo)</p>
-    <p class="description">Disponible si ya estás inscrito en otro horario</p>
+    <ul class="price-list">
+      <li><strong>Aula Matinal mensual (sin campamento)</strong> – 30 €</li>
+    </ul>
   </div>
 
 </div>
+
 
 
 
@@ -694,26 +692,25 @@ El precio cubre todas las actividades que se llevarán a cabo , con todos los ma
 
 .plan h2 {
   font-size: 22px;
-  margin-bottom: 1em;
+  margin-bottom: 1.5em;
   color: #333;
 }
 
-.plan .price {
-  font-size: 28px;
-  font-weight: bold;
-  margin-bottom: 1em;
-  color: #1a73e8;
+.price-list {
+  list-style-type: disc;
+  padding-left: 20px;
+  text-align: left;
+  font-size: 17px;
+  color: #555;
+  margin: 0;
 }
 
-.plan .description {
-  font-size: 16px;
-  line-height: 1.5;
-  color: #555;
-  margin-bottom: 0.5em;
+.price-list li {
+  margin-bottom: 1em;
 }
 
 .plan-highlight {
-  border-color: #1a73e8;
+  border-color: #e31c24; /* brand red */
 }
 
 @media (max-width: 768px) {
@@ -721,4 +718,5 @@ El precio cubre todas las actividades que se llevarán a cabo , con todos los ma
     width: 90%;
   }
 }
+
 </style>
