@@ -335,6 +335,55 @@ Cada día, los niños y niñas disfrutarán de un sinfín de actividades variada
 </div>
 
 
+<div style="max-width: 800px; margin: 2em auto; font-size: 17px; line-height: 1.6;">
+
+  <!-- Bloque 1: Campamento mensual -->
+  <div style="border: 1px solid #ddd; border-radius: 12px; padding: 1.5em; margin-bottom: 2em; background-color: #f9f9f9;">
+    <h3 style="text-align: center; margin-top: 0;">Campamento mensual<br><small>(incluye Aula Matinal)</small></h3>
+    <table style="width: 100%; margin-top: 1em;">
+      <tr>
+        <td style="text-align: left;">Mes de julio</td>
+        <td style="text-align: right;">190 €</td>
+      </tr>
+      <tr>
+        <td style="text-align: left;">Mes de julio (2º hermano/a)</td>
+        <td style="text-align: right;">155 €</td>
+      </tr>
+    </table>
+  </div>
+
+  <!-- Bloque 2: Campamento por semana o día -->
+  <div style="border: 1px solid #ddd; border-radius: 12px; padding: 1.5em; margin-bottom: 2em; background-color: #f9f9f9;">
+    <h3 style="text-align: center; margin-top: 0;">Campamento por semana o día<br><small>(incluye Aula Matinal)</small></h3>
+    <table style="width: 100%; margin-top: 1em;">
+      <tr>
+        <td style="text-align: left;">Semana suelta (junio o julio)</td>
+        <td style="text-align: right;">70 €</td>
+      </tr>
+      <tr>
+        <td style="text-align: left;">Día suelto</td>
+        <td style="text-align: right;">30 €</td>
+      </tr>
+    </table>
+  </div>
+
+  <!-- Bloque 3: Solo Aula Matinal -->
+  <div style="border: 1px solid #ddd; border-radius: 12px; padding: 1.5em; background-color: #f9f9f9;">
+    <h3 style="text-align: center; margin-top: 0;">Solo Aula Matinal</h3>
+    <table style="width: 100%; margin-top: 1em;">
+      <tr>
+        <td style="text-align: left;">Aula Matinal mensual (sin campamento)</td>
+        <td style="text-align: right;">30 €</td>
+      </tr>
+    </table>
+  </div>
+
+</div>
+
+
+
+
+
 <p style="text-align: center;;font-size: 17px">
 El precio cubre todas las actividades que se llevarán a cabo , con todos los materiales.
 </p>
