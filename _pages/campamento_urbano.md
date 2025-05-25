@@ -683,14 +683,13 @@ El precio cubre todas las actividades que se llevarán a cabo , con todos los ma
   flex-wrap: wrap;
   justify-content: center;
   margin-top: 40px;
-  gap: 30px;
 }
 
 .plan {
-  width: 320px;
+  width: 400px;
   border: 1px solid #ccc;
   border-radius: 10px;
-  padding: 30px 20px;
+  padding: 40px 40px;
   background-color: #fff;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
   text-align: center;
@@ -712,7 +711,7 @@ El precio cubre todas las actividades que se llevarán a cabo , con todos los ma
   font-weight: 400;
   font-style: italic;
   color: #777;
-  margin-bottom: 1em;
+  margin-bottom: 3em;
 }
 
 .plan-list {
