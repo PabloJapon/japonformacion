@@ -303,46 +303,12 @@ Cada día, los niños y niñas disfrutarán de un sinfín de actividades variada
   PRECIOS
 </div>
 
-<div class="table-container">
-  <table>
-    <tbody>
-      <tr>
-        <td style="width: 500px;text-align: center;">Semana de junio con Aula Matinal</td>
-        <td style="width: 200px;text-align: center;">70 €</td>
-      </tr>
-      <tr>
-        <td style="width: 500px;text-align: center;">Mes de Julio</td>
-        <td style="width: 200px;text-align: center;">190 €</td>
-      </tr>
-      <tr>
-        <td style="width: 500px;text-align: center;">Mes de julio del 2º hermano/a</td>
-        <td style="width: 200px;text-align: center;">155 €</td>
-      </tr>
-      <tr>
-        <td style="width: 500px;text-align: center;">Aula matinal al mes</td>
-        <td style="width: 200px;text-align: center;">30 €</td>
-      </tr>
-      <tr>
-        <td style="width: 500px;text-align: center;">Semana de Campamento con Aula Matinal</td>
-        <td style="width: 200px;text-align: center;">70 €</td>
-      </tr>
-      <tr>
-        <td style="width: 500px;text-align: center;">Día suelto de Campamento con Aula Matinal</td>
-        <td style="width: 200px;text-align: center;">30 €</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
-
-
-
-
 <div class="plan-container">
 
   <!-- TARJETA 1: CAMPAMENTO MENSUAL -->
   <div class="plan plan-highlight">
     <h2 class="plan-title">Campamento mensual</h2>
-    <p class="plan-subtitle">(con Aula Matinal incluida)</p>
+    <p class="plan-subtitle">(sin Aula Matinal)</p>
     <ul class="plan-list">
       <li>Mes de julio – 190 €</li>
       <li>Mes de julio (2º hermano/a) – 155 €</li>
