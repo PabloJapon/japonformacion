@@ -466,7 +466,7 @@ El precio cubre todas las actividades que se llevarán a cabo , con todos los ma
   border-radius: 8px;
   background: white;
   text-align: center;
-  margin: 60px 12px;
+  margin: 0px 12px 60px;
   text-decoration: none;
   color: inherit;
   transition: background-color 0.3s ease, box-shadow 0.3s ease;
@@ -655,7 +655,7 @@ El precio cubre todas las actividades que se llevarán a cabo , con todos los ma
   width: 400px;
   border: 1px solid #ccc;
   border-radius: 10px;
-  padding: 40px 40px;
+  padding: 40px 45px;
   background-color: #fff;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
   text-align: center;
