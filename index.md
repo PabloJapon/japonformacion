@@ -36,7 +36,7 @@ permalink: /
     margin-top: 2em;
     display: grid;
     grid-template-columns: repeat(2, 1fr); /* Default: 2 columns */
-    grid-template-rows: 142px 1fr; /* Default: 2 rows */
+    grid-template-rows: 250px 1fr; /* Default: 2 rows */
     grid-column-gap: 20px; /* Adjust spacing between columns */
     grid-row-gap: 20px; /* Adjust spacing between rows */
     align-items: end;
@@ -69,7 +69,7 @@ permalink: /
     max-width: 650px;
     text-align: left;
     margin-left: auto;
-    margin-right: 1em;
+    margin-right: 9.3em;
     color: white;
     padding: 20px;
     align-self: start;
@@ -78,14 +78,14 @@ permalink: /
   .top-left {
     grid-row: 1 / 2; /* First row */
     grid-column: 1 / 2; /* Now in the first column */
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 700;
     color: white;
     z-index: 10;
     text-align: left;
-    margin-right: 0em;
+    margin-right: 1.4em;
     margin-left: auto;
-    max-width: 22.5em;
+    max-width: 15.5em;
     padding-left: 20px;
   }
 
