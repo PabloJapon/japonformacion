@@ -289,6 +289,8 @@ permalink: /
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  max-width: 1400px;
+  margin: 0 auto;
 }
 
 .plan {
@@ -325,6 +327,8 @@ permalink: /
   display: flex;
   flex-direction: column;
   align-items: center;
+  max-width: 1400px;
+  margin: 0 auto;
 }
 
 /* Default styling for larger screens */
