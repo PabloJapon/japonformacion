@@ -24,6 +24,139 @@ permalink: /
   </div>
 </div>
 
+<style>
+  .splash-container {
+    position: relative;
+    width: 100%;
+    max-width: none;
+    overflow: hidden;
+    margin-bottom: 3em;
+    padding: 0;
+    padding-top: 3.5em;
+    margin-top: 2em;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Default: 2 columns */
+    grid-template-rows: 142px 1fr; /* Default: 2 rows */
+    grid-column-gap: 20px; /* Adjust spacing between columns */
+    grid-row-gap: 20px; /* Adjust spacing between rows */
+    align-items: end;
+  }
+
+  /* Styling for the right image */
+  .right-image {
+    grid-row: 1 / 3; /* Both rows */
+    grid-column: 2 / 3; /* Default: second column */
+    width: 370px;
+    z-index: 10; /* Ensure above background image */
+    margin: 0 auto;
+    transform: translateX(calc(-50% + 80px));
+  }
+
+  .grey-background {
+    background-color: rgba(127, 127, 127, 0.7); /* Semi-transparent grey */
+    position: absolute; /* Ensures it stays within the container */
+    top: 0;
+    left: 0;
+    width: 55%; /* Occupy the left half of the splash container */
+    height: 100%; /* Full height of the splash container */
+    z-index: 5; /* Below the text but above the background image */
+    margin-top: 3.5em;
+    transform: translateX(-80px);
+  }
+
+  .bottom-left {
+    z-index: 10;
+    max-width: 650px;
+    text-align: left;
+    margin-left: auto;
+    margin-right: 1em;
+    color: white;
+    padding: 20px;
+    align-self: start;
+  }
+
+  .top-left {
+    grid-row: 1 / 2; /* First row */
+    grid-column: 1 / 2; /* Now in the first column */
+    font-size: 42px;
+    font-weight: 700;
+    color: white;
+    z-index: 10; /* Ensure above background image */
+    text-align: left;
+    margin-right: 6.4em;
+    margin-left: auto;
+    padding-left: 20px;
+  }
+
+  /* Breakpoint for smaller screens: 1 column, 3 rows */
+  @media (max-width: 967px) {
+    .splash-container {
+      grid-template-columns: 1fr; /* 1 column */
+      grid-template-rows: repeat(3, auto); /* 3 rows */
+      grid-row-gap: 0px; /* Adjust row spacing */
+      margin-top: 0;
+    }
+
+    /* Adjust the right image to fit in the first column (stacked layout) */
+    .right-image {
+      grid-row: 2 / 3; /* Place the image in the second row */
+      grid-column: 1 / 2; /* Place it in the first column */
+      width: 250px; /* Make it responsive */
+      transform: none;
+    }
+
+    /* Adjust the grey background to occupy the last row */
+    .grey-background {
+      position: static; /* Remove absolute positioning */
+      grid-row: 3 / 3; /* Place it in the last row */
+      grid-column: 1 / 2; /* Full width of the single column */
+      width: 100%; /* Full width of the column */
+      height: 100%; /* Adjust height automatically */
+      transform: none; /* Remove the horizontal transform */
+    }
+
+    .bottom-left {
+      z-index: 10;
+      text-align: left;
+      color: white;
+      padding: 20px;
+      align-self: start;
+      grid-column: 1 / 1;
+      grid-row: 3 / 3;
+    }
+
+    .top-left {
+      grid-row: 1 / 2; /* First row */
+      grid-column: 1 / 2; /* Now in the first column */
+      font-size: 34px;
+      font-weight: 700;
+      color: white;
+      z-index: 10; /* Ensure above background image */
+      text-align: left;
+      margin-right: 0;
+      margin-left: 0;
+      padding-left: 20px;
+    }
+  }
+
+  .splash-image {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: -1;
+    margin: 0;
+  }
+
+  .bottom-left p {
+    font-size: 17px;
+    margin-bottom: 3em;
+  }
+</style>
+
+
 
 <div class="plans-container">
 
