@@ -78,13 +78,14 @@ permalink: /
   .top-left {
     grid-row: 1 / 2; /* First row */
     grid-column: 1 / 2; /* Now in the first column */
-    font-size: 42px;
+    font-size: 30px;
     font-weight: 700;
     color: white;
-    z-index: 10; /* Ensure above background image */
+    z-index: 10;
     text-align: left;
-    margin-right: 6.4em;
+    margin-right: 0em;
     margin-left: auto;
+    max-width: 22.5em;
     padding-left: 20px;
   }
 
