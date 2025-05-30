@@ -1,16 +1,28 @@
 ---
 title: "Ciclos de FP oficiales en grupos reducidos y servicios educativos"
-#title: "Servicios educativos y ciclos de FP oficiales en grupos reducidos"
-layout: splash
-header:
-  overlay_image: /assets/images/page-header-teaser.png
-  #overlay_filter: rgba(102,153,255,0.5)
-  actions:
-    - label: "Solicita información"
-      url: "https://japonformacion.netlify.app/contacto/"
-#excerpt: "Clases presenciales y en horario de mañana"
-excerpt: "Dedicados al desarrollo de servicios educativos, ocio y tiempo libre"
+layout: default
+permalink: /
 ---
+
+<div class="splash-container">
+  <!-- Full-width background image -->
+  <img src="/assets/images/CABECERA.png" alt="Full Width Image" class="splash-image">
+
+  <!-- Grey transparent background image -->
+  <div class="grey-background"></div>
+
+  <!-- Text title at top right -->
+  <div class="top-left">Ciclos FP y Servicios Educativos</div>
+
+  <!-- Right image upfront -->
+  <img src="/assets/images/profesorPablo2.png" alt="Right Image" class="right-image">
+
+  <!-- Text content at bottom left -->
+  <div class="bottom-left">
+    <p>En GRUPO JAPÓN ofrecemos Ciclos Formativos de Grado Medio y Superior en grupos reducidos, así como servicios educativos complementarios, ocio y tiempo libre. Nuestros programas cuentan con titulación oficial y una metodología práctica centrada en la empleabilidad del alumno.</p>
+    <button class="plan-button2" onclick="location.href='https://japonformacion.netlify.app/contacto/'" style="font-weight: 700;">SOLICITA INFORMACIÓN</button>
+  </div>
+</div>
 
 
 <div class="plans-container">
