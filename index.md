@@ -1,5 +1,5 @@
 ---
-title: "Ciclos de FP oficiales en grupos reducidos y servicios educativos"
+title: "Ciclos de FP oficiales en grupos reducidos"
 layout: default
 permalink: /
 ---
@@ -12,14 +12,14 @@ permalink: /
   <div class="grey-background"></div>
 
   <!-- Text title at top right -->
-  <div class="top-left">Ciclos FP y Servicios Educativos</div>
+  <div class="top-left">Ciclos de FP oficiales en grupos reducidos</div>
 
   <!-- Right image upfront -->
   <img src="/assets/images/profesorPablo2.png" alt="Right Image" class="right-image">
 
   <!-- Text content at bottom left -->
   <div class="bottom-left">
-    <p>En GRUPO JAPÓN ofrecemos Ciclos Formativos de Grado Medio y Superior en grupos reducidos, así como servicios educativos complementarios, ocio y tiempo libre. Nuestros programas cuentan con titulación oficial y una metodología práctica centrada en la empleabilidad del alumno.</p>
+    <p>"Menos alumnos, más oportunidades"</p>
     <button class="plan-button2" onclick="location.href='https://japonformacion.netlify.app/contacto/'" style="font-weight: 700;">SOLICITA INFORMACIÓN</button>
   </div>
 </div>
