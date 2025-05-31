@@ -192,6 +192,58 @@ layout: default
 </div>
 
 
+<div style="text-align:center; margin: 2em;">
+  ASIGNATURAS TSEAS
+</div>
+
+<div class="table-container">
+  <table>
+    <thead>
+      <tr>
+        <th style="width: 500px;text-align: center;"><h2>1º CURSO 2024-25</h2></th>
+        <th style="width: 500px;text-align: center;"><h2>2º CURSO 2025-26</h2></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="width: 500ppx;text-align: center;">Valoración de la condición física e intervención en accidentes.</td>
+        <td style="width: 500ppx;text-align: center;">Actividades de ocio y tiempo libre.</td>
+      </tr>
+      <tr>
+        <td style="width: 500ppx;text-align: center;">Juegos y actividades físico-recreativas y de animación turística.</td>
+        <td style="width: 500ppx;text-align: center;">Dinamización grupal.</td>
+      </tr>
+      <tr>
+        <td style="width: 500ppx;text-align: center;">Actividades físico-deportivas individuales.</td>
+        <td style="width: 500ppx;text-align: center;">Planificación de la animación sociodeportiva.</td>
+      </tr>
+      <tr>
+        <td style="width: 500ppx;text-align: center;">Actividades físico-deportivas de equipo.</td>
+        <td style="width: 500ppx;text-align: center;">Actividades físico-deportivas de implementos.</td>
+      </tr>
+      <tr>
+        <td style="width: 500ppx;text-align: center;">Metodología de la enseñanza de actividades físico-deportivas.</td>
+        <td style="width: 500ppx;text-align: center;">Actividades físico-deportivas para la inclusión social.</td>
+      </tr>
+      <tr>
+        <td style="width: 500ppx;text-align: center;">Formación y orientación laboral.</td>
+        <td style="width: 500ppx;text-align: center;">Empresa e iniciativa emprendedora.</td>
+      </tr>
+      <tr>
+        <td style="width: 500ppx;text-align: center;"></td>
+        <td style="width: 500ppx;text-align: center;">Formación en centros de trabajo.</td>
+      </tr>
+      <tr>
+        <td style="width: 500ppx;text-align: center;"></td>
+        <td style="width: 500ppx;text-align: center;">Proyecto de enseñanza y animación sociodeportiva.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+
+
+
 
 <div class="prof-container">
     <div class="prof-item">
