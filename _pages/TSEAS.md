@@ -475,6 +475,71 @@ layout: default
 }
 </style>
 
+
+<style>
+  .table-container {
+    margin-bottom: 4em; /* Ajusta el margen superior según sea necesario */
+  }
+
+  .table-container table {
+    border-collapse: collapse;
+    border: none; /* elimina los bordes de la tabla */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .table-container td {
+    padding: 8px;
+    border: 1px solid #ccc;
+    text-align: left;
+  }
+
+  .table-container th {
+    padding: 8px;
+    background-color: transparent !important; /* Fondo transparente */
+    border: none; /* Sin bordes */
+  }
+
+  .table-container thead th {
+    background-color: transparent !important; /* Fondo transparente */
+  }
+
+  .table-container tbody tr:nth-child(even) {
+    background-color: #e7e7e7; /* Cambia el color de fondo para las filas pares */
+  }
+
+  /* Elimina los bordes de las celdas exteriores */
+  .table-container th:first-child,
+  .table-container td:first-child {
+    border-left: none;
+  }
+
+  .table-container th:last-child,
+  .table-container td:last-child {
+    border-right: none;
+  }
+
+  /* Elimina la última línea horizontal */
+  .table-container tr:last-child th,
+  .table-container tr:last-child td {
+    border-bottom: none;
+  }
+
+  /* Elimina la primera línea horizontal */
+  .table-container tr:first-child th,
+  .table-container tr:first-child td {
+    border-top: none;
+  }
+
+  /* Elimina la segunda línea horizontal */
+  .table-container tr:nth-child(2) th,
+  .table-container tr:nth-child(2) td {
+    border-top: none;
+  }
+</style>
+
+
 <script>
   var accordions = document.querySelectorAll(".accordion");
 
