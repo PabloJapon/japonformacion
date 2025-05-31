@@ -163,22 +163,34 @@ layout: default
   <div class="info-container">
     <div class="info-item">
       <p>Inicio</p>
-      <h3>2 años / 120 ECTS</h3>
+      <h3>Septiembre 2025</h3>
     </div>
     <div class="info-item">
       <p>Duración</p>
-      <h3>2 años / 120 ECTS</h3>
+      <h3>2.000 horas</h3>
     </div>
     <div class="info-item">
-      <p>Precio</p>
-      <h3>2 años / 120 ECTS</h3>
-    </div>
-    <div class="info-item">
-      <p>Duración</p>
-      <h3>2 años / 120 ECTS</h3>
+      <p>Becas y financiación</p>
+      <h3>Financiación mensual disponible</h3>
     </div>
   </div>
 </div>
+
+
+<div style="text-align:center; margin: 2em;">
+  ¿PORQUÉ ESTUDIAR FP?
+</div>
+
+<div style="text-align: center;margin-bottom: 3em;">
+  <div style="display: inline-block; text-align: left; font-size: 17px;max-width: 60em;">
+    <ul style="list-style-type: disc; padding-left: 20px; margin: 0;">
+      <li><strong>Crecimiento</strong>. En la actualidad la FP son los estudios profesionales más cercanos a la realidad del mercado de trabajo y dan respuesta a la necesidad de personal cualificado especializado en los distintos sectores profesionales para responder a la actual demanda de empleo.</li>
+      <li><strong>Desarrollo</strong>. Si analizamos su alta inserción laboral podemos afirmar que la FP ya se ha transformado en una formación que responde a la demanda real de empleo, ahora es el momento del cambio en la sociedad española.</li>
+      <li><strong>Innovación</strong>. La Formación Profesional, además, está en permanente contacto con los diferentes sectores productivos y económicos, respondiendo a sus necesidades, por lo que gana en reconocimiento en todos los países de la Unión Europea y sus titulaciones son cada vez más demandadas. Esto convierte a la formación profesional en una opción atractiva, de calidad y que se adapta a las necesidades de cada individuo para la mejora de sus trayectoria profesional.</li>
+    </ul>
+  </div>
+</div>
+
 
 
 <div class="prof-container">

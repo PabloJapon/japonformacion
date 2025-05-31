@@ -173,7 +173,7 @@ permalink: /
 
   <a href="/campamento_urbano" class="plan">
     <h2>Campamento Urbano</h2>
-    <p></p>
+    <p>"Los viajes del Caracol": una propuesta que combina actividades al aire libre con dinámicas en el aula.</p>
   </a>
 
   <a href="/aula_matinal" class="plan">
@@ -195,6 +195,24 @@ permalink: /
 
 
 <div class="features-container">
+  <div class="feature">
+    <div class="feature-content">
+      <h2>FP Superior</h2>
+      <p>Accede con el título de Bachillerato, una FP de Grado Medio o Superior o mediante prueba de acceso.</p>
+      <p style="text-align: center;"><button class="submit-button" onclick="location.href='https://japonformacion.netlify.app/FPSuperior/'">Saber más</button></p>
+    </div>
+    <img src="/assets/images/CABECERA_peq.png" class="feature-video">
+  </div>
+
+  <div class="feature">
+    <img src="/assets/images/CABECERA3_peq.png" class="feature-video">
+    <div class="feature-content">
+      <h2>FP Medio</h2>
+      <p>Accede con el título de ESO, Bachillerato o mediante una prueba de acceso.</p>
+      <p style="text-align: center;"><button class="submit-button" onclick="location.href='https://japonformacion.netlify.app/FPMedio/'">Saber más</button></p>
+    </div>
+  </div>
+  
   <div class="feature">
     <img src="/assets/images/aulamatinal_peq.png" class="feature-video">
     <div class="feature-content">
@@ -219,24 +237,6 @@ permalink: /
       <h2>Judo</h2>
       <p>Desde 1994, JAPONSPORT promueve el judo en Huelva para fomentar hábitos saludables y mejorar la calidad de vida.</p>
       <p style="text-align: center;"><button class="submit-button" onclick="location.href='https://japonformacion.netlify.app/judo/'">Saber más</button></p>
-    </div>
-  </div>
-
-  <div class="feature">
-    <div class="feature-content">
-      <h2>FP Superior</h2>
-      <p>Accede con el título de Bachillerato, una FP de Grado Medio o Superior o mediante prueba de acceso.</p>
-      <p style="text-align: center;"><button class="submit-button" onclick="location.href='https://japonformacion.netlify.app/FPSuperior/'">Saber más</button></p>
-    </div>
-    <img src="/assets/images/CABECERA_peq.png" class="feature-video">
-  </div>
-
-  <div class="feature">
-    <img src="/assets/images/CABECERA3_peq.png" class="feature-video">
-    <div class="feature-content">
-      <h2>FP Medio</h2>
-      <p>Accede con el título de ESO, Bachillerato o mediante una prueba de acceso.</p>
-      <p style="text-align: center;"><button class="submit-button" onclick="location.href='https://japonformacion.netlify.app/FPMedio/'">Saber más</button></p>
     </div>
   </div>
 </div>
