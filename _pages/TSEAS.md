@@ -66,8 +66,8 @@ layout: default
     z-index: 10;
     max-width: 650px;
     text-align: left;
-    margin-left: auto;
-    margin-right: 1em;
+    margin-left: 1em;
+    margin-right: auto;
     color: white;
     padding: 20px;
     align-self: start;
@@ -81,8 +81,8 @@ layout: default
     color: white;
     z-index: 10;
     text-align: left;
-    margin-right: 0em;
-    margin-left: auto;
+    margin-right: auto;
+    margin-left: 0em;
     max-width: 22.5em;
     padding-left: 20px;
   }
@@ -158,16 +158,16 @@ layout: default
 <div class="full-width-background">
   <div class="info-container">
     <div class="info-item">
-      <p style="margin=0">Inicio</p>
-      <h3 style="margin-bottom=0">Septiembre 2025</h3>
+      <p style="margin:0;">Inicio</p>
+      <h3 style="margin-bottom:0;">Septiembre 2025</h3>
     </div>
     <div class="info-item">
-      <p style="margin=0">Duración</p>
-      <h3 style="margin-bottom=0">2.000 horas</h3>
+      <p style="margin:0;">Duración</p>
+      <h3 style="margin-bottom:0;">2.000 horas</h3>
     </div>
     <div class="info-item">
-      <p style="margin=0">Becas y financiación</p>
-      <h3 style="margin-bottom=0">Financiación mensual disponible</h3>
+      <p style="margin:0;">Becas y financiación</p>
+      <h3 style="margin-bottom:0;">Financiación mensual disponible</h3>
     </div>
   </div>
 </div>
@@ -320,7 +320,7 @@ layout: default
   BECAS Y FINANCIACIÓN TSEAS
 </div>
 
-<p style="text-align: center;font-size: 17px;margin: 2em auto 2em;max-width: 78em;">
+<p style="text-align: center;font-size: 17px;margin: 2em auto 3em;max-width: 78em;">
 Al ser un centro oficial, podrás acceder a las ayudas autonómicas y a la beca del Ministerio de Educación para estudiar Formación Profesional. Además, el coste del ciclo TSEAS puede financiarse en cómodas cuotas mensuales, con posibilidad de fraccionarlo hasta en 24 meses.
 </p>
 
