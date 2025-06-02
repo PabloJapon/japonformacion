@@ -136,7 +136,7 @@ layout: default
 
 
 <div style="text-align:center; margin: 2em;">
-  ¿PORQUÉ ESTUDIAR FP?
+  <h2>¿PORQUÉ ESTUDIAR FP?</h2>
 </div>
 
 <div style="text-align: center;margin-bottom: 3em;">
@@ -151,7 +151,7 @@ layout: default
 
 
 <div style="text-align:center; margin: 2em;">
-  ASIGNATURAS TSEAS
+  <h2>ASIGNATURAS TSEAS</h2>
 </div>
 
 <div class="table-container">
@@ -202,7 +202,7 @@ layout: default
 
 
 <div style="text-align:center; margin: 2em;">
-  SALIDAS PROFESIONALES TSEAS
+  <h2>SALIDAS PROFESIONALES TSEAS</h2>
 </div>
 
 <div class="table-container">
@@ -255,7 +255,7 @@ layout: default
 
 
 <div style="text-align:center; margin: 2em;">
-  REQUISITOS DE ACCESO
+  <h2>REQUISITOS DE ACCESO</h2>
 </div>
 
 <div style="text-align: center;margin-bottom: 3em;">
@@ -279,7 +279,7 @@ layout: default
 
 
 <div style="text-align:center; margin: 2em;">
-  BECAS Y FINANCIACIÓN TSEAS
+  <h2>BECAS Y FINANCIACIÓN TSEAS</h2>
 </div>
 
 <p style="text-align: center;font-size: 17px;margin: 2em auto 3em;max-width: 78em;">
@@ -289,7 +289,7 @@ Al ser un centro oficial, podrás acceder a las ayudas autonómicas y a la beca 
 
 
 <div style="text-align:center; margin: 2em;">
-  PROFESORADO
+  <h2>PROFESORADO</h2>
 </div>
 
 <div class="prof-container">
@@ -313,7 +313,7 @@ Al ser un centro oficial, podrás acceder a las ayudas autonómicas y a la beca 
 
 
 <div style="text-align:center; margin: 2em;">
-  PREGUNTAS FRECUENTES
+  <h2>PREGUNTAS FRECUENTES</h2>
 </div>
 
 <div class="faq-container">
