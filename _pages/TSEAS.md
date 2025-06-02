@@ -12,8 +12,8 @@ layout: default
   <!-- Grey overlay -->
   <div class="grey-background"></div>
 
-  <!-- Content -->
-  <div class="text-content container">
+  <!-- Content wrapper (stacked on the left) -->
+  <div class="text-wrapper">
     <div class="top-left">
       Técnico Superior en Enseñanza y Animación Sociodeportiva (TSEAS)
     </div>
@@ -28,18 +28,18 @@ layout: default
   </div>
 </div>
 
-
 <style>
-  /* CSS */
 .splash-container {
   position: relative;
   width: 100%;
+  max-width: none;
   overflow: hidden;
+  margin: 3em auto;
   padding-top: 3.5em;
-  margin-bottom: 3em;
   min-height: 500px;
 }
 
+/* Full background image */
 .splash-image {
   position: absolute;
   top: 0;
@@ -50,6 +50,7 @@ layout: default
   z-index: -2;
 }
 
+/* Grey background block behind the text */
 .grey-background {
   position: absolute;
   top: 0;
@@ -60,48 +61,62 @@ layout: default
   z-index: -1;
 }
 
-.text-content {
+/* Text content wrapper */
+.text-wrapper {
   position: relative;
-  z-index: 2;
-  color: white;
-  padding: 40px 20px;
-  max-width: 1200px; /* Or match your layout container size */
+  z-index: 10;
+  max-width: 1300px;
   margin: 0 auto;
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
   box-sizing: border-box;
+  color: white;
 }
 
-/* Align the top-left heading */
+/* Heading at the top */
 .top-left {
   font-size: 30px;
   font-weight: 700;
   margin-bottom: 1em;
+  max-width: 700px;
 }
 
-/* Align and style the paragraph and button */
+/* Paragraph and button block below the heading */
+.bottom-left {
+  max-width: 700px;
+}
+
 .bottom-left p {
   font-size: 17px;
   margin-bottom: 2em;
 }
 
-/* Keep your original button class if already styled elsewhere */
+/* Your original button styling (restored) */
 .plan-button2 {
   font-weight: 700;
-  padding: 10px 25px;
+  padding: 12px 24px;
   background-color: white;
-  color: #333;
+  color: #000;
   border: none;
-  cursor: pointer;
   border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease;
 }
 
-/* Responsive layout */
+.plan-button2:hover {
+  background-color: #eee;
+}
+
+/* Responsive for smaller screens */
 @media (max-width: 967px) {
   .grey-background {
     width: 100%;
     height: auto;
   }
 
-  .text-content {
+  .text-wrapper {
     padding: 20px;
   }
 
@@ -208,11 +223,11 @@ layout: default
   <table>
     <thead>
       <tr>
-        <th style="width: 500px;text-align: center;"><h2>LABORALES</h2></th>
-        <th style="width: 500px;text-align: center;"><h2>ACADÉMICAS</h2></th>
+        <th style="width: 713px;text-align: center;"><h2>LABORALES</h2></th>
+        <th style="width: 592px;text-align: center;"><h2>ACADÉMICAS</h2></th>
       </tr>
     </thead>
-    <tbody>
+    <tbody style="max-width: 1300px;">
       <tr>
         <td style="width: 500ppx;text-align: center;">Animador/a físico-deportivo y recreativo.</td>
         <td style="width: 500ppx;text-align: center;">Acceder a cualquier otra FP de  Superior no tendrás que volver a cursar el módulos de Formación y orientación laboral (FOL).</td>
@@ -258,7 +273,7 @@ layout: default
 </div>
 
 <div style="text-align: center;margin-bottom: 3em;">
-  <div style="display: inline-block; text-align: left; font-size: 17px;">
+  <div style="display: inline-block; text-align: left; font-size: 17px; max-width: 1300px;">
     <ul style="list-style-type: disc; padding-left: 20px; margin: 0;">
       <li>Estar en posesión del Título de Bachiller, o de un certificado acreditativo de haber superado todas las materias del Bachillerato.</li>
       <li>Estar en posesión del Título de Bachillerato Unificado Polivalente (BUP).</li>
