@@ -344,11 +344,11 @@ Al ser un centro oficial, podrás acceder a las ayudas autonómicas y a la beca 
       <p>Gregorio Morales Delgado</p>
     </div>
     <div class="prof-item">
-      <img src="/assets/images/profesoraAna.png" style="width: 8em;">
-      <p>Ana</p>
+      <img src="/assets/images/profesoraCarmen.png" style="width: 8em;">
+      <p>María del Carmen De la Fuente Ostos</p>
     </div>
     <div class="prof-item">
-      <img src="/assets/images/profesorPepe2.png" style="width: 13em;">
+      <img src="/assets/images/profesorPepe2.png" style="width: 8.4em;">
       <p>Pepe Japón Camacho</p>
     </div>
   </div>
