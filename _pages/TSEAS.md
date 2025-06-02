@@ -6,13 +6,14 @@ layout: default
 
 
 <div class="splash-container">
-  <img src="/assets/images/page-header-teaser.png" alt="Full Width Image" class="splash-image">
+  <!-- Background image -->
+  <img src="/assets/images/page-header-teaser.png" alt="Full Width Image" class="splash-image" />
 
-  <!-- Grey transparent background -->
+  <!-- Grey overlay -->
   <div class="grey-background"></div>
 
-  <!-- Text content wrapper -->
-  <div class="text-content">
+  <!-- Content -->
+  <div class="text-content container">
     <div class="top-left">
       Técnico Superior en Enseñanza y Animación Sociodeportiva (TSEAS)
     </div>
@@ -29,7 +30,8 @@ layout: default
 
 
 <style>
-  .splash-container {
+  /* CSS */
+.splash-container {
   position: relative;
   width: 100%;
   overflow: hidden;
@@ -61,35 +63,42 @@ layout: default
 .text-content {
   position: relative;
   z-index: 2;
-  max-width: 700px;
-  padding: 40px 20px;
   color: white;
+  padding: 40px 20px;
+  max-width: 1200px; /* Or match your layout container size */
+  margin: 0 auto;
+  box-sizing: border-box;
 }
 
+/* Align the top-left heading */
 .top-left {
   font-size: 30px;
-  font-weight: bold;
+  font-weight: 700;
   margin-bottom: 1em;
 }
 
+/* Align and style the paragraph and button */
 .bottom-left p {
   font-size: 17px;
   margin-bottom: 2em;
 }
 
+/* Keep your original button class if already styled elsewhere */
 .plan-button2 {
   font-weight: 700;
-  padding: 10px 20px;
-  background-color: #ffffff;
+  padding: 10px 25px;
+  background-color: white;
   color: #333;
   border: none;
   cursor: pointer;
+  border-radius: 4px;
 }
 
+/* Responsive layout */
 @media (max-width: 967px) {
   .grey-background {
     width: 100%;
-    position: absolute;
+    height: auto;
   }
 
   .text-content {
@@ -98,6 +107,10 @@ layout: default
 
   .top-left {
     font-size: 24px;
+  }
+
+  .bottom-left p {
+    font-size: 16px;
   }
 }
 
