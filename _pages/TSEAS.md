@@ -243,6 +243,95 @@ layout: default
 
 
 
+<div style="text-align:center; margin: 2em;">
+  SALIDAS PROFESIONALES TSEAS
+</div>
+
+<div class="table-container">
+  <table>
+    <thead>
+      <tr>
+        <th style="width: 500px;text-align: center;"><h2>LABORALES</h2></th>
+        <th style="width: 500px;text-align: center;"><h2>ACADÉMICAS</h2></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="width: 500ppx;text-align: center;">Animador/a físico-deportivo y recreativo.</td>
+        <td style="width: 500ppx;text-align: center;">Acceder a cualquier otra FP de  Superior no tendrás que volver a cursar el módulos de Formación y orientación laboral (FOL).</td>
+      </tr>
+      <tr>
+        <td style="width: 500ppx;text-align: center;">Animador/a de veladas, espectáculos y actividades recreativas en instalaciones turísticas.</td>
+        <td style="width: 500ppx;text-align: center;">Hacer un curso o máster para especializarte dentro del área deportiva.</td>
+      </tr>
+      <tr>
+        <td style="width: 500ppx;text-align: center;">Coordinador/a de actividades físico-deportivas en instalaciones deportivas de empresas turísticas o entidades públicas y privadas.</td>
+        <td style="width: 500ppx;text-align: center;">Realizar cursos de especialización.</td>
+      </tr>
+      <tr>
+        <td style="width: 500ppx;text-align: center;">Coordinador/a de tiempo libre educativo infantil y juvenil.</td>
+        <td style="width: 500ppx;text-align: center;">Preparación de las Pruebas de Evaluación deBachillerato (únicamente las asignaturas troncales).</td>
+      </tr>
+      <tr>
+        <td style="width: 500ppx;text-align: center;">Director/a de campamentos, de albergues de juventud, de casas de colonias, de granjas-escuelas, de aulas de casas de juventud y escuelas de naturaleza.</td>
+        <td style="width: 500ppx;text-align: center;">Enseñanzas Universitarias con la posibilidad de establecer convalidaciones de acuerdo con la normativa vigente.</td>
+      </tr>
+      <tr>
+        <td style="width: 500ppx;text-align: center;">Coordinador/a de actividades paracurriculares en el marco escolar.</td>
+        <td style="width: 500ppx;text-align: center;"></td>
+      </tr>
+      <tr>
+        <td style="width: 500ppx;text-align: center;">Jefe/a de departamento de animación turística.</td>
+        <td style="width: 500ppx;text-align: center;"></td>
+      </tr>
+      <tr>
+        <td style="width: 500ppx;text-align: center;">Cronometrador/a, juez/a y árbitro de competiciones deportivas no oficiales.</td>
+        <td style="width: 500ppx;text-align: center;"></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+
+
+
+
+<div style="text-align:center; margin: 2em;">
+  REQUISITOS DE ACCESO
+</div>
+
+<div style="text-align: center;margin-bottom: 3em;">
+  <div style="display: inline-block; text-align: left; font-size: 17px;">
+    <ul style="list-style-type: disc; padding-left: 20px; margin: 0;">
+      <li>Estar en posesión del Título de Bachiller, o de un certificado acreditativo de haber superado todas las materias del Bachillerato.</li>
+      <li>Estar en posesión del Título de Bachillerato Unificado Polivalente (BUP).</li>
+      <li>Haber superado el segundo curso de cualquier modalidad de Bachillerato experimental.</li>
+      <li>Estar en posesión de un Ciclo de Formación Profesional de Grado Medio.</li>
+      <li>Estar en posesión de un Título de Técnico Superior, Técnico Especialista o equivalente a efectos académicos.</li>
+      <li>Haber superado el Curso de Orientación Universitaria (COU).</li>
+      <li>Estar en posesión de cualquier Titulación Universitaria o equivalente.</li>
+      <li>Haber superado la prueba de acceso a ciclos formativos de grado superior (se requiere tener al menos 19 años en el año que se realiza la prueba o 18 para quienes poseen el título de Técnico).</li>
+      <li>Haber superado la prueba de acceso a la Universidad para mayores de 25 años.</li>
+    </ul>
+  </div>
+</div>
+
+
+
+
+
+<div style="text-align:center; margin: 2em;">
+  BECAS Y FINANCIACIÓN TSEAS
+</div>
+
+<p style="text-align: center;font-size: 17px;margin: 2em auto 2em;max-width: 78em;">
+Al ser un centro oficial, podrás acceder a las ayudas autonómicas y a la beca del Ministerio de Educación para estudiar Formación Profesional. Además, el coste del ciclo TSEAS puede financiarse en cómodas cuotas mensuales, con posibilidad de fraccionarlo hasta en 24 meses.
+</p>
+
+
+
+
+
 
 
 <div class="prof-container">
@@ -255,8 +344,8 @@ layout: default
       <p>Gregorio Morales Delgado</p>
     </div>
     <div class="prof-item">
-      <img src="/assets/images/profesorGregorio2.png" style="width: 13em;">
-      <p>Gregorio Morales</p>
+      <img src="/assets/images/profesoraAna.png" style="width: 13em;">
+      <p>Ana</p>
     </div>
     <div class="prof-item">
       <img src="/assets/images/profesorGregorio2.png" style="width: 13em;">

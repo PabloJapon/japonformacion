@@ -196,12 +196,12 @@ permalink: /
 
 <div class="features-container">
   <div class="feature">
+    <img src="/assets/images/CABECERA_peq.png" class="feature-video">
     <div class="feature-content">
       <h2>FP Superior</h2>
       <p>Accede con el título de Bachillerato, una FP de Grado Medio o Superior o mediante prueba de acceso.</p>
       <p style="text-align: center;"><button class="submit-button" onclick="location.href='https://japonformacion.netlify.app/FPSuperior/'">Saber más</button></p>
     </div>
-    <img src="/assets/images/CABECERA_peq.png" class="feature-video">
   </div>
 
   <div class="feature">
