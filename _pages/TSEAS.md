@@ -34,7 +34,7 @@ layout: default
   width: 100%;
   max-width: none;
   overflow: hidden;
-  margin: 3em auto;
+  margin: 2em auto;
   padding-top: 3.5em;
   min-height: 500px;
 }
@@ -48,6 +48,7 @@ layout: default
   height: 100%;
   object-fit: cover;
   z-index: -2;
+  margin: 0;
 }
 
 /* Grey background block behind the text */
@@ -59,15 +60,16 @@ layout: default
   height: 100%;
   background-color: rgba(127, 127, 127, 0.7);
   z-index: -1;
+  margin: 3.5em 0em;
 }
 
 /* Text content wrapper */
 .text-wrapper {
   position: relative;
   z-index: 10;
-  max-width: 1300px;
+  max-width: 1377px;
   margin: 0 auto;
-  padding: 40px 20px;
+  padding: 4em 20px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -91,22 +93,6 @@ layout: default
 .bottom-left p {
   font-size: 17px;
   margin-bottom: 2em;
-}
-
-/* Your original button styling (restored) */
-.plan-button2 {
-  font-weight: 700;
-  padding: 12px 24px;
-  background-color: white;
-  color: #000;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  transition: all 0.3s ease;
-}
-
-.plan-button2:hover {
-  background-color: #eee;
 }
 
 /* Responsive for smaller screens */
