@@ -69,7 +69,7 @@ permalink: /
     max-width: 650px;
     text-align: left;
     margin-left: auto;
-    margin-right: 9.3em;
+    margin-right: 10.4em;
     color: white;
     padding: 20px;
     align-self: start;

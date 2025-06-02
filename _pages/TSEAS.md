@@ -377,7 +377,7 @@ Al ser un centro oficial, podrás acceder a las ayudas autonómicas y a la beca 
 </div>
 
 
-<div style="text-align:center; margin-top:7em">
+<div style="text-align:center; margin-top:5em">
   ¿Dudas? No te las guardes, pregúntanos.
 </div>
 
