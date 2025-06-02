@@ -7,16 +7,13 @@ layout: default
 
 <div class="splash-container">
   <!-- Full-width background image -->
-  <img src="/assets/images/CABECERA.png" alt="Full Width Image" class="splash-image">
+  <img src="/assets/images/page-header-teaser.png" alt="Full Width Image" class="splash-image">
 
   <!-- Grey transparent background image -->
   <div class="grey-background"></div>
 
   <!-- Text title at top right -->
   <div class="top-left">Técnico Superior en Enseñanza y Animación Sociodeportiva (TSEAS)</div>
-
-  <!-- Right image upfront -->
-  <img src="/assets/images/profesorPablo2.png" alt="Right Image" class="right-image">
 
   <!-- Text content at bottom left -->
   <div class="bottom-left">
@@ -330,9 +327,9 @@ Al ser un centro oficial, podrás acceder a las ayudas autonómicas y a la beca 
 
 
 
-
-
-
+<div style="text-align:center; margin: 2em;">
+  PROFESORADO
+</div>
 
 <div class="prof-container">
     <div class="prof-item">
@@ -355,7 +352,7 @@ Al ser un centro oficial, podrás acceder a las ayudas autonómicas y a la beca 
 
 
 <div style="text-align:center; margin: 2em;">
-  Preguntas frecuentes
+  PREGUNTAS FRECUENTES
 </div>
 
 <div class="faq-container">
@@ -630,20 +627,34 @@ Al ser un centro oficial, podrás acceder a las ayudas autonómicas y a la beca 
 
 
 <script>
-  var accordions = document.querySelectorAll(".accordion");
+  document.addEventListener("DOMContentLoaded", function() {
+    var accordions = document.querySelectorAll(".accordion");
 
-  accordions.forEach(function(accordion) {
-    accordion.addEventListener("click", function() {
-      this.classList.toggle("active");
-      var icon = this.querySelector(".accordion-icon");
-      icon.classList.toggle("rotated");
+    accordions.forEach(function(accordion) {
+      accordion.addEventListener("click", function() {
+        accordions.forEach(function(item) {
+          if (item !== accordion && item.classList.contains("active")) {
+            item.classList.remove("active");
+            var otherIcon = item.querySelector(".accordion-icon");
+            if (otherIcon) otherIcon.classList.remove("rotated");
+            var otherPanel = item.nextElementSibling;
+            if (otherPanel) {
+              otherPanel.style.height = null;
+            }
+          }
+        });
 
-      var panel = this.nextElementSibling;
-      if (panel.style.height) {
-        panel.style.height = null;
-      } else {
-        panel.style.height = panel.scrollHeight + "px";
-      }
+        this.classList.toggle("active");
+        var icon = this.querySelector(".accordion-icon");
+        icon.classList.toggle("rotated");
+        var panel = this.nextElementSibling;
+
+        if (panel.style.height) {
+          panel.style.height = null;
+        } else {
+          panel.style.height = panel.scrollHeight + 14 + "px";
+        }
+      });
     });
   });
 </script>
