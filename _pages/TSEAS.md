@@ -9,9 +9,6 @@ layout: default
   <!-- Full-width background image -->
   <img src="/assets/images/page-header-teaser.png" alt="Full Width Image" class="splash-image">
 
-  <!-- Grey transparent background image -->
-  <div class="grey-background"></div>
-
   <!-- Text title at top right -->
   <div class="top-left">Técnico Superior en Enseñanza y Animación Sociodeportiva (TSEAS)</div>
 
@@ -20,6 +17,9 @@ layout: default
     <p>El Técnico Superior en Enseñanza y Animación Sociodeportiva es un título oficial del Ministerio de Educación y Formación Profesional. Nuestro centro con código 21007304 está autorizado por la Consejería de Educación y Deporte de la Junta de Andalucía para impartirlo.</p>
     <button class="plan-button2" onclick="location.href='https://japonformacion.netlify.app/contacto/'" style="font-weight: 700;">MÁS INFORMACIÓN</button>
   </div>
+
+  <!-- Grey transparent background image -->
+  <div class="grey-background"></div>
 </div>
 
 
@@ -34,7 +34,6 @@ layout: default
     padding-top: 3.5em;
     margin-top: 2em;
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Default: 2 columns */
     grid-template-rows: 142px 1fr; /* Default: 2 rows */
     grid-column-gap: 20px; /* Adjust spacing between columns */
     grid-row-gap: 20px; /* Adjust spacing between rows */
@@ -159,16 +158,16 @@ layout: default
 <div class="full-width-background">
   <div class="info-container">
     <div class="info-item">
-      <p>Inicio</p>
-      <h3>Septiembre 2025</h3>
+      <p style="margin=0">Inicio</p>
+      <h3 style="margin-bottom=0">Septiembre 2025</h3>
     </div>
     <div class="info-item">
-      <p>Duración</p>
-      <h3>2.000 horas</h3>
+      <p style="margin=0">Duración</p>
+      <h3 style="margin-bottom=0">2.000 horas</h3>
     </div>
     <div class="info-item">
-      <p>Becas y financiación</p>
-      <h3>Financiación mensual disponible</h3>
+      <p style="margin=0">Becas y financiación</p>
+      <h3 style="margin-bottom=0">Financiación mensual disponible</h3>
     </div>
   </div>
 </div>
@@ -342,7 +341,7 @@ Al ser un centro oficial, podrás acceder a las ayudas autonómicas y a la beca 
     </div>
     <div class="prof-item">
       <img src="/assets/images/profesoraCarmen.png" style="width: 8em;">
-      <p>María del Carmen De la Fuente Ostos</p>
+      <p>Mª del Carmen De la Fuente Ostos</p>
     </div>
     <div class="prof-item">
       <img src="/assets/images/profesorPepe2.png" style="width: 8.4em;">
@@ -410,7 +409,7 @@ Al ser un centro oficial, podrás acceder a las ayudas autonómicas y a la beca 
       <img src="/assets/images/angulo-hacia-abajo.png" width="20" height="20" class="accordion-icon">
     </button>
     <div class="panel">
-      <p>Sí.Te garantizamos la realización de prácticas en tus estudios de grado superior en TSEAS y el alta en seguridad como exige la nueva normativa de FP.</p>
+      <p>Sí. Te garantizamos la realización de prácticas en tus estudios de grado superior en TSEAS y el alta en seguridad como exige la nueva normativa de FP.</p>
     </div>
   </div>
 </div>
@@ -554,7 +553,7 @@ Al ser un centro oficial, podrás acceder a las ayudas autonómicas y a la beca 
 }
 
 .prof-item {
-    margin: 2em;
+    margin: 0 2em 2em 2em;
     display: flex;
     flex-direction: column;
     align-items: center;
