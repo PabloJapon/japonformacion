@@ -161,12 +161,12 @@ permalink: /
 
 <div class="plans-container">
 
-  <a href="/FPSuperior" class="plan">
+  <a href="/tseas" class="plan">
     <h2>Grados Superiores</h2>
     <p>Accede con el título de Bachillerato, una FP de Grado Medio o Superior o mediante prueba de acceso.</p>
   </a>
 
-  <a href="/FPMedio" class="plan">
+  <a href="/tegu" class="plan">
     <h2>Grados Medios</h2>
     <p>Accede con el título de ESO, Bachillerato o mediante una prueba de acceso.</p>
   </a>
@@ -200,7 +200,7 @@ permalink: /
     <div class="feature-content">
       <h2>FP Superior</h2>
       <p>Accede con el título de Bachillerato, una FP de Grado Medio o Superior o mediante prueba de acceso.</p>
-      <p style="text-align: center;"><button class="submit-button" onclick="location.href='https://japonformacion.netlify.app/FPSuperior/'">Saber más</button></p>
+      <p style="text-align: center;"><button class="submit-button" onclick="location.href='https://japonformacion.netlify.app/tseas/'">Saber más</button></p>
     </div>
   </div>
 
@@ -209,7 +209,7 @@ permalink: /
     <div class="feature-content">
       <h2>FP Medio</h2>
       <p>Accede con el título de ESO, Bachillerato o mediante una prueba de acceso.</p>
-      <p style="text-align: center;"><button class="submit-button" onclick="location.href='https://japonformacion.netlify.app/FPMedio/'">Saber más</button></p>
+      <p style="text-align: center;"><button class="submit-button" onclick="location.href='https://japonformacion.netlify.app/tegu/'">Saber más</button></p>
     </div>
   </div>
   
