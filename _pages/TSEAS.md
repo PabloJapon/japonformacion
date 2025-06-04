@@ -60,7 +60,7 @@ layout: default
   height: 100%;
   background-color: rgba(127, 127, 127, 0.7);
   z-index: -1;
-  margin: 3.5em 0em;
+  margin: 3.6em 0em;
 }
 
 /* Text content wrapper */
@@ -99,7 +99,6 @@ layout: default
 @media (max-width: 967px) {
   .grey-background {
     width: 100%;
-    height: auto;
   }
 
   .text-wrapper {
@@ -116,7 +115,7 @@ layout: default
 }
 
 /* Responsive for small screens */
-@media (max-width: 967px) {
+@media (max-width: 768px) {
   .splash-container {
     margin: 0 auto 3em;
   }
