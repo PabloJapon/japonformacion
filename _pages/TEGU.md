@@ -7,7 +7,7 @@ layout: default
 
 <div class="splash-container">
   <!-- Background image -->
-  <img src="/assets/images/page-header-teaser.png" alt="Full Width Image" class="splash-image" />
+  <img src="/assets/images/TEGU.jpg" alt="Full Width Image" class="splash-image" />
 
   <!-- Grey overlay -->
   <div class="grey-background"></div>
@@ -95,7 +95,7 @@ layout: default
   margin-bottom: 2em;
 }
 
-/* Responsive for smaller screens */
+/* Responsive for medium screens */
 @media (max-width: 967px) {
   .grey-background {
     width: 100%;
@@ -112,6 +112,13 @@ layout: default
 
   .bottom-left p {
     font-size: 16px;
+  }
+}
+
+/* Responsive for small screens */
+@media (max-width: 967px) {
+  .splash-container {
+    margin: 0 auto 3em;
   }
 }
 
@@ -500,7 +507,7 @@ Al ser un centro oficial, podrás acceder a las ayudas autonómicas y a la beca 
 .info-container {
     display: flex;
     width: 100%;
-    max-width: 62em;
+    max-width: 1374px;
     margin: -3em auto 4em;
     padding: 0.8em 20px;
 }
