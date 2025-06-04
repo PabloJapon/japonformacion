@@ -196,7 +196,7 @@ permalink: /
 
 <div class="features-container">
   <div class="feature">
-    <img src="/assets/images/CABECERA_peq.png" class="feature-video">
+    <img src="/assets/images/TSEAS.jpg" class="feature-video">
     <div class="feature-content">
       <h2>FP Superior</h2>
       <p>Accede con el título de Bachillerato, una FP de Grado Medio o Superior o mediante prueba de acceso.</p>
@@ -205,7 +205,7 @@ permalink: /
   </div>
 
   <div class="feature">
-    <img src="/assets/images/CABECERA3_peq.png" class="feature-video">
+    <img src="/assets/images/TEGU.jpg" class="feature-video">
     <div class="feature-content">
       <h2>FP Medio</h2>
       <p>Accede con el título de ESO, Bachillerato o mediante una prueba de acceso.</p>
