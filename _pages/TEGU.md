@@ -324,7 +324,7 @@ Al ser un centro oficial, podrás acceder a las ayudas autonómicas y a la beca 
       <img src="/assets/images/angulo-hacia-abajo.png" width="20" height="20" class="accordion-icon">
     </button>
     <div class="panel">
-      <p>Sí. El Título “Guía en el Medio Natural y de Tiempo Libre” es un Título oficial expedido por la Junta de Andalucía.</p>
+      <p>Sí. El Título “Guía en el Medio Natural y de Tiempo Libre” es un Título oficial expedido por la Junta de Andalucía. Somos Centro Docente Privado Grupo Japón Valverde del Camino con código de centro 21007468.</p>
     </div>
 
     <button class="accordion">¿Puedo solicitar Becas del Ministerio de Educación?
