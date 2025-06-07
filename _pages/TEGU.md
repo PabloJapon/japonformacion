@@ -223,8 +223,8 @@ layout: default
   <table>
     <thead>
       <tr>
-        <th style="width: 713px;text-align: center;"><h2>LABORALES</h2></th>
-        <th style="width: 592px;text-align: center;"><h2>ACADÉMICAS</h2></th>
+        <th style="width: 497px;text-align: center;"><h2>LABORALES</h2></th>
+        <th style="width: 785px;text-align: center;"><h2>ACADÉMICAS</h2></th>
       </tr>
     </thead>
     <tbody style="max-width: 1300px;">
