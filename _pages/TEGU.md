@@ -313,6 +313,29 @@ Al ser un centro oficial, podrás acceder a las ayudas autonómicas y a la beca 
 
 
 
+<div style="text-align:center; margin: 2em;">
+  <h2>PROFESORADO</h2>
+</div>
+
+<div class="prof-container">
+    <div class="prof-item">
+      <img src="/assets/images/profesorPablo2.png" style="width: 8em;">
+      <p>Pablo Benítez Núñez</p>
+    </div>
+    <div class="prof-item">
+      <img src="/assets/images/profesorGregorio2.png" style="width: 11.5em;">
+      <p>Gregorio Morales Delgado</p>
+    </div>
+    <div class="prof-item">
+      <img src="/assets/images/profesoraCarmen.png" style="width: 8em;">
+      <p>Mª del Carmen De la Fuente Ostos</p>
+    </div>
+    <div class="prof-item">
+      <img src="/assets/images/profesorPepe2.png" style="width: 8.4em;">
+      <p>Pepe Japón Camacho</p>
+    </div>
+  </div>
+
 
 <div style="text-align:center; margin: 2em;">
   <h2>PREGUNTAS FRECUENTES</h2>
