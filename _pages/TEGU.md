@@ -415,6 +415,7 @@ Al ser un centro oficial, podrás acceder a las ayudas autonómicas y a la beca 
 
 <form name="contact" action="/_pages/success.html" method="POST" data-netlify="true" class="contact-form">
   <input type="hidden" name="subject" id="subject" value="Mensaje de (nombre)" />
+  <input type="hidden" name="page" value="TEGU" />
   
   <p>
     <label for="name">Nombre:</label><br />
