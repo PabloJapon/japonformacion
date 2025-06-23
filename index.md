@@ -278,8 +278,9 @@ permalink: /
   document.querySelector('form').addEventListener('submit', function(event) {
     var name = document.getElementById('name').value;
     var phone = document.getElementById('phone').value;
+    var page = document.querySelector('input[name="page"]').value;
     var subjectField = document.getElementById('subject');
-    subjectField.value = `Mensaje de ${name} - Teléfono: ${phone}`;
+    subjectField.value = `Mensaje de ${name} - Teléfono: ${phone} - Página: ${page}`;
   });
 </script>
 
