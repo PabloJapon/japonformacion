@@ -168,16 +168,6 @@ layout: default
     <h2>TSEAS - Huelva</h2>
     <p>Técnico Superior en Enseñanza y Animación Sociodeportiva</p>
   </a>
-
-  <a href="/FPSuperior" class="plan">
-    <h2>Turismo - Huelva</h2>
-    <p>Técnico Superior en Guía, Información y Asistencias Turísticas</p>
-  </a>
-
-  <a href="/payment_form/?plan=Premium" class="plan">
-    <h2>Turismo - Valverde del Camino</h2>
-    <p>Técnico Superior en Guía, Información y Asistencias Turísticas</p>
-  </a>
 </div>
 
 
@@ -252,6 +242,7 @@ layout: default
 
 <form name="contact" action="/_pages/success.html" method="POST" data-netlify="true" class="contact-form">
   <input type="hidden" name="subject" id="subject" value="Mensaje de (nombre)" />
+  <input type="hidden" name="page" value="FPSuperior" />
   
   <p>
     <label for="name">Nombre:</label><br />
@@ -282,8 +273,9 @@ layout: default
   document.querySelector('form').addEventListener('submit', function(event) {
     var name = document.getElementById('name').value;
     var phone = document.getElementById('phone').value;
+    var page = document.querySelector('input[name="page"]').value;
     var subjectField = document.getElementById('subject');
-    subjectField.value = `Mensaje de ${name} - Teléfono: ${phone}`;
+    subjectField.value = `Mensaje de ${name} - Teléfono: ${phone} - Página: ${page}`;
   });
 </script>
 
