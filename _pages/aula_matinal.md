@@ -161,7 +161,7 @@ layout: default
 
 
 <div style="font-size: 17px;text-align: center;">
-  <p>Fecha de inicio: 10 de septiembre de 2024</p>
+  <p>Fecha de inicio: 11 de septiembre de 2025</p>
 </div>
 
 
@@ -212,14 +212,14 @@ layout: default
         <img src="/assets/images/angulo-hacia-abajo.png" width="20" height="20" class="accordion-icon">
       </button>
       <div class="panel">
-        <p>A partir del 1 de septiembre de 2024.</p>
+        <p>A partir del 1 de septiembre de 2025.</p>
       </div>
   
       <button class="accordion">¿Cuándo empieza y termina el Aula Matinal?
         <img src="/assets/images/angulo-hacia-abajo.png" width="20" height="20" class="accordion-icon">
       </button>
       <div class="panel">
-        <p>Comienza el servicio el día siguiente del comienzo del curso escolar y termina el 23 de junio de 2025 en horario de 7:30 a 9:00 horas.</p>
+        <p>Comienza el servicio el día siguiente del comienzo del curso escolar y termina el 22 de junio de 2026 en horario de 7:30 a 9:00 horas.</p>
       </div>
   
       <button class="accordion">¿Puedo elegir días sueltos?

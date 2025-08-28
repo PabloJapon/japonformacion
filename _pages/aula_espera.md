@@ -160,7 +160,7 @@ layout: default
 </style>
 
 <div style="font-size: 17px;text-align: center;">
-  <p>Fecha de inicio: 10 de septiembre de 2024</p>
+  <p>Fecha de inicio: 10 de septiembre de 2025</p>
 </div>
 
 
@@ -186,7 +186,7 @@ layout: default
         </td>
         <td style="width: 200px;text-align: center;">
           <ul style="list-style-type: disc; padding-left: 40px; margin: 0; text-align: left;">
-            <li><a href="/assets/documents/Asi_Funciona_el_Aula_de_Espera_Ceip_Tierno_Galvan_2024-25.pdf">Así funciona el Aula de Espera</a></li>
+            <li><a href="/assets/documents/Asi_Funciona_el_Aula_de_Espera_Ceip_Tierno_Galvan_2025-26.pdf">Así funciona el Aula de Espera</a></li>
             <li><a href="/assets/documents/Informacion_modalidad_y_cobros_Aula_de_Espera_Ceip_Tierno_Galvan_2024-25.pdf">Información Modalidad y Cobros</a></li>
             <li><a href="https://app.grupojapon.es/index.php/registro">Inscríbete</a></li>
           </ul>
@@ -203,7 +203,7 @@ layout: default
         </td>
         <td style="width: 200px;text-align: center;">
           <ul style="list-style-type: disc; padding-left: 40px; margin: 0; text-align: left;">
-            <li><a href="/assets/documents/Asi_Funciona_el_Aula_de_Espera_Ceip_El_Puntal_2024-25.pdf">Así funciona el Aula de Espera</a></li>
+            <li><a href="/assets/documents/Asi_Funciona_el_Aula_de_Espera_Ceip_El_Puntal_2025-26.pdf">Así funciona el Aula de Espera</a></li>
             <li><a href="/assets/documents/Informacion_modalidad_y_cobros_Aula_de_Espera_Ceip_El_Puntal_2024-25.pdf">Información Modalidad y Cobros</a></li>
             <li><a href="https://app.grupojapon.es/index.php/registro">Inscríbete</a></li>
           </ul>
@@ -220,7 +220,7 @@ layout: default
         </td>
         <td style="width: 200px;text-align: center;">
           <ul style="list-style-type: disc; padding-left: 40px; margin: 0; text-align: left;">
-            <li><a href="/assets/documents/Asi_Funciona_el_Aula_de_Espera_Ceip_Practicas_2024-25.pdf">Así funciona el Aula de Espera</a></li>
+            <li><a href="/assets/documents/Asi_Funciona_el_Aula_de_Espera_Ceip_Practicas_2025-26.pdf">Así funciona el Aula de Espera</a></li>
             <li><a href="/assets/documents/Informacion_modalidad_y_cobros_Aula_de_Espera_Ceip_Practicas_2024-25.pdf">Información Modalidad y Cobros</a></li>
             <li><a href="https://app.grupojapon.es/index.php/registro">Inscríbete</a></li>
           </ul>
@@ -237,7 +237,7 @@ layout: default
         </td>
         <td style="width: 200px;text-align: center;">
           <ul style="list-style-type: disc; padding-left: 40px; margin: 0; text-align: left;">
-            <li><a href="/assets/documents/Asi_Funciona_el_Aula_de_Espera_Ceip_Pura_Dominguez_2024-25.pdf">Así funciona el Aula de Espera</a></li>
+            <li><a href="/assets/documents/Asi_Funciona_el_Aula_de_Espera_Ceip_Pura_Dominguez_2025-26.pdf">Así funciona el Aula de Espera</a></li>
             <li><a href="/assets/documents/Informacion_modalidad_y_cobros_Aula_de_Espera_Ceip_Pura_Dominguez_2024-25.pdf">Información Modalidad y Cobros</a></li>
             <li><a href="https://app.grupojapon.es/index.php/registro">Inscríbete</a></li>
           </ul>
@@ -254,7 +254,7 @@ layout: default
         </td>
         <td style="width: 200px;text-align: center;">
           <ul style="list-style-type: disc; padding-left: 40px; margin: 0; text-align: left;">
-            <li><a href="/assets/documents/Asi_Funciona_el_Aula_de_Espera_Ceip_Doce_de_Octubre_2024-25.pdf">Así funciona el Aula de Espera</a></li>
+            <li><a href="/assets/documents/Asi_Funciona_el_Aula_de_Espera_Ceip_Doce_de_Octubre_2025-26.pdf">Así funciona el Aula de Espera</a></li>
             <li><a href="/assets/documents/Informacion_modalidad_y_cobros_Aula_de_Espera_Ceip_Doce_de_Octubre_2024-25.pdf">Información Modalidad y Cobros</a></li>
             <li><a href="https://app.grupojapon.es/index.php/registro">Inscríbete</a></li>
           </ul>
@@ -280,14 +280,14 @@ layout: default
       <img src="/assets/images/angulo-hacia-abajo.png" width="20" height="20" class="accordion-icon">
     </button>
     <div class="panel">
-      <p>A partir del 1 de septiembre de 2024.</p>
+      <p>A partir del 1 de septiembre de 2025.</p>
     </div>
 
     <button class="accordion">¿Cuándo empieza y termina el Aula de Espera?
       <img src="/assets/images/angulo-hacia-abajo.png" width="20" height="20" class="accordion-icon">
     </button>
     <div class="panel">
-      <p>Comienza el servicio el martes 10 de septiembre de 2024 y termina el 23 de junio de 2025.</p>
+      <p>Comienza el servicio el miércoles 10 de septiembre de 2025 y termina el 22 de junio de 2026.</p>
     </div>
 
     <button class="accordion">¿Hay descuentos en las cuotas?
