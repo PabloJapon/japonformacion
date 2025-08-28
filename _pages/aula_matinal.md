@@ -187,7 +187,7 @@ layout: default
         </td>
         <td style="width: 200px;text-align: center;">
           <ul style="list-style-type: disc; padding-left: 40px; margin: 0; text-align: left;">
-            <li><a href="/assets/documents/Nota_informativa_Aula_Matinal_San_Vicente_de_Paul_2024-25.pdf">Más información</a></li>
+            <li><a href="/assets/documents/Nota_informativa_Aula_Matinal_San_Vicente_de_Paul_2025-26.pdf">Más información</a></li>
             <li><a href="https://app.grupojapon.es/index.php/registro">Inscríbete</a></li>
           </ul>
         </td>

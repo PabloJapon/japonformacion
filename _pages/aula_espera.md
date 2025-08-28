@@ -187,7 +187,7 @@ layout: default
         <td style="width: 200px;text-align: center;">
           <ul style="list-style-type: disc; padding-left: 40px; margin: 0; text-align: left;">
             <li><a href="/assets/documents/Asi_Funciona_el_Aula_de_Espera_Ceip_Tierno_Galvan_2025-26.pdf">Así funciona el Aula de Espera</a></li>
-            <li><a href="/assets/documents/Informacion_modalidad_y_cobros_Aula_de_Espera_Ceip_Tierno_Galvan_2024-25.pdf">Información Modalidad y Cobros</a></li>
+            <li><a href="/assets/documents/Nota_informativa_Aula_de_Espera_Ceip_Tierno_Galvan_2025-26.pdf">Información Modalidad y Cobros</a></li>
             <li><a href="https://app.grupojapon.es/index.php/registro">Inscríbete</a></li>
           </ul>
         </td>
@@ -204,7 +204,7 @@ layout: default
         <td style="width: 200px;text-align: center;">
           <ul style="list-style-type: disc; padding-left: 40px; margin: 0; text-align: left;">
             <li><a href="/assets/documents/Asi_Funciona_el_Aula_de_Espera_Ceip_El_Puntal_2025-26.pdf">Así funciona el Aula de Espera</a></li>
-            <li><a href="/assets/documents/Informacion_modalidad_y_cobros_Aula_de_Espera_Ceip_El_Puntal_2024-25.pdf">Información Modalidad y Cobros</a></li>
+            <li><a href="/assets/documents/Nota_informativa_Aula_de_Espera_Ceip_El_Puntal_2025-26.pdf">Información Modalidad y Cobros</a></li>
             <li><a href="https://app.grupojapon.es/index.php/registro">Inscríbete</a></li>
           </ul>
         </td>
@@ -221,7 +221,7 @@ layout: default
         <td style="width: 200px;text-align: center;">
           <ul style="list-style-type: disc; padding-left: 40px; margin: 0; text-align: left;">
             <li><a href="/assets/documents/Asi_Funciona_el_Aula_de_Espera_Ceip_Practicas_2025-26.pdf">Así funciona el Aula de Espera</a></li>
-            <li><a href="/assets/documents/Informacion_modalidad_y_cobros_Aula_de_Espera_Ceip_Practicas_2024-25.pdf">Información Modalidad y Cobros</a></li>
+            <li><a href="/assets/documents/Nota_informativa_Aula_de_Espera_Ceip_Practicas_2025-26.pdf">Información Modalidad y Cobros</a></li>
             <li><a href="https://app.grupojapon.es/index.php/registro">Inscríbete</a></li>
           </ul>
         </td>
@@ -238,7 +238,7 @@ layout: default
         <td style="width: 200px;text-align: center;">
           <ul style="list-style-type: disc; padding-left: 40px; margin: 0; text-align: left;">
             <li><a href="/assets/documents/Asi_Funciona_el_Aula_de_Espera_Ceip_Pura_Dominguez_2025-26.pdf">Así funciona el Aula de Espera</a></li>
-            <li><a href="/assets/documents/Informacion_modalidad_y_cobros_Aula_de_Espera_Ceip_Pura_Dominguez_2024-25.pdf">Información Modalidad y Cobros</a></li>
+            <li><a href="/assets/documents/Nota_informativa_Aula_de_Espera_Ceip_Pura_Dominguez_2025-26.pdf">Información Modalidad y Cobros</a></li>
             <li><a href="https://app.grupojapon.es/index.php/registro">Inscríbete</a></li>
           </ul>
         </td>
@@ -255,7 +255,7 @@ layout: default
         <td style="width: 200px;text-align: center;">
           <ul style="list-style-type: disc; padding-left: 40px; margin: 0; text-align: left;">
             <li><a href="/assets/documents/Asi_Funciona_el_Aula_de_Espera_Ceip_Doce_de_Octubre_2025-26.pdf">Así funciona el Aula de Espera</a></li>
-            <li><a href="/assets/documents/Informacion_modalidad_y_cobros_Aula_de_Espera_Ceip_Doce_de_Octubre_2024-25.pdf">Información Modalidad y Cobros</a></li>
+            <li><a href="/assets/documents/Nota_informativa_Aula_de_Espera_Ceip_Doce_de_Octubre_2025-26.pdf">Información Modalidad y Cobros</a></li>
             <li><a href="https://app.grupojapon.es/index.php/registro">Inscríbete</a></li>
           </ul>
         </td>
