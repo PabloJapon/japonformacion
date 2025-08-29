@@ -161,7 +161,7 @@ layout: default
 
 
 <div style="font-size: 17px;text-align: center;">
-  <p>Fecha de inicio: 1 de octubre de 2024</p>
+  <p>Fecha de inicio: 1 de octubre de 2025</p>
 </div>
 
 
@@ -180,27 +180,25 @@ layout: default
   <tbody>
     <tr>
       <td style="width: 200px;text-align: center; vertical-align: middle;" rowspan="2">Grupo Japón</td>
-      <td style="width: 200px;text-align: center;">Judo 1</td>
+      <td style="width: 200px;text-align: center;">Judo 1-2</td>
       <td style="width: 200px;text-align: center;">De 4 a 8 años</td>
       <td style="width: 200px;text-align: center;">Lunes y miércoles de 18:00 a 19:00 h</td>
-      <td style="width: 200px;text-align: center;"> 25 €/mes* </td>
+      <td style="width: 200px;text-align: center;"> 28 €/mes* </td>
       <td style="width: 200px;text-align: center;">
         <ul style="list-style-type: disc; padding-left: 40px; margin: 0; text-align: left;">
-          <li><a href="/assets/documents/CUOTAS_Y_FORMAS_DE_PAGO_JAPONSPORT_HUELVA_2024-25.pdf">Forma de pago</a></li>
-          <li><a href="/assets/documents/HORARIO_GRUPO_JAPON_JUDO_JAPONSPORT_2024-25_XaUUYYm.pdf">Horario</a></li>
+          <li><a href="/assets/documents/MAS_INFORMACIÓN_CUOTAS_Y_FORMAS_DE_PAGO_JAPONSPORT_HUELVA_2025-26.pdf">Más información</a></li>
           <li><a href="https://app.grupojapon.es/index.php/registro">Inscríbete</a></li>
         </ul>
       </td>
     </tr>
     <tr>
-      <td style="width: 200px;text-align: center;">Judo 2</td>
+      <td style="width: 200px;text-align: center;">Judo 3</td>
       <td style="width: 200px;text-align: center;">De 9 a 15 años</td>
       <td style="width: 200px;text-align: center;">Lunes y miércoles de 19:00 a 20:00 h</td>
-      <td style="width: 200px;text-align: center;"> 30 €/mes* </td>
+      <td style="width: 200px;text-align: center;"> 35 €/mes* </td>
       <td style="width: 200px;text-align: center;">
         <ul style="list-style-type: disc; padding-left: 40px; margin: 0; text-align: left;">
-          <li><a href="/assets/documents/CUOTAS_Y_FORMAS_DE_PAGO_JAPONSPORT_HUELVA_2024-25.pdf">Forma de pago</a></li>
-          <li><a href="/assets/documents/HORARIO_GRUPO_JAPON_JUDO_JAPONSPORT_2024-25_XaUUYYm.pdf">Horario</a></li>
+          <li><a href="/assets/documents/MAS_INFORMACIÓN_CUOTAS_Y_FORMAS_DE_PAGO_JAPONSPORT_HUELVA_2025-26.pdf">Más información</a></li>
           <li><a href="https://app.grupojapon.es/index.php/registro">Inscríbete</a></li>
         </ul>
       </td>
@@ -210,11 +208,10 @@ layout: default
       <td style="width: 200px;text-align: center;">Judo 1</td>
       <td style="width: 200px;text-align: center;">De 4 a 8 años</td>
       <td style="width: 200px;text-align: center;">Martes y jueves de 18:00 a 19:00 h</td>
-      <td style="width: 200px;text-align: center;"> 25 €/mes* </td>
+      <td style="width: 200px;text-align: center;"> 28 €/mes* </td>
       <td style="width: 200px;text-align: center;">
         <ul style="list-style-type: disc; padding-left: 40px; margin: 0; text-align: left;">
-          <li><a href="/assets/documents/CUOTAS_Y_FORMAS_DE_PAGO_JAPONSPORT_BELLAVISTA_2024-25.pdf">Forma de pago</a></li>
-          <li><a href="/assets/documents/HORARIO_CEIP_EL_PUNTAL_JUDO_JAPONSPORT_2024-25_RcKb3CC.pdf">Horario</a></li>
+          <li><a href="/assets/documents/MAS_INFORMACIÓN_CUOTAS_Y_FORMAS_DE_PAGO_JAPONSPORT_BELLAVISTA_2025-26.pdf">Más información</a></li>
           <li><a href="https://app.grupojapon.es/index.php/registro">Inscríbete</a></li>
         </ul>
       </td>
@@ -223,11 +220,10 @@ layout: default
       <td style="width: 200px;text-align: center;">Judo 2</td>
       <td style="width: 200px;text-align: center;">De 11 a 15 años</td>
       <td style="width: 200px;text-align: center;">Martes y jueves de 19:00 a 20:00 h</td>
-      <td style="width: 200px;text-align: center;"> 30 €/mes* </td>
+      <td style="width: 200px;text-align: center;"> 28 €/mes* </td>
       <td style="width: 200px;text-align: center;">
         <ul style="list-style-type: disc; padding-left: 40px; margin: 0; text-align: left;">
-          <li><a href="/assets/documents/CUOTAS_Y_FORMAS_DE_PAGO_JAPONSPORT_BELLAVISTA_2024-25.pdf">Forma de pago</a></li>
-          <li><a href="/assets/documents/HORARIO_CEIP_EL_PUNTAL_JUDO_JAPONSPORT_2024-25_RcKb3CC.pdf">Horario</a></li>
+          <li><a href="/assets/documents/MAS_INFORMACIÓN_CUOTAS_Y_FORMAS_DE_PAGO_JAPONSPORT_BELLAVISTA_2025-26.pdf">Más información</a></li>
           <li><a href="https://app.grupojapon.es/index.php/registro">Inscríbete</a></li>
         </ul>
       </td>
@@ -250,8 +246,8 @@ layout: default
 
 <p style="
     text-align: center;
-"><a href="/assets/documents/NOTA INFORMATIVA LICENCIA Y C GRADO JUDO 24-25.pdf" rel="nofollow noopener noreferrer" style="font-size: 17px;">Cómo tramitar licencias</a>
-<a href="/assets/documents/Categorias y pesos Fanjyda 2024-25.png" rel="nofollow noopener noreferrer" style="font-size: 17px;">Categorias y pesos Fanjyda 2024-25</a>
+"><a href="/assets/documents/NOTA_INFORMATIVA_LICENCIA_Y_C_GRADO_JUDO_25-26.pdf" rel="nofollow noopener noreferrer" style="font-size: 17px;">Cómo tramitar licencias</a>
+<a href="/assets/documents/Categorias_y_pesos_FANJYDA_2025-26.pdf" rel="nofollow noopener noreferrer" style="font-size: 17px;">Categorias y pesos Fanjyda 2025-26</a>
 </p>
 
 
@@ -265,14 +261,14 @@ layout: default
       <img src="/assets/images/angulo-hacia-abajo.png" width="20" height="20" class="accordion-icon">
     </button>
     <div class="panel">
-      <p>A partir del 1 de septiembre de 2024.</p>
+      <p>A partir del 1 de septiembre de 2025.</p>
     </div>
 
     <button class="accordion">¿Cuándo empiezan y terminan las clases?
       <img src="/assets/images/angulo-hacia-abajo.png" width="20" height="20" class="accordion-icon">
     </button>
     <div class="panel">
-      <p>Desde el 1 de octubre de 20024 al 30 de mayo de 2025.</p>
+      <p>Desde el 1 de octubre de 2025 al 30 de mayo de 2026.</p>
     </div>
 
     <button class="accordion">¿Dónde puedo conseguir mi kimono?
@@ -314,7 +310,7 @@ layout: default
       <img src="/assets/images/angulo-hacia-abajo.png" width="20" height="20" class="accordion-icon">
     </button>
     <div class="panel">
-      <p>Estar dados de alta en la federación. Información a través del siguiente enlace: PINCHE AQUÍ este es el enlace: (https://www.grupojapon.es/media/documentos/1/NOTA_INFORMATIVA_LICENCIA_Y_C_GRADO_JUDO_23-24_Ap7M8rR.pdf)</p>
+      <p>Estar dados de alta en la federación. Información a través del siguiente enlace: PINCHE AQUÍ este es el enlace: (https://www.grupojapon.es/media/documentos/1/NOTA_INFORMATIVA_LICENCIA_Y_C_GRADO_JUDO_25-26.pdf)</p>
     </div>
   </div>
 </div>
