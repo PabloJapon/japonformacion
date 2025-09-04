@@ -179,7 +179,7 @@ layout: default
   </thead>
   <tbody>
     <tr>
-      <td style="width: 200px;text-align: center; vertical-align: middle;" rowspan="2">Grupo Japón</td>
+      <td style="width: 200px;text-align: center; vertical-align: middle;" rowspan="2">Japonsport Huelva</td>
       <td style="width: 200px;text-align: center;">Judo 1-2</td>
       <td style="width: 200px;text-align: center;">De 4 a 8 años</td>
       <td style="width: 200px;text-align: center;">Lunes y miércoles de 18:00 a 19:00 h</td>
